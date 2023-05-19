@@ -21,8 +21,8 @@ export default function Home(props) {
     <>
       <Header />
       <AltaFormazione />
-      <MultiCarousel posts={props.corsi} />
       <MultiCarousel posts={props.diplomi} />
+      <MultiCarousel posts={props.corsi} />
     </>
   );
 }
