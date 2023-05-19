@@ -8,7 +8,8 @@ export default function SlugDetailPage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const postData = getPostData(slug);
+  const { category } = params;
+  const postData = getPostData(slug, category);
 
   return {
     props: {
@@ -19,12 +20,25 @@ export function getStaticProps(context) {
 }
 
 export function getStaticPaths() {
-  const postFileNames = getPostsFiles();
+  const corsiFileNames = getPostsFiles("corso");
+  const diplomaFileNames = getPostsFiles("diploma");
+  const corsiSlugs = corsiFileNames.map((fileName) =>
+    fileName.replace(/\.md$/, "")
+  );
+  const diplomiSlugs = diplomaFileNames.map((fileName) =>
+    fileName.replace(/\.md$/, "")
+  );
 
-  const slugs = postFileNames.map((fileName) => fileName.replace(/\.md$/, ""));
+  const corsiPath = corsiSlugs.map((corsiSlug) => ({
+    params: { category: "corso", slug: corsiSlug },
+  }));
+
+  const diplomiPath = diplomiSlugs.map((diplomiSlug) => ({
+    params: { category: "diploma", slug: diplomiSlug },
+  }));
 
   return {
-    paths: slugs.map((slug) => ({ params: { category: "corso", slug: slug } })),
-    fallback: false,
+    paths: [...corsiPath, ...diplomiPath],
+    fallback: true,
   };
 }

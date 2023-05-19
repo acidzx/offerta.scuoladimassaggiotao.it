@@ -4,11 +4,13 @@ import MultiCarousel from "@components/multiCarousel";
 import { getAllPosts } from "../../lib/posts-util";
 
 export function getStaticProps() {
-  const allPosts = getAllPosts();
+  const allCorsi = getAllPosts("corso");
+  const allDiplomi = getAllPosts("diploma");
 
   return {
     props: {
-      posts: allPosts,
+      corsi: allCorsi,
+      diplomi: allDiplomi,
     },
     // revalidate: 1800,
   };
@@ -19,7 +21,8 @@ export default function Home(props) {
     <>
       <Header />
       <AltaFormazione />
-      <MultiCarousel posts={props.posts} />
+      <MultiCarousel posts={props.corsi} />
+      <MultiCarousel posts={props.diplomi} />
     </>
   );
 }

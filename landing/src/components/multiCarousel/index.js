@@ -29,7 +29,7 @@ export default function MultiCarousel(props) {
     <div className="container mx-auto">
       <Carousel
         swipeable={true}
-        draggable={true}
+        draggable={false}
         showDots={false}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
