@@ -39,6 +39,6 @@ export function getStaticPaths() {
 
   return {
     paths: [...corsiPath, ...diplomiPath],
-    fallback: true,
+    fallback: false,
   };
 }
