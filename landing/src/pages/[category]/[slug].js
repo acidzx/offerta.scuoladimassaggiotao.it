@@ -8,7 +8,7 @@ export default function SlugDetailPage(props) {
 export function getStaticProps(context) {
   const { params } = context;
   const { slug } = params;
-  const { category } = params;
+  let { category } = params;
   const postData = getPostData(slug, category);
 
   return {
