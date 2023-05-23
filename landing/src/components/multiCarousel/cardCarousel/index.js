@@ -15,16 +15,14 @@ export default function CardCarousel(props) {
         <Image
           src={imgPath}
           alt={title}
-          width={300}
-          height={200}
-          layout="responsive"
+          width={350}
+          height={300}
+          className="w-auto"
         />
 
         <div className="card-body">
           <div className="absolute top-8 left-2 px-4 py-1 rounded text-white text-xs bg-green-600">
-            <Link href={linkPath}>
-              <strong>Scopri di più</strong>
-            </Link>
+            <strong>Scopri di più</strong>
           </div>
           <div className="absolute -right-2 top-8 px-5 py-1 text-white text-xs bg-green-600 before:content[''] before:absolute before:-right-1 before:-top-px before:border-0 before:border-t-solid before:border-l-solid before:border-transparent before:border-l-8 before:border-t-8 before:border-t-black/[.45] before:-translate-y-3/4 before:-translate-x-1 before:rotate-180">
             <strong>{price}€</strong>
