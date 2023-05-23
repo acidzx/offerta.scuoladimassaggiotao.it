@@ -2,6 +2,7 @@ import Header from "@components/header";
 import AltaFormazione from "@components/altaFormazione";
 import MultiCarousel from "@components/multiCarousel";
 import ModalForm from "@components/modalForm";
+import Cta from "@components/cta";
 import { getAllPosts } from "../../lib/posts-util";
 
 export function getStaticProps() {
@@ -22,7 +23,8 @@ export default function Home(props) {
     <>
       <Header />
       <AltaFormazione />
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      <Cta />
+
       <div className="container mx-auto p-4 mt-6">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl dark:text-white">
           DIPLOMI DI SPECIALIZZAZIONE
@@ -34,7 +36,8 @@ export default function Home(props) {
         </p>
       </div>
       <MultiCarousel posts={props.diplomi} />
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      <Cta />
+
       <div className="container mx-auto p-4 mt-6">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl dark:text-white">
           CORSI INDIVIDUALI
@@ -46,6 +49,7 @@ export default function Home(props) {
         </p>
       </div>
       <MultiCarousel posts={props.corsi} />
+      <Cta />
       <ModalForm />
     </>
   );

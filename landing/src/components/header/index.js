@@ -1,4 +1,4 @@
-import CtaActionsButtons from "@components/ctaActionsButtons";
+import CtaActionsButtons from "@components/cta/ctaActionsButtons";
 
 export default function Header() {
   return (
