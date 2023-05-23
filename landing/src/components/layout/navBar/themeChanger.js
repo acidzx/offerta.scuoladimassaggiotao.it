@@ -6,7 +6,7 @@ export default function ThemeChanger() {
   return (
     <button
       className="block py-2 pl-3 pr-4 rounded md:p-0"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {theme === "dark" ? (
         <SunIcon className="h-6 w-6 text-gray-500" />
