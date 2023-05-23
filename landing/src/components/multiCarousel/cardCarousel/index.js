@@ -2,16 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function CardCarousel(props) {
-  const {
-    img,
-    slug,
-    price,
-    title,
-    description,
-    durata,
-    ore,
-    category,
-  } = props.post;
+  const { img, slug, price, title, description, durata, ore, category } =
+    props.post;
 
   const imgPath = `/assets/images/carousel/${category}/${img}`;
 
@@ -37,6 +29,12 @@ export default function CardCarousel(props) {
           <div className="absolute -right-2 top-8 px-5 py-1 text-white text-xs bg-green-600 before:content[''] before:absolute before:-right-1 before:-top-px before:border-0 before:border-t-solid before:border-l-solid before:border-transparent before:border-l-8 before:border-t-8 before:border-t-black/[.45] before:-translate-y-3/4 before:-translate-x-1 before:rotate-180">
             <strong>{price}€</strong>
           </div>
+          <p className="text-sm block -my-2 font-semibold">
+            {category == "diploma"
+              ? "Diploma di operatore in"
+              : "Corso di specializzazione in"}{" "}
+            -
+          </p>
           <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
