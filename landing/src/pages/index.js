@@ -1,6 +1,7 @@
 import Header from "@components/header";
 import AltaFormazione from "@components/altaFormazione";
 import MultiCarousel from "@components/multiCarousel";
+import ModalForm from "@components/modalForm";
 import { getAllPosts } from "../../lib/posts-util";
 
 export function getStaticProps() {
@@ -45,6 +46,7 @@ export default function Home(props) {
         </p>
       </div>
       <MultiCarousel posts={props.corsi} />
+      <ModalForm />
     </>
   );
 }
