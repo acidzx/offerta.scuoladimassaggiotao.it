@@ -1,8 +1,10 @@
 import Error from "./formError";
 
+import { useRouter } from "next/router";
+import React from "react";
 import { useForm } from "react-hook-form";
-import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 
 const schema = yup.object({
   // email is required with email format
@@ -33,26 +35,31 @@ const schema = yup.object({
     .mixed()
     .transform((value) => (value === false ? "0" : "1"))
     .oneOf(["1"], "accetta i termini e le condizioni"),
-
-  referer: yup.string().required(),
 });
 
-export default function ModalForm() {
-  const onSubmit = (data) =>
-    fetch("/api/hello", {
-      method: "POST",
-      body: JSON.stringify(data),
-    })
-      .then((res) => {
-        if (res.status != 200) {
-          throw new Error("Bad Server Response");
-        }
-        return res.text();
-      })
+function buildFormData(formData, data, parentKey) {
+  if (data && typeof data === "object") {
+    Object.keys(data).forEach((key) => {
+      buildFormData(
+        formData,
+        data[key],
+        parentKey ? `${parentKey}[${key}]` : key
+      );
+    });
+  } else {
+    const value = data == null ? "" : data;
+    formData.append(parentKey, value);
+  }
+}
 
-      // (D) SERVER RESPONSE
-      .then((res) => console.log(res))
-      .catch((err) => console.error(err));
+function jsonToFormData(data) {
+  const formData = new FormData();
+  buildFormData(formData, data);
+  return formData;
+}
+
+export default function ModalForm() {
+  const router = useRouter();
 
   const {
     register,
@@ -62,6 +69,22 @@ export default function ModalForm() {
   } = useForm({
     resolver: yupResolver(schema),
   });
+
+  const onSubmit = async (data) => {
+    // console.log(data);
+    const response = await fetch(
+      "https://app.brainlead.it/3.0.0/web_forms/subscription",
+      {
+        method: "POST",
+        body: jsonToFormData(data),
+      }
+    );
+    if (response.ok) {
+      router.push("/thank-you");
+    } else {
+      return response.status(400).json({ message: error.message });
+    }
+  };
 
   return (
     <>
@@ -81,6 +104,7 @@ export default function ModalForm() {
             Compila il form per ricevere subito il tuo buono sconto sui nostri
             corsi e percorsi di formazione!
           </p>
+
           <hr />
           {/* form */}
           <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
