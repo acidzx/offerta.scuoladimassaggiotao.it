@@ -82,7 +82,10 @@ export default function ModalForm() {
     if (response.ok) {
       router.push("/thank-you");
     } else {
-      return response.status(400).json({ message: error.message });
+      return response
+        .status(400)
+        .json({ message: error.message })
+        .console.log(error.message);
     }
   };
 
