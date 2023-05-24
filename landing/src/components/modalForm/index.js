@@ -29,47 +29,19 @@ const schema = yup.object({
     .min(3, "inserisci il tuo cognome")
     .required("campo cognome obbligatorio"),
 
-  terms__conditions: yup.boolean().oneOf([true], "Accetta la privacy policy"),
+  terms__conditions: yup
+    .mixed()
+    .transform((value) => (value === false ? "0" : "1"))
+    .oneOf(["1"], "accetta i termini e le condizioni"),
+
+  referer: yup.string().required(),
 });
-
-function buildFormData(formData, data, parentKey) {
-  if (
-    data &&
-    typeof data === "object" &&
-    !(data instanceof Date) &&
-    !(data instanceof File)
-  ) {
-    Object.keys(data).forEach((key) => {
-      buildFormData(
-        formData,
-        data[key],
-        parentKey ? `${parentKey}[${key}]` : key
-      );
-    });
-  } else {
-    const value = data == null ? "" : data;
-
-    formData.append(parentKey, value);
-  }
-}
-
-function jsonToFormData(data) {
-  const formData = new FormData();
-
-  buildFormData(formData, data);
-
-  return formData;
-}
 
 export default function ModalForm() {
   const onSubmit = (data) =>
-    fetch("https://app.brainlead.it/3.0.0/web_forms/subscription", {
+    fetch("/api/hello", {
       method: "POST",
-      body: jsonToFormData(data),
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-      },
+      body: JSON.stringify(data),
     })
       .then((res) => {
         if (res.status != 200) {
@@ -116,6 +88,11 @@ export default function ModalForm() {
               {...register("web_form_id")}
               type="hidden"
               value="db5f9f42a7157abe65bb145000b5871a"
+            />
+            <input
+              {...register("referer")}
+              type="hidden"
+              value="https://landingtao.vercel.app/"
             />
 
             {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
