@@ -6,25 +6,81 @@ import { yupResolver } from "@hookform/resolvers/yup";
 
 const schema = yup.object({
   // email is required with email format
-  email: yup.string().email().required(),
+  email: yup
+    .string()
+    .email("inserisci una email valida")
+    .required("inserisci la tua email"),
 
   // phone number needs to match the regex expression
   telefono: yup
     .string()
     .matches(
       /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
-      "Enter a valid phone number"
+      "Inserisci un numero di telefono valido"
     ),
 
-  nome: yup.string().required(),
-  cognome: yup.string().required(),
-  agree: yup
-    .boolean()
-    .oneOf([true], "You must accept the terms and conditions"),
+  nome: yup
+    .string()
+    .min(3, "inserisci il tuo nome")
+    .required("campo nome obbligatorio"),
+
+  cognome: yup
+    .string()
+    .min(3, "inserisci il tuo cognome")
+    .required("campo cognome obbligatorio"),
+
+  terms__conditions: yup.boolean().oneOf([true], "Accetta la privacy policy"),
 });
 
+function buildFormData(formData, data, parentKey) {
+  if (
+    data &&
+    typeof data === "object" &&
+    !(data instanceof Date) &&
+    !(data instanceof File)
+  ) {
+    Object.keys(data).forEach((key) => {
+      buildFormData(
+        formData,
+        data[key],
+        parentKey ? `${parentKey}[${key}]` : key
+      );
+    });
+  } else {
+    const value = data == null ? "" : data;
+
+    formData.append(parentKey, value);
+  }
+}
+
+function jsonToFormData(data) {
+  const formData = new FormData();
+
+  buildFormData(formData, data);
+
+  return formData;
+}
+
 export default function ModalForm() {
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) =>
+    fetch("https://app.brainlead.it/3.0.0/web_forms/subscription", {
+      method: "POST",
+      body: jsonToFormData(data),
+      mode: "cors",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
+    })
+      .then((res) => {
+        if (res.status != 200) {
+          throw new Error("Bad Server Response");
+        }
+        return res.text();
+      })
+
+      // (D) SERVER RESPONSE
+      .then((res) => console.log(res))
+      .catch((err) => console.error(err));
 
   const {
     register,
@@ -56,6 +112,13 @@ export default function ModalForm() {
           <hr />
           {/* form */}
           <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
+            <input
+              {...register("web_form_id")}
+              type="hidden"
+              value="db5f9f42a7157abe65bb145000b5871a"
+            />
+
+            {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
               <label className="label">
@@ -68,6 +131,7 @@ export default function ModalForm() {
                 {...register("nome")}
               />
               <label className="label">
+                <span className="label-text-alt"></span>
                 <span className="label-text-alt text-red-700">
                   {errors.nome && <Error message={errors.nome.message} />}
                 </span>
@@ -85,6 +149,7 @@ export default function ModalForm() {
                 {...register("cognome")}
               />
               <label className="label">
+                <span className="label-text-alt"></span>
                 <span className="label-text-alt text-red-700">
                   {errors.cognome && <Error message={errors.cognome.message} />}
                 </span>
@@ -103,6 +168,7 @@ export default function ModalForm() {
               />
 
               <label className="label">
+                <span className="label-text-alt"></span>
                 <span className="label-text-alt text-red-700">
                   {errors.email && <Error message={errors.email.message} />}
                 </span>
@@ -122,6 +188,7 @@ export default function ModalForm() {
                 {...register("telefono")}
               />
               <label className="label">
+                <span className="label-text-alt"></span>
                 <span className="label-text-alt text-red-700">
                   {errors.telefono && (
                     <Error message={errors.telefono.message} />
@@ -129,35 +196,37 @@ export default function ModalForm() {
                 </span>
               </label>
             </div>
-            <div className="mx-auto text-center text-red-700 text-xs">
-              {errors.agree && <Error message={errors.agree.message} />}
-            </div>
+
             <div className="flex items-center my-3 mx-auto justify-center">
               <input
-                id="checkbox-1"
                 type="checkbox"
                 value=""
                 className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                {...register("agree")}
+                {...register("terms__conditions")}
               />
               <label className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                I agree to the{" "}
+                Ho letto, compreso e accettato{" "}
                 <a
                   href="#"
                   className="text-green-600 hover:underline dark:text-green-500"
                 >
-                  terms and conditions
-                </a>
-                .
+                  termini e condizioni
+                </a>{" "}
+                (obbligatorio) .
               </label>
             </div>
+            <div className="mx-auto -mt-2 text-center text-red-700 text-xs">
+              {errors.terms__conditions && (
+                <Error message={errors.terms__conditions.message} />
+              )}
+            </div>
 
-            <div className="mx-auto text-center mt-5">
+            <div className="mx-auto text-center mt-6">
               <button
                 type="submit"
-                className="btn text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                className="btn text-white font-bold bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
-                Invia
+                invia
               </button>
             </div>
           </form>
