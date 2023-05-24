@@ -89,11 +89,6 @@ export default function ModalForm() {
               type="hidden"
               value="db5f9f42a7157abe65bb145000b5871a"
             />
-            <input
-              {...register("referer")}
-              type="hidden"
-              value="https://landingtao.vercel.app/"
-            />
 
             {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
             {/* nome */}
