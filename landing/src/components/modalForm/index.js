@@ -71,21 +71,19 @@ export default function ModalForm() {
   });
 
   const onSubmit = async (data) => {
-    // console.log(data);
-    const response = await fetch(
-      "https://app.brainlead.it/3.0.0/web_forms/subscription",
-      {
-        method: "POST",
-        body: jsonToFormData(data),
+    try {
+      const response = await fetch(
+        "https://app.brainlead.it/3.0.0/web_forms/subscription",
+        {
+          method: "POST",
+          body: jsonToFormData(data),
+        }
+      );
+      if (response.ok) {
+        router.push("/thank-you");
       }
-    );
-    if (response.ok) {
-      router.push("/thank-you");
-    } else {
-      return response
-        .status(400)
-        .json({ message: error.message })
-        .console.log(error.message);
+    } catch (errorResponse) {
+      return errorResponse;
     }
   };
 
@@ -109,6 +107,7 @@ export default function ModalForm() {
           </p>
 
           <hr />
+
           {/* form */}
           <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
             <input
