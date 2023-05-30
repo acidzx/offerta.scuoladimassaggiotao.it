@@ -51,6 +51,16 @@ export default function Home(props) {
       <MultiCarousel posts={props.corsi} />
       <Cta />
       <ModalForm />
+      <div className="chat chat-start">
+        <div className="chat-bubble bg-green-700 text-white">
+          Formazione completa
+        </div>
+      </div>
+      <div className="chat chat-end">
+        <div className="chat-bubble bg-green-700 text-white">
+          100% soddisfatto o rimborsato
+        </div>
+      </div>
     </>
   );
 }
