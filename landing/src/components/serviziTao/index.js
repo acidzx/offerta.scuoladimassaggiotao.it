@@ -29,7 +29,7 @@ const features = [
   {
     name: "Tutor dedicato",
     description:
-      "Un tutor ti seguirà e consiglierà il percorso formativo più adatto alle tue esigenze.",
+      "Un tutor dedicato ti seguirà e saprà consigliarti il percorso formativo più adatto alle tue esigenze.",
     icon: FaceSmileIcon,
   },
   {
