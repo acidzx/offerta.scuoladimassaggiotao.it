@@ -5,11 +5,12 @@ import ModalForm from "@components/modalForm";
 import Cta from "@components/cta";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
+import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 
 import Image from "next/image";
 
-export function getStaticProps() {
+export async function getStaticProps() {
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");
 
@@ -58,6 +59,8 @@ export default function Home(props) {
       <ServiziTao />
       <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
       <Testimonials />
+      <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
+      <ServizioClienti />
     </>
   );
 }
