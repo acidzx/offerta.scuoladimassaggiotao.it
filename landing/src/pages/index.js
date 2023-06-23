@@ -4,6 +4,7 @@ import MultiCarousel from "@components/multiCarousel";
 import ModalForm from "@components/modalForm";
 import Cta from "@components/cta";
 import ServiziTao from "@components/serviziTao";
+import Testimonials from "@/components/testimonials";
 import { getAllPosts } from "../../lib/posts-util";
 
 import Image from "next/image";
@@ -55,6 +56,8 @@ export default function Home(props) {
       <Cta />
       <ModalForm />
       <ServiziTao />
+      <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
+      <Testimonials />
     </>
   );
 }

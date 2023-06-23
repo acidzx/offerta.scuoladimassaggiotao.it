@@ -70,8 +70,8 @@ export default function Servizi() {
           <Image
             src="/assets/images/mondo-servizi-tao.jpg"
             width="300"
-            height="500"
-            className="mx-auto"
+            height="375"
+            className="mx-auto w-96"
             alt="Tao Group un mondo di servizi"
           />
           <div className="relative" aria-hidden="true">

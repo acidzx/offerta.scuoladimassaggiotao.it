@@ -25,7 +25,7 @@ export default function CardCarousel(props) {
           alt={title}
           width={340}
           height={226}
-          className="w-auto"
+          className="w-full"
         />
 
         <div className="card-body">
@@ -56,7 +56,7 @@ export default function CardCarousel(props) {
                       strokeWidth={1.5}
                       stroke="currentColor"
                       className="w-6 h-6 inline"
-                      key={index + 300}
+                      key={index}
                     >
                       <path
                         strokeLinecap="round"
