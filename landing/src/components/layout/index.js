@@ -12,7 +12,7 @@ export default function Layout({ children }) {
             <div className="flex-1">
               <a
                 href="tel:057862772"
-                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-gray-200 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:text-white dark:focus:ring-gray-800"
+                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-600 hover:text-gray-200 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:text-white dark:focus:ring-gray-800"
               >
                 0578.62772
                 <PhoneIcon className="ml-2 -mr-1 w-5 h-5" />
@@ -22,7 +22,7 @@ export default function Layout({ children }) {
               <div className="flex py-3 items-center space-x-6">
                 <a
                   href="#"
-                  className="text-white hover:text-gray-200 dark:hover:text-white"
+                  className="text-gray-600 hover:text-gray-200 dark:hover:text-white"
                 >
                   <svg
                     className="w-5 h-5"
@@ -40,7 +40,7 @@ export default function Layout({ children }) {
                 </a>
                 <a
                   href="#"
-                  className="text-white hover:text-gray-200 dark:hover:text-white"
+                  className="text-gray-600 hover:text-gray-200 dark:hover:text-white"
                 >
                   <svg
                     className="w-5 h-5"
@@ -58,7 +58,7 @@ export default function Layout({ children }) {
                 </a>
                 <a
                   href="#"
-                  className="text-white hover:text-gray-200 dark:hover:text-white"
+                  className="text-gray-600 hover:text-gray-200 dark:hover:text-white"
                 >
                   <svg
                     className="w-5 h-5"
@@ -72,7 +72,7 @@ export default function Layout({ children }) {
                 </a>
                 <a
                   href="#"
-                  className="text-white hover:text-gray-200 dark:hover:text-white"
+                  className="text-gray-600 hover:text-gray-200 dark:hover:text-white"
                 >
                   <svg
                     fill="currentColor"
