@@ -11,7 +11,7 @@ export default function ServizioClienti() {
             <svg
               className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
               width={374}
-              height={352}
+              height={355}
               fill="none"
               viewBox="0 0 404 392"
             >

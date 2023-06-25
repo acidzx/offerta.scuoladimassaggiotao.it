@@ -8,8 +8,6 @@ import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 
-import Image from "next/image";
-
 export async function getStaticProps() {
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");

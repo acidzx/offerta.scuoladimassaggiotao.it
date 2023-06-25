@@ -40,7 +40,7 @@ export default function Layout({ children }) {
                 </a>
                 <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-600 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-5 h-5"
