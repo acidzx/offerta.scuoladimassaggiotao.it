@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function ServizioClienti() {
   return (
     <div className="relative bg-white py-16 sm:py-24">
@@ -44,10 +46,12 @@ export default function ServizioClienti() {
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
             <div className="relative overflow-hidden rounded-2xl pt-64 pb-10">
-              <img
+              <Image
                 className="absolute inset-0 fit-content"
                 src="/assets/images/servizio-clienti-tao.jpg"
                 alt=""
+                width={500}
+                height={300}
               />
               <div className="absolute inset-0 mix-blend-multiply" />
               <div className="absolute inset-0" />
