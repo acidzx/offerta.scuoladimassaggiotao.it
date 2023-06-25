@@ -4,12 +4,7 @@ import {
   AcademicCapIcon,
   ArrowPathIcon,
   BuildingLibraryIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
   FaceSmileIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
   SparklesIcon,
   UserGroupIcon,
 } from "@heroicons/react/20/solid";
@@ -89,7 +84,7 @@ export default function Servizi() {
                   aria-hidden="true"
                 />
                 {feature.name}
-              </dt>{" "}
+              </dt>
               <dd className="inline">{feature.description}</dd>
             </div>
           ))}

@@ -27,7 +27,6 @@ export default function Home(props) {
       <Header />
       <AltaFormazione />
       <Cta />
-
       <div className="container mx-auto p-4 mt-6">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl dark:text-white">
           DIPLOMI DI SPECIALIZZAZIONE
@@ -40,7 +39,6 @@ export default function Home(props) {
       </div>
       <MultiCarousel posts={props.diplomi} />
       <Cta />
-
       <div className="container mx-auto p-4 mt-6">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl dark:text-white">
           CORSI INDIVIDUALI
