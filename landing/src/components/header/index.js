@@ -11,7 +11,7 @@ export default function Header() {
             className="cursor-pointer inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
             role="alert"
           >
-            <span className="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
+            <span className="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3">
               Una sorpresa per te
             </span>
             <span className="text-sm font-medium">Richiedi Informazioni</span>
@@ -28,7 +28,7 @@ export default function Header() {
               ></path>
             </svg>
           </label>
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl dark:text-white">
             investi nel tuo futuro
           </h1>
           <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">

@@ -2,8 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function CardCarousel(props) {
-  const { img, slug, price, title, description, durata, ore, category } =
-    props.post;
+  const {
+    img,
+    slug,
+    price,
+    title,
+    description,
+    durata,
+    ore,
+    category,
+  } = props.post;
 
   const imgPath = `/assets/images/carousel/${category}/${img}`;
 
@@ -15,9 +23,9 @@ export default function CardCarousel(props) {
         <Image
           src={imgPath}
           alt={title}
-          width={350}
-          height={300}
-          className="w-auto"
+          width={340}
+          height={226}
+          className="w-full"
         />
 
         <div className="card-body">
@@ -48,7 +56,7 @@ export default function CardCarousel(props) {
                       strokeWidth={1.5}
                       stroke="currentColor"
                       className="w-6 h-6 inline"
-                      key={index + 300}
+                      key={index}
                     >
                       <path
                         strokeLinecap="round"
