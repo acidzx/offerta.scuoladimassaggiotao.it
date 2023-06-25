@@ -76,8 +76,8 @@ export default function ServizioClienti() {
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">
-                Il nostro servizio clienti ti aiuterà a raggiungere l'obiettivo.
-                Dai un'occhiata, scrivi e inviaci un'email o chiamaci.
+                Il nostro servizio clienti ti aiuterà a raggiungere l&apos;obiettivo.
+                Dai un&apos;occhiata, scrivi e inviaci un&apos;email o chiamaci.
               </p>
               <p className="text-base font-semibold leading-7">
                 <a href="tel:057862772">

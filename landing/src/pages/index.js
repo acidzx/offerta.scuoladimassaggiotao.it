@@ -5,6 +5,7 @@ import ModalForm from "@components/modalForm";
 import Cta from "@components/cta";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
+import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 
 export async function getStaticProps() {
@@ -55,7 +56,7 @@ export default function Home(props) {
       <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
       <Testimonials />
       <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-      
+      <ServizioClienti />
     </>
   );
 }
