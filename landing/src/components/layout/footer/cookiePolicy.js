@@ -3,7 +3,7 @@ export default function CookiePolicy() {
     <>
       <input type="checkbox" id="modalCookie" className="modal-toggle" />
       <label htmlFor="modalCookie" className="modal cursor-pointer">
-        <label className="modal-box relative bg-white" htmlFor="">
+        <label className="modal-box max-w-4xl relative bg-white" htmlFor="">
           <label
             htmlFor="modalCookie"
             className="btn btn-sm btn-circle absolute right-12 top-2"

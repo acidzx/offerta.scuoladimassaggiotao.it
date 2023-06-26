@@ -3,7 +3,7 @@ export default function PrivacyPolicy() {
     <>
       <input type="checkbox" id="modalPrivacy" className="modal-toggle" />
       <label htmlFor="modalPrivacy" className="modal cursor-pointer">
-        <label className="modal-box relative bg-white" htmlFor="">
+        <label className="modal-box max-w-4xl relative bg-white" htmlFor="">
           <label
             htmlFor="modalPrivacy"
             className="btn btn-sm btn-circle absolute right-12 top-2"
