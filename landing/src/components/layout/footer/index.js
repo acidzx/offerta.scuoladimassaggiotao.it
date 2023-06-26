@@ -1,5 +1,8 @@
 import Image from "next/image";
 import scuolaTaoLogo from "@public/assets/svg/logoScuola.svg";
+import CookiePolicy from "./cookiePolicy";
+import PrivacyPolicy from "./privacyPolicy";
+import TermsConditions from "./terms_conditions";
 
 export default function Footer() {
   return (
@@ -31,14 +34,31 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline text-sm">
-                    Privacy Policy
-                  </a>
+                  <label
+                    htmlFor="modalPrivacy"
+                    className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                  >
+                    <a className="text-sm cursor-pointer">Privacy Policy</a>
+                  </label>
+                </li>
+
+                <li className="mb-4">
+                  <label
+                    htmlFor="modalCookie"
+                    className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                  >
+                    <a className="text-sm cursor-pointer">Cookie Policy</a>
+                  </label>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-sm">
-                    Termini &amp; Condizioni
-                  </a>
+                  <label
+                    htmlFor="modalTerms"
+                    className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                  >
+                    <a className="text-sm cursor-pointer">
+                      Termini &amp; Condizioni
+                    </a>
+                  </label>
                 </li>
               </ul>
             </div>
@@ -143,6 +163,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <CookiePolicy />
+      <PrivacyPolicy />
+      <TermsConditions />
     </footer>
   );
 }
