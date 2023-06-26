@@ -62,7 +62,7 @@ export default function Layout({ children }) {
                 >
                   <svg
                     fill="currentColor"
-                    className="w-5 h-5"
+                    className="w-5 h-5 mr-3"
                     viewBox="0 0 16 16"
                     aria-hidden="true"
                   >
