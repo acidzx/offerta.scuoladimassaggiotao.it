@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function ServizioClienti() {
   return (
@@ -50,8 +50,8 @@ export default function ServizioClienti() {
                 className="absolute inset-0 fit-content"
                 src="/assets/images/servizio-clienti-tao.jpg"
                 alt=""
-                width={500}
-                height={300}
+                width={494}
+                height={350}
               />
               <div className="absolute inset-0 mix-blend-multiply" />
               <div className="absolute inset-0" />
@@ -80,8 +80,9 @@ export default function ServizioClienti() {
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">
-                Il nostro servizio clienti ti aiuterà a raggiungere l&apos;obiettivo.
-                Dai un&apos;occhiata, scrivi e inviaci un&apos;email o chiamaci.
+                Il nostro servizio clienti ti aiuterà a raggiungere
+                l&apos;obiettivo. Dai un&apos;occhiata, scrivi e inviaci
+                un&apos;email o chiamaci.
               </p>
               <p className="text-base font-semibold leading-7">
                 <a href="tel:057862772">

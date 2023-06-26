@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import YoutubeTestimonial from "./youtubeTestimonial";
+
 export default function Testimonials() {
   return (
     <>
@@ -16,6 +18,27 @@ export default function Testimonials() {
                   <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.green.100),white)] opacity-20" />
                   <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-green-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
                   <div className="mx-auto max-w-2xl lg:max-w-4xl">
+                    <ul className="flex items-center justify-center">
+                      <li>
+                        {Array.from(Array(5)).map((Array, index) => (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="yellow"
+                            viewBox="0 0 30 30"
+                            strokeWidth={1.5}
+                            stroke="currentColor"
+                            className="w-6 h-6 inline"
+                            key={index}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                            />
+                          </svg>
+                        ))}
+                      </li>
+                    </ul>
                     <figure className="mt-10">
                       <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                         <p>
@@ -54,15 +77,7 @@ export default function Testimonials() {
                 </section>
               </div>
             </div>
-            <div>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/CV1VpGHIdnA"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
+            <YoutubeTestimonial />
           </div>
         </div>
       </div>
