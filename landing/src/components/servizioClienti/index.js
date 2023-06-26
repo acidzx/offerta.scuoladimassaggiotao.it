@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ServizioClienti() {
   return (
-    <div className="relative bg-white py-16 sm:py-24">
+    <div className="relative bg-white py-8 sm:py-12">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -60,12 +60,6 @@ export default function ServizioClienti() {
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <p className="relative"></p>
                   </div>
-
-                  <footer className="mt-5">
-                    <p className="pt-6 text-lg font-semibold text-white">
-                      Servizio Clienti Tao
-                    </p>
-                  </footer>
                 </blockquote>
               </div>
             </div>
@@ -74,7 +68,7 @@ export default function ServizioClienti() {
 
         <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:px-0">
           {/* Content area */}
-          <div className="pt-12 sm:pt-16 lg:pt-20">
+          <div className="pt-2 sm:pt-4 lg:pt-10">
             <h2 className="text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl">
               Servizio clienti sempre a disposizione
             </h2>

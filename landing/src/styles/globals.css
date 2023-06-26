@@ -5,3 +5,9 @@
 .react-multiple-carousel__arrow {
   z-index: 20 !important;
 }
+
+.homebg {
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
