@@ -29,6 +29,7 @@ export default function PostContent(props) {
               <ReactMarkdown>{post.benefici}</ReactMarkdown>
             </div>
           </div>
+
           <div className="grid grid-cols-2 gap-4 mt-8">
             <img
               className="w-full rounded-lg"
@@ -43,7 +44,17 @@ export default function PostContent(props) {
           </div>
         </div>
       </section>
-      <div className="container mx-auto px-4 lg:px-32">
+      <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
+      <div className="mt-16 container mx-auto border rounded-xl p-4 lg:px-16 lg:py-16 max-w-6xl">
+        <div className="aspect-w-16 aspect-h-9 mx-auto">
+          <iframe
+            src={post.videosrc}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
         <div className="my-2 collapse collapse-arrow bg-green-600/5">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 dark:text-white">

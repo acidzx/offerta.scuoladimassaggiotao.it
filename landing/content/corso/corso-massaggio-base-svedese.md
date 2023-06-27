@@ -37,4 +37,5 @@ L'orario di svolgimento dei corsi va dalle 9:30 alle 17:30 (con 1 ora circa di p
 È possibile, per chi ne fa richiesta, svolgere i corsi in modalità full immersion (modalità consigliata solo a chi ha poco tempo a disposizione ed ha già dimestichezza con le tecniche di massaggio)."
 attestazione: "Al termine del Corso di Massaggio Base Classico Svedese verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia di 24 ore, con possibilità di ripasso gratuito e rilascio attestato di perfezionamento per un totale di 48 ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di quanto correttamente appreso).
 Sarà pertanto possibile lavorare legalmente, su tutto il territorio nazionale, purchè l’attività non rientri nell’ambito sanitario o sconfini in quello fisioterapico, estetico o in ambiti stabiliti per legge da altre professioni riconosciute."
+videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
 ---
