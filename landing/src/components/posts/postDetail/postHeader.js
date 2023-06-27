@@ -25,15 +25,15 @@ const supportLinks = [
 ];
 
 export default function PostHeader(props) {
-  const { title, img, description } = props;
+  const { title, img, description, category } = props;
 
   return (
     <div className="bg-white">
       {/* Header */}
-      <div className="relative bg-gray-800 pb-32">
+      <div className="relative bg-gray-800 pb-60">
         <div className="absolute inset-0">
           <Image
-            className="h-full w-full object-cover"
+            className=" h-full w-full object-cover"
             alt={title}
             src={img}
             width={1750}
@@ -45,7 +45,10 @@ export default function PostHeader(props) {
           />
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
-          <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
+          <p className="text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
+            {category}
+          </p>
+          <h1 className="pb-4 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl border-white border-b-2">
             {title}
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-white">{description}</p>
@@ -55,7 +58,7 @@ export default function PostHeader(props) {
       {/* Overlapping cards */}
       {
         <section
-          className="relative z-10 mx-auto -mt-[30px] max-w-7xl px-6 pb-24 lg:px-8"
+          className="hidden lg:block relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-24 lg:px-8"
           aria-labelledby="contact-heading"
         >
           <h2 className="sr-only" id="contact-heading">
