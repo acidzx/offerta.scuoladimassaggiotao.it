@@ -1,6 +1,6 @@
 ---
-img: "diploma-massaggiatore-estetica-olistica.jpg"
-slug: "diploma-massaggiatore-estetica-olistica"
+img: "diploma-operatore-estetica-olistica.jpg"
+slug: "diploma-operatore-estetica-olistica"
 price: "290,00"
 title: "Estetica Olistica"
 description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
