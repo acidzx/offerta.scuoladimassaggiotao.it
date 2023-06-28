@@ -33,14 +33,14 @@ export default function PostHeader(props) {
       <div className="relative bg-gray-800 pb-60">
         <div className="absolute inset-0">
           <Image
-            className=" h-full w-full object-cover"
+            className="h-full w-full object-cover"
             alt={title}
             src={img}
             width={1750}
             height={500}
           />
           <div
-            className="absolute inset-0 bg-gray-800/5 mix-blend-multiply"
+            className="absolute inset-0 bg-gray-800/0 mix-blend-multiply"
             aria-hidden="true"
           />
         </div>

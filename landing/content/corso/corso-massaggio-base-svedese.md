@@ -1,5 +1,5 @@
 ---
-img: "corso-massaggio-base-classico-svedese.jpg"
+img: "corso-massaggio-base-svedese.jpg"
 slug: "corso-massaggio-base-svedese"
 price: "290,00"
 title: "Massaggio Base Svedese"

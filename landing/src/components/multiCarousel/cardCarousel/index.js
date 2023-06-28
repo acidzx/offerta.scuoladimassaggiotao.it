@@ -28,7 +28,7 @@ export default function CardCarousel(props) {
           className="w-full"
         />
 
-        <div className="card-body">
+        <div className="card-body p-7">
           <div className="absolute top-8 left-2 px-4 py-1 rounded text-white text-xs bg-green-600">
             <strong>Scopri di più</strong>
           </div>
@@ -41,7 +41,7 @@ export default function CardCarousel(props) {
               : "Corso di specializzazione in"}{" "}
             -
           </p>
-          <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
           <div>

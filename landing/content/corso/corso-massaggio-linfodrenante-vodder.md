@@ -1,8 +1,8 @@
 ---
-img: "corso-massaggio-base-classico-svedese.jpg"
-slug: "corso-massaggio-base-svedese"
-price: "290,00"
-title: "Massaggio Base Svedese"
+img: "corso-massaggio-linfodrenante-vodder.jpg"
+slug: "corso-massaggio-linfodrenante-vodder"
+price: "450,00"
+title: "Massaggio Linfodrenante Vodder"
 description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
 durata: "3 giorni"
 ore: "24 ore"

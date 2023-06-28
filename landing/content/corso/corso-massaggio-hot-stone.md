@@ -1,8 +1,8 @@
 ---
-img: "corso-massaggio-base-classico-svedese.jpg"
-slug: "corso-massaggio-base-svedese"
+img: "corso-massaggio-hot-stone.jpg"
+slug: "corso-massaggio-hot-stone"
 price: "290,00"
-title: "Massaggio Base Svedese"
+title: "Massaggio Hot Stone"
 description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
 durata: "3 giorni"
 ore: "24 ore"
