@@ -239,7 +239,7 @@ export default function PostContent(props) {
           <div className="block xl:hidden">
             <div className="container mx-auto max-w-xl text-start">
               <div className="stats shadow mx-auto mt-8">
-                <div className="stat">
+                <div className="stat py-1">
                   <div className="stat-figure text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -255,14 +255,14 @@ export default function PostContent(props) {
                       ></path>
                     </svg>
                   </div>
-                  <div className="stat-title">Video corso</div>
+                  <div className="stat-title">Video corso professionale</div>
                   <div className="stat-value text-gray-600">Omaggio</div>
                 </div>
               </div>
             </div>
             <div className="container mx-auto max-w-xl text-end">
               <div className="stats shadow mx-auto mt-2">
-                <div className="stat">
+                <div className="stat py-1">
                   <div className="stat-figure text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +285,7 @@ export default function PostContent(props) {
             </div>
             <div className="container mx-auto max-w-xl text-start">
               <div className="stats shadow mx-auto mt-2">
-                <div className="stat">
+                <div className="stat py-1">
                   <div className="stat-figure text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -310,7 +310,7 @@ export default function PostContent(props) {
             </div>
             <div className="container mx-auto max-w-xl text-end">
               <div className="stats shadow mx-auto mt-2">
-                <div className="stat">
+                <div className="stat py-1">
                   <div className="stat-figure text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
