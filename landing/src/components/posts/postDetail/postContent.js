@@ -1,5 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import PostHeader from "./postHeader";
+import ModalForm from "@components/modalForm";
+import Cta from "@components/cta";
 
 export default function PostContent(props) {
   const { post } = props;
@@ -45,14 +47,15 @@ export default function PostContent(props) {
           </div>
         </div>
       </section>
-
-      <div className="mt-8 container mx-auto border-2 rounded-xl p-4 lg:px-16 lg:py-16 max-w-6xl">
-        <div className="aspect-w-16 aspect-h-9 mx-auto">
-          <iframe
-            src={post.videosrc}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+      <div className="p-4">
+        <div className="mt-8 container mx-auto border-2 rounded-xl p-4 lg:px-16 lg:py-16 max-w-6xl">
+          <div className="aspect-w-16 aspect-h-9 mx-auto">
+            <iframe
+              src={post.videosrc}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
@@ -143,7 +146,7 @@ export default function PostContent(props) {
           <div className="collapse-content">{post.attestazione}</div>
         </div>
       </div>
-      <section className="bg-white dark:bg-gray-900 border border-t-2">
+      <section className="bg-white dark:bg-gray-900 border-t-2">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm text-center">
             <h2 className="text-4xl tracking-tight font-extrabold text-gray-600 dark:text-white mb-4">
@@ -334,6 +337,11 @@ export default function PostContent(props) {
           </div>
         </div>
       </section>
+      <div className="container mx-auto p-4">
+        <Cta />
+      </div>
+
+      <ModalForm />
     </>
   );
 }
