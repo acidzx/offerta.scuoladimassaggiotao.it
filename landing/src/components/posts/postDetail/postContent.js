@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import PostHeader from "./postHeader";
-import ModalForm from "@components/modalForm";
 import Cta from "@components/cta";
+import ModalForm from "@components/modalForm";
 
 export default function PostContent(props) {
   const { post } = props;
