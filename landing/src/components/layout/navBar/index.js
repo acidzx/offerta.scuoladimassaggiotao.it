@@ -8,9 +8,9 @@ export default function NavBar() {
         <div className="flex-1">
           <Logo />
         </div>
-        <div className="flex-none">
+        {/* <div className="flex-none">
           <ThemeChanger />
-        </div>
+        </div> */}
       </div>
     </>
   );

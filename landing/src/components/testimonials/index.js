@@ -5,7 +5,7 @@ import YoutubeTestimonial from "./youtubeTestimonial";
 export default function Testimonials() {
   return (
     <>
-      <h2 className="text-center pt-16 pb-8 text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl">
+      <h2 className="text-center pt-16 pb-8 text-3xl font-bold text-gray-500 sm:text-4xl">
         Cosa dicono di noi...
       </h2>
 

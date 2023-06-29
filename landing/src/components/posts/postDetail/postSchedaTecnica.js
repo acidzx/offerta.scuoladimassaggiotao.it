@@ -5,7 +5,7 @@ export default function PostSchedaTecnica(props) {
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" defaultChecked />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 ">
+        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Programma del corso di {title}
         </div>
         <div className="collapse-content p-5">
@@ -18,21 +18,21 @@ export default function PostSchedaTecnica(props) {
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 ">
+        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Requisiti
         </div>
         <div className="collapse-content">{requisiti}</div>
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 ">
+        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Orario e durata
         </div>
         <div className="collapse-content">{orario}</div>
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 ">
+        <div className="collapse-title text-2xl  font-extrabold text-gray-700 ">
           Sedi del corso
         </div>
         <div className="collapse-content">
@@ -60,7 +60,7 @@ export default function PostSchedaTecnica(props) {
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700 ">
+        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Servizi inclusi
         </div>
         <div className="collapse-content">
@@ -83,7 +83,7 @@ export default function PostSchedaTecnica(props) {
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl tracking-tight font-extrabold text-gray-700">
+        <div className="collapse-title text-2xl font-extrabold text-gray-700">
           Attestazione rilasciata
         </div>
         <div className="collapse-content">{attestazione}</div>

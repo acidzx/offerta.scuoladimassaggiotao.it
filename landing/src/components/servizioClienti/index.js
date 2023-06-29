@@ -69,7 +69,7 @@ export default function ServizioClienti() {
         <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:px-0">
           {/* Content area */}
           <div className="pt-2 sm:pt-4 lg:pt-10">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl">
               Servizio clienti sempre a disposizione
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">

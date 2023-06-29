@@ -55,7 +55,7 @@ export default function Servizi() {
           <h2 className="mb-4 text-lg font-normal text-green-700 lg:text-xl sm:px-16 lg:px-24">
             Tutte le garanzie di cui hai bisogno
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-500 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold text-gray-500 sm:text-4xl">
             Scuola Tao trasforma la tua passione in una professione di successo
           </p>
         </div>

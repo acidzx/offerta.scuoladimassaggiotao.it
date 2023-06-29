@@ -28,7 +28,7 @@ export default function Home(props) {
       <AltaFormazione />
       <Cta />
       <div className="container mx-auto p-4 mt-6">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl">
           DIPLOMI DI SPECIALIZZAZIONE
         </h2>
         <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
@@ -40,7 +40,7 @@ export default function Home(props) {
       <MultiCarousel posts={props.diplomi} />
       <Cta />
       <div className="container mx-auto p-4 mt-6">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
           CORSI INDIVIDUALI
         </h2>
         <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
