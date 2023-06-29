@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 
 export default function PostPresentation(props) {
-  const { longcontent, benefici } = props;
+  const { longcontent, benefici, slug } = props;
 
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -24,12 +24,12 @@ export default function PostPresentation(props) {
         <div className="grid grid-cols-2 gap-4 mt-8">
           <img
             className="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+            src={`/assets/images/corso/${slug}/${slug}-vertical-1.png`}
             alt="office content 1"
           />
           <img
             className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            src={`/assets/images/corso/${slug}/${slug}-vertical-2.png`}
             alt="office content 2"
           />
         </div>

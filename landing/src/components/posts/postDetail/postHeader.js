@@ -30,15 +30,15 @@ export default function PostHeader(props) {
   return (
     <div className="bg-white">
       {/* Header */}
-      <div className="relative bg-gray-800 pb-60">
+      <div className="relative bg-gray-500 pb-60">
         <div className="absolute inset-0">
-          <Image
+          {/*      <Image
             className="h-full w-full object-cover"
             alt={title}
             src={img}
             width={1750}
             height={500}
-          />
+          /> */}
           <div
             className="absolute inset-0 bg-gray-800/0 mix-blend-multiply"
             aria-hidden="true"

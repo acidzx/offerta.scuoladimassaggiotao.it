@@ -29,10 +29,10 @@ export default function MultiCarousel(props) {
     <div className="container mx-auto">
       <Carousel
         swipeable={true}
-        draggable={false}
+        draggable={true}
         showDots={false}
         responsive={responsive}
-        ssr={true} // means to render carousel on server-side.
+        ssr={false} // means to render carousel on server-side.
         infinite={true}
         autoPlay={true}
         autoPlaySpeed={3000}
