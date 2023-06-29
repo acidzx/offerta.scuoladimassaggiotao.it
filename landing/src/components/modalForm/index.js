@@ -199,15 +199,12 @@ export default function ModalForm() {
               <input
                 type="checkbox"
                 value=""
-                className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500  focus:ring-2"
                 {...register("terms__conditions")}
               />
-              <label className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              <label className="ml-2 text-sm font-medium text-gray-900 ">
                 Ho letto, compreso e accettato{" "}
-                <a
-                  href="#"
-                  className="text-green-600 hover:underline dark:text-green-500"
-                >
+                <a href="#" className="text-green-600 hover:underline ">
                   termini e condizioni
                 </a>{" "}
                 (obbligatorio) .
@@ -222,7 +219,7 @@ export default function ModalForm() {
             <div className="mx-auto text-center mt-6">
               <button
                 type="submit"
-                className="btn text-white font-bold bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                className="btn text-white font-bold bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 "
               >
                 invia
               </button>

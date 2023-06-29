@@ -6,10 +6,10 @@ export default function DiplomaAltaFormazione() {
   return (
     <Fragment>
       <div className="container mx-auto p-4">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl dark:text-white">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           DIPLOMA ALTA FORMAZIONE PROFESSIONALE PER MASSAGGIATORI
         </h2>
-        <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           Il Diploma di Alta Formazione Professionale per massaggiatori è il
           percorso formativo più completo che puoi desiderare ed ottenere,
           garantendoti un sicuro inserimento nel mondo del lavoro.
@@ -19,7 +19,7 @@ export default function DiplomaAltaFormazione() {
       <div className="container p-5 mx-auto">
         <a
           href="#"
-          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 "
         >
           <Image
             priority
@@ -30,10 +30,7 @@ export default function DiplomaAltaFormazione() {
 
           <div className="flex flex-col justify-between p-5 lg:p-8 leading-normal lg:w-1/2">
             <div className="flow-root">
-              <ul
-                role="list"
-                className="divide-y divide-gray-200 dark:divide-gray-700"
-              >
+              <ul role="list" className="divide-y divide-gray-200 ">
                 <li className="py-3 sm:py-4">
                   <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0 lg:hidden xl:block">
@@ -56,10 +53,10 @@ export default function DiplomaAltaFormazione() {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-lg font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-lg font-medium text-gray-900 truncate ">
                         Formazione
                       </p>
-                      <p className="text-base text-gray-500 dark:text-gray-400 text-justify">
+                      <p className="text-base text-gray-500  text-justify">
                         15 corsi di specializzazione, 4 diplomi nazionali, 500
                         ore formative certificate, corsi in partenza ogni fine
                         settimana e formazione sempre garantita.
@@ -85,10 +82,10 @@ export default function DiplomaAltaFormazione() {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-lg font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-lg font-medium text-gray-900 truncate ">
                         Garanzie
                       </p>
-                      <p className="text-base text-gray-500 dark:text-gray-400 text-justify">
+                      <p className="text-base text-gray-500  text-justify">
                         Tao - Scuola Nazionale di Massaggio è ormai da anni
                         sinonimo di qualità, pertanto è accreditata per merito e
                         qualità dallo Csen e dalla World Massage Federation. Le
@@ -116,10 +113,10 @@ export default function DiplomaAltaFormazione() {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-lg font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-lg font-medium text-gray-900 truncate ">
                         Investimento Sicuro e flessibile
                       </p>
-                      <p className="text-base text-gray-500 dark:text-gray-400 text-justify">
+                      <p className="text-base text-gray-500  text-justify">
                         Importo rateizzabile fino ad un massimo di 14 comode
                         rate senza garanzie personali (busta paga o 730). Potrai
                         fin da subito iniziare a lavorare e guadagnare.

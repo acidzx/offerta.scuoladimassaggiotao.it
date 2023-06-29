@@ -41,7 +41,7 @@ export default function CardCarousel(props) {
               : "Corso di specializzazione in"}{" "}
             -
           </p>
-          <h5 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-lg font-bold tracking-tight text-gray-900 ">
             {title}
           </h5>
           <div>
@@ -108,10 +108,7 @@ export default function CardCarousel(props) {
               {description.length >= 130 && "..."}
             </p>
             <div className="flow-root">
-              <ul
-                role="list"
-                className="divide-y divide-gray-200 dark:divide-gray-700"
-              >
+              <ul role="list" className="divide-y divide-gray-200 ">
                 <li className="py-3 sm:py-4">
                   <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0">
@@ -131,11 +128,11 @@ export default function CardCarousel(props) {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-sm font-medium text-gray-900 truncate ">
                         Durata
                       </p>
                     </div>
-                    <div className="inline-flex items-center text-sm text-gray-900 dark:text-white">
+                    <div className="inline-flex items-center text-sm text-gray-900 ">
                       {durata}
                     </div>
                   </div>
@@ -159,11 +156,11 @@ export default function CardCarousel(props) {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-sm font-medium text-gray-900 truncate ">
                         Attestato
                       </p>
                     </div>
-                    <div className="inline-flex items-center text-sm text-gray-900 dark:text-white">
+                    <div className="inline-flex items-center text-sm text-gray-900 ">
                       di specializzazione
                     </div>
                   </div>
@@ -187,11 +184,11 @@ export default function CardCarousel(props) {
                       </svg>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      <p className="text-sm font-medium text-gray-900 truncate ">
                         Formazione
                       </p>
                     </div>
-                    <div className="inline-flex items-center text-sm text-gray-900 dark:text-white">
+                    <div className="inline-flex items-center text-sm text-gray-900 ">
                       {ore}
                     </div>
                   </div>

@@ -19,7 +19,7 @@ export default function PostContent(props) {
         description={post.description}
         category={post.category}
       />
-      <hr className="hidden lg:block h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+      <hr className="hidden lg:block h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
         benefici={post.benefici}

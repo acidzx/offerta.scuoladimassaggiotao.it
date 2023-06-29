@@ -1,7 +1,7 @@
 export default function PostServiziInclusi() {
   return (
     /*         versione Desktop */
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white ">
       <div className="pt-8 pb-4 px-4 mx-auto max-w-screen-xl sm:pt-8 sm:pb-16 lg:px-6">
         <div className="hidden xl:block">
           <div className="stats shadow mx-auto mt-8">

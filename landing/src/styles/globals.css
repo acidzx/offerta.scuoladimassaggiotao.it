@@ -6,6 +6,10 @@
   z-index: 20 !important;
 }
 
+body {
+  background-color: white;
+}
+
 /* .homebg {
   background-image: url("/assets/images/background.jpg");
   background-size: cover;
