@@ -1,7 +1,7 @@
 ---
 img: "corso-massaggio-ayurveda.jpg"
 slug: "corso-massaggio-ayurveda"
-price: "290,00"
+price: "450,00"
 title: "Massaggio Ayurveda"
 description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
 durata: "3 giorni"
