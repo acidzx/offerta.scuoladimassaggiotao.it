@@ -32,11 +32,12 @@ export default function PostSchedaTecnica(props) {
           Il corso ha una durata di {durata}, con possibilità di ripasso dello
           stesso in modo del tutto gratuito. I corsi vengono svolti durante il
           fine settimana per permettere a chiunque, anche a chi ha già
-          un'occupazione, di poter frequentare. L&apos;orario di svolgimento dei
-          corsi va dalle 9:30 alle 17:30 (con 1 ora circa di pausa pranzo). È
-          possibile, per chi ne fa richiesta, svolgere i corsi in modalità full
-          immersion (modalità consigliata solo a chi ha poco tempo a
-          disposizione ed ha già dimestichezza con le tecniche di massaggio).
+          un&apos;occupazione, di poter frequentare. L&apos;orario di
+          svolgimento dei corsi va dalle 9:30 alle 17:30 (con 1 ora circa di
+          pausa pranzo). È possibile, per chi ne fa richiesta, svolgere i corsi
+          in modalità full immersion (modalità consigliata solo a chi ha poco
+          tempo a disposizione ed ha già dimestichezza con le tecniche di
+          massaggio).
         </div>
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
