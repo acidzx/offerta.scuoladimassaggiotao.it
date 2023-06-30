@@ -3,33 +3,28 @@ img: "corso-massaggio-thai-oil.jpg"
 slug: "corso-massaggio-thai-oil"
 price: "380,00"
 title: "Massaggio Thai Oil"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
+description: "Il Corso di Massaggio Thai Oil ti insegnerà questa tecnica derivata dal concetto della medicina tradizionale cinese ma svolto con olio e praticato sul lettino. Questa tipologia di massaggio è strutturata con una sequenza di manovre atte alla stimolazione delle linee energetiche, liberandole da eventuali blocchi e permettendo all'energia di rivitalizzarsi, riprendendo così il suo fluire libero."
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "Il Massaggio Thailandese con Olio o Thai Oil Massage, è una variante del Massaggio Thailandese Tradizionale, ma, a differenza di quest'ultimo, viene praticato con l' utilizzo di olio.
+Nato dalla millenaria conoscenza Orientale dell’uomo, il Massaggio Thailandese con Olio si sta affermando in tutto l’occidente come una delle più moderne discipline di lavoro su tutte le dimensioni dell’essere.
+Thai Massage o Massaggio Antico, così come viene comunemente definito in Thailandia, per il fatto di non avere nei secoli subito modificazione alcuna di spirito e tecnica, viene in pratica quotidianamente utilizzato per normalizzare ogni alterazione e stato doloroso fisico e psicofisico, ma anche dimensioni più profonde quali quelle emozionali ed energetiche.
+Aiuta a ricostruire quell’armonia nel nostro corpo troppo spesso alterata da stati di tensione e di stress.
+Il Thai Oil Massage trae origine dal più antico gesto dell’uomo, quello di prendersi cura del proprio dolore attraverso il contatto di una mano amica ed esperta.
+È un trattamento caratterizzato da movimenti lenti, dolci e delicati che portano ad un senso completo di relax.
+In questo massaggio vengono presi in considerazione e trattati anche i meridiani energetici, in modo da stimolare il fluire dell'energia vitale nel corpo."
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+"La storia e le origini del Thai Oil Massage;",
+"La teoria medica thailandese;",
+"Le cause delle malattie secondo la medicina thailandese;",
+"I Sen: le linee Energetiche della medicina thailandese;",
+"Descrizione delle manualità e delle posture da far assumere alla persona;",
+"I benefici del Thai Oil Massage;",
+"Controindicazioni e precauzioni;",
+"Le varie tecniche e manovre del Thai Oil Massage;",
+"Sequenza di lavoro in posizione prona, seduta, supina e sul viso;",
+"Ripasso finale pratico del massaggio completo."]
+requisiti: "Il Corso di Massaggio Thai Oil non presenta requisiti ed è un corso aperto a tutti."
+videosrc: "https://www.youtube.com/embed/uU-xyFUDNBs"
 ---

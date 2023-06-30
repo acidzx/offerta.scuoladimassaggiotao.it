@@ -3,33 +3,46 @@ img: "corso-massaggio-hot-stone.jpg"
 slug: "corso-massaggio-hot-stone"
 price: "249,00"
 title: "Massaggio Hot Stone"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
+description: "Il Corso di Massaggio Hot Stone ti insegnerà questa antica tecnica dalla tradizione sciamanica degli indiani dell’Arizona che, avvalendosi del potere terapeutico delle pietre riscaldate, appoggiate sul corpo e utilizzate in tecniche di massaggio, si son dimostrate un prezioso alleato per la cura e il recupero della salute."
 durata: "1 giorno"
-ore: "24 ore"
+ore: "10 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "Il Massaggio Hot Stone deriva dalla tradizione sciamanica degli indiani dell’Arizona che, avvalendosi del potere terapeutico delle pietre riscaldate, appoggiate sul corpo e utilizzate in tecniche di massaggio, si son dimostrate un prezioso alleato per la cura e il recupero della salute.
+Fin dall’antichità, civiltà e culture millenarie si sono affidate alle pietre per scopi terapeutici. Il calore si è da sempre dimostrato un prezioso alleato per la cura e il recupero della salute.
+La combinazione di questi elementi ha dato vita all’Hot Stone Massage, conosciuto già da tempo anche in Italia come massaggio con pietre laviche.
+L’azione benevola si ottiene applicando sul corpo pietre basaltiche di origine vulcanica che rilasciano lentamente il proprio calore. All’azione della pietra viene associato il massaggio adatto, spesso accompagnato dall’utilizzo di oli aromatici.
+Il Massaggio Hot Stone ha uno straordinario potere distensivo per la muscolatura poiché scioglie le rigidità, allevia la tensione della colonna vertebrale, decongestiona i depositi linfatici, migliora la ritenzione dei liquidi, influisce positivamente sulla circolazione arteriosa ed il ritorno venoso, procura una generale sensazione di benessere e relax.
+Questa tecnica può anche essere praticata alternando pietre calde con pietre fredde, l’alternanza provoca vasodilatazione e vasocostrizione che hanno un effetto sedativo sul sistema nervoso. Con questa alternanza si attivano il sistema linfatico e i processi di purificazione del corpo regolati dalla legge idrotermoterapica."
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+"Massaggio Hot Stone: origini e storia della tecnica;",
+"Studio, tipologie e caratterische delle pietre: magmatiche, metamorfiche e sedimentarie;",
+"Caratteristiche delle pietre basaltiche;",
+"Scelta delle pietre di lavoro;",
+"Applicabilità ed utilizzo delle pietre;",
+"Metodi di riscaldamento delle pietre;",
+"Terapia termica di contrasto;",
+"I Chakra;",
+"Oli essenziali da utilizzare;",
+"Protocollo di lavoro;",
+"Parte pratica del massaggio Hot Stone;",
+"Prova pratica finale;",
+"Spazio per approfondimenti finali."]
+benefici: "**Benefici dal punto di vista fisico:**\n\n
+&middot; Aumento della vascolarizzazione;\n\n
+&middot; Migliore circolazione sanguigna arteriosa e venosa;\n\n
+&middot; Miglioramento nella ritenzione dei liquidi;\n\n
+&middot; Attenuazione dei dolori muscolari;\n\n
+&middot; Distensione di tutta la colonna vertebrale;\n\n
+&middot; Drenaggio e tonificazione dei tessuti;\n\n
+&middot; Effetto stimolante e disintossicante;\n\n
+&middot; Riduzione del senso di stanchezza;\n\n
+&middot; Pelle più liscia e levigata.\n\n
+&nbsp;\n\n
+**Benefici dal punto di vista emozionale e spirituale:**\n\n
+&middot; Riduzione di stress e ansia;\n\n
+&middot; Riduzione dell’insonnia;\n\n
+&middot; Riduzione della depressione;\n\n
+&middot; Riequilibrio energetico."    
+requisiti: "Il Corso di Massaggio Hot Stone della Scuola Nazionale di Massaggio Tao® è aperto e rivolto a chiunque e non necessita di un'esperienza di base precedente."
+videosrc: "https://www.youtube-nocookie.com/embed/YwQejIuY0Vg"
 ---

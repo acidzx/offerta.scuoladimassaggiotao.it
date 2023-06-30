@@ -3,33 +3,34 @@ img: "corso-massaggio-thailandese.jpg"
 slug: "corso-massaggio-thailandese"
 price: "450,00"
 title: "Massaggio Thailandese"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
+description: "Il Corso di Massaggio Thailandese Tradizionale della Tao - Scuola Nazionale di Massaggio insegna a lavorare insieme al ricevente, uniti in un doppio esercizio di stretching, mobilizzazioni articolari e linee energetiche. Il trattamento avviene su un futon a terra alternando esercizi sul corpo."
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "Il massaggio thailandese è aperto come insegnamento anche agli occidentali solo da qualche decennio.
+Fortemente influenzato dalla medicina indiana ayurvedica e dalla pratica dello yoga, il massaggio thai tradizionale, favorito dagli intensi scambi commerciali esistenti ai tempi fra i due paesi attraverso la famosa ” via della seta”, comprende anche conoscenze derivate dalla medicina cinese.
+Fra storia e leggenda, il massaggio tradizionale thailandese Nuad Bo Rarn affonda le sue radici in tempi remoti, nel lontano Oriente. La leggenda vuole che l’iniziatore del massaggio thailandese sia il medico amico e compagno di viaggio del Buddha, Jivaka Kumar Bhacca, in Thailandia conosciuto come Shivago Komarpaj. Dal contatto con le differenti tradizioni mediche dei popoli incontrati durante i suoi pellegrinaggi, Bhacca approfondì la conoscenza della medicina ayurvedica, già in uso in India da diversi secoli, e della medicina tradizionale cinese. Con le conoscenze acquisite su erbe, minerali e discipline mediche, elaborò la tecnica terapeutica su cui si basa la medicina tradizionale thailandese e il massaggio.
+Si possono riconoscere, nel massaggio thai, influenze ayurvediche: alcune tecniche fanno assumere al paziente posizioni molto simili a quelle utilizzate nello yoga.
+Ancora oggi, il terapeuta, in pieno silenzio, deve sentire e seguire la danza silenziosa del ritmo interiore e aiutare il paziente a liberare le energie latenti. E chi sceglie il massaggio thailandese non può prescindere, oltre che da un continuo lavoro sul proprio corpo, da un profondo stato di concentrazione e di calma interiore.
+Con il massaggio thai le articolazioni, messe in trazione in modo fluido e naturale, conservano la loro elasticità: le ossa la capacità di assimilare il calcio. I muscoli e i tendini si allungano, aumentano la loro flessibilità e si rinforzano. L’ effetto distensivo procurato da un massaggio thai è molto profondo. L’allentamento delle tensioni e la correzione dei movimenti articolari rallenta la produzione di adrenalina riequilibrando il sistema neurovegetativo. Si elimina così la causa che più frequentemente provoca condizioni di affaticamento fisico e mentale."
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+"Origini storiche del massaggio thailandese: il Dott. Jivaka Kumar Bhacca;",
+"Il massaggio Thai: uno Yoga passivo;",
+"La medicina tradizionale thailandese;",
+"I due stili di massaggio thailandese e differenze: il massaggio thai del Sud (Wat Pho) e quello del Nord (Chiang Mai);",
+"I 10 sen, i meridiani della medicina tradizionale thailandese;",
+"Le cause delle malattie nella medicina tradizionale thailandese;",
+"Massaggio e respirazione;",
+"Come eseguire correttamente lo stretching passivo;",
+"I benefici del massaggio tradizionale thailandese;",
+"Precauzioni e controindicazioni;",
+"Il fouton, e la postura per lavorare correttamente;",
+"Riferimenti legislativi;",
+"Lo spirito della pratica;",
+"Le 9 regole fondamentali di un buon massaggiatore;",
+"Le varie tecniche del Massaggio thailandese: digitopressioni, pressioni palmari, gomito, ginocchio, piede, mobilizzazioni articolari, stretching passivo;",
+"Sequenza di lavoro in posizione supina, fianco, posizione prona e viso;",
+"Ripasso finale pratico del massaggio completo."]
+requisiti: "Il Corso di Massaggio Thailandese non presenta requisiti particolari ed è aperto a tutti."
+videosrc: "https://www.youtube-nocookie.com/embed/1UzFXgb8No0"
 ---

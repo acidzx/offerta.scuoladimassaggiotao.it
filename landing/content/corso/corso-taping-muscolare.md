@@ -1,35 +1,49 @@
 ---
 img: "corso-taping-muscolare.jpg"
 slug: "corso-taping-muscolare"
-price: "290,00"
+price: "249,00"
 title: "Taping Muscolare"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
-durata: "3 giorni"
-ore: "24 ore"
+description: "Il Corso di Taping Muscolare ti insegnerà questa tecnica biomeccanica che utilizza speciali nastri adesivi colorati da applicare sul tessuto cutaneo per creare degli stimoli decompressivi e compressivi, al fine di ottenere effetti benefici a livello muscolo-scheletrico."
+durata: "1 giorno"
+ore: "10 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "Il Taping è un bendaggio adesivo elastico, privo di principi attivi farmaceutici, con effetto biomeccanico, che attiva il sistema circolatorio e linfatico.
+
+Il Taping Muscolare è una tecnica biomeccanica che utilizza speciali nastri adesivi colorati da applicare sul tessuto cutaneo per creare degli stimoli decompressivi e compressivi, al fine di ottenere effetti benefici a livello muscolo-scheletrico.
+
+L’innovativa tecnica di questa metodica, derivata dalla scienza della chinesiologia, si basa sulle naturali capacità di guarigione del corpo, stimolate dall’attivazione del sistema “neuro-muscolare” e “neuro-sensoriale”, secondo i nuovi concetti di neuroscienza.
+
+Il Corso di Taping Muscolare è basilare per tutte le figure che seguono gli atleti, per tutti quelli che gravitano all'interno di squadre sportive, o per chi lavora nel campo delle tecniche manuali ed ha come clienti molti sportivi.
+Il Taping Muscolare al giorno d'oggi è usato moltissimo nello sport e prevede protocolli di applicazioni differenti, a seconda della fase della gara: prima e durante l’attività sportiva per preparare e prevenire, dopo per defaticare, inoltre interviene positivamente sui principali traumi che possono verificarsi nelle diverse discipline, e permette all’atleta di tornare ad allenarsi riducendo i tempi di recupero."
+benefici: "Ridurre i tempi di recupero funzionale;
+Coadiuvare la risposta neuromotoria;
+Sostenere i muscoli durante il movimento;
+Miglioramento della stabilità e della postura;
+Aumentare il range di movimento articolare;
+Facilitare il corretto allineamento articolare;
+Alleviare il dolore;
+Ridurre l'infiammazione;
+Attivare i sistemi antalgici endogeni."
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+"Introduzione al Taping Muscolare;",
+"Funzionamento ed effetti del Taping: miglioramento della funzionalità muscolare, riduzione del dolore, rinforzo della funzionalità articolare;",
+"Palpazione anatomica funzionale: punti di repere ossei ed origine e inserzione muscolare;",
+"Termini anatomici di definizione: flessione, estensione, abduzione, adduzione, rotazione, pronazione, supinazione e circonduzione;",
+"Quando, perché, se e come bendare;",
+"Dal test, alla biomeccanica, al bendaggio;",
+"Traumatologia;",
+"Taping antalgico, contratture e lesioni muscolari;",
+"Tendinopatie;",
+"Concetto di contrazione eccentrica e concentrica;",
+"Principio di base della tecnica compressiva / decompressiva;",
+"Il nastro e le sue caratteristiche;",
+"Le varie tipologie di taglio: a forma di Y, a forma di I, a forma di X, a forma di W;",
+"Applicazione e rimozione del nastro;",
+"Applicazioni muscolari con la tecnica compressiva-decompressiva: preparazione e tensione del nastro;",
+"Applicazioni pratiche sui vari distretti muscolari;",
+"Le controindicazioni;",
+"Prova pratica finale;",
+"Spazio per approfondimenti finali."]
+requisiti: "Il Corso di Taping Muscolare è un Corso Tecnico rivolto a tutti coloro che hanno frequentato il nostro Corso di Anatomia Palpatoria o che sono in possesso di una laurea in Scienze Motorie o Fisioterapia o di un titolo similare. Consigliamo di contattare il nostro Servizio Clienti per valutare le possibilità di accreditamento in base al proprio titolo."
+videosrc: "https://www.youtube-nocookie.com/embed/jb7KWfM-HA"
 ---

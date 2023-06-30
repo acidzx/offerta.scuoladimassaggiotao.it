@@ -1,35 +1,46 @@
 ---
 img: "corso-riflessologia-plantare.jpg"
 slug: "corso-riflessologia-plantare"
-price: "290,00"
+price: "380,00"
 title: "Riflessologia Plantare"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
-durata: "3 giorni"
-ore: "24 ore"
+description: "Al nostro Corso di Riflessologia Plantare, verrai guidato sapientemente in questa richiestissima tecnica di manipolazione del piede con conseguente stimolazione degli organi correlati. Ogni zona del piede è infatti connessa ad uno specifico organo o apparato tramite terminazioni nervose che attraverso la colonna vertebrale raggiungono il bersaglio."
+durata: "2 giorni"
+ore: "16 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "La Tao - Scuola Nazionale di Massaggio vuole accogliere tutti coloro che sono interessati ad un'esperienza di apprendimento e di vita, che potrebbe anche aprire opportunità per un nuovo lavoro, pur non avendo conoscenze in campo massoterapico.
+Da qualunque professione si provenga, gli insegnanti del nostro Corso di Riflessologia Plantare, guideranno sapientemente gli studenti in questa tecnica di manipolazione del piede con conseguente stimolazione dell'organo correlato.
+Ogni zona del piede è infatti connessa ad uno specifico organo o apparato che, tramite terminazioni nervose, attraversano la colonna vertebrale raggiungendo il bersaglio.
+Origini della Riflessologia Plantare:
+Le prime testimonianze della riflessologia plantare risalgono a più di 5000 anni fa;
+Documentazioni sono state rilevate in 4 continenti: Asia, Europa, Africa e Nord America.
+Risale in particolare all'anno 2330 a.C. il geroglifico di una tomba egizia raffigurante un medico impegnato in massaggi rilessogeni ai suoi pazienti.
+Il dialogo fra loro viene così tradotto:
+'Non mi fare male'.
+'Agiro' in modo da meritare la tua lode'.
+Se solo un tocco gentile pieno di amore può farci sentire rilassati, immaginiamoci l'effetto che si otterrà dal massaggio professionale appreso nel nostro Corso di Riflessologia Plantare.
+Verra' trasmesso come, dove e per quanto tempo trattare i punti riflessi, con importanti insegnamenti che è impossibibile ottenere dai libri.
+Ogni studente potrà così aiutare se stesso, con l'auto massaggio, la sua famiglia e i suoi amici in modo completamente naturale, rilassando il sistema nervoso e raggiungendo risultati incisivi con effetti duraturi.
+Con la riflessologia plantare correttamente applicata alla stimolazione dei punti riflessi seguira' una naturale produzione di endorfine con conseguente effetto antidolorifico sull'organo o apparato in deficienza.
+Il principio base del nostro Corso di Riflessologia Plantare e della riflessologia stessa consiste nell'aiutare il corpo a guarire se stesso attraverso un metodo del tutto naturale. Risultati incredibili sono stati raggiunti nel trattamento di cefalee, insonnia, dolori mestruali, mal di schiena, torcicollo e molto altro ancora."
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+"Origini storiche della riflessologia plantare;",
+"Cosa è la riflessologia plantare;",
+"Cosa è un 'riflesso';",
+"La pelle e la riflessologia;",
+"Le mappe zonali;",
+"Relazione tra le mappe zonali e gli organi;",
+"La tecnica del massaggio riflessogeno plantare;",
+"I benefici della riflessologia plantare;",
+"L' interpretazione del dolore;",
+"Aspetti deontologici dell’operatore;",
+"L'ambiente, la posizione del cliente, durata, frequenza del trattamento ed intensità;",
+"Precauzioni e controindicazioni;",
+"Riferimenti legislativi.",
+"Gli accessori utilizzati durante la seduta;",
+"La preparazione nel massaggio al piede;",
+"Le tecniche di base: frizioni, digitopressioni e 'lombricatura';",
+"Esecuzione della sequenza di lavoro completa del massaggio al piede;",
+"Ripasso finale pratico."]
+requisiti: "Il Corso di Riflessologia Plantare non presenta requisiti ed è un corso aperto a tutti. Il programma completo di Riflessologia Plantare si sviluppa in un corso di 1° livello della durata di 2 giornate ed un corso avanzato di 2° livello. Il 2° livello ha come requisito lo svolgimento del 1° livello."
+videosrc: "https://www.youtube-nocookie.com/embed/Id6ygauNRL0"
 ---
