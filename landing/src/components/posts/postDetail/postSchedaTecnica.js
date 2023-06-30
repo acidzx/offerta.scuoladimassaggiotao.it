@@ -32,7 +32,7 @@ export default function PostSchedaTecnica(props) {
           Il corso ha una durata di {durata}, con possibilità di ripasso dello
           stesso in modo del tutto gratuito. I corsi vengono svolti durante il
           fine settimana per permettere a chiunque, anche a chi ha già
-          un'occupazione, di poter frequentare. L'orario di svolgimento dei
+          un'occupazione, di poter frequentare. L&apos;orario di svolgimento dei
           corsi va dalle 9:30 alle 17:30 (con 1 ora circa di pausa pranzo). È
           possibile, per chi ne fa richiesta, svolgere i corsi in modalità full
           immersion (modalità consigliata solo a chi ha poco tempo a
@@ -50,7 +50,7 @@ export default function PostSchedaTecnica(props) {
             territorio nazionale nelle maggiori città italiane.
           </p>
           <p>
-            Per garantire il massimo servizio all’allievo svolgiamo la
+            Per garantire il massimo servizio all&apos;allievo svolgiamo la
             formazione in tutte le migliori sale congressi di prestigiosi Hotel,
             tutte comodamente raggiungibili poiché ubicate nei pressi dei
             principali svincoli autostradali e dotate di tutti i comfort e
@@ -110,10 +110,10 @@ export default function PostSchedaTecnica(props) {
             : parseInt(durata.substring(0, 1), 10) * 2 * 8}{" "}
           ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
           quanto correttamente appreso). Sarà pertanto possibile lavorare
-          legalmente, su tutto il territorio nazionale, purchè l’attività non
-          rientri nell’ambito sanitario o sconfini in quello fisioterapico,
-          estetico o in ambiti stabiliti per legge da altre professioni
-          riconosciute.
+          legalmente, su tutto il territorio nazionale, purchè l&apos;attività
+          non rientri nell&apos;ambito sanitario o sconfini in quello
+          fisioterapico, estetico o in ambiti stabiliti per legge da altre
+          professioni riconosciute.
         </div>
       </div>
     </div>
