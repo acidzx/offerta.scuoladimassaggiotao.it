@@ -1,10 +1,10 @@
 ---
 img: "diploma-massaggiatore-sportivo-avanzato.jpg"
 slug: "diploma-massaggiatore-sportivo-avanzato"
-price: "290,00"
+price: "2270,00"
 title: "Massaggio Sportivo Avanzato"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
-durata: "3 giorni"
+description: "Il Diploma di Operatore in Massaggio Sportivo Avanzato ha le stesse tecniche del Diploma Sportivo Base, con l’aggiunta però di due corsi: le tecniche di stretching passivo ed il corso cervico-lombare. Questi ti permetteranno di acquisire le giuste competenze per completare un percorso formativo di tipo sportivo e non solo."
+durata: "7 w/end"
 ore: "24 ore"
 category: "diploma"
 longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.

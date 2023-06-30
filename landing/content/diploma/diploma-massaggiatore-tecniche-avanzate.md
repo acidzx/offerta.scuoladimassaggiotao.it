@@ -1,10 +1,10 @@
 ---
 img: "diploma-massaggiatore-tecniche-avanzate.jpg"
 slug: "diploma-massaggiatore-tecniche-avanzate"
-price: "290,00"
+price: "1320,00"
 title: "Tecniche Avanzate di Massaggio"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
-durata: "3 giorni"
+description: "Il Master Nazionale di Operatore in Tecniche Avanzate di Massaggio è la soluzione per tutti coloro che desiderano acquisire competenze avanzate come massaggiatori. E’ rivolto a chi è specializzato nei seguenti corsi: corso di Massaggio Base Classico Svedese, corso di Massaggio Decontratturante e corso di Anatomia Palpatoria, frequentati con la Scuola di Massaggio Tao o con altre scuole di formazione.Questo Diploma concorre alla conversione del Diploma di Operatore in Massaggio Sportivo CSEN con il Diploma di Operatore in Massaggio Sportivo."
+durata: "5 w/end"
 ore: "24 ore"
 category: "diploma"
 longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
