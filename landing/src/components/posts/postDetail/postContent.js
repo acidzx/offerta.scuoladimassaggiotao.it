@@ -30,7 +30,7 @@ export default function PostContent(props) {
         title={post.title}
         programma={post.programma}
         requisiti={post.requisiti}
-        orario={post.orario}
+        durata={post.durata}
         attestazione={post.attestazione}
       />
 

@@ -3,39 +3,29 @@ img: "corso-massaggio-anticellulite.jpg"
 slug: "corso-massaggio-anticellulite"
 price: "380,00"
 title: "Massaggio Anticellulite"
-description: "Il Corso di Massaggio Base Classico Svedese ti insegnerà le manovre fondamentali alla base di ogni tecnica e ti permetterà di praticare un massaggio completo, su tutto il corpo, di 1 ora circa, in totale autonomia."
+description: "Il Corso di Massaggio Anticellulite ti insegnerà a facilitare il flusso sanguigno, a produrre calore con sfregamenti e impastamenti necessari a drenare e favorire l’eliminazione delle tossine dai tessuti, tutto nel rispetto della circolazione linfatica."
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-longcontent: "Il **Corso di Massaggio Base Classico Svedese**, è rivolto sia a chi vuole acquisire una conoscenza pratica e teorica nell’arte del massaggio, sia a chi vuole intraprendere una vera e propria professione come massaggiatore.
-Il Corso della Tao - Scuola Nazionale di Massaggio preparerà infatti l’allievo ad apprendere le tecniche fondamentali di questo trattamento. In primo luogo attraverso lo studio dei fondamenti dell’anatomia e fisiologia, utili ad ogni serio professionista, l'acquisizione di nozioni sull’uso di oli e creme, i benefici del Massaggio Base Classico Svedese e le sue controindicazioni. La lezione, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'**apprendimento delle tecniche del massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni** (in tutte le loro varianti), e schema di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il corso, di praticare un massaggio di un’ora in totale autonomia."
-benefici: "Se già il rilassamento della muscolatura consente al nostro organismo di rigenerarsi, il miglioramento della circolazione sanguigna e linfatica, dovute alle manovre compiute durante il massaggio base classico, rappresentano un metodo efficace per ottenere un lungo elenco di benefici. Tra questi benefici, in primis, l’attenuazione di tensioni muscolari, crampi e contratture, il potenziamento del sistema immunitario, l’ossigenazione dei tessuti e quindi un apporto di elementi nutritivi al nostro organismo insieme a quella sensazione di benessere che aiuta il nostro corpo a stare meglio con se stessi e con gli altri."
+longcontent: "Prendersi cura del proprio corpo vuol dire seguire un sacco di regole che però spesso sono ignorate ed oltre alle sfide di tutti i giorni ecco che si presenta lei, la “signora” dell’inestetismo, la “maledizione” della buccia d’arancia… la Cellulite.
+In particolare le donne sono più sottoposte per un fattore ereditario, ma in molti casi è proprio il modo in cui viviamo con stress, alimentazione sbagliata e poco movimento che ci porta a problemi di circolazione e di conseguenza ad una infiammazione dei tessuti circostanti e per finire ci procura quel disagio estetico e psicologico.
+Cominciamo a vedere sul nostro corpo soprattutto all’altezza delle cosce e dei glutei quella pelle a cuscinetti, a buccia d’arancia che ci fa un po’ paura. Dobbiamo porvi rimedio!
+Ed ecco che la Scuola Nazionale di Massaggio Tao® vuole aiutare tutti nel cercare di risolvere questo problema non solo estetico ma diventato anche un problema patologico per molte persone.
+Grazie all’apprendimento delle tecniche del Corso di Massaggio Anticellulite l’allievo riuscirà a facilitare il flusso sanguigno, a produrre calore con sfregamenti e impastamenti necessari a drenare e favorire l’eliminazione delle tossine dai tessuti, tutto nel rispetto della circolazione linfatica.
+L'allievo imparerà ad individuare quali sono le cause delle alterazioni, della degenerazione dei tessuti e a localizzare la cellulite per poter eseguire al meglio il massaggio.
+Verranno insegnate alcune nozioni di base su cos’è la cellulite, sui suoi diversi stadi, su come localizzarla e riconoscerne le differenze, quali sono gli effetti biologici del massaggio anticellulite, quali sono i suoi pro ed i suoi contro, le tecniche per un trattamento efficace e lo schema di lavoro più corretto."
+
 programma: [
-    'Origini e storia del massaggio;',
-    'Anatomia e fisiologia del corpo umano;',
-    'Deontologia professionale;',
-    "L'ambiente di lavoro;",
-    'Attrezzature e strumenti di lavoro;',
-    'Riferimenti legislativi per la professione di massaggiatore;',
-    'Massaggio e psiche;',
-    'Il colloquio da avere con la persona;',
-    'Benefici, controindicazioni e zone interdette al massaggio;',
-    'La preparazione al massaggio;',
-    'La postura del massaggiatore;',
-    'Le posizioni del ricevente e gli eventuali accorgimenti posturali;',
-    'Meccanica delle manovre di massaggio;',
-    'Direzione del massaggio e punti di scarico;',
-    'Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;',
-    'Parte pratica del massaggio base;',
-    'Prova pratica finale con esecuzione del massaggio di circa 60 minuti;',
-    'Ripasso teorico;',
-    'Spazio per approfondimenti finali.']
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-orario: "Il corso ha una durata di 3 giorni, con possibilità di ripasso dello stesso in modo del tutto gratuito.
-I corsi vengono svolti durante il fine settimana per permettere a chiunque, anche a chi ha già un'occupazione, di poter frequentare.
-L'orario di svolgimento dei corsi va dalle 9:30 alle 17:30 (con 1 ora circa di pausa pranzo).
-È possibile, per chi ne fa richiesta, svolgere i corsi in modalità full immersion (modalità consigliata solo a chi ha poco tempo a disposizione ed ha già dimestichezza con le tecniche di massaggio)."
-attestazione: "Al termine del Corso di Massaggio Base Classico Svedese verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia di 24 ore, con possibilità di ripasso gratuito e rilascio attestato di perfezionamento per un totale di 48 ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di quanto correttamente appreso).
-Sarà pertanto possibile lavorare legalmente, su tutto il territorio nazionale, purchè l’attività non rientri nell’ambito sanitario o sconfini in quello fisioterapico, estetico o in ambiti stabiliti per legge da altre professioni riconosciute."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+'Introduzione alla cellulite;',
+'La cellulite in ambito medico ed estetico;',
+"Le parti anatomiche più soggette alla formazione della cellulite;",
+"La P.E.F.S.: Pannicolopatia-Edemato-Fibro-Sclerotica;",
+"Stadi evolutivi della cellulite: edematosa, fibrosa e sclerotica;",
+"Sport indicati e sport controindicati per il problema della cellulite;",
+"Prodotti coadiuvanti da utilizzare durante il Massaggio Anticellulite;",
+"Le posizioni da far assumere alla persona nel Massaggio Anticellulite;",
+"La sequenza di lavoro: Manualità ad azione drenante, lipolitica e tonificante;",
+"Svolgimento della sequenza pratica di lavoro."]
+requisiti: "Il Corso di Massaggio Anticellulite della Scuola Nazionale di Massaggio Tao è aperto a chi ha già un'esperienza di base precedente e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti."
+videosrc: "https://www.youtube-nocookie.com/embed/aZfJ3ZTukt0"
 ---

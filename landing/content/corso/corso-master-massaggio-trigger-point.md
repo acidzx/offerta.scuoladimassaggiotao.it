@@ -31,11 +31,5 @@ programma: [
     'Ripasso teorico;',
     'Spazio per approfondimenti finali.']
 requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
-orario: "Il corso ha una durata di 3 giorni, con possibilità di ripasso dello stesso in modo del tutto gratuito.
-I corsi vengono svolti durante il fine settimana per permettere a chiunque, anche a chi ha già un'occupazione, di poter frequentare.
-L'orario di svolgimento dei corsi va dalle 9:30 alle 17:30 (con 1 ora circa di pausa pranzo).
-È possibile, per chi ne fa richiesta, svolgere i corsi in modalità full immersion (modalità consigliata solo a chi ha poco tempo a disposizione ed ha già dimestichezza con le tecniche di massaggio)."
-attestazione: "Al termine del Corso di Massaggio Base Classico Svedese verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia di 24 ore, con possibilità di ripasso gratuito e rilascio attestato di perfezionamento per un totale di 48 ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di quanto correttamente appreso).
-Sarà pertanto possibile lavorare legalmente, su tutto il territorio nazionale, purchè l’attività non rientri nell’ambito sanitario o sconfini in quello fisioterapico, estetico o in ambiti stabiliti per legge da altre professioni riconosciute."
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
 ---

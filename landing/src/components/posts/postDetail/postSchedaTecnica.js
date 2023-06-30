@@ -1,5 +1,5 @@
 export default function PostSchedaTecnica(props) {
-  const { title, programma, requisiti, orario, attestazione } = props;
+  const { title, programma, requisiti, durata } = props;
 
   return (
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
@@ -28,7 +28,16 @@ export default function PostSchedaTecnica(props) {
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Orario e durata
         </div>
-        <div className="collapse-content">{orario}</div>
+        <div className="collapse-content">
+          Il corso ha una durata di {durata}, con possibilità di ripasso dello
+          stesso in modo del tutto gratuito. I corsi vengono svolti durante il
+          fine settimana per permettere a chiunque, anche a chi ha già
+          un'occupazione, di poter frequentare. L'orario di svolgimento dei
+          corsi va dalle 9:30 alle 17:30 (con 1 ora circa di pausa pranzo). È
+          possibile, per chi ne fa richiesta, svolgere i corsi in modalità full
+          immersion (modalità consigliata solo a chi ha poco tempo a
+          disposizione ed ha già dimestichezza con le tecniche di massaggio).
+        </div>
       </div>
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
@@ -86,7 +95,26 @@ export default function PostSchedaTecnica(props) {
         <div className="collapse-title text-2xl font-extrabold text-gray-700">
           Attestazione rilasciata
         </div>
-        <div className="collapse-content">{attestazione}</div>
+        <div className="collapse-content">
+          Al termine del Corso di {title} verrà rilasciato un attestato di
+          specializzazione nominativo valido in tutta Italia di{" "}
+          {durata.substring(0, 1) == "1"
+            ? "10"
+            : durata.substring(0, 1) == "2"
+            ? "16"
+            : "24"}{" "}
+          ore, con possibilità di ripasso gratuito e rilascio attestato di
+          perfezionamento per un totale di{" "}
+          {durata.substring(0, 1) == "1"
+            ? "20"
+            : parseInt(durata.substring(0, 1), 10) * 2 * 8}{" "}
+          ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
+          quanto correttamente appreso). Sarà pertanto possibile lavorare
+          legalmente, su tutto il territorio nazionale, purchè l’attività non
+          rientri nell’ambito sanitario o sconfini in quello fisioterapico,
+          estetico o in ambiti stabiliti per legge da altre professioni
+          riconosciute.
+        </div>
       </div>
     </div>
   );
