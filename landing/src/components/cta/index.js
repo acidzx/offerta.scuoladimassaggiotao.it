@@ -4,7 +4,7 @@ export default function Cta() {
   return (
     <>
       <hr className="h-px my-5 bg-gray-200 border-0 " />
-      <section className="bg-white ">
+      <div className="bg-white ">
         <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8">
           <h1 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-500 md:text-3xl lg:text-4xl ">
             SCARICA IL TUO COUPON SCONTO
@@ -14,7 +14,7 @@ export default function Cta() {
           </p>
           <CtaActionsButtons />
         </div>
-      </section>
+      </div>
       <hr className="h-px my-5 bg-gray-200 border-0 " />
     </>
   );

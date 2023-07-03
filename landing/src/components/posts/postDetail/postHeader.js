@@ -57,7 +57,7 @@ export default function PostHeader(props) {
 
       {/* Overlapping cards */}
       {
-        <section
+        <div
           className="hidden lg:block relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-24 lg:px-8"
           aria-labelledby="contact-heading"
         >
@@ -87,7 +87,7 @@ export default function PostHeader(props) {
               </div>
             ))}
           </div>
-        </section>
+        </div>
       }
     </div>
   );

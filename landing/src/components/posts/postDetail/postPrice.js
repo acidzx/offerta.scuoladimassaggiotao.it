@@ -1,7 +1,7 @@
 export default function PostPrice(props) {
   const { price } = props;
   return (
-    <section className="bg-white border-t-2">
+    <div className="bg-white border-t-2">
       <div className="pt-16 pb-4 px-4 mx-auto max-w-screen-xl sm:pt-16 sm:pb-4 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center">
           <h2 className="text-4xl  font-extrabold text-gray-600 ">
@@ -12,6 +12,6 @@ export default function PostPrice(props) {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

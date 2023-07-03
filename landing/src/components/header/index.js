@@ -2,7 +2,7 @@ import CtaActionsButtons from "@components/cta/ctaActionsButtons";
 
 export default function Header() {
   return (
-    <section className="bg-white my-8">
+    <div className="bg-white my-8">
       <div className="mx-auto max-w-screen-xl text-center py-6 px-4 md:px-20">
         <label
           htmlFor="modalForm"
@@ -56,6 +56,6 @@ export default function Header() {
         </div>
       </div>
       <CtaActionsButtons />
-    </section>
+    </div>
   );
 }
