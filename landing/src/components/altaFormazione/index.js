@@ -1,10 +1,9 @@
 import Image from "next/image";
 import altaFormazioneImg from "@public/assets/images/diploma-alta-formazione-professionale-massaggiatore.jpg";
-import { Fragment } from "react";
 
 export default function DiplomaAltaFormazione() {
   return (
-    <Fragment>
+    <>
       <div className="container mx-auto p-4">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           DIPLOMA ALTA FORMAZIONE PROFESSIONALE PER MASSAGGIATORI
@@ -129,6 +128,6 @@ export default function DiplomaAltaFormazione() {
           </div>
         </a>
       </div>
-    </Fragment>
+    </>
   );
 }

@@ -53,9 +53,9 @@ export default function Home(props) {
       <Cta />
       <ModalForm />
       <ServiziTao />
-      <hr className="h-px my-5 bg-gray-200 border-0 " />
+      <hr className="divider" />
       <Testimonials />
-      <hr className="h-px my-5 bg-gray-200 border-0 " />
+      <hr className="divider" />
       <ServizioClienti />
     </>
   );

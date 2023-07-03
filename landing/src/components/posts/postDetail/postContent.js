@@ -37,7 +37,7 @@ export default function PostContent(props) {
 
       <PostPrice price={post.price} />
 
-      <PostServiziInclusi />
+      <PostServiziInclusi title={post.title} />
 
       <Cta />
 
