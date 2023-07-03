@@ -32,6 +32,7 @@ export default function PostContent(props) {
         requisiti={post.requisiti}
         durata={post.durata}
         attestazione={post.attestazione}
+        category={post.category}
       />
 
       <PostPrice price={post.price} />

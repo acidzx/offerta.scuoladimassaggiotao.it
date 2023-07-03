@@ -4,8 +4,8 @@ slug: "corso-massaggio-anticellulite"
 price: "380,00"
 title: "Massaggio Anticellulite"
 description: "Il Corso di Massaggio Anticellulite ti insegnerà a facilitare il flusso sanguigno, a produrre calore con sfregamenti e impastamenti necessari a drenare e favorire l’eliminazione delle tossine dai tessuti, tutto nel rispetto della circolazione linfatica."
-durata: "3 giorni"
-ore: "24 ore"
+durata: "2 giorni"
+ore: "16 ore"
 category: "corso"
 longcontent: "Prendersi cura del proprio corpo vuol dire seguire un sacco di regole che però spesso sono ignorate ed oltre alle sfide di tutti i giorni ecco che si presenta lei, la “signora” dell’inestetismo, la “maledizione” della buccia d’arancia… la Cellulite.
 In particolare le donne sono più sottoposte per un fattore ereditario, ma in molti casi è proprio il modo in cui viviamo con stress, alimentazione sbagliata e poco movimento che ci porta a problemi di circolazione e di conseguenza ad una infiammazione dei tessuti circostanti e per finire ci procura quel disagio estetico e psicologico.
