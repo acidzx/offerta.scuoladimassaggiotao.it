@@ -25,6 +25,7 @@ export default function Home(props) {
   return (
     <>
       <Header />
+      <hr className="divider" />
       <AltaFormazione />
       <Cta />
       <div className="container mx-auto p-4 mt-6">
@@ -51,12 +52,12 @@ export default function Home(props) {
       </div>
       <MultiCarousel posts={props.corsi} />
       <Cta />
-      <ModalForm />
       <ServiziTao />
       <hr className="divider" />
       <Testimonials />
       <hr className="divider" />
       <ServizioClienti />
+      <ModalForm />
     </>
   );
 }

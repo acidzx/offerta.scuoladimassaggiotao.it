@@ -26,7 +26,7 @@ export default function MultiCarousel(props) {
   const { posts } = props;
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-8">
       <Carousel
         swipeable={true}
         draggable={true}

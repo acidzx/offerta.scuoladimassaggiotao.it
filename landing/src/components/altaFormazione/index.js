@@ -3,12 +3,12 @@ import altaFormazioneImg from "@public/assets/images/diploma-alta-formazione-pro
 
 export default function DiplomaAltaFormazione() {
   return (
-    <>
+    <section className="my-8">
       <div className="container mx-auto p-4">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           DIPLOMA ALTA FORMAZIONE PROFESSIONALE PER MASSAGGIATORI
         </h2>
-        <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+        <p className="text-center text-lg font-normal pb-6 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           Il Diploma di Alta Formazione Professionale per massaggiatori è il
           percorso formativo più completo che puoi desiderare ed ottenere,
           garantendoti un sicuro inserimento nel mondo del lavoro.
@@ -26,7 +26,6 @@ export default function DiplomaAltaFormazione() {
             alt="Diploma di Alta Formazione Professionale"
             className="lg:shadow-lg 2xl:shadow-none object-cover w-full rounded-t-sm lg:rounded-r-lg 2xl:rounded-none h-108 lg:h-auto lg:w-1/2 border border-gray-200"
           />
-
           <div className="flex flex-col justify-between p-5 lg:p-8 leading-normal lg:w-1/2">
             <div className="flow-root">
               <ul role="list" className="divide-y divide-gray-200 ">
@@ -128,6 +127,6 @@ export default function DiplomaAltaFormazione() {
           </div>
         </a>
       </div>
-    </>
+    </section>
   );
 }
