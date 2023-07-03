@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@analytics/google-tag-manager": "^0.5.5",
     "@heroicons/react": "^2.0.17",
     "@hookform/resolvers": "^3.1.0",
+    "analytics": "^0.8.9",
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.2",
