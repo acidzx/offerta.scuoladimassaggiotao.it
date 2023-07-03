@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import Layout from "@components/layout";
 import { useEffect } from "react";
 import analytics from "@/utility/analytics";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class">
       <Layout>
+        <Head><meta name="viewport" content="width-device-width, initial-scale=1" /></Head>
         <Component {...pageProps} />
       </Layout>
     </ThemeProvider>
