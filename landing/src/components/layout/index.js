@@ -1,11 +1,12 @@
 import NavBar from "./navBar";
 import Footer from "./footer";
+import { Fragment } from "react";
 
 import { PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function Layout({ children }) {
   return (
-    <>
+    <Fragment>
       <div className="w-full bg-gray-400">
         <div className="container mx-auto">
           <div className="flex">
@@ -82,6 +83,6 @@ export default function Layout({ children }) {
       </div>
       <main>{children}</main>
       <Footer />
-    </>
+    </Fragment>
   );
 }

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 export default function Error({ message }) {
-  return <>{message}</>;
+  return <Fragment>{message}</Fragment>;
 }

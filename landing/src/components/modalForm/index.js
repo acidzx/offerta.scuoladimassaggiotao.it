@@ -5,6 +5,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { Fragment } from "react";
 
 const schema = yup.object({
   // email is required with email format
@@ -88,7 +89,7 @@ export default function ModalForm() {
   };
 
   return (
-    <>
+    <Fragment>
       <input type="checkbox" id="modalForm" className="modal-toggle" />
       <label htmlFor="modalForm" className="modal cursor-pointer">
         <label className="modal-box relative bg-white" htmlFor="">
@@ -227,6 +228,6 @@ export default function ModalForm() {
           </form>
         </label>
       </label>
-    </>
+    </Fragment>
   );
 }

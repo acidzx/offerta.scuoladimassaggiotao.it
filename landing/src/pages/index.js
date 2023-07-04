@@ -8,11 +8,11 @@ import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 import Head from "next/head";
+import { Fragment } from "react";
 
 export async function getStaticProps() {
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");
-  
 
   return {
     props: {
@@ -25,8 +25,10 @@ export async function getStaticProps() {
 
 export default function Home(props) {
   return (
-    <>
-    <Head><title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title></Head>
+    <Fragment>
+      <Head>
+        <title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title>
+      </Head>
       <Header />
       <hr className="divider" />
       <AltaFormazione />
@@ -61,6 +63,6 @@ export default function Home(props) {
       <hr className="divider" />
       <ServizioClienti />
       <ModalForm />
-    </>
+    </Fragment>
   );
 }

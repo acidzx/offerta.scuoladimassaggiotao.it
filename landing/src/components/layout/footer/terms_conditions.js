@@ -1,6 +1,8 @@
+import { Fragment } from "react";
+
 export default function TermsConditions() {
   return (
-    <>
+    <Fragment>
       <input type="checkbox" id="modalTerms" className="modal-toggle" />
       <label htmlFor="modalTerms" className="modal cursor-pointer">
         <label className="modal-box max-w-4xl relative bg-white" htmlFor="">
@@ -16,6 +18,6 @@ export default function TermsConditions() {
           ></iframe>
         </label>
       </label>
-    </>
+    </Fragment>
   );
 }

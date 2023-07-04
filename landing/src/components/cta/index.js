@@ -1,8 +1,9 @@
 import CtaActionsButtons from "./ctaActionsButtons";
+import { Fragment } from "react";
 
 export default function Cta() {
   return (
-    <>
+    <Fragment>
       <hr className="h-px my-5 bg-gray-200 border-0 " />
       <div className="bg-white ">
         <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8">
@@ -16,6 +17,6 @@ export default function Cta() {
         </div>
       </div>
       <hr className="h-px my-5 bg-gray-200 border-0 " />
-    </>
+    </Fragment>
   );
 }

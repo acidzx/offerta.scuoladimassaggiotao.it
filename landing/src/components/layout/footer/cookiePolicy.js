@@ -1,6 +1,8 @@
+import { Fragment } from "react";
+
 export default function CookiePolicy() {
   return (
-    <>
+    <Fragment>
       <input type="checkbox" id="modalCookie" className="modal-toggle" />
       <label htmlFor="modalCookie" className="modal cursor-pointer">
         <label className="modal-box max-w-4xl relative bg-white" htmlFor="">
@@ -16,6 +18,6 @@ export default function CookiePolicy() {
           ></iframe>
         </label>
       </label>
-    </>
+    </Fragment>
   );
 }

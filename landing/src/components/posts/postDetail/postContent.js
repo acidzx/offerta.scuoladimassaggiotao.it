@@ -6,13 +6,14 @@ import PostVideoPresentation from "./postVideoPresentation";
 import PostSchedaTecnica from "./postSchedaTecnica";
 import PostPrice from "./postPrice";
 import PostServiziInclusi from "./postServiziInclusi";
+import { Fragment } from "react";
 
 export default function PostContent(props) {
   const { post } = props;
   const imgPath = `/assets/images/${post.category}/${post.slug}`;
 
   return (
-    <>
+    <Fragment>
       <PostHeader
         img={`${imgPath}/${post.img}`}
         title={post.title}
@@ -42,6 +43,6 @@ export default function PostContent(props) {
       <Cta />
 
       <ModalForm />
-    </>
+    </Fragment>
   );
 }
