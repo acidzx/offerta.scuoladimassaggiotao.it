@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.react-multiple-carousel__arrow {
+/* .react-multiple-carousel__arrow {
   z-index: 20 !important;
-}
+} */
 
 body {
   background-color: white;
