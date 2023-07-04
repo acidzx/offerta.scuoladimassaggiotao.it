@@ -43,7 +43,7 @@ export default function Home(props) {
           garantendoti un sicuro inserimento nel mondo del lavoro.
         </p>
       </div>
-      <MultiCarousel posts={props.diplomi} />
+      {/* <MultiCarousel posts={props.diplomi} /> */}
       <Cta />
       <div className="container mx-auto p-4 mt-6">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
@@ -55,7 +55,7 @@ export default function Home(props) {
           garantendoti un sicuro inserimento nel mondo del lavoro.
         </p>
       </div>
-      <MultiCarousel posts={props.corsi} />
+      {/* <MultiCarousel posts={props.corsi} /> */}
       <Cta />
       <ServiziTao />
       <hr className="divider" />
