@@ -28,7 +28,7 @@ export default function PostContent(props) {
         slug={post.slug}
       />
       {post.category === "diploma" ? (
-        <CardCorsiDiploma programma={post.programma} />
+        <CardCorsiDiploma title={post.title} programma={post.programma} />
       ) : (
         ""
       )}
