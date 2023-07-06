@@ -11,11 +11,11 @@ longcontent: "Il Diploma di Operatore in Massaggio Olistico è il percorso di st
 Grazie a questa specializzazione, si potrà trovare impiego in Spa, Centri Massaggio, Centri Benessere, Centri Estetici..., dove le discipline trattate in questo diploma sono molto richieste oppure, lavorare come libero professionista.
 Ogni corso che compone il diploma olistico, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'apprendimento delle tecniche del massaggio e degli schemi di lavoro in modo tale da mettere l'allievo in condizione, una volta terminato il percorso, di praticare in totale autonomia."
 programma: [
-"Corso di Riflessologia Plantare 1° livello - 2 giornate;",
-"Corso di Massaggio Californiano - 2 giornate;",
-"Corso di Massaggio Ayurvedico - 3 giornate;",
-"Corso di Massaggio Hawaiano Lomi Lomi Nui - 2 giornate;",
-"Corso di Massaggio Thai Oil - 2 giornate;"]
+"Corso Riflessologia Plantare;",
+"Corso Massaggio Californiano;",
+"Corso Massaggio Ayurveda;",
+"Corso Massaggio Hawaiano;",
+"Corso Massaggio Thai Oil."]
 requisiti: "Il Diploma di Massaggiatore Olistico è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
 videosrc: "https://www.youtube-nocookie.com/embed/EpEenoObzsQ"
 ---

@@ -6,6 +6,7 @@ import PostVideoPresentation from "./postVideoPresentation";
 import PostSchedaTecnica from "./postSchedaTecnica";
 import PostPrice from "./postPrice";
 import PostServiziInclusi from "./postServiziInclusi";
+import CardCorsiDiploma from "./cardCorsiDiploma";
 import { Fragment } from "react";
 
 export default function PostContent(props) {
@@ -26,6 +27,12 @@ export default function PostContent(props) {
         benefici={post.benefici}
         slug={post.slug}
       />
+      {post.category === "diploma" ? (
+        <CardCorsiDiploma programma={post.programma} />
+      ) : (
+        ""
+      )}
+
       <PostVideoPresentation videosrc={post.videosrc} />
       <PostSchedaTecnica
         title={post.title}
@@ -37,11 +44,8 @@ export default function PostContent(props) {
       />
 
       <PostPrice price={post.price} />
-
       <PostServiziInclusi title={post.title} />
-
       <Cta />
-
       <ModalForm />
     </Fragment>
   );

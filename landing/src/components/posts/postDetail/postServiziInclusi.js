@@ -2,11 +2,10 @@ export default function PostServiziInclusi(props) {
   const { title } = props;
 
   return (
-    /*         versione Desktop */
-    <div className="bg-white ">
+    <div className="bg-white flex flex-row flex-wrap">
       <div className="pt-8 pb-4 px-4 mx-auto max-w-screen-xl sm:pt-8 sm:pb-16 lg:px-6">
-        <div className="hidden xl:block">
-          <div className="stats shadow mx-auto mt-8">
+        <div className="hidden xl:block justify-center mx-auto">
+          <div className="stats shadow mx-auto mt-8 flex-wrap justify-center">
             <div className="stat">
               <div className="stat-figure text-gray-600">
                 <svg
@@ -113,10 +112,9 @@ export default function PostServiziInclusi(props) {
           </div>
         </div>
 
-        {/* versione mobile */}
         <div className="block xl:hidden">
           <div className="container mx-auto max-w-xl text-start">
-            <div className="stats shadow mx-auto mt-8">
+            <div className="stats shadow mx-auto">
               {title === "Massaggio Base Svedese" ? (
                 <div className="stat py-1">
                   <div className="stat-figure text-gray-600">
@@ -143,7 +141,7 @@ export default function PostServiziInclusi(props) {
             </div>
           </div>
           <div className="container mx-auto max-w-xl text-end">
-            <div className="stats shadow mx-auto mt-2">
+            <div className="stats shadow mx-auto mt-5">
               <div className="stat py-1">
                 <div className="stat-figure text-gray-600">
                   <svg
@@ -166,7 +164,7 @@ export default function PostServiziInclusi(props) {
             </div>
           </div>
           <div className="container mx-auto max-w-xl text-start">
-            <div className="stats shadow mx-auto mt-2">
+            <div className="stats shadow mx-auto mt-5">
               <div className="stat py-1">
                 <div className="stat-figure text-gray-600">
                   <svg
@@ -189,7 +187,7 @@ export default function PostServiziInclusi(props) {
             </div>
           </div>
           <div className="container mx-auto max-w-xl text-end">
-            <div className="stats shadow mx-auto mt-2">
+            <div className="stats shadow mx-auto mt-5">
               <div className="stat py-1">
                 <div className="stat-figure text-gray-600">
                   <svg

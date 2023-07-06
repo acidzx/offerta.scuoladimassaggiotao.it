@@ -13,11 +13,11 @@ Infatti, ogni attività di sport comporta un intensa attività muscolare che ric
 Inoltre in questo percorso si impareranno tecniche di massaggio studiate apposta per massimizzare la prestazione sportiva pre, infra e post gara.
 Ogni corso che compone il diploma sportivo, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all&apos;apprendimento delle tecniche del massaggio e degli schemi di lavoro in modo tale da mettere l&apos;allievo in condizione, una volta terminato il percorso, di praticare in totale autonomia."
 programma: [
-"Corso di Massaggio Base Classico Svedese - 3 giornate;",
-"Corso di Massaggio Decontratturante - 2 giornate;",
-"Corso di Massaggio Sportivo - 2 giornate;",
-"Corso di Linfodrenaggio metodo Vodder - 3 giornate;",
-"Corso di Anatomia Palpatoria - 2 giornate;"]
+"Corso Massaggio Base Svedese;",
+"Corso Massaggio Decontratturante;",
+"Corso Massaggio Sportivo;",
+"Corso Massaggio Linfodrenante Vodder;",
+"Corso Anatomia Palpatoria."]
 requisiti: "Il Diploma di Massaggiatore Sportivo è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
 videosrc: "https://www.youtube-nocookie.com/embed/fuBT8OFO3SI"
 ---
