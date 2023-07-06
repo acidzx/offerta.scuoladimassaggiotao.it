@@ -46,12 +46,12 @@ export default function PostHeader(props) {
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
           <p className="text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">
-            {category}
+            {category[0].toUpperCase() + category.slice(1)}
           </p>
           <h1 className="pb-4 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl border-white border-b-2">
             {title}
           </h1>
-          <p className="mt-6 max-w-3xl text-xl text-white">{description}</p>
+          {/* <p className="mt-6 max-w-3xl text-xl text-white">{description}</p> */}
         </div>
       </div>
 
