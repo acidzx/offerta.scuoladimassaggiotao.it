@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />"
+        <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
       </Head>
       <Component {...pageProps} />
     </>
