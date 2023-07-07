@@ -14,15 +14,13 @@ export default function App({ Component, pageProps }) {
 
   return (
     // <ThemeProvider attribute="class">
-    // <Layout>
-    <>
+    <Layout>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
       </Head>
       <Component {...pageProps} />
-    </>
-    // </Layout>
+    </Layout>
     // </ThemeProvider>
   );
 }
