@@ -85,7 +85,7 @@ export default function Servizi() {
                 />
                 {feature.name}
               </dt>
-              <dd className="inline">{feature.description}</dd>
+              <dd className="inline"> {feature.description}</dd>
             </div>
           ))}
         </dl>
