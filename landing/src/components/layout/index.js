@@ -81,7 +81,7 @@ export default function Layout({ children }) {
           <NavBar />
         </div>
       </div>
-      <main className="overflow-visible">{children}</main>
+      <main>{children}</main>
       <Footer />
     </Fragment>
   );
