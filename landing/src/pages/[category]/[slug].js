@@ -3,8 +3,18 @@ import { getPostData, getPostsFiles } from "../../../lib/posts-util";
 import Head from "next/head";
 
 export default function SlugDetailPage(props) {
-  return <><Head><title>{props.post.category} {props.post.title} | Tao - Scuola Nazionale di Massaggio</title>
-  <meta name="description" content={props.post.description}/></Head><PostContent post={props.post} /></>
+  return (
+    <>
+      <Head>
+        <title>
+          {`${props.post.category}  ${props.post.title} | Tao - Scuola
+          Nazionale di Massaggio`}
+        </title>
+        <meta name="description" content={props.post.description} />
+      </Head>
+      <PostContent post={props.post} />
+    </>
+  );
 }
 
 export function getStaticProps(context) {
