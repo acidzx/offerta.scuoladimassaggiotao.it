@@ -7,7 +7,7 @@ import { PhoneIcon } from "@heroicons/react/24/outline";
 export default function Layout({ children }) {
   return (
     <Fragment>
-      <div className="w-full bg-gray-400 overflow-visible">
+      <div className="w-full bg-gray-400">
         <div className="container mx-auto">
           <div className="flex">
             <div className="flex-1">
@@ -81,7 +81,7 @@ export default function Layout({ children }) {
           <NavBar />
         </div>
       </div>
-      <main>{children}</main>
+      <main className="overflow-visible">{children}</main>
       <Footer />
     </Fragment>
   );
