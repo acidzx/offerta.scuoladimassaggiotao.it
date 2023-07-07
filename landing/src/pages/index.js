@@ -30,7 +30,7 @@ export default function Home(props) {
         <title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title>
         <meta
           name="description"
-          content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola nazionale di Massaggio"
+          content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola Nazionale di Massaggio. Attestazioni riconosciute per lavorare liberamente in tutta Italia."
         />
       </Head>
       <Header />
