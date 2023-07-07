@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CardCorsiDiploma(props) {
   const { programma, title } = props;
 
@@ -10,12 +12,14 @@ export default function CardCorsiDiploma(props) {
         {programma.map((progList, i) => (
           <div className="card w-96 bg-base-100 shadow-xl" key={i}>
             <figure>
-              <img
+              <Image
+                width={384}
+                height={255}
                 src={`/assets/images/carousel/corso/${progList
                   .toLowerCase()
                   .replace(";", ".")
                   .replace(/ /g, "-")}jpg`}
-                alt="Shoes"
+                alt={progList.toLowerCase().replace(";", "")}
               />
             </figure>
             <div className="card-body">
