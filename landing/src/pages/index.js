@@ -28,6 +28,10 @@ export default function Home(props) {
     <Fragment>
       <Head>
         <title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title>
+        <meta
+          name="description"
+          content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola nazionale di Massaggio"
+        />
       </Head>
       <Header />
       <hr className="divider" />
