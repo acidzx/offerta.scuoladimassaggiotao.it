@@ -25,5 +25,5 @@ programma: [
 "Corso Massaggio Kobido;",
 "Corso Marketing e Comunicazione."]
 requisiti: "Il Diploma di Massaggiatore Olistico è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
-videosrc: "https://www.youtube-nocookie.com/embed/EpEenoObzsQ"
+videosrc: "https://www.youtube-nocookie.com/embed/T52DJnWyeT0"
 ---
