@@ -116,7 +116,7 @@ export default function ServizioClienti() {
                   info@taogroup.it
                 </a>
               </p>
-              <p className="text-base font-semibold leading-7">
+              {/*  <p className="text-base font-semibold leading-7">
                 <a href="https://wa.me/393917405112">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ export default function ServizioClienti() {
                   </svg>
                   391.7405112
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
