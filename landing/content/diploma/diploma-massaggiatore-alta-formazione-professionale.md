@@ -1,5 +1,5 @@
 ---
-img: "diploma-massaggiatore-olistico.jpg"
+img: "diploma-massaggiatore-alta-formazione-professionale.jpg"
 slug: "diploma-massaggiatore-alta-formazione-professionale"
 price: "5120,00"
 title: "Alta Formazione Professionale"

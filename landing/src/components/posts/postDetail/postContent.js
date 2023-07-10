@@ -26,6 +26,7 @@ export default function PostContent(props) {
         longcontent={post.longcontent}
         benefici={post.benefici}
         slug={post.slug}
+        category={post.category}
       />
       {post.category === "diploma" ? (
         <CardCorsiDiploma title={post.title} programma={post.programma} />

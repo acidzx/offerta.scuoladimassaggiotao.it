@@ -37,7 +37,7 @@ export default function PostHeader(props) {
             alt={title}
             src={img}
             width={1750}
-            height={500}
+            height={600}
           />
           <div
             className="absolute inset-0 bg-gray-800/0 mix-blend-multiply"
