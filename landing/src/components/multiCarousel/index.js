@@ -46,9 +46,14 @@ export default function MultiCarousel(props) {
         // customLeftArrow={<CustomLeftArrow />}
         // customRightArrow={<CustomRightArrow />}
       >
-        {posts.map((post) => (
-          <CardCarousel key={post.slug} post={post} />
-        ))}
+        {posts.map((post) =>
+          post.slug !==
+          "diploma-massaggiatore-alta-formazione-professionale" ? (
+            <CardCarousel key={post.slug} post={post} />
+          ) : (
+            []
+          )
+        )}
       </Carousel>
     </div>
   );
