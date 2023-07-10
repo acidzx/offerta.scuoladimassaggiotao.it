@@ -8,7 +8,6 @@ import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 import Head from "next/head";
-import { Fragment } from "react";
 
 export async function getStaticProps() {
   const allCorsi = getAllPosts("corso");
@@ -25,7 +24,7 @@ export async function getStaticProps() {
 
 export default function Home(props) {
   return (
-    <Fragment>
+    <>
       <Head>
         <title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title>
         <meta
@@ -67,6 +66,6 @@ export default function Home(props) {
       <hr className="divider" />
       <ServizioClienti />
       <ModalForm />
-    </Fragment>
+    </>
   );
 }
