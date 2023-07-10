@@ -20,7 +20,9 @@ export default function App({ Component, pageProps }) {
         <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
       </Head>
       <Layout>
+        <div>
       <Component {...pageProps} />
+      </div>
       </Layout>
       {/*   </ThemeProvider> */}
     </>
