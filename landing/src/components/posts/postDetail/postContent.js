@@ -8,6 +8,9 @@ import PostPrice from "./postPrice";
 import PostServiziInclusi from "./postServiziInclusi";
 import CardCorsiDiploma from "./cardCorsiDiploma";
 import { Fragment } from "react";
+import ServiziTao from "@components/serviziTao";
+import Testimonials from "@/components/testimonials";
+import ServizioClienti from "@components/servizioClienti";
 
 export default function PostContent(props) {
   const { post } = props;
@@ -33,8 +36,9 @@ export default function PostContent(props) {
       ) : (
         ""
       )}
-
+      <Cta />
       <PostVideoPresentation videosrc={post.videosrc} />
+      <Cta />
       <PostSchedaTecnica
         title={post.title}
         programma={post.programma}
@@ -47,6 +51,13 @@ export default function PostContent(props) {
       <PostPrice price={post.price} />
       <PostServiziInclusi title={post.title} />
       <Cta />
+      <ServiziTao />
+      <Cta />
+      {/* <hr className="divider" /> */}
+      <Testimonials />
+      {/* <hr className="divider" /> */}
+      <Cta />
+      <ServizioClienti />
       <ModalForm />
     </Fragment>
   );
