@@ -12,10 +12,10 @@ export default function CookiePolicy() {
           >
             ✕
           </label>
-          <iframe
+          <embed
             className="w-full h-96"
             src="https://www.iubenda.com/privacy-policy/98820787/cookie-policy"
-          ></iframe>
+          />
         </label>
       </label>
     </Fragment>
