@@ -11,9 +11,7 @@ export default function NavBar() {
         <div className="flex">
           <Logo />
         </div>
-        <div className="flex-none flex">
-          <Logo />
-        </div>
+        <div className="flex-none flex"></div>
       </nav>
     </header>
   );
