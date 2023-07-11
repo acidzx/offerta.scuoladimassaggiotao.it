@@ -1,7 +1,8 @@
 import "@/styles/globals.css";
 
 // import { ThemeProvider } from "next-themes";
-import Layout from "@components/layout";
+import NavBar from "@components/layout/navBar";
+import Footer from "@components/layout/footer";
 import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
@@ -18,9 +19,9 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
       </Head>
-      <Layout>
+      <NavBar />
       <Component {...pageProps} />
-    </Layout>
+      <Footer />
     </>
   );
 }
