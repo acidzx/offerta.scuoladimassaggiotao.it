@@ -47,9 +47,9 @@ export default function Footer() {
           </label>
         </div>
       </div>
-      <CookiePolicy />
+      {/*  <CookiePolicy />
       <PrivacyPolicy />
-      <TermsConditions />
+      <TermsConditions /> */}
     </footer>
   );
 }

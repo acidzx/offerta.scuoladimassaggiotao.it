@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
+import Layout from "@components/layout";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -18,8 +19,9 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
       </Head>
-
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

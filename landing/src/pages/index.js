@@ -8,8 +8,6 @@ import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 import Head from "next/head";
-import NavBar from "@components/layout/navBar";
-import Footer from "@components/layout/footer";
 
 export async function getStaticProps() {
   const allCorsi = getAllPosts("corso");
@@ -34,7 +32,6 @@ export default function Home(props) {
           content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola Nazionale di Massaggio. Attestazioni riconosciute per lavorare liberamente in tutta Italia."
         />
       </Head>
-      <NavBar />
       <Header />
       <hr className="divider" />
       <AltaFormazione />
