@@ -34,7 +34,7 @@ export default function Home(props) {
           content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola Nazionale di Massaggio. Attestazioni riconosciute per lavorare liberamente in tutta Italia."
         />
       </Head>
-      <NavBar />
+
       <Header />
       <hr className="divider" />
       <AltaFormazione />
