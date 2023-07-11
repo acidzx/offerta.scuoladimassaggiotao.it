@@ -98,7 +98,7 @@ export default function ServizioClienti() {
                 </a>
               </p>
               <p className="text-base font-semibold leading-7">
-                <a href="mailto:info@taogroup.it">
+                <label htmlFor="modalForm" className="cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -114,7 +114,7 @@ export default function ServizioClienti() {
                     />
                   </svg>
                   info@taogroup.it
-                </a>
+                </label>
               </p>
               {/*  <p className="text-base font-semibold leading-7">
                 <a href="https://wa.me/393917405112">

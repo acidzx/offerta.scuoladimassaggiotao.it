@@ -61,9 +61,9 @@ export default function Home(props) {
       <MultiCarousel posts={props.corsi} />
       <Cta />
       <ServiziTao />
-      <hr className="divider" />
+      <Cta />
       <Testimonials />
-      <hr className="divider" />
+      <Cta />
       <ServizioClienti />
       <ModalForm />
     </>
