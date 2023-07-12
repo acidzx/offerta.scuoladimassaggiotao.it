@@ -2,111 +2,8 @@ import Image from "next/image";
 import YoutubeTestimonial from "./youtubeTestimonial";
 import { scrollIntoTheView } from "@/pages/_app";
 
-const reviews = [
-  {
-    body:
-      "I downloaded Pocket today and turned $5000 into $25,000 in half an hour.",
-    author: "CrazyInvestor",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I didn’t understand the stock market at all before Pocket. I still don’t, but at least I’m rich now.",
-    author: "CluelessButRich",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "Pocket makes it so easy to win big in the stock market that I can’t believe it’s actually legal.",
-    author: "LivingDaDream",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I barely made any money investing in mutual funds. With Pocket, I’m doubling my net-worth every single month.",
-    author: "JordanBelfort1962",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I started providing insider information myself and now I get new insider tips every 5 minutes. I don’t even have time to act on all of them. New Lamborghini is being delivered next week!",
-    author: "MrBurns",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I was making money so fast with Pocket that it felt like a scam. But I sold my shares and withdrew the money and it’s really there, right in my bank account. This app is crazy!",
-    author: "LazyRich99",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "This is literally the most important app you will ever download in your life. Get on this before it’s so popular that everyone else is getting these tips too.",
-    author: "SarahLuvzCash",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body: "Yeah, you read that right. Want your own island too? Get Pocket.",
-    author: "ScroogeMcduck",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "After 2 weeks of trading on Pocket I was debt-free. Why did I even go to school at all when Pocket exists?",
-    author: "BruceWayne",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I love that with Pocket’s transaction anonymization I could sign up and start trading when I was 12 years old. I had a million dollars before I had armpit hair!",
-    author: "RichieRich",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I charge clients a 3% management fee and just throw all their investments into Pocket. Easy money!",
-    author: "TheCountOfMonteChristo",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "Every tip Pocket has sent me has paid off. It’s like playing Blackjack but knowing exactly what card is coming next!",
-    author: "ClarkKent",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "I downloaded Pocket three days ago and quit my job today. I can’t believe no one else thought to build a stock trading app that works this way!",
-    author: "GeorgeCostanza",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-  {
-    body:
-      "Unless you want to have the best life ever! I am literally writing this from a yacht.",
-    author: "JeffBezos",
-    rating: 5,
-    imgSrc: "/assets/images/testimonials/photo-testimonial.webp",
-  },
-];
-
 export default function Testimonials(props) {
   const FBreviews = props.reviews.data;
-  {
-    console.log(props.reviews);
-  }
 
   return (
     <>
@@ -118,8 +15,8 @@ export default function Testimonials(props) {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="carousel w-full items-center">
-              {FBreviews.filter((textLenght) => {
-                return textLenght.review_text.length > 30;
+              {FBreviews.filter((textLength) => {
+                return textLength.review_text.length > 30;
               }).map((review, index) => (
                 <div
                   id={`slide${index + 1}`}
@@ -160,7 +57,10 @@ export default function Testimonials(props) {
                             <figcaption className="mt-10">
                               <Image
                                 className="mx-auto h-10 w-10 rounded-full"
-                                src={review.imgSrc}
+                                src={
+                                  review.imgSrc ||
+                                  "/assets/images/testimonials/photo-testimonial.webp"
+                                }
                                 width={40}
                                 height={40}
                                 alt=""
