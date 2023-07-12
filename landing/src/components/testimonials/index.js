@@ -103,9 +103,11 @@ const reviews = [
 ];
 
 export default function Testimonials(props) {
+  const FBreviews = props.reviews.data;
   {
     console.log(props.reviews);
   }
+
   return (
     <>
       <h2 className="text-center pt-16 pb-8 text-3xl font-bold text-gray-500 sm:text-4xl">
@@ -115,8 +117,10 @@ export default function Testimonials(props) {
       <div className="overflow-hidden bg-white py-6 sm:py-6">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="carousel w-full">
-              {reviews.map((review, index) => (
+            <div className="carousel w-full items-center">
+              {FBreviews.filter((textLenght) => {
+                return textLenght.review_text.length > 30;
+              }).map((review, index) => (
                 <div
                   id={`slide${index + 1}`}
                   key={index}
@@ -150,8 +154,8 @@ export default function Testimonials(props) {
                             </li>
                           </ul>
                           <figure className="mt-10">
-                            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                              <p>“{review.body}”</p>
+                            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900  sm:leading-9">
+                              <p>“{review.review_text}”</p>
                             </blockquote>
                             <figcaption className="mt-10">
                               <Image
@@ -172,7 +176,7 @@ export default function Testimonials(props) {
                                   <circle cx={1} cy={1} r={1} />
                                 </svg>
                                 <div className="font-semibold text-gray-900">
-                                  {review.author}
+                                  {review.reviewer}
                                 </div>
                                 <svg
                                   viewBox="0 0 2 2"
