@@ -55,7 +55,7 @@ export default function PostContent(props) {
       <ServiziTao />
       <Cta />
       {/* <hr className="divider" /> */}
-      <Testimonials />
+      <Testimonials FBreviews={props.reviews} />
       {/* <hr className="divider" /> */}
       <Cta />
       <div className="container mx-auto p-4 mt-6">
