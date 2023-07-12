@@ -79,7 +79,7 @@ export default function Testimonials(props) {
                                       <circle cx={1} cy={1} r={1} />
                                     </svg>
                                     <div className="font-semibold text-gray-900">
-                                      {review.reviewer}
+                                      {review.reviewer || "nome del recensore"}
                                     </div>
                                     <svg
                                       viewBox="0 0 2 2"
