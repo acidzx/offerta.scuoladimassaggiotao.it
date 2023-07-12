@@ -73,7 +73,7 @@ export default function Home(props) {
       <Cta />
       <ServiziTao />
       <Cta />
-      <Testimonials {...props} />
+      <Testimonials FBreviews={props.reviews} />
       <Cta />
       <ServizioClienti />
       <ModalForm />
