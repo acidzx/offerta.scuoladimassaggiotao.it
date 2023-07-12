@@ -103,10 +103,7 @@ export default function Testimonials(props) {
                           onClick={() =>
                             scrollIntoTheView(
                               `slide${
-                                index == 0
-                                  ? FBreviews.data.length
-                                  : FBreviews.data.length -
-                                    (FBreviews.data.length - index)
+                                index == 0 ? FBreviews.data.length : index
                               }`
                             )
                           }
@@ -119,9 +116,9 @@ export default function Testimonials(props) {
                           onClick={() =>
                             scrollIntoTheView(
                               `slide${
-                                index + 1 == FBreviews.data.length
-                                  ? 1
-                                  : index + 2
+                                index == FBreviews.data.length - 1
+                                  ? "1"
+                                  : index + 3
                               }`
                             )
                           }
