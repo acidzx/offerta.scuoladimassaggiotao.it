@@ -36,7 +36,6 @@ export async function getStaticProps() {
 export default function Home(props) {
   return (
     <>
-      {console.log(props.reviews)}
       <Head>
         <title>Offerta Corsi Tao - Scuola Nazionale di Massaggio</title>
         <meta
@@ -74,7 +73,7 @@ export default function Home(props) {
       <Cta />
       <ServiziTao />
       <Cta />
-      <Testimonials />
+      <Testimonials {...props} />
       <Cta />
       <ServizioClienti />
       <ModalForm />

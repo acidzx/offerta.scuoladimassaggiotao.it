@@ -102,7 +102,10 @@ const reviews = [
   },
 ];
 
-export default function Testimonials() {
+export default function Testimonials(props) {
+  {
+    console.log(props.reviews);
+  }
   return (
     <>
       <h2 className="text-center pt-16 pb-8 text-3xl font-bold text-gray-500 sm:text-4xl">
