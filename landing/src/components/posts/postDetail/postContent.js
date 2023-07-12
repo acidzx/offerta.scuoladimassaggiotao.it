@@ -11,6 +11,7 @@ import { Fragment } from "react";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
+import MultiCarousel from "@components/multiCarousel";
 
 export default function PostContent(props) {
   const { post } = props;
@@ -57,6 +58,29 @@ export default function PostContent(props) {
       <Testimonials />
       {/* <hr className="divider" /> */}
       <Cta />
+      <div className="container mx-auto p-4 mt-6">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl">
+          DIPLOMI DI SPECIALIZZAZIONE
+        </h2>
+        <p className="text-center mb-6 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl  xl:px-48 ">
+          Il Diploma di Alta Formazione Professionale per massaggiatori è il
+          percorso formativo più completo che puoi desiderare ed ottenere,
+          garantendoti un sicuro inserimento nel mondo del lavoro.
+        </p>
+      </div>
+      <MultiCarousel posts={props.diplomi} />
+      <Cta />
+      <div className="container mx-auto p-4 mt-6">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
+          CORSI INDIVIDUALI
+        </h2>
+        <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+          Il Diploma di Alta Formazione Professionale per massaggiatori è il
+          percorso formativo più completo che puoi desiderare ed ottenere,
+          garantendoti un sicuro inserimento nel mondo del lavoro.
+        </p>
+      </div>
+      <MultiCarousel posts={props.corsi} />
       <ServizioClienti />
       <ModalForm />
     </Fragment>

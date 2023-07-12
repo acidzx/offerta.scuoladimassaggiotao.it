@@ -1,5 +1,9 @@
 import PostContent from "@components/posts/postDetail/postContent";
-import { getPostData, getPostsFiles } from "../../../lib/posts-util";
+import {
+  getPostData,
+  getPostsFiles,
+  getAllPosts,
+} from "../../../lib/posts-util";
 import Head from "next/head";
 
 export default function SlugDetailPage(props) {
@@ -12,7 +16,7 @@ export default function SlugDetailPage(props) {
         </title>
         <meta name="description" content={props.post.description} />
       </Head>
-      <PostContent post={props.post} />
+      <PostContent post={props.post} {...props} />
     </>
   );
 }
@@ -22,10 +26,14 @@ export function getStaticProps(context) {
   const { slug } = params;
   const { category } = params;
   const postData = getPostData(slug, category);
+  const allCorsi = getAllPosts("corso");
+  const allDiplomi = getAllPosts("diploma");
 
   return {
     props: {
       post: postData,
+      corsi: allCorsi,
+      diplomi: allDiplomi,
     },
     revalidate: 600,
   };
