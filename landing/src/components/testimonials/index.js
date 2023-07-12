@@ -1,5 +1,6 @@
 import Image from "next/image";
 import YoutubeTestimonial from "./youtubeTestimonial";
+import { scrollIntoTheView } from "@/pages/_app";
 
 const reviews = [
   {
@@ -187,7 +188,32 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-                    <a
+                    <button
+                      className="btn btn-sm btn-circle"
+                      onClick={() =>
+                        scrollIntoTheView(
+                          `slide${
+                            index == 0
+                              ? reviews.length
+                              : reviews.length - (reviews.length - index)
+                          }`
+                        )
+                      }
+                    >
+                      ❮
+                    </button>
+
+                    <button
+                      className="btn btn-sm btn-circle text-black"
+                      onClick={() =>
+                        scrollIntoTheView(
+                          `slide${index + 1 == reviews.length ? 1 : index + 2}`
+                        )
+                      }
+                    >
+                      ❯
+                    </button>
+                    {/*         <a
                       href={`#slide${
                         index == 0
                           ? reviews.length
@@ -196,15 +222,15 @@ export default function Testimonials() {
                       className="btn btn-sm btn-circle"
                     >
                       ❮
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href={`#slide${
                         index + 1 == reviews.length ? 1 : index + 2
                       }`}
                       className="btn btn-sm btn-circle"
                     >
                       ❯
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               ))}
