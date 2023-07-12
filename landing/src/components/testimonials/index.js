@@ -15,8 +15,8 @@ export default function Testimonials(props) {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="carousel w-full items-center">
-              {FBreviews.filter((textLength) => {
-                return textLength.review_text.length > 30;
+              {FBreviews.filter((reviewTextLength) => {
+                return reviewTextLength.review_text.length > 30;
               }).map((review, index) => (
                 <div
                   id={`slide${index + 1}`}
@@ -101,8 +101,8 @@ export default function Testimonials(props) {
                         scrollIntoTheView(
                           `slide${
                             index == 0
-                              ? reviews.length
-                              : reviews.length - (reviews.length - index)
+                              ? FBreviews.length
+                              : FBreviews.length - (FBreviews.length - index)
                           }`
                         )
                       }
@@ -114,7 +114,9 @@ export default function Testimonials(props) {
                       className="btn btn-sm btn-circle text-black"
                       onClick={() =>
                         scrollIntoTheView(
-                          `slide${index + 1 == reviews.length ? 1 : index + 2}`
+                          `slide${
+                            index + 1 == FBreviews.length ? 1 : index + 2
+                          }`
                         )
                       }
                     >
