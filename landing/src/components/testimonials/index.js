@@ -118,7 +118,7 @@ export default function Testimonials(props) {
                               `slide${
                                 index == FBreviews.data.length - 1
                                   ? "1"
-                                  : index + 3
+                                  : index + 2
                               }`
                             )
                           }
