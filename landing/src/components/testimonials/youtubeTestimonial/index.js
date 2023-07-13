@@ -6,6 +6,7 @@ export default function YoutubeTestimonial() {
           src="https://www.youtube-nocookie.com/embed/CV1VpGHIdnA"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          title="Video recensioni Tao - Scuola Nazionale di Massaggio"
         ></iframe>
       </div>
     </div>
