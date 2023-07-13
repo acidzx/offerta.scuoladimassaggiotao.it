@@ -45,15 +45,15 @@ export default function Footer() {
             >
               Cookie Policy
             </Link>
-            <a
+            <Link
               className="text-sm cursor-pointer"
-              onClick={() => window.termsConditions.showModal()}
+              // onClick={() => window.termsConditions.showModal()}
               rel="noopener"
-              // href="https://www.iubenda.com/termini-e-condizioni/98820787"
+              href="https://www.iubenda.com/termini-e-condizioni/98820787"
               target="_blank"
             >
               Termini & Condizioni
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

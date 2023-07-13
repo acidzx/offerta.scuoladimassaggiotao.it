@@ -10,9 +10,9 @@ import analytics from "@/utility/analytics";
 import Head from "next/head";
 import Layout from "@components/layout";
 import ModalForm from "@components/modalForm";
-import PrivacyPolicy from "@components/layout/footer/privacyPolicy";
-import TermsConditions from "@components/layout/footer/terms_conditions";
-import CookiePolicy from "@components/layout/footer/cookiePolicy";
+// import PrivacyPolicy from "@components/layout/footer/privacyPolicy";
+// import TermsConditions from "@components/layout/footer/terms_conditions";
+// import CookiePolicy from "@components/layout/footer/cookiePolicy";
 
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {
@@ -56,9 +56,9 @@ export default function App({ Component, pageProps, router }) {
         </motion.div>
       </Layout>
       <ModalForm />
-      <PrivacyPolicy />
+      {/* <PrivacyPolicy />
       <CookiePolicy />
-      <TermsConditions />
+      <TermsConditions /> */}
     </>
   );
 }
