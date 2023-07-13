@@ -2,8 +2,8 @@ import { Fragment } from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <dialog id="my_modal_4" className="modal bg-white">
-      <form method="dialog" className="modal-box w-11/12 max-w-5xl">
+    <dialog id="my_modal_4" className="modal">
+      <form method="dialog" className="modal-box w-11/12 max-w-5xl bg-white">
         <iframe
           className="w-full h-96"
           src="https://www.iubenda.com/privacy-policy/98820787/full-legal"
