@@ -1,5 +1,4 @@
 import CtaActionsButtons from "@components/cta/ctaActionsButtons";
-import Link from "next/link";
 import { scrollIntoTheView } from "@/pages/_app";
 
 export default function Header() {

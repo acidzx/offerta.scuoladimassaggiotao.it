@@ -1,7 +1,7 @@
 ---
 img: "diploma-massaggiatore-alta-formazione-professionale.jpg"
 slug: "diploma-massaggiatore-alta-formazione-professionale"
-price: "5120,00"
+price: "5.120,00"
 title: "Alta Formazione Professionale"
 description: "Il Diploma di Alta Formazione Professionale per Massaggiatori è il percorso più completo per gli aspiranti alla professione di Massaggiatore. Comprende ben 13 tecniche di Massaggio più il corso di Anatomia Palpatoria, indispensabile per ogni buon massaggiatore e un corso di Marketing e Comunicazione, studiato appositamente per gli operatori del benessere, per massimizzare il ritorno del proprio investimento e spianare la strada al raggiungimento del proprio successo."
 durata: "15 w/end"

@@ -1,7 +1,7 @@
 ---
 img: "diploma-massaggiatore-olistico.jpg"
 slug: "diploma-massaggiatore-olistico"
-price: "1870,00"
+price: "1.870,00"
 title: "Massaggio Olistico"
 description: "Il Diploma di Specializzazione in Massaggiatore Olistico è un percorso completo composto da 5 corsi ideato per tutti coloro che desiderano diventare massaggiatori qualificati in campo olistico per allargare le proprie conoscenze e poter lavorare all'interno di Centri Benessere, Centri Termali, Spa e Centri Estetici."
 durata: "5 w/end"

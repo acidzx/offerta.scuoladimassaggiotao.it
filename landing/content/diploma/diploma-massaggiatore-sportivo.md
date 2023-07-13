@@ -1,7 +1,7 @@
 ---
 img: "diploma-massaggiatore-sportivo.jpg"
 slug: "diploma-massaggiatore-sportivo"
-price: "1800,00"
+price: "1.800,00"
 title: "Massaggio Sportivo"
 description: "Il Diploma di Specializzazione in Massaggiatore Sportivo è un percorso completo composto da 5 corsi ideato per tutti coloro che desiderano diventare massaggiatori qualificati per il settore sportivo e poter lavorare con atleti e squadre di tutte le discipline, professioniste e non, palestre, sale pesi etc..."
 durata: "5 w/end"

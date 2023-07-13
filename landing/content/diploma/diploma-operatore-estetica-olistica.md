@@ -1,7 +1,7 @@
 ---
 img: "diploma-operatore-estetica-olistica.jpg"
 slug: "diploma-operatore-estetica-olistica"
-price: "1620,00"
+price: "1.620,00"
 title: "Estetica Olistica"
 description: "Il Diploma di Operatore in Estetica Olistica è stato ideato su espressa richiesta dei nostri allievi al fine di dare loro un percorso formativo adatto all'inserimento o al completamento di tutte quelle figure professionali in possesso della qualifica di estetista, completando la loro formazione in materia olistica per poter fornire ai propri clienti un plafond di trattamenti il più completo possibile.E' comunque un percorso aperto a tutti coloro che intendono avviare l'attività di massaggiatore, specializzandosi su trattamenti rivolti al mondo dell'estetica, rimanendo pur sempre in ambito olistico. L'unico requisito di ammissione è legato al corso di Coppettazione che prevede lo svolgimento del corso di Massaggio Base Classico Svedese."
 durata: "5 w/end"

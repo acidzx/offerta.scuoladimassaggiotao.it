@@ -1,7 +1,7 @@
 ---
 img: "diploma-massaggiatore-terme-spa.jpg"
 slug: "diploma-massaggiatore-terme-spa"
-price: "1960,00"
+price: "1.960,00"
 title: "Massaggio Terme & Spa"
 description: "
 Il Diploma di Specializzazione in Massaggiatore Terme e Spa è un percorso completo composto da 5 corsi ideato per tutti coloro che desiderano diventare massaggiatori qualificati per il settore Termale e Spa, allargando le proprie conoscenze e poter lavorare all'interno di Strutture Alberghiere, Villaggi, Navi da Crociera, Spa, Centri Benessere, Centri Termali e Centri Estetici."

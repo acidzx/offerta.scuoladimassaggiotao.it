@@ -1,7 +1,7 @@
 ---
 img: "diploma-massaggiatore-sportivo-avanzato.jpg"
 slug: "diploma-massaggiatore-sportivo-avanzato"
-price: "2270,00"
+price: "2.270,00"
 title: "Massaggio Sportivo Avanzato"
 description: "Il Diploma di Operatore in Massaggio Sportivo Avanzato ha le stesse tecniche del Diploma Sportivo Base, con l’aggiunta però di due corsi: le tecniche di stretching passivo ed il corso cervico-lombare. Questi ti permetteranno di acquisire le giuste competenze per completare un percorso formativo di tipo sportivo e non solo."
 durata: "7 w/end"

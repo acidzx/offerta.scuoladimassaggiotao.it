@@ -26,6 +26,11 @@ export default function Testimonials(props) {
                       key={index}
                       className="carousel-item relative w-full"
                     >
+                      {
+                        FBreviews.data.filter((reviewTextLength) => {
+                          return reviewTextLength.review_text.length > 30;
+                        }).length
+                      }
                       <div className="lg:pt-4">
                         <div className="">
                           <div className="relative isolate overflow-hidden bg-white px-6 py-12 sm:py-8 lg:px-8">
@@ -103,7 +108,16 @@ export default function Testimonials(props) {
                           onClick={() =>
                             scrollIntoTheView(
                               `slide${
-                                index == 0 ? FBreviews.data.length : index
+                                index == 0
+                                  ? FBreviews.data.filter(
+                                      (reviewTextLength) => {
+                                        return (
+                                          reviewTextLength.review_text.length >
+                                          30
+                                        );
+                                      }
+                                    ).length
+                                  : index
                               }`
                             )
                           }
@@ -116,7 +130,13 @@ export default function Testimonials(props) {
                           onClick={() =>
                             scrollIntoTheView(
                               `slide${
-                                index == FBreviews.data.length - 1
+                                index ==
+                                FBreviews.data.filter((reviewTextLength) => {
+                                  return (
+                                    reviewTextLength.review_text.length > 30
+                                  );
+                                }).length -
+                                  1
                                   ? "1"
                                   : index + 2
                               }`
@@ -125,24 +145,6 @@ export default function Testimonials(props) {
                         >
                           ❯
                         </button>
-                        {/*         <a
-                      href={`#slide${
-                        index == 0
-                          ? reviews.length
-                          : reviews.length - (reviews.length - index)
-                      }`}
-                      className="btn btn-sm btn-circle"
-                    >
-                      ❮
-                    </a> */}
-                        {/* <a
-                      href={`#slide${
-                        index + 1 == reviews.length ? 1 : index + 2
-                      }`}
-                      className="btn btn-sm btn-circle"
-                    >
-                      ❯
-                    </a> */}
                       </div>
                     </div>
                   ))}
