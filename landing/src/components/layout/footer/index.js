@@ -1,5 +1,6 @@
 import Image from "next/image";
 import scuolaTaoLogo from "@public/assets/svg/logoScuola.svg";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -25,22 +26,31 @@ export default function Footer() {
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">
-            <a
+            <Link
+              href="https://www.iubenda.com/privacy-policy/98820787"
               className="text-sm cursor-pointer"
-              onClick={() => window.privacyPolicy.showModal()}
+              // onClick={() => window.privacyPolicy.showModal()}
+              rel="noopener"
+              target="_blank"
             >
               Privacy Policy
-            </a>
+            </Link>
 
-            <a
+            <Link
               className="text-sm cursor-pointer"
-              onClick={() => window.cookiePolicy.showModal()}
+              // onClick={() => window.cookiePolicy.showModal()}
+              rel="noopener"
+              href="https://www.iubenda.com/privacy-policy/98820787/cookie-policy"
+              target="_blank"
             >
               Cookie Policy
-            </a>
+            </Link>
             <a
               className="text-sm cursor-pointer"
               onClick={() => window.termsConditions.showModal()}
+              rel="noopener"
+              // href="https://www.iubenda.com/termini-e-condizioni/98820787"
+              target="_blank"
             >
               Termini & Condizioni
             </a>

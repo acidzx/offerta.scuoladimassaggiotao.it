@@ -12,6 +12,7 @@ export default function TermsConditions() {
               title="termini e condizioni tao"
               frameborder="0"
               className=" border-0"
+              sandbox="true"
             ></iframe>
           </div>
         </div>
