@@ -34,6 +34,9 @@ export async function getStaticProps() {
 }
 
 export default function Home(props) {
+  /*  {
+    console.log(props.reviews);
+  } */
   return (
     <>
       <Head>

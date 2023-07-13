@@ -7,11 +7,14 @@ export default function Testimonials(props) {
 
   return (
     <>
-      <h2 className="text-center pt-16 pb-8 text-3xl font-bold text-gray-500 sm:text-4xl">
+      <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
         Cosa dicono di noi...
       </h2>
+      <p className="text-center mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
+        L'unica scuola con più di 1.200 recensioni a 5 stelle
+      </p>
 
-      <div className="overflow-hidden bg-white py-6 sm:py-6">
+      <div className="overflow-hidden bg-white py-4 sm:py-4">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="carousel w-full items-center">
