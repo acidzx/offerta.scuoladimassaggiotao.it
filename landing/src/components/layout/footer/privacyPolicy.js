@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <Fragment>
+    <div>
       <input type="checkbox" id="modalPrivacy" className="modal-toggle" />
       <label htmlFor="modalPrivacy" className="modal cursor-pointer">
         <label className="modal-box max-w-4xl relative bg-white" htmlFor="">
@@ -18,6 +18,6 @@ export default function PrivacyPolicy() {
           ></iframe>
         </label>
       </label>
-    </Fragment>
+    </div>
   );
 }
