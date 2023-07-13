@@ -27,28 +27,25 @@ export default function Footer() {
           <div className="grid grid-flow-col gap-4">
             <a
               className="text-sm cursor-pointer"
-              onClick={() => window.my_modal_4.showModal()}
+              onClick={() => window.privacyPolicy.showModal()}
             >
               Privacy Policy
             </a>
 
-            <label
-              htmlFor="modalCookie"
-              className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 "
+            <a
+              className="text-sm cursor-pointer"
+              onClick={() => window.cookiePolicy.showModal()}
             >
-              <a className="text-sm cursor-pointer">Cookie Policy</a>
-            </label>
-            <label
-              htmlFor="modalTerms"
-              className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 "
+              Cookie Policy
+            </a>
+            <a
+              className="text-sm cursor-pointer"
+              onClick={() => window.termsConditions.showModal()}
             >
-              <a className="text-sm cursor-pointer">Termini &amp; Condizioni</a>
-            </label>
+              Termini & Condizioni
+            </a>
           </div>
         </div>
-        {/*  <CookiePolicy />
-      <PrivacyPolicy />
-      <TermsConditions /> */}
       </footer>
     </>
   );

@@ -11,8 +11,8 @@ import Head from "next/head";
 import Layout from "@components/layout";
 import ModalForm from "@components/modalForm";
 import PrivacyPolicy from "@components/layout/footer/privacyPolicy";
-/* import TermsConditions from "./terms_conditions";
-import CookiePolicy from "./cookiePolicy"; */
+import TermsConditions from "@components/layout/footer/terms_conditions";
+import CookiePolicy from "@components/layout/footer/cookiePolicy";
 
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {
@@ -57,6 +57,8 @@ export default function App({ Component, pageProps, router }) {
       </Layout>
       <ModalForm />
       <PrivacyPolicy />
+      <CookiePolicy />
+      <TermsConditions />
     </>
   );
 }

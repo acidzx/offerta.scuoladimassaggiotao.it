@@ -1,6 +1,5 @@
 import PostHeader from "./postHeader";
 import Cta from "@components/cta";
-import ModalForm from "@components/modalForm";
 import PostPresentation from "./postPresentation";
 import PostVideoPresentation from "./postVideoPresentation";
 import PostSchedaTecnica from "./postSchedaTecnica";
@@ -82,7 +81,6 @@ export default function PostContent(props) {
       </div>
       <MultiCarousel posts={props.corsi} />
       <ServizioClienti />
-      <ModalForm />
     </Fragment>
   );
 }
