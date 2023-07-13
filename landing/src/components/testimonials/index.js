@@ -26,11 +26,6 @@ export default function Testimonials(props) {
                       key={index}
                       className="carousel-item relative w-full"
                     >
-                      {
-                        FBreviews.data.filter((reviewTextLength) => {
-                          return reviewTextLength.review_text.length > 30;
-                        }).length
-                      }
                       <div className="lg:pt-4">
                         <div className="">
                           <div className="relative isolate overflow-hidden bg-white px-6 py-12 sm:py-8 lg:px-8">
