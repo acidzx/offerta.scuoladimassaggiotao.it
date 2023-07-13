@@ -48,19 +48,19 @@ export default function PostSchedaTecnica(props) {
         </div>
         <div className="collapse-content">
           <p>
-            La Tao - Scuola Nazionale di Massaggio ha sedi dislocate su tutto il
-            territorio nazionale nelle maggiori città italiane.
+            La <b>Tao - Scuola Nazionale di Massaggio</b> ha sedi dislocate su
+            tutto il territorio nazionale, nelle maggiori città italiane.
           </p>
           <p>
-            Per garantire il massimo servizio all&apos;allievo svolgiamo la
-            formazione in tutte le migliori sale congressi di prestigiosi Hotel,
-            tutte comodamente raggiungibili poiché ubicate nei pressi dei
-            principali svincoli autostradali e dotate di tutti i comfort e
-            servizi richiesti per un corretto svolgimento del corso, oltre alla
-            presenza di un videoproiettore al fine di svolgere la parte di
-            lezione teorica iniziale.
+            Per garantire il massimo servizio all&apos;allievo, svolgiamo la
+            formazione nelle migliori sale congressi di prestigiosi Hotel,
+            dotate di tutti i comfort e servizi richiesti per un corretto
+            svolgimento del corso, oltre alla presenza di un videoproiettore al
+            fine di svolgere la parte di lezione teorica iniziale. Le nostre
+            sedi risultano tutte comodamente raggiungibili poiché ubicate nei
+            pressi dei principali svincoli autostradali.
           </p>
-          <p className="text-center">
+          <p className="text-center pt-2">
             Alessandria - Ancona - Arco - Bari - Bologna - Brescia - Cagliari -
             Catania - Cesena - Chianciano Terme - Cuneo - Enna - Firenze -
             Foggia - Genova - Lamezia Terme - Lecce - Milano - Montegrotto Terme

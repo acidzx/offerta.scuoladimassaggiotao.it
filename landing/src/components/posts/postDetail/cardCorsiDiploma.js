@@ -4,7 +4,7 @@ export default function CardCorsiDiploma(props) {
   const { programma, title } = props;
 
   return (
-    <div className="container mx-auto my-8 hidden lg:block">
+    <div className="container mx-auto my-16 hidden lg:block">
       <h2 className="text-center mb-4 text-3xl font-extrabold text-gray-600 pb-16">
         I Corsi che compongono il Diploma in {title}
       </h2>

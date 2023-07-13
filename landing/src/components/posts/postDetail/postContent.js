@@ -24,6 +24,17 @@ export default function PostContent(props) {
         description={post.description}
         category={post.category}
       />
+      <div>
+        {post.slug == "corso-massaggio-base-svedese"
+          ? post.programmazione.sort(function (a, b) {
+              console.log(a.split(" ").reverse().join(" "));
+              return (
+                new Date(a.split(" ").reverse().join(" ")) -
+                new Date(b.split(" ").reverse().join(" "))
+              );
+            })
+          : ""}
+      </div>
       <hr className="hidden lg:block h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
