@@ -9,6 +9,10 @@ import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
 import Layout from "@components/layout";
+import ModalForm from "@components/modalForm";
+import PrivacyPolicy from "@components/layout/footer/privacyPolicy";
+/* import TermsConditions from "./terms_conditions";
+import CookiePolicy from "./cookiePolicy"; */
 
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {
@@ -51,6 +55,8 @@ export default function App({ Component, pageProps, router }) {
           <Component {...pageProps} />
         </motion.div>
       </Layout>
+      <ModalForm />
+      <PrivacyPolicy />
     </>
   );
 }

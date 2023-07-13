@@ -1,8 +1,5 @@
 import Image from "next/image";
 import scuolaTaoLogo from "@public/assets/svg/logoScuola.svg";
-import CookiePolicy from "./cookiePolicy";
-import PrivacyPolicy from "./privacyPolicy";
-import TermsConditions from "./terms_conditions";
 
 export default function Footer() {
   return (

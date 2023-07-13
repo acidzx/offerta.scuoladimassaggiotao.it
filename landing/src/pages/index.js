@@ -1,7 +1,7 @@
 import Header from "@components/header";
 import AltaFormazione from "@components/altaFormazione";
 import MultiCarousel from "@components/multiCarousel";
-import ModalForm from "@components/modalForm";
+// import ModalForm from "@components/modalForm";
 import Cta from "@components/cta";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
@@ -79,7 +79,6 @@ export default function Home(props) {
       <Testimonials FBreviews={props.reviews} />
       <Cta />
       <ServizioClienti />
-      <ModalForm />
     </>
   );
 }
