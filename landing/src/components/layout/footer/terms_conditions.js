@@ -8,7 +8,7 @@ export default function TermsConditions() {
         <div>
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src="https://www.iubenda.com/termini-e-condizioni/98820787"
+              src="#"
               title="termini e condizioni tao"
               frameborder="0"
             ></iframe>
