@@ -28,12 +28,13 @@ export default function Footer() {
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">
-            <label
-              htmlFor="modalPrivacy"
-              className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300"
+            <a
+              className="text-sm cursor-pointer"
+              onClick={() => window.my_modal_4.showModal()}
             >
-              <a className="text-sm cursor-pointer">Privacy Policy</a>
-            </label>
+              Privacy Policy
+            </a>
+
             <label
               htmlFor="modalCookie"
               className="cursor-pointer  hover:text-primary-800 focus:ring-4 focus:ring-primary-300 "
