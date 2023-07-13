@@ -11,7 +11,7 @@ export default function Testimonials(props) {
         Cosa dicono di noi...
       </h2>
       <p className="text-center mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
-        L'unica scuola con più di 1.200 recensioni a 5 stelle
+        L&apos;unica scuola con più di 1.200 recensioni a 5 stelle
       </p>
 
       <div className="overflow-hidden bg-white py-4 sm:py-4">
