@@ -25,7 +25,7 @@ const supportLinks = [
 ];
 
 export default function PostHeader(props) {
-  const { title, img, description, category, filteredDate } = props;
+  const { title, img, description, category } = props;
 
   return (
     <div className="bg-white">
@@ -87,11 +87,6 @@ export default function PostHeader(props) {
               </div>
             ))}
           </div>
-          {category === "corso" ? (
-            <div className="container text-center">{filteredDate}</div>
-          ) : (
-            ""
-          )}
         </div>
       }
     </div>

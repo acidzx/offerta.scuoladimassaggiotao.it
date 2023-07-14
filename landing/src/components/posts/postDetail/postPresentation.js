@@ -10,16 +10,20 @@ export default function PostPresentation(props) {
           <h2 className="mb-4 text-4xl font-extrabold text-gray-600 ">
             Presentazione
           </h2>
-          <div className="mb-4 text-justify text-base">{longcontent}</div>
+          <div
+            className="mb-4 text-justify text-base"
+            dangerouslySetInnerHTML={{ __html: longcontent }}
+          />
 
           {benefici !== undefined ? (
             <>
               <h3 className="mb-2 text-2xl  font-extrabold text-gray-600 ">
                 I Benefici
               </h3>
-              <div className="mb-4 text-justify text-base">
-                <ReactMarkdown>{benefici}</ReactMarkdown>
-              </div>
+              <div
+                className="mb-4 text-justify text-base"
+                dangerouslySetInnerHTML={{ __html: benefici }}
+              />
             </>
           ) : (
             ""
