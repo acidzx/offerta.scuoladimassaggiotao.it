@@ -43,4 +43,5 @@ programma: [
 "Ripasso finale pratico."]
 requisiti: "Il Corso di Riflessologia Plantare non presenta requisiti ed è un corso aperto a tutti. Il programma completo di Riflessologia Plantare si sviluppa in un corso di 1° livello della durata di 2 giornate ed un corso avanzato di 2° livello. Il 2° livello ha come requisito lo svolgimento del 1° livello."
 videosrc: "https://www.youtube-nocookie.com/embed/Id6ygauNRL0"
+programmazione: ['29 07 2023', '23 09 2023', '02 12 2023']  
 ---

@@ -34,5 +34,5 @@ programma: [
 "Svolgimento della sequenza pratica di Massaggio."]
 requisiti: "Il Corso di Massaggio Connettivale non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/23f-RdBRMfg"
-programmazione: ['01 5 2023']  
+programmazione: ['01 07 2023']  
 ---

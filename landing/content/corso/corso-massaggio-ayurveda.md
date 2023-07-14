@@ -41,4 +41,5 @@ programma: [
 "Protocollo di lavoro: posizione supina, prona, Shiroabhyanga (massaggio alla testa) e Mukhabhyanga (massaggio al viso)."]
 requisiti: "Il Corso di Massaggio Ayurvedico non presenta requisiti particolari ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/9JgrrHTKeWY"
+programmazione: ['06 10 2023']    
 ---

@@ -33,4 +33,5 @@ programma: [
 "Ripasso finale pratico del massaggio completo."]
 requisiti: "Il Corso di Massaggio Thailandese non presenta requisiti particolari ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/1UzFXgb8No0"
+programmazione: ['08 09 2023']    
 ---

@@ -31,4 +31,5 @@ programma: [
 "Ripasso finale completo pratico del massaggio."]
 requisiti: "Il Corso di Massaggio Linfodrenante non presenta requisiti ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/ofrYSz31zyI"
+programmazione: ['07 07 2023', '10 11 2023']  
 ---
