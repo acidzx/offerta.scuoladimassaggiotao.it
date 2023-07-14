@@ -87,7 +87,11 @@ export default function PostHeader(props) {
               </div>
             ))}
           </div>
-          <div className="container text-center">{filteredDate}</div>
+          {category === "corso" ? (
+            <div className="container text-center">{filteredDate}</div>
+          ) : (
+            ""
+          )}
         </div>
       }
     </div>
