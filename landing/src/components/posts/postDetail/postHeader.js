@@ -91,7 +91,7 @@ export default function PostHeader(props) {
       }
 
       {category === "corso" ? (
-        <div className="container text-center mx-auto my-12">
+        <div className="container text-center mx-auto my-12 pt-10 lg:border-t">
           {/*  <p className="font-bold text-3xl text-gray-600 py-5 border-t-2">
             Prossima data del corso:
           </p>
@@ -105,8 +105,10 @@ export default function PostHeader(props) {
             </div>
             <div className="card border">
               <div className="card-body">
-                <h2 className="card-title">Prossima data del corso:</h2>
-                <p>{filteredDate}</p>
+                <h2 className="card-title text-2xl">
+                  Prossima data del corso:
+                </h2>
+                <p className="text-xl">{filteredDate}</p>
               </div>
             </div>
           </div>
