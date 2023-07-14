@@ -16,6 +16,29 @@ export default function PostContent(props) {
   const { post } = props;
   const imgPath = `/assets/images/${post.category}/${post.slug}`;
 
+  function checkDatePassate(date) {
+    return new Date(date.split(" ").reverse().join(" ")) > new Date();
+  }
+
+  const sortedDate = post.programmazione.sort(function (a, b) {
+    return (
+      new Date(a.split(" ").reverse().join(" ")) -
+      new Date(b.split(" ").reverse().join(" "))
+    );
+  });
+
+  const dateOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+
+  const filterDate = sortedDate.filter(checkDatePassate);
+
+  const filteredDate = new Date(
+    filterDate[0].split(" ").reverse().join(" ")
+  ).toLocaleString("it-IT", dateOptions);
+
   return (
     <Fragment>
       <PostHeader
@@ -23,18 +46,10 @@ export default function PostContent(props) {
         title={post.title}
         description={post.description}
         category={post.category}
+        filteredDate={filteredDate}
       />
-      <div>
-        {post.slug == "corso-massaggio-base-svedese"
-          ? post.programmazione.sort(function (a, b) {
-              console.log(a.split(" ").reverse().join(" "));
-              return (
-                new Date(a.split(" ").reverse().join(" ")) -
-                new Date(b.split(" ").reverse().join(" "))
-              );
-            })
-          : ""}
-      </div>
+
+      <div>{post.slug == "corso-massaggio-base-svedese" ? "" : ""}</div>
       <hr className="hidden lg:block h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
