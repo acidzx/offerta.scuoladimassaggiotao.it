@@ -87,13 +87,33 @@ export default function PostHeader(props) {
               </div>
             ))}
           </div>
-          {category === "corso" ? (
-            <div className="container text-center">{filteredDate}</div>
-          ) : (
-            ""
-          )}
         </div>
       }
+
+      {category === "corso" ? (
+        <div className="container text-center mx-auto my-12">
+          {/*  <p className="font-bold text-3xl text-gray-600 py-5 border-t-2">
+            Prossima data del corso:
+          </p>
+          <p className="font-bold text-xl text-gray-600 pb-4">{filteredDate}</p> */}
+
+          <div className="indicator">
+            <div className="indicator-item indicator-bottom indicator-center mx-auto">
+              <button className="btn btn-primary bg-white">
+                Richiedi Informazioni
+              </button>
+            </div>
+            <div className="card border">
+              <div className="card-body">
+                <h2 className="card-title">Prossima data del corso:</h2>
+                <p>{filteredDate}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
