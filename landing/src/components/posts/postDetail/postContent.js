@@ -20,12 +20,14 @@ export default function PostContent(props) {
     return new Date(date.split(" ").reverse().join(" ")) > new Date();
   }
 
-  const sortedDate = post.programmazione.sort(function (a, b) {
-    return (
-      new Date(a.split(" ").reverse().join(" ")) -
-      new Date(b.split(" ").reverse().join(" "))
-    );
-  });
+  const sortedDate = post.programmazione
+    ? post.programmazione.sort(function (a, b) {
+        return (
+          new Date(a.split(" ").reverse().join(" ")) -
+          new Date(b.split(" ").reverse().join(" "))
+        );
+      })
+    : null;
 
   const dateOptions = {
     year: "numeric",
@@ -33,11 +35,15 @@ export default function PostContent(props) {
     day: "numeric",
   };
 
-  const filterDate = sortedDate.filter(checkDatePassate);
+  const filterDate = sortedDate ? sortedDate.filter(checkDatePassate) : null;
 
-  const filteredDate = new Date(
-    filterDate[0].split(" ").reverse().join(" ")
-  ).toLocaleString("it-IT", dateOptions);
+  const filteredDate =
+    filterDate && filterDate[0]
+      ? new Date(filterDate[0].split(" ").reverse().join(" ")).toLocaleString(
+          "it-IT",
+          dateOptions
+        )
+      : "data in programmazione";
 
   return (
     <Fragment>
@@ -46,7 +52,7 @@ export default function PostContent(props) {
         title={post.title}
         description={post.description}
         category={post.category}
-        filteredDate={filteredDate}
+        filteredDate={filteredDate || "in programmazione"}
       />
 
       <div>{post.slug == "corso-massaggio-base-svedese" ? "" : ""}</div>
