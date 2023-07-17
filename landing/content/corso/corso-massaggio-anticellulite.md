@@ -3,18 +3,11 @@ img: "corso-massaggio-anticellulite.jpg"
 slug: "corso-massaggio-anticellulite"
 price: "380,00"
 title: "Massaggio Anticellulite"
-description: "Il Corso di Massaggio Anticellulite ti insegnerà a facilitare il flusso sanguigno, a produrre calore con sfregamenti e impastamenti necessari a drenare e favorire l’eliminazione delle tossine dai tessuti, tutto nel rispetto della circolazione linfatica."
+description: "<p class='mb-2'>Se vuoi sapere come combattere la cellulite con il massaggio, questo corso fa per te. Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "Prendersi cura del proprio corpo vuol dire seguire un sacco di regole che però spesso sono ignorate ed oltre alle sfide di tutti i giorni ecco che si presenta lei, la “signora” dell’inestetismo, la “maledizione” della buccia d’arancia… la Cellulite.
-In particolare le donne sono più sottoposte per un fattore ereditario, ma in molti casi è proprio il modo in cui viviamo con stress, alimentazione sbagliata e poco movimento che ci porta a problemi di circolazione e di conseguenza ad una infiammazione dei tessuti circostanti e per finire ci procura quel disagio estetico e psicologico.
-Cominciamo a vedere sul nostro corpo soprattutto all’altezza delle cosce e dei glutei quella pelle a cuscinetti, a buccia d’arancia che ci fa un po’ paura. Dobbiamo porvi rimedio!
-Ed ecco che la Scuola Nazionale di Massaggio Tao® vuole aiutare tutti nel cercare di risolvere questo problema non solo estetico ma diventato anche un problema patologico per molte persone.
-Grazie all’apprendimento delle tecniche del Corso di Massaggio Anticellulite l’allievo riuscirà a facilitare il flusso sanguigno, a produrre calore con sfregamenti e impastamenti necessari a drenare e favorire l’eliminazione delle tossine dai tessuti, tutto nel rispetto della circolazione linfatica.
-L'allievo imparerà ad individuare quali sono le cause delle alterazioni, della degenerazione dei tessuti e a localizzare la cellulite per poter eseguire al meglio il massaggio.
-Verranno insegnate alcune nozioni di base su cos’è la cellulite, sui suoi diversi stadi, su come localizzarla e riconoscerne le differenze, quali sono gli effetti biologici del massaggio anticellulite, quali sono i suoi pro ed i suoi contro, le tecniche per un trattamento efficace e lo schema di lavoro più corretto."
-
+longcontent: "<p class='mb-2'>Se vuoi sapere come combattere la cellulite con il massaggio, questo corso fa per te. Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
 programma: [
 'Introduzione alla cellulite;',
 'La cellulite in ambito medico ed estetico;',

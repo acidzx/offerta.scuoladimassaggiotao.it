@@ -3,25 +3,11 @@ img: "corso-riflessologia-plantare.jpg"
 slug: "corso-riflessologia-plantare"
 price: "380,00"
 title: "Riflessologia Plantare"
-description: "Al nostro Corso di Riflessologia Plantare, verrai guidato sapientemente in questa richiestissima tecnica di manipolazione del piede con conseguente stimolazione degli organi correlati. Ogni zona del piede è infatti connessa ad uno specifico organo o apparato tramite terminazioni nervose che attraverso la colonna vertebrale raggiungono il bersaglio."
+description: "Il Corso di Riflessologia Plantare ti insegnerà una tecnica di massaggio che si basa sulla stimolazione di specifiche zone del piede, che sono connesse a vari organi e apparati del corpo, tramite terminazioni nervose. La riflessologia plantare è una tecnica antica che proviene da diverse culture e continenti, che ha lo scopo di riequilibrare il corpo e la mente, favorendo l’autoguarigione naturale. La riflessologia plantare consiste nell’applicare delle pressioni e delle frizioni sulle zone riflesse del piede, con le dita o con degli strumenti appositi, per rilassare il sistema nervoso, stimolare la circolazione sanguigna e linfatica, ridurre il dolore e l’infiammazione, prevenire e curare le problematiche degli organi e degli apparati. La riflessologia plantare ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la qualità del sonno, allevia le cefalee, i dolori mestruali, il mal di schiena, il torcicollo e altri disturbi comuni, favorisce la produzione di endorfine con effetto antidolorifico, migliora il funzionamento degli organi e degli apparati. Nel corso imparerai la teoria e la pratica della riflessologia plantare, studierai l’anatomia e la fisiologia del piede e dei punti riflessi, approfondirai le tecniche di massaggio per le diverse zone del piede e le diverse problematiche."
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "La Tao - Scuola Nazionale di Massaggio vuole accogliere tutti coloro che sono interessati ad un'esperienza di apprendimento e di vita, che potrebbe anche aprire opportunità per un nuovo lavoro, pur non avendo conoscenze in campo massoterapico.
-Da qualunque professione si provenga, gli insegnanti del nostro Corso di Riflessologia Plantare, guideranno sapientemente gli studenti in questa tecnica di manipolazione del piede con conseguente stimolazione dell'organo correlato.
-Ogni zona del piede è infatti connessa ad uno specifico organo o apparato che, tramite terminazioni nervose, attraversano la colonna vertebrale raggiungendo il bersaglio.
-Origini della Riflessologia Plantare:
-Le prime testimonianze della riflessologia plantare risalgono a più di 5000 anni fa;
-Documentazioni sono state rilevate in 4 continenti: Asia, Europa, Africa e Nord America.
-Risale in particolare all'anno 2330 a.C. il geroglifico di una tomba egizia raffigurante un medico impegnato in massaggi rilessogeni ai suoi pazienti.
-Il dialogo fra loro viene così tradotto:
-'Non mi fare male'.
-'Agiro' in modo da meritare la tua lode'.
-Se solo un tocco gentile pieno di amore può farci sentire rilassati, immaginiamoci l'effetto che si otterrà dal massaggio professionale appreso nel nostro Corso di Riflessologia Plantare.
-Verra' trasmesso come, dove e per quanto tempo trattare i punti riflessi, con importanti insegnamenti che è impossibibile ottenere dai libri.
-Ogni studente potrà così aiutare se stesso, con l'auto massaggio, la sua famiglia e i suoi amici in modo completamente naturale, rilassando il sistema nervoso e raggiungendo risultati incisivi con effetti duraturi.
-Con la riflessologia plantare correttamente applicata alla stimolazione dei punti riflessi seguira' una naturale produzione di endorfine con conseguente effetto antidolorifico sull'organo o apparato in deficienza.
-Il principio base del nostro Corso di Riflessologia Plantare e della riflessologia stessa consiste nell'aiutare il corpo a guarire se stesso attraverso un metodo del tutto naturale. Risultati incredibili sono stati raggiunti nel trattamento di cefalee, insonnia, dolori mestruali, mal di schiena, torcicollo e molto altro ancora."
+longcontent: "Il Corso di Riflessologia Plantare ti insegnerà una tecnica di massaggio che si basa sulla stimolazione di specifiche zone del piede, che sono connesse a vari organi e apparati del corpo, tramite terminazioni nervose. La riflessologia plantare è una tecnica antica che proviene da diverse culture e continenti, che ha lo scopo di riequilibrare il corpo e la mente, favorendo l’autoguarigione naturale. La riflessologia plantare consiste nell’applicare delle pressioni e delle frizioni sulle zone riflesse del piede, con le dita o con degli strumenti appositi, per rilassare il sistema nervoso, stimolare la circolazione sanguigna e linfatica, ridurre il dolore e l’infiammazione, prevenire e curare le problematiche degli organi e degli apparati. La riflessologia plantare ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la qualità del sonno, allevia le cefalee, i dolori mestruali, il mal di schiena, il torcicollo e altri disturbi comuni, favorisce la produzione di endorfine con effetto antidolorifico, migliora il funzionamento degli organi e degli apparati. Nel corso imparerai la teoria e la pratica della riflessologia plantare, studierai l’anatomia e la fisiologia del piede e dei punti riflessi, approfondirai le tecniche di massaggio per le diverse zone del piede e le diverse problematiche."
 programma: [
 "Origini storiche della riflessologia plantare;",
 "Cosa è la riflessologia plantare;",

@@ -3,40 +3,11 @@ img: "corso-taping-linfatico.jpg"
 slug: "corso-taping-linfatico"
 price: "249,00"
 title: "Taping Linfatico"
-description: "Il Corso di Taping Linfatico, chiamato anche taping estetico, ti insegnerà questa tecnica biomeccanica che a differenza di quello muscolare, utilizzando una tensione pari allo 0% e sfruttando l'azione sinergica del nastro applicato con il movimento corporeo, favorisce il rapporto tra vascolarizzazione e drenaggio linfatico."
+description: "Il Corso di Operatore in Taping Linfatico ti insegnerà una tecnica di bendaggio adesivo elastico che si basa sulla stimolazione del sistema circolatorio e linfatico, per favorire il drenaggio dei liquidi e dei cataboliti, ridurre il dolore e l’infiammazione, accelerare il recupero funzionale. Il taping linfatico è una tecnica che consiste nell’applicare un nastro adesivo elastico, privo di principi attivi farmaceutici, sulla zona di congestione e sul percorso linfatico, con una tensione pari allo 0%. Il taping linfatico ha lo scopo di sollevare la cute, aumentare lo spazio interstiziale, normalizzare la pressione idrostatica e osmotica, attivare l’effetto pompa sui vasi linfatici e vascolari. Il taping linfatico ha molti benefici: ridurre i tempi di recupero funzionale, migliorare la circolazione venosa e linfatica, drenare le congestioni, rimuovere l’accumulo di carico linfatico nel tessuto interstiziale, alleviare il dolore, ridurre l’infiammazione, facilitare il drenaggio degli ematomi, ammorbidire le zone fibrotiche. Nel corso imparerai la teoria e la pratica del taping linfatico, studierai l’anatomia e la fisiologia del sistema circolatorio e linfatico, approfondirai le tecniche di applicazione del nastro per le diverse zone e le diverse problematiche."
 durata: "1 giorno"
 ore: "10 ore"
 category: "corso"
-longcontent: "Il Taping è un bendaggio adesivo elastico, privo di principi attivi farmaceutici, con effetto biomeccanico, che attiva il sistema circolatorio e linfatico.
-
-Il nastro applicato in decompressione sopra la zona di congestione e sul percorso linfatico, svolge un’azione di normalizzazione della pressione idrostatica e osmotica. La corretta pressione sui vasi linfatici favorisce il drenaggio. Sollevando la cute, aumenta lo spazio interstiziale, e quindi migliora la circolazione e l’assorbimento dei liquidi e riduce la pressione sottocutanea. Il nastro esercita un drenaggio continuo per tutto il tempo dell’applicazione.
-
-Le tecniche di applicazione dipendono dal quadro patologico.
-
-Si possono trattare:
-
-Edemi con buona funzionalità dei linfonodi;
-Edemi con funzionalità insufficiente dei linfonodi;
-Edemi post-chirurgici;
-Edemi post-traumatici;
-Tessuti cicatriziali.
-Il Taping Linfatico si basa sull’applicazione del nastro che modifica in modo dinamico la compressione e decompressione dei vasi linfatici e vascolari. L’azione sinergica del nastro applicato e del movimento corporeo fa sì che si ripristini un “effetto pompa”, favorendo il rapporto tra vascolarizzazione e drenaggio linfatico.
-
-Nella correzione linfatica il nastro viene tagliato a ventaglio e si usa una tensione pari allo 0%.
-
-Il Taping Linfatico è un ottimo coadiuvante nel trattamento linfodrenante manuale, se applicato nel lasso di tempo che va da una seduta all’altra.
-
-L’innovativa tecnica di questa metodica, derivata dalla scienza della chinesiologia, si basa sulle naturali capacità di guarigione del corpo, stimolate dall’attivazione del sistema “neuro-muscolare” e “neuro-sensoriale”, secondo i nuovi concetti di neuroscienza.
-
-Il Taping Linfatico ad oggi può essere usato nello sport ed interviene positivamente sui principali traumi che possono verificarsi nelle diverse discipline e prevede protocolli di applicazione differenti. Infatti, facilita il drenaggio degli ematomi."
-benefici: "Ridurre i tempi di recupero funzionale;
-Miglioramento della circolazione venosa e linfatica;
-Drenare le congestioni;
-Rimuovere l’accumulo di carico linfatico nel tessuto interstiziale;
-Alleviare il dolore;
-Ridurre l'infiammazione;
-Facilitare il drenaggio degli ematomi;
-Ammorbidire le zone fibrotiche."
+longcontent: "Il Corso di Operatore in Taping Linfatico ti insegnerà una tecnica di bendaggio adesivo elastico che si basa sulla stimolazione del sistema circolatorio e linfatico, per favorire il drenaggio dei liquidi e dei cataboliti, ridurre il dolore e l’infiammazione, accelerare il recupero funzionale. Il taping linfatico è una tecnica che consiste nell’applicare un nastro adesivo elastico, privo di principi attivi farmaceutici, sulla zona di congestione e sul percorso linfatico, con una tensione pari allo 0%. Il taping linfatico ha lo scopo di sollevare la cute, aumentare lo spazio interstiziale, normalizzare la pressione idrostatica e osmotica, attivare l’effetto pompa sui vasi linfatici e vascolari. Il taping linfatico ha molti benefici: ridurre i tempi di recupero funzionale, migliorare la circolazione venosa e linfatica, drenare le congestioni, rimuovere l’accumulo di carico linfatico nel tessuto interstiziale, alleviare il dolore, ridurre l’infiammazione, facilitare il drenaggio degli ematomi, ammorbidire le zone fibrotiche. Nel corso imparerai la teoria e la pratica del taping linfatico, studierai l’anatomia e la fisiologia del sistema circolatorio e linfatico, approfondirai le tecniche di applicazione del nastro per le diverse zone e le diverse problematiche."
 programma: [
 "Introduzione al Taping Linfatico;",
 "Funzionamento ed effetti del Taping Linfatico: miglioramento della circolazione sanguigna e linfatica;",

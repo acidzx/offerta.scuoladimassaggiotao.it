@@ -3,27 +3,11 @@ img: "corso-taping-muscolare.jpg"
 slug: "corso-taping-muscolare"
 price: "249,00"
 title: "Taping Muscolare"
-description: "Il Corso di Taping Muscolare ti insegnerà questa tecnica biomeccanica che utilizza speciali nastri adesivi colorati da applicare sul tessuto cutaneo per creare degli stimoli decompressivi e compressivi, al fine di ottenere effetti benefici a livello muscolo-scheletrico."
+description: "Il Corso di Taping Muscolare ti insegnerà una tecnica di bendaggio adesivo elastico che si basa sulla stimolazione del sistema neuro-muscolare e neuro-sensoriale, per ottenere effetti benefici a livello muscolo-scheletrico. Il taping muscolare è una tecnica che consiste nell’applicare un nastro adesivo elastico, colorato e traspirante, sul tessuto cutaneo, in modo da creare degli stimoli decompressivi e compressivi, a seconda della tensione e della direzione del nastro. Il taping muscolare ha lo scopo di sostenere i muscoli durante il movimento, migliorare la stabilità e la postura, aumentare il range di movimento articolare, facilitare il corretto allineamento articolare, alleviare il dolore, ridurre l’infiammazione, attivare i sistemi antalgici endogeni. Il taping muscolare ha molti benefici: ridurre i tempi di recupero funzionale, coadiuvare la risposta neuromotoria, migliorare la performance sportiva, prevenire e curare i traumi sportivi. Nel corso imparerai la teoria e la pratica del taping muscolare, studierai l’anatomia e la fisiologia del sistema neuro-muscolare e neuro-sensoriale, approfondirai le tecniche di applicazione del nastro per le diverse zone e le diverse situazioni. Il corso ti renderà in grado di applicare il taping in modo efficace e sicuro, ottenendo un’azione terapeutica e preventiva su tutto il sistema muscolo-scheletrico."
 durata: "1 giorno"
 ore: "10 ore"
 category: "corso"
-longcontent: "Il Taping è un bendaggio adesivo elastico, privo di principi attivi farmaceutici, con effetto biomeccanico, che attiva il sistema circolatorio e linfatico.
-
-Il Taping Muscolare è una tecnica biomeccanica che utilizza speciali nastri adesivi colorati da applicare sul tessuto cutaneo per creare degli stimoli decompressivi e compressivi, al fine di ottenere effetti benefici a livello muscolo-scheletrico.
-
-L’innovativa tecnica di questa metodica, derivata dalla scienza della chinesiologia, si basa sulle naturali capacità di guarigione del corpo, stimolate dall’attivazione del sistema “neuro-muscolare” e “neuro-sensoriale”, secondo i nuovi concetti di neuroscienza.
-
-Il Corso di Taping Muscolare è basilare per tutte le figure che seguono gli atleti, per tutti quelli che gravitano all'interno di squadre sportive, o per chi lavora nel campo delle tecniche manuali ed ha come clienti molti sportivi.
-Il Taping Muscolare al giorno d'oggi è usato moltissimo nello sport e prevede protocolli di applicazioni differenti, a seconda della fase della gara: prima e durante l’attività sportiva per preparare e prevenire, dopo per defaticare, inoltre interviene positivamente sui principali traumi che possono verificarsi nelle diverse discipline, e permette all’atleta di tornare ad allenarsi riducendo i tempi di recupero."
-benefici: "Ridurre i tempi di recupero funzionale;
-Coadiuvare la risposta neuromotoria;
-Sostenere i muscoli durante il movimento;
-Miglioramento della stabilità e della postura;
-Aumentare il range di movimento articolare;
-Facilitare il corretto allineamento articolare;
-Alleviare il dolore;
-Ridurre l'infiammazione;
-Attivare i sistemi antalgici endogeni."
+longcontent: "Il Corso di Taping Muscolare ti insegnerà una tecnica di bendaggio adesivo elastico che si basa sulla stimolazione del sistema neuro-muscolare e neuro-sensoriale, per ottenere effetti benefici a livello muscolo-scheletrico. Il taping muscolare è una tecnica che consiste nell’applicare un nastro adesivo elastico, colorato e traspirante, sul tessuto cutaneo, in modo da creare degli stimoli decompressivi e compressivi, a seconda della tensione e della direzione del nastro. Il taping muscolare ha lo scopo di sostenere i muscoli durante il movimento, migliorare la stabilità e la postura, aumentare il range di movimento articolare, facilitare il corretto allineamento articolare, alleviare il dolore, ridurre l’infiammazione, attivare i sistemi antalgici endogeni. Il taping muscolare ha molti benefici: ridurre i tempi di recupero funzionale, coadiuvare la risposta neuromotoria, migliorare la performance sportiva, prevenire e curare i traumi sportivi. Nel corso imparerai la teoria e la pratica del taping muscolare, studierai l’anatomia e la fisiologia del sistema neuro-muscolare e neuro-sensoriale, approfondirai le tecniche di applicazione del nastro per le diverse zone e le diverse situazioni. Il corso ti renderà in grado di applicare il taping in modo efficace e sicuro, ottenendo un’azione terapeutica e preventiva su tutto il sistema muscolo-scheletrico."
 programma: [
 "Introduzione al Taping Muscolare;",
 "Funzionamento ed effetti del Taping: miglioramento della funzionalità muscolare, riduzione del dolore, rinforzo della funzionalità articolare;",
