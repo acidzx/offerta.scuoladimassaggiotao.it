@@ -96,22 +96,29 @@ export default function PostHeader(props) {
             Prossima data del corso:
           </p>
           <p className="font-bold text-xl text-gray-600 pb-4">{filteredDate}</p> */}
+          <label
+            htmlFor="modalForm"
+            href="#"
+            className="cursor-pointer"
+            role="alert"
+          >
+            <div className="indicator">
+              <div className="pl-2 pt-4 indicator-item indicator-bottom indicator-center left-24">
+                <a className="btn btn-primary bg-green-700 text-white hover:bg-green-800">
+                  Richiedi Informazioni
+                </a>
+              </div>
 
-          <div className="indicator">
-            <div className="indicator-item indicator-bottom indicator-center mx-auto">
-              <button className="btn btn-primary bg-white">
-                Richiedi Informazioni
-              </button>
-            </div>
-            <div className="card border">
-              <div className="card-body">
-                <h2 className="card-title text-2xl">
-                  Prossima data del corso:
-                </h2>
-                <p className="text-xl">{filteredDate}</p>
+              <div className="card border">
+                <div className="card-body">
+                  <h2 className="card-title text-2xl">
+                    Prossima data del corso:
+                  </h2>
+                  <p className="text-xl">{filteredDate}</p>
+                </div>
               </div>
             </div>
-          </div>
+          </label>
         </div>
       ) : (
         ""
