@@ -54,10 +54,10 @@ export default function Home(props) {
           DIPLOMI DI SPECIALIZZAZIONE
         </h2>
         <p className="text-center mb-6 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl  xl:px-48 ">
-          Se vuoi imparare l’arte del massaggio e diventare un professionista
-          qualificato, i percorsi di diploma di massaggio sono quello che fa per
-          te. Iscriviti ora e inizia il tuo percorso verso una carriera
-          gratificante e appagante nel mondo del benessere.
+          Se vuoi imparare l&apos;arte del massaggio e diventare un
+          professionista qualificato, i percorsi di diploma di massaggio sono
+          quello che fa per te. Iscriviti ora e inizia il tuo percorso verso una
+          carriera gratificante e appagante nel mondo del benessere.
         </p>
       </div>
       <MultiCarousel posts={props.diplomi} />
