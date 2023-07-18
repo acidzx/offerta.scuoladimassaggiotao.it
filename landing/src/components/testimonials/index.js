@@ -10,14 +10,14 @@ export default function Testimonials(props) {
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
         Massimo indice di gradimento
       </h2>
-      <p className="text-center mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
+      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
         L&apos;unica scuola con più di 1.400 recensioni positive verificate
       </p>
 
-      <div className="overflow-hidden bg-white py-4 sm:py-4">
+      <div className="overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="carousel w-full items-center">
+          <div className="mx-auto grid justify-center lg:items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-4 sm:gap-y-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="carousel w-full lg:items-center">
               {FBreviews &&
                 FBreviews.data
                   .filter((reviewTextLength) => {
