@@ -11,7 +11,7 @@ export default function Cta() {
             SCARICA IL TUO COUPON SCONTO
           </h1>
           <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
-            Scopri l&apos;offerta a te dedicata
+            Richiedi l&apos;offerta a te dedicata
           </p>
           <CtaActionsButtons />
         </div>

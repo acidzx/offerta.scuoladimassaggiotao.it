@@ -27,6 +27,7 @@ export default function DiplomaAltaFormazione() {
             alt="Diploma di Alta Formazione Professionale"
             className="lg:shadow-lg 2xl:shadow-none object-cover w-full rounded-t-sm lg:rounded-r-lg 2xl:rounded-none h-108 lg:h-auto lg:w-1/2 border border-gray-200"
           />
+
           <div className="flex flex-col justify-between p-5 lg:p-8 leading-normal lg:w-1/2">
             <div className="flow-root">
               <ul role="list" className="divide-y divide-gray-200 ">
@@ -117,8 +118,10 @@ export default function DiplomaAltaFormazione() {
                       </p>
                       <p className="text-base text-gray-500  text-justify">
                         Importo rateizzabile fino ad un massimo di 14 comode
-                        rate senza garanzie personali (busta paga o 730). Potrai
-                        fin da subito iniziare a lavorare e guadagnare.
+                        rate senza garanzie personali (busta paga o 730) oppure
+                        fino a 36 soluzioni con finanziaria esterna nostra
+                        partner. Potrai fin da subito iniziare a lavorare e
+                        guadagnare.
                       </p>
                     </div>
                   </div>
