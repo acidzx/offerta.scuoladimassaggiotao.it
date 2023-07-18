@@ -1,6 +1,6 @@
 export default function YoutubeTestimonial() {
   return (
-    <div>
+    <div className="w-full lg:items-center">
       <div className="aspect-w-16 aspect-h-9">
         <iframe
           src="https://www.youtube-nocookie.com/embed/CV1VpGHIdnA"
