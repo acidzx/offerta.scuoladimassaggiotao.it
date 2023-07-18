@@ -68,9 +68,9 @@ export default function Home(props) {
         </h2>
         <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           Se vuoi approfondire le tue conoscenze e le tue competenze nel campo
-          del massaggio, Scuola Tao ha una vasta un'offerta formativa che spazia
-          dalle tecniche olistiche a quelle sportive. Contattaci ora e scopri il
-          corso più adatto a te.
+          del massaggio, Scuola Tao ha una vasta un&apos;offerta formativa che
+          spazia dalle tecniche olistiche a quelle sportive. Contattaci ora e
+          scopri il corso più adatto a te.
         </p>
       </div>
       <MultiCarousel posts={props.corsi} />
