@@ -19,7 +19,7 @@ programma: [
 "I benefici della riflessologia plantare;",
 "L' interpretazione del dolore;",
 "Aspetti deontologici dell’operatore;",
-"L'ambiente, la posizione del cliente, durata, frequenza del trattamento ed intensità;",
+"Ambiente, la posizione del cliente, durata, frequenza del trattamento ed intensità;",
 "Precauzioni e controindicazioni;",
 "Riferimenti legislativi.",
 "Gli accessori utilizzati durante la seduta;",

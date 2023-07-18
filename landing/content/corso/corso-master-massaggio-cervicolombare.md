@@ -13,7 +13,7 @@ programma:
     "Origini e storia del massaggio;",
     "Anatomia e fisiologia del corpo umano;",
     "Deontologia professionale;",
-    "L'ambiente di lavoro;",
+    "Ambiente di lavoro;",
     "Attrezzature e strumenti di lavoro;",
     "Riferimenti legislativi per la professione di massaggiatore;",
     "Massaggio e psiche;",

@@ -16,7 +16,7 @@ programma: [
 "La sindrome mio fasciale, i punti trigger e loro localizzazione;",
 "Analisi palpatoria dei tessuti;",
 "Deontologia professionale;",
-"L'Ambiente di lavoro;",
+"Ambiente di lavoro;",
 "Attrezzature e strumenti di lavoro;",
 "Riferimenti legislativi per la professione di massaggiatore;",
 "Massaggio e psiche;",
