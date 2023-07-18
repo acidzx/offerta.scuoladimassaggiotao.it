@@ -25,7 +25,7 @@ const supportLinks = [
 ];
 
 export default function PostHeader(props) {
-  const { title, img, description, category, filteredDate } = props;
+  const { title, img, category, filteredDate } = props;
 
   return (
     <div className="bg-white">

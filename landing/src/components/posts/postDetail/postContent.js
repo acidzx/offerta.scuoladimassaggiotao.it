@@ -50,7 +50,6 @@ export default function PostContent(props) {
       <PostHeader
         img={`${imgPath}/${post.img}`}
         title={post.title}
-        description={post.description}
         category={post.category}
         filteredDate={filteredDate || "in programmazione"}
       />
