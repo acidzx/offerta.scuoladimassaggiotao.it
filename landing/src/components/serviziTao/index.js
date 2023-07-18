@@ -11,14 +11,15 @@ import {
 
 const features = [
   {
-    name: "Recensioni Facebook 4.9",
-    description: "Recensioni Facebook verificate con 4.9 stelle su 5.",
+    name: "Opportunità di carriera",
+    description:
+      "Scuola Tao è punto di riferimento per le migliori aziende del settore benessere alla ricerca di nuovi operatori.",
     icon: SparklesIcon,
   },
   {
     name: "33 sedi in tutta Italia",
     description:
-      "Organizziamo i corsi nelle migliori sale congresso di strutture selezionate e facilmente raggiungibili.",
+      "Organizziamo i corsi nelle migliori sale congresso di strutture selezionate e facilmente raggiungibili. Scopri la sede più vicina a te.",
     icon: BuildingLibraryIcon,
   },
   {
@@ -30,7 +31,7 @@ const features = [
   {
     name: "Accreditamenti.",
     description:
-      "Possibilità di riconoscere ed accreditare competenze pregresse svolte anche con altre realtà.",
+      "Possibilità di riconoscere ed accreditare competenze pregresse svolte anche con altre realtà, a favore di maggiori scontistiche.",
     icon: ArrowPathIcon,
   },
   {
