@@ -41,4 +41,5 @@ benefici: "**Benefici dal punto di vista fisico:**\n\n
 requisiti: "Il Corso di Massaggio Hot Stone della Scuola Nazionale di Massaggio Tao® è aperto e rivolto a chiunque e non necessita di un'esperienza di base precedente."
 videosrc: "https://www.youtube-nocookie.com/embed/YwQejIuY0Vg"
 programmazione: ['29 10 2023']    
+order: "16"
 ---

@@ -56,7 +56,7 @@ export default function Servizi() {
             Tutte le garanzie di cui hai bisogno
           </h2>
           <p className="mt-2 text-3xl font-bold text-gray-500 sm:text-4xl">
-            Scuola Tao trasforma la tua passione in una professione di successo
+            Scuola Tao, la formazione che crea lavoro
           </p>
         </div>
       </div>

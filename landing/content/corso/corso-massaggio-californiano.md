@@ -23,5 +23,6 @@ programma: [
 "Ripasso finale pratico del massaggio completo."]
 requisiti: "Il Corso di Massaggio Californiano non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/trtQ4__yM30"
-programmazione: ['21 10 2023']    
+programmazione: ['21 10 2023']   
+order: "7" 
 ---

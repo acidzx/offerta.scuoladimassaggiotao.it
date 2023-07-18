@@ -22,4 +22,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Thai Oil non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube.com/embed/uU-xyFUDNBs"
 programmazione: ['04 11 2023']    
+order: "9"
 ---

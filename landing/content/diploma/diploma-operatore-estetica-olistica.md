@@ -17,4 +17,5 @@ programma: [
 "Corso Massaggio Connettivale."]
 requisiti: "Il Diploma di Massaggiatore Terme e Spa è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
 videosrc: "https://www.youtube-nocookie.com/embed/X0q3QwnvIkk"
+order: "5"
 ---

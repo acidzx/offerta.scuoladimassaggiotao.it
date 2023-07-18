@@ -22,5 +22,6 @@ programma: [
 'Localizzazione dei punti di repere del corpo umano come riferimento per il massaggiatore professionista.']
 requisiti: "Il Corso di Anatomia Palpatoria è aperto a tutti ed è propedeutico per il Corso di Taping Elastico e per il Diploma Nazionale in Tecniche Avanzate di Massaggio."
 videosrc: "https://www.youtube-nocookie.com/embed/U40pnlmVxGw"
-programmazione: ['28 10 2023']    
+programmazione: ['28 10 2023']  
+order: "5"  
 ---

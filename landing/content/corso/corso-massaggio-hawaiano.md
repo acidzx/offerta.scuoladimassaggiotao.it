@@ -27,4 +27,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Hawaiano Lomi Lomi Nui non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/eRIGF4YSKu8"
 programmazione: ['15 07 2023', '18 11 2023']  
+order: "8"
 ---

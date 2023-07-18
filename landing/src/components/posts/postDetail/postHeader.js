@@ -13,12 +13,12 @@ const supportLinks = [
     icon: BuildingLibraryIcon,
   },
   {
-    name: "40+ tecniche di massaggio",
+    name: "35 tecniche di massaggio",
     href: "#",
     icon: HandRaisedIcon,
   },
   {
-    name: "3500+ allievi formati ogni anno",
+    name: "4.000 allievi formati ogni anno",
     href: "#",
     icon: UserGroupIcon,
   },

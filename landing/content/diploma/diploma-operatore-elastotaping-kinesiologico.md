@@ -17,4 +17,5 @@ programma: [
 "Corso Taping Linfatico."]
 requisiti: "Il Diploma di Operatore in Taping Kinesiologico è un Diploma Tecnico rivolto a tutti coloro che hanno frequentato il nostro Corso di Anatomia Palpatoria o che sono in possesso di una laurea in Scienze Motorie o Fisioterapia o un titolo similare. Consigliamo di contattare il nostro Servizio Clienti per valutare le possibilità di accreditamento in base al proprio titolo."
 videosrc: "https://www.youtube-nocookie.com/embed/Hje9a2y3qOQ"
+order: "7"
 ---

@@ -8,10 +8,10 @@ export default function Testimonials(props) {
   return (
     <>
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-        Cosa dicono di noi...
+        Massimo indice di gradimento
       </h2>
       <p className="text-center mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
-        L&apos;unica scuola con più di 1.200 recensioni a 5 stelle
+        L&apos;unica scuola con più di 1.400 recensioni positive verificate
       </p>
 
       <div className="overflow-hidden bg-white py-4 sm:py-4">

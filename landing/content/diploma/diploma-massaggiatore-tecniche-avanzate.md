@@ -16,4 +16,5 @@ programma: [
 "Corso Massaggio Crio-Dinamico."]
 requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/f83otMNNOtk"
+order: "6"
 ---

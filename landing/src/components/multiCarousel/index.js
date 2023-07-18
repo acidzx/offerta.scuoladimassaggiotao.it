@@ -24,12 +24,13 @@ export default function MultiCarousel(props) {
   };
 
   const { posts } = props;
+  posts.sort((a, b) => a.order - b.order);
 
   return (
     <div className="container mx-auto mb-8">
       <Carousel
         swipeable={true}
-        draggable={true}
+        draggable={false}
         showDots={false}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
@@ -49,7 +50,7 @@ export default function MultiCarousel(props) {
         {posts.map((post) =>
           post.slug !==
           "diploma-massaggiatore-alta-formazione-professionale" ? (
-            <CardCarousel key={post.slug} post={post} />
+            <CardCarousel key={post.order} post={post} />
           ) : (
             []
           )

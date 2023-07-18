@@ -31,4 +31,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Connettivale non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/23f-RdBRMfg"
 programmazione: ['01 07 2023']  
+order: "11"
 ---

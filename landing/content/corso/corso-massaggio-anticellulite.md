@@ -22,4 +22,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Anticellulite della Scuola Nazionale di Massaggio Tao è aperto a chi ha già un'esperienza di base precedente e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/aZfJ3ZTukt0"
 programmazione: ['16 09 2023']    
+order: "6"
 ---

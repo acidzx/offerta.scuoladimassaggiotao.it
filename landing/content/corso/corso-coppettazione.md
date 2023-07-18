@@ -23,4 +23,5 @@ L'orario di svolgimento dei corsi va dalle 9:00 alle 19:00 (è prevista la pausa
 È possibile, per chi ne fa richiesta, svolgere i corsi in modalità full immersion (modalità consigliata solo a chi ha poco tempo a disposizione ed ha già dimestichezza con le tecniche di massaggio)."
 videosrc: "https://www.youtube-nocookie.com/embed/qLTR0jwDfv4"
 programmazione: ['03 12 2023']    
+order: "20"
 ---
