@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ThankYou() {
   return (
     <div className="flex items-center justify-center h-screen mx-auto">
@@ -30,7 +32,7 @@ export default function ThankYou() {
             e 391.7405112
           </p>
 
-          <a
+          <Link
             href="/"
             className="inline-flex items-center px-4 py-2 text-white bg-green-700 border border-green-600 rounded-full hover:bg-green-800 focus:outline-none focus:ring"
           >
@@ -49,7 +51,7 @@ export default function ThankYou() {
               />
             </svg>
             <span className="text-sm font-medium">Home</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
