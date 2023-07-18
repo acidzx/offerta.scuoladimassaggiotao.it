@@ -38,6 +38,7 @@ export default function PostHeader(props) {
             src={img}
             width={1750}
             height={600}
+            priority
           />
           <div
             className="absolute inset-0 bg-gray-800/0 mix-blend-multiply"
