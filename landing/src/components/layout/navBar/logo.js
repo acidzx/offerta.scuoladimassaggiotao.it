@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoScuolaSVG from "@public/assets/svg/logoScuola.svg";
+import logoScuola from "@public/assets/svg/logoScuola.svg";
 
 export default function Logo() {
   return (
@@ -8,8 +8,8 @@ export default function Logo() {
       <Link href="/">
         <Image
           alt="logo tao scuola nazionale di massaggio"
-          src={logoScuolaSVG}
-          height="30"
+          src={logoScuola}
+          height="40"
         />
       </Link>
     </>
