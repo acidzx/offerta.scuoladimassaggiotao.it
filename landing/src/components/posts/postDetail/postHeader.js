@@ -62,7 +62,7 @@ export default function PostHeader(props) {
       {/* Overlapping cards */}
       {
         <div
-          className="hidden lg:block relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-8 lg:px-8"
+          className="  relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-8 lg:px-8"
           aria-labelledby="contact-heading"
         >
           <h2 className="sr-only" id="contact-heading">
