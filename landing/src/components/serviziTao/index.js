@@ -13,7 +13,7 @@ const features = [
   {
     name: "Opportunità di carriera",
     description:
-      "Scuola Tao è punto di riferimento per le migliori aziende del settore benessere alla ricerca di nuovi operatori.",
+      "Scuola Tao è punto di riferimento per le migliori aziende del settore benessere alla ricerca di nuovi operatori da inserire nel proprio organico.",
     icon: SparklesIcon,
   },
   {
@@ -25,7 +25,7 @@ const features = [
   {
     name: "Tutor dedicato",
     description:
-      "Un tutor dedicato ti seguirà e saprà consigliarti il percorso formativo più adatto alle tue esigenze.",
+      "Un tutor dedicato ti seguirà e saprà consigliarti il percorso formativo più adatto alle tue esigenze per realizzare al meglio i tuoi obbiettivi.",
     icon: FaceSmileIcon,
   },
   {
@@ -37,13 +37,13 @@ const features = [
   {
     name: "Conversione Diplomi.",
     description:
-      "A conclusione del Percorso Formativo di uno dei Diplomi Nazionali Tao®, potrai ottenere la conversione in un Diploma Csen.",
+      "A conclusione del percorso Formativo di uno dei diplomi di massaggio Tao, potrai ottenere la conversione in un diploma Csen.",
     icon: AcademicCapIcon,
   },
   {
     name: "Eventi/stage nazionali.",
     description:
-      "Avrai la possibilità di partecipare attivamente a importanti eventi come Casa Sanremo, Casa Miss Italia, Rimini Wellness e Cosmoprof per un'esperienza di crescita emozionale e professionale. ",
+      "Avrai la possibilità di partecipare attivamente a importanti eventi come Casa Sanremo, Casa Miss Italia, Rimini Wellness e Cosmoprof per un'esperienza di crescita emozionale e professionale.",
     icon: UserGroupIcon,
   },
 ];

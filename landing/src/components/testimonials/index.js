@@ -5,16 +5,20 @@ import { scrollIntoTheView } from "@/pages/_app";
 export default function Testimonials(props) {
   const { FBreviews } = props;
 
+  FBreviews &&
+    FBreviews.data.sort((a, b) => b.review_text.length - a.review_text.length);
+
   return (
     <>
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
         Massimo indice di gradimento
       </h2>
       <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
-        L&apos;unica scuola con più di 1.400 recensioni positive verificate
+        L&apos;unica scuola con più di 1.400 recensioni positive verificate su
+        Google e Facebook
       </p>
 
-      <div className="overflow-hidden bg-white">
+      <div className="overflow-hidden bg-white mt-4">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-4 sm:gap-y-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="carousel w-full items-center">
