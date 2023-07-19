@@ -21,6 +21,8 @@ export default function Footer() {
           <li className="text-sm">Via G. di Vittorio 216-218</li>
           <li className="text-sm">53042 Chianciano Terme (SI)</li>
           <li className="text-sm">P.Iva: 01469200529</li>
+          <li className="text-sm">Tel. 0578.62772</li>
+          <li className="text-sm">Email. info@taogroup.it</li>
         </ul>
       </div>
       <div>

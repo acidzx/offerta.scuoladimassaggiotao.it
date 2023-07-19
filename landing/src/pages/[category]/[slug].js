@@ -10,8 +10,8 @@ export default function SlugDetailPage(props) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta httpEquiv="Permissions-Policy" content="ch-ua-form-factor=()" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
           {`${props.post.category}  ${props.post.title} | Tao - Scuola
           Nazionale di Massaggio`}

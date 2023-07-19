@@ -61,11 +61,13 @@ export default function PostSchedaTecnica(props) {
             pressi dei principali svincoli autostradali.
           </p>
           <p className="text-center pt-2">
-            Alessandria - Ancona - Arco - Bari - Bologna - Brescia - Cagliari -
-            Catania - Cesena - Chianciano Terme - Cuneo - Enna - Firenze -
-            Foggia - Genova - Lamezia Terme - Lecce - Milano - Montegrotto Terme
-            - Napoli - Novara - Palermo - Parma - Perugia - Pescara - Piacenza -
-            Pisa - Pordenone - Roma - Torino - Trento - Udine - Verona
+            Pescara - Potenza - Lamezia Terme - Salerno - Napoli - Bologna -
+            Parma - Piacenza - Cesena - Pordenone - Udine - Roma - Genova -
+            Milano - Brescia - Ancona - Campobasso - Torino - Cuneo - Novara -
+            Alessandria - Bari - Lecce - Foggia - Cagliari - Catania - Enna -
+            Palermo - Messina - Firenze - Pisa - Chianciano Terme - Arco -
+            Trento - Perugia - Aosta - Montegrotto Terme - Padova - Verona -
+            Vicenza
           </p>
         </div>
       </div>
