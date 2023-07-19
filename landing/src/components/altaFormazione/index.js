@@ -127,9 +127,9 @@ export default function DiplomaAltaFormazione() {
                       <p className="text-base text-gray-500  text-justify">
                         Importo rateizzabile fino ad un massimo di 14 comode
                         rate senza garanzie personali (busta paga o 730) oppure
-                        fino a 36 soluzioni con finanziaria esterna nostra
-                        partner. Potrai fin da subito iniziare a lavorare e
-                        guadagnare.
+                        fino a 36 piccole e comode soluzioni con finanziaria
+                        esterna nostra partner. Potrai fin da subito iniziare a
+                        lavorare e guadagnare.
                       </p>
                     </div>
                   </div>
