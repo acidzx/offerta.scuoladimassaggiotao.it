@@ -20,13 +20,13 @@ export default function Testimonials(props) {
           //1010x160px
           width={50}
           src={logoGoogle}
-          alt="Logo Tao-Scuola Nazionale di Massaggio"
+          alt="Logo Google"
         />
         <Image
           //1010x160px
           width={50}
           src={logoFacebook}
-          alt="Logo Tao-Scuola Nazionale di Massaggio"
+          alt="Logo Facebook"
         />
       </div>
       <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8">
