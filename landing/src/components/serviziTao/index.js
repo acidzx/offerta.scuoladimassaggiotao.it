@@ -52,7 +52,7 @@ export default function Servizi() {
   return (
     <div className="bg-white py-16 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
+        <div className="mx-auto max-w-2xl text-center">
           <h2 className="mb-4 text-lg font-normal text-green-700 lg:text-xl sm:px-16 lg:px-24">
             Tutte le garanzie di cui hai bisogno
           </h2>
