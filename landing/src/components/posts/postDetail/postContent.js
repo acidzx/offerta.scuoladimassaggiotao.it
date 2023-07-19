@@ -55,7 +55,7 @@ export default function PostContent(props) {
       />
 
       <div>{post.slug == "corso-massaggio-base-svedese" ? "" : ""}</div>
-      <hr className="h-px my-4 bg-gray-200 border-0 " />
+      <hr className="h-px my-4 bg-red-700 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
         benefici={post.benefici}
