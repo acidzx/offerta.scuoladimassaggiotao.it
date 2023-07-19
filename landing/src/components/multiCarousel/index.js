@@ -40,10 +40,10 @@ export default function MultiCarousel(props) {
         keyBoardControl={true}
         customTransition="all .8" /*"transform 1s ease-in-out" "all .8"*/
         transitionDuration={200}
-        containerClass="carousel-container"
+        containerclassName="carousel-container"
         // removeArrowOnDeviceType={["tablet", "mobile"]}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
+        dotListclassName="custom-dot-list-style"
+        itemclassName="carousel-item-padding-40-px"
         // customLeftArrow={<CustomLeftArrow />}
         // customRightArrow={<CustomRightArrow />}
       >

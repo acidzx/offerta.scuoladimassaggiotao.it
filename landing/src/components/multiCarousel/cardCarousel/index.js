@@ -7,7 +7,7 @@ export default function CardCarousel(props) {
     slug,
     price,
     title,
-    description,
+    longcontent,
     durata,
     ore,
     category,
@@ -16,6 +16,12 @@ export default function CardCarousel(props) {
   const imgPath = `/assets/images/carousel/${category}/${img}`;
 
   const linkPath = `/${category}/${slug}`;
+
+  const stripTags = (str) => {
+    return str.replace(/(<([^>]+)>)/gi, "");
+  };
+
+  const LongContentClean = stripTags(longcontent);
 
   return (
     <Link href={linkPath}>
@@ -102,11 +108,13 @@ export default function CardCarousel(props) {
                 </li>
               </ul>
             </div>
+            <p
+              className="mt-2 text-justify"
+              dangerouslySetInnerHTML={{
+                __html: LongContentClean.substring(0, 130) + "...",
+              }}
+            />
 
-            <p className="mt-2 text-justify">
-              {description.substring(0, 130)}{" "}
-              {description.length >= 130 && "..."}
-            </p>
             <div className="flow-root">
               <ul role="list" className="divide-y divide-gray-200 ">
                 <li className="py-3 sm:py-4">

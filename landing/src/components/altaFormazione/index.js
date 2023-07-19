@@ -28,7 +28,7 @@ export default function DiplomaAltaFormazione() {
             className="lg:shadow-lg 2xl:shadow-none object-cover w-full rounded-t-sm lg:rounded-r-lg 2xl:rounded-none h-108 lg:h-auto lg:w-1/2 border border-gray-200"
           />
 
-          <div class="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
+          <div className="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
             <div className="indicator">
               <span className="indicator-item p-4 badge badge-primary bg-white border border-green-700 rounded-lg text-green-700">
                 <b>Iscrizioni sempre aperte</b>

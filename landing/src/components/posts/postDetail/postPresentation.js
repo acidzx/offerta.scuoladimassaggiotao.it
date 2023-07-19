@@ -2,7 +2,6 @@ import ReactMarkdown from "react-markdown";
 
 export default function PostPresentation(props) {
   const { longcontent, benefici, slug, category } = props;
-
   return (
     <div className="bg-white ">
       <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">

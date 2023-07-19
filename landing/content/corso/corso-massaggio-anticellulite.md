@@ -3,11 +3,10 @@ img: "corso-massaggio-anticellulite.jpg"
 slug: "corso-massaggio-anticellulite"
 price: "380,00"
 title: "Massaggio Anticellulite"
-description: "<p class='mb-2'>Se vuoi sapere come combattere la cellulite con il massaggio, questo corso fa per te. Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "<p class='mb-2'>Se vuoi sapere come combattere la cellulite con il massaggio, questo corso fa per te. Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
+longcontent: "<p class='mb-2'>Se vuoi sapere come combattere la <b>cellulite</b> con il massaggio, questo corso fa per te.</p> Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
 programma: [
 'Introduzione alla cellulite;',
 'La cellulite in ambito medico ed estetico;',
