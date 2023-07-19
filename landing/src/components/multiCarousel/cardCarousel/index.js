@@ -21,8 +21,6 @@ export default function CardCarousel(props) {
     return str.replace(/(<([^>]+)>)/gi, "");
   };
 
-  const LongContentClean = stripTags(longcontent);
-
   return (
     <Link href={linkPath}>
       <div className="carousel-item max-w-[340px] mx-auto my-5 card bg-base-100 shadow-xl">
@@ -111,7 +109,7 @@ export default function CardCarousel(props) {
             <p
               className="mt-2 text-justify"
               dangerouslySetInnerHTML={{
-                __html: LongContentClean.substring(0, 130) + "...",
+                __html: stripTags(longcontent).substring(0, 130) + "...",
               }}
             />
 
