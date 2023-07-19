@@ -49,30 +49,10 @@ export default function Home(props) {
       <hr className="divider" />
       <AltaFormazione />
       <Cta />
-      <div className="container mx-auto p-4 mt-6">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl">
-          DIPLOMI DI SPECIALIZZAZIONE
-        </h2>
-        <p className="text-center mb-6 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl  xl:px-48 ">
-          Se vuoi imparare l&apos;arte del massaggio e diventare un
-          professionista qualificato, i percorsi di diploma di massaggio sono
-          quello che fa per te. Iscriviti ora e inizia il tuo percorso verso una
-          carriera gratificante e appagante nel mondo del benessere.
-        </p>
-      </div>
+
       <MultiCarousel posts={props.diplomi} />
       <Cta />
-      <div className="container mx-auto p-4 mt-6">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
-          CORSI DI MASSAGGIO
-        </h2>
-        <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          Se vuoi approfondire le tue conoscenze e le tue competenze nel campo
-          del massaggio, Scuola Tao ha una vasta un&apos;offerta formativa che
-          spazia dalle tecniche olistiche a quelle sportive. Contattaci ora e
-          scopri il corso più adatto a te.
-        </p>
-      </div>
+
       <MultiCarousel posts={props.corsi} />
       <Cta />
       <ServiziTao />
