@@ -1,6 +1,8 @@
 import Image from "next/image";
 import YoutubeTestimonial from "./youtubeTestimonial";
 import { scrollIntoTheView } from "@/pages/_app";
+import logoGoogle from "@public/assets/svg/google-logo.svg";
+import logoFacebook from "@public/assets/svg/facebook-logo.svg";
 
 export default function Testimonials(props) {
   const { FBreviews } = props;
@@ -13,7 +15,21 @@ export default function Testimonials(props) {
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
         Massimo indice di gradimento
       </h2>
-      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
+      <div className="container mx-auto flex justify-center gap-6 mb-4">
+        <Image
+          //1010x160px
+          width={50}
+          src={logoGoogle}
+          alt="Logo Tao-Scuola Nazionale di Massaggio"
+        />
+        <Image
+          //1010x160px
+          width={50}
+          src={logoFacebook}
+          alt="Logo Tao-Scuola Nazionale di Massaggio"
+        />
+      </div>
+      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8">
         L&apos;unica scuola con più di 1.400 recensioni positive verificate su
         Google e Facebook
       </p>
