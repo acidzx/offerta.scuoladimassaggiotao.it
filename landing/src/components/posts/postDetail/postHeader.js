@@ -65,7 +65,7 @@ export default function PostHeader(props) {
       {/* Overlapping cards */}
       {
         <div
-          className="hidden lg:block relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-8 lg:px-8"
+          className="hidden lg:block relative z-10 mx-auto lg:-mt-[30px] max-w-7xl px-6 pb-5 lg:px-8"
           aria-labelledby="contact-heading"
         >
           <h2 className="sr-only" id="contact-heading">
@@ -100,7 +100,7 @@ export default function PostHeader(props) {
       }
 
       {category === "corso" ? (
-        <div className="container text-center mx-auto mt-0 py-8 ">
+        <div className="container text-center mx-auto mt-0 py-6 ">
           {/*  <p className="font-bold text-3xl text-gray-600 py-5 border-t-2">
             Prossima data del corso:
           </p>
@@ -111,8 +111,8 @@ export default function PostHeader(props) {
             className="cursor-pointer"
             role="alert"
           >
-            <div className="indicator rounded-2xl bg-white shadow-xl mb-6">
-              <div className="pl-2 pt-4 indicator-item indicator-bottom indicator-center left-24">
+            <div className="indicator rounded-2xl bg-white shadow-xl mb-2">
+              <div className="pl-2 pt-3 indicator-item indicator-bottom indicator-center left-24">
                 <a className="btn btn-primary bg-green-700 text-white hover:bg-green-800">
                   Richiedi Informazioni
                 </a>
