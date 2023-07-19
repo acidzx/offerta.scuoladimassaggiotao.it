@@ -12,18 +12,21 @@ const supportLinks = [
     href: "#",
     icon: BuildingLibraryIcon,
     bgcolor: "bg-green-700",
+    color: "text-white",
   },
   {
     name: "35 tecniche di massaggio",
     href: "#",
     icon: HandRaisedIcon,
     bgcolor: "bg-white",
+    color: "text-gray-700",
   },
   {
     name: "4.000 allievi formati ogni anno",
     href: "#",
     icon: UserGroupIcon,
     bgcolor: "bg-red-700",
+    color: "text-white",
   },
 ];
 
@@ -79,7 +82,7 @@ export default function PostHeader(props) {
                     className={`absolute top-0 inline-block -translate-y-1/2 transform rounded-xl ${link.bgcolor} p-5 shadow-lg`}
                   >
                     <link.icon
-                      className="h-9 w-9 text-gray-200"
+                      className={`h-9 w-9 ${link.color}`}
                       aria-hidden="true"
                     />
                   </div>
