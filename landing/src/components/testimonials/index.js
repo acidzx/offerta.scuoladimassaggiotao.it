@@ -17,11 +17,11 @@ export default function Testimonials(props) {
       <div className="overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-4 sm:gap-y-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="carousel w-full lg:items-center">
+            <div className="carousel w-full items-center">
               {FBreviews &&
                 FBreviews.data
                   .filter((reviewTextLength) => {
-                    return reviewTextLength.review_text.length > 30;
+                    return reviewTextLength.review_text.length > 60;
                   })
                   .map((review, index) => (
                     <div
@@ -30,8 +30,8 @@ export default function Testimonials(props) {
                       className="carousel-item relative w-full"
                     >
                       <div className="relative isolate overflow-hidden bg-white p-6">
-                        <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.green.100),white)] opacity-20" />
-                        <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-green-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+                        {/*    <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.green.100),white)] opacity-20" />
+                        <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-green-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" /> */}
                         <div className="mx-auto max-w-2xl lg:max-w-4xl">
                           <ul className="flex items-center justify-center">
                             <li>
@@ -108,7 +108,7 @@ export default function Testimonials(props) {
                                       (reviewTextLength) => {
                                         return (
                                           reviewTextLength.review_text.length >
-                                          30
+                                          60
                                         );
                                       }
                                     ).length
@@ -128,7 +128,7 @@ export default function Testimonials(props) {
                                 index ==
                                 FBreviews.data.filter((reviewTextLength) => {
                                   return (
-                                    reviewTextLength.review_text.length > 30
+                                    reviewTextLength.review_text.length > 60
                                   );
                                 }).length -
                                   1
