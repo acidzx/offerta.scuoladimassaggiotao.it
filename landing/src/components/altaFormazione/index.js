@@ -16,7 +16,7 @@ export default function DiplomaAltaFormazione() {
         </p>
       </div>
 
-      <div className="container p-5 mx-auto">
+      <div className="container p-5 mx-auto relative">
         <Link
           href="/diploma/diploma-massaggiatore-alta-formazione-professionale"
           className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 "
@@ -27,6 +27,14 @@ export default function DiplomaAltaFormazione() {
             alt="Diploma di Alta Formazione Professionale"
             className="lg:shadow-lg 2xl:shadow-none object-cover w-full rounded-t-sm lg:rounded-r-lg 2xl:rounded-none h-108 lg:h-auto lg:w-1/2 border border-gray-200"
           />
+
+          <div class="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
+            <div className="indicator">
+              <span className="indicator-item p-4 badge badge-primary bg-white border border-green-700 rounded-lg text-green-700">
+                <b>Iscrizioni sempre aperte</b>
+              </span>
+            </div>
+          </div>
 
           <div className="flex flex-col justify-between p-5 lg:p-8 leading-normal lg:w-1/2">
             <div className="flow-root">
