@@ -20,23 +20,7 @@ programma: [
 "Protocollo di lavoro;",
 "Parte pratica del massaggio Hot Stone;",
 "Prova pratica finale;",
-"Spazio per approfondimenti finali."]
-benefici: "**Benefici dal punto di vista fisico:**\n\n
-&middot; Aumento della vascolarizzazione;\n\n
-&middot; Migliore circolazione sanguigna arteriosa e venosa;\n\n
-&middot; Miglioramento nella ritenzione dei liquidi;\n\n
-&middot; Attenuazione dei dolori muscolari;\n\n
-&middot; Distensione di tutta la colonna vertebrale;\n\n
-&middot; Drenaggio e tonificazione dei tessuti;\n\n
-&middot; Effetto stimolante e disintossicante;\n\n
-&middot; Riduzione del senso di stanchezza;\n\n
-&middot; Pelle più liscia e levigata.\n\n
-&nbsp;\n\n
-**Benefici dal punto di vista emozionale e spirituale:**\n\n
-&middot; Riduzione di stress e ansia;\n\n
-&middot; Riduzione dell’insonnia;\n\n
-&middot; Riduzione della depressione;\n\n
-&middot; Riequilibrio energetico."    
+"Spazio per approfondimenti finali."] 
 requisiti: "Il Corso di Massaggio Hot Stone della Scuola Nazionale di Massaggio Tao® è aperto e rivolto a chiunque e non necessita di un'esperienza di base precedente."
 videosrc: "https://www.youtube-nocookie.com/embed/YwQejIuY0Vg"
 programmazione: ['29 10 2023']    
