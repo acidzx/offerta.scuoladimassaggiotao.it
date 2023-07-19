@@ -120,10 +120,12 @@ export default function PostHeader(props) {
 
               <div className="card border">
                 <div className="card-body">
-                  <h2 className="card-title text-2xl">
+                  <h2 className="card-title text-xl font-medium text-gray-900 border-b border-gray-400">
                     Prossima data del corso:
                   </h2>
-                  <p className="text-xl">{filteredDate}</p>
+                  <p className="text-xl font-medium text-gray-900">
+                    {filteredDate}
+                  </p>
                 </div>
               </div>
             </div>
