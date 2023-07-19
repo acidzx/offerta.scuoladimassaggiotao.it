@@ -7,7 +7,7 @@ export default function PostPrice(props) {
           <h2 className="text-4xl  font-extrabold text-gray-600 ">
             Ora in offerta a soli
           </h2>
-          <p className="mt-6 font-extrabold text-gray-500 text-6xl">
+          <p className="mt-6 font-extrabold text-gray-500 text-5xl">
             {price}&euro;
           </p>
         </div>
