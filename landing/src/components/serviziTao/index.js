@@ -57,7 +57,7 @@ export default function Servizi() {
             Tutte le garanzie di cui hai bisogno
           </h2>
           <p className="mt-2 text-3xl font-bold text-gray-500 sm:text-4xl">
-            Scuola Tao, la formazione che crea lavoro
+            Con Tao, la formazione crea lavoro
           </p>
         </div>
       </div>

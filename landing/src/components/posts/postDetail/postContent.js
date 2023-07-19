@@ -68,6 +68,9 @@ export default function PostContent(props) {
         ""
       )}
       <Cta />
+      <PostPrice price={post.price} />
+      <PostServiziInclusi title={post.title} />
+      <Cta />
       <PostVideoPresentation videosrc={post.videosrc} />
       <Cta />
       <PostSchedaTecnica
@@ -79,9 +82,8 @@ export default function PostContent(props) {
         category={post.category}
       />
 
-      <PostPrice price={post.price} />
-      <PostServiziInclusi title={post.title} />
       <Cta />
+
       <ServiziTao />
       <Cta />
       {/* <hr className="divider" /> */}
