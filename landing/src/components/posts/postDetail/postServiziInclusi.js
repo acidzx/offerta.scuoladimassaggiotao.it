@@ -34,7 +34,7 @@ export default function PostServiziInclusi(props) {
         <div className="stats stats-vertical lg:stats-horizontal shadow">
           {title === "Massaggio Base Svedese" ? (
             <div className="stat lg:px-3 xl:px-4">
-              <div className="stat-figure text-gray-600">
+              <div className="stat-figure text-red-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -57,7 +57,7 @@ export default function PostServiziInclusi(props) {
           )}
           {serviziText.map((servizio) => (
             <div className="stat lg:px-3 xl:px-4" key={servizio.name}>
-              <div className="stat-figure text-gray-600">
+              <div className="stat-figure text-red-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
