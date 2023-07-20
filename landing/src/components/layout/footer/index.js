@@ -98,7 +98,7 @@ const partners = [
 export default function Footer() {
   return (
     <>
-      <div className="mx-auto pt-6">
+      <div className="mx-auto py-2">
         <div class="slider">
           <div class="slide-track">
             {partners.map((partner, index) => (
