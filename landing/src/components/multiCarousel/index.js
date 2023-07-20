@@ -47,9 +47,9 @@ export default function MultiCarousel(props) {
           </h2>
           <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
             Se vuoi approfondire le tue conoscenze e le tue competenze nel campo
-            del massaggio, Scuola Tao ha una vasta un&apos;offerta formativa che
-            spazia dalle tecniche olistiche a quelle sportive. Contattaci ora e
-            scopri il corso più adatto a te.
+            del massaggio, Tao - Scuola Nazionale di Massaggio ha una vasta
+            un&apos;offerta formativa che spazia dalle tecniche olistiche a
+            quelle sportive. Contattaci ora e scopri il corso più adatto a te.
           </p>
         </div>
       )}

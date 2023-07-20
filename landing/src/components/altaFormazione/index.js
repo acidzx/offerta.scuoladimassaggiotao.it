@@ -19,7 +19,7 @@ export default function DiplomaAltaFormazione() {
       <div className="container p-5 mx-auto relative">
         <Link
           href="/diploma/diploma-massaggiatore-alta-formazione-professionale"
-          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100 "
+          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100/30 "
         >
           <Image
             priority
