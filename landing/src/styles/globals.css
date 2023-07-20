@@ -34,7 +34,7 @@
   content: "";
   height: 50px;
   position: absolute;
-  width: 200px;
+  width: 100px;
   z-index: 2;
 }
 .slider::after {
