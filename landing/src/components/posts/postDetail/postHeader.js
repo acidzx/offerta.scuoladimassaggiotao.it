@@ -100,38 +100,28 @@ export default function PostHeader(props) {
       }
 
       {category === "corso" ? (
-        <div className="container text-center mx-auto mt-0 py-6 ">
-          {/*  <p className="font-bold text-3xl text-gray-600 py-5 border-t-2">
-            Prossima data del corso:
-          </p>
-          <p className="font-bold text-xl text-gray-600 pb-4">{filteredDate}</p> */}
-          <label
-            htmlFor="modalForm"
-            href="#"
-            className="cursor-pointer"
-            role="alert"
-          >
-            <div className="indicator rounded-2xl bg-white shadow-xl mb-2">
-              <div className="pl-2 pt-3 indicator-item indicator-bottom indicator-center left-24">
-                <a className="btn btn-primary bg-green-700 text-white hover:bg-green-800">
-                  Richiedi Informazioni
-                </a>
-              </div>
+        <div className="container flex flex-col text-center mx-auto mt-0 py-6 justify-center items-center">
+          <div className="p-5 rounded-2xl bg-white shadow-2xl">
+            <h3 className="card-title text-xl font-medium text-gray-900  border-b border-gray-400 justify-center">
+              Prima data del corso:
+            </h3>
+            <p className="text-lg font-medium text-gray-600 tracking-tighter justify-center pt-2 pb-4">
+              {filteredDate === fineCorsoDate
+                ? filteredDate
+                : `dal ${filteredDate} al ${fineCorsoDate}`}
+            </p>
 
-              <div className="card border">
-                <div className="card-body">
-                  <h2 className="card-title text-xl font-medium text-gray-900 border-b border-gray-400">
-                    Prima data del corso:
-                  </h2>
-                  <p className="text-xl font-medium text-gray-900 tracking-tight">
-                    {filteredDate === fineCorsoDate
-                      ? filteredDate
-                      : `dal ${filteredDate} al ${fineCorsoDate}`}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </label>
+            <label
+              htmlFor="modalForm"
+              href="#"
+              className="cursor-pointer"
+              role="alert"
+            >
+              <a className="btn btn-primary bg-green-700 text-white hover:bg-green-800">
+                Richiedi Informazioni
+              </a>
+            </label>
+          </div>
         </div>
       ) : (
         ""

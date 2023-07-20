@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
 
 export default function PostPresentation(props) {
   const { longcontent, benefici, slug, category } = props;
@@ -30,15 +31,19 @@ export default function PostPresentation(props) {
         </div>
 
         <div className="grid grid-cols-2 gap-4 mt-8">
-          <img
+          <Image
             className="w-full rounded-lg"
             src={`/assets/images/${category}/${slug}/${slug}-vertical-1.png`}
-            alt="office content 1"
+            alt={slug}
+            width={290}
+            height={400}
           />
-          <img
+          <Image
             className="mt-4 w-full lg:mt-10 rounded-lg"
             src={`/assets/images/${category}/${slug}/${slug}-vertical-2.png`}
-            alt="office content 2"
+            alt={slug}
+            width={290}
+            height={400}
           />
         </div>
       </div>
