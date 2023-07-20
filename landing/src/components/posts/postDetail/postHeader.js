@@ -123,7 +123,7 @@ export default function PostHeader(props) {
                   <h2 className="card-title text-xl font-medium text-gray-900 border-b border-gray-400">
                     Prossima data del corso:
                   </h2>
-                  <p className="text-xl font-medium text-gray-900">
+                  <p className="text-xl font-medium text-gray-900 tracking-tight">
                     {filteredDate}
                   </p>
                 </div>
