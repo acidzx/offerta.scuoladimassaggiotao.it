@@ -48,20 +48,65 @@ const partners = [
   {
     alt: "virgin-active",
   },
+  {
+    alt: "acquagranda",
+  },
+  {
+    alt: "amazon",
+  },
+  {
+    alt: "casa-miss-italia",
+  },
+  {
+    alt: "casa-sanremo",
+  },
+  {
+    alt: "costa-crociere",
+  },
+  {
+    alt: "esercito-italiano",
+  },
+  {
+    alt: "fortuna-resort",
+  },
+  {
+    alt: "google",
+  },
+  {
+    alt: "msc-crociere",
+  },
+  {
+    alt: "technogym",
+  },
+  {
+    alt: "terme-casciana",
+  },
+  {
+    alt: "terme-comano",
+  },
+  {
+    alt: "terme-sardegna",
+  },
+  {
+    alt: "terme-saturnia",
+  },
+  {
+    alt: "virgin-active",
+  },
 ];
 
 export default function Footer() {
   return (
     <>
-      <div className="mx-auto py-6">
+      <div className="mx-auto pt-6">
         <div class="slider">
           <div class="slide-track">
             {partners.map((partner, index) => (
               <div class="slide" key={index}>
                 <Image
                   src={`/assets/images/partners/${partner.alt}.png`}
-                  height="100"
-                  width="250"
+                  height={100}
+                  width={200}
                   alt={partner.alt}
                 />
               </div>
