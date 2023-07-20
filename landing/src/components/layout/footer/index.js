@@ -106,7 +106,7 @@ export default function Footer() {
                 <Image
                   src={`/assets/images/partners/${partner.alt}.png`}
                   height={100}
-                  width={200}
+                  width={240}
                   alt={partner.alt}
                 />
               </div>
