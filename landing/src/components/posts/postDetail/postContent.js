@@ -37,12 +37,35 @@ export default function PostContent(props) {
 
   const filterDate = sortedDate ? sortedDate.filter(checkDatePassate) : null;
 
+  function dateManipulation(date, days, hrs, mins, operator) {
+    date = new Date(date);
+    if (operator == "-") {
+      var durationInMs = (24 * days * 60 + hrs * 60 + mins) * 60000;
+      var newDate = new Date(date.getTime() - durationInMs);
+    } else {
+      var durationInMs = (24 * days * 60 + hrs * 60 + mins) * 60000;
+      var newDate = new Date(date.getTime() + durationInMs);
+    }
+    return newDate;
+  }
+
   const filteredDate =
     filterDate && filterDate[0]
       ? new Date(filterDate[0].split(" ").reverse().join(" ")).toLocaleString(
           "it-IT",
           dateOptions
         )
+      : "data in programmazione";
+
+  const fineCorsoDate =
+    filterDate && filterDate[0]
+      ? dateManipulation(
+          new Date(filterDate[0].split(" ").reverse().join(" ")),
+          post.durata[0] - 1,
+          0,
+          0,
+          "+"
+        ).toLocaleString("it-IT", dateOptions)
       : "data in programmazione";
 
   return (
@@ -52,6 +75,7 @@ export default function PostContent(props) {
         title={post.title}
         category={post.category}
         filteredDate={filteredDate || "in programmazione"}
+        fineCorsoDate={fineCorsoDate || "in programmazione"}
       />
 
       <div>{post.slug == "corso-massaggio-base-svedese" ? "" : ""}</div>

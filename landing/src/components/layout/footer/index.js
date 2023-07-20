@@ -99,10 +99,10 @@ export default function Footer() {
   return (
     <>
       <div className="mx-auto py-6 lg:py-2 border-t-2 ">
-        <div class="slider">
-          <div class="slide-track">
+        <div className="slider">
+          <div className="slide-track">
             {partners.map((partner, index) => (
-              <div class="slide" key={index}>
+              <div className="slide" key={index}>
                 <Image
                   src={`/assets/images/partners/${partner.alt}.png`}
                   height={100}

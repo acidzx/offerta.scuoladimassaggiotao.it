@@ -31,7 +31,7 @@ const supportLinks = [
 ];
 
 export default function PostHeader(props) {
-  const { title, img, category, filteredDate } = props;
+  const { title, img, category, filteredDate, fineCorsoDate } = props;
 
   return (
     <div className="bg-white">
@@ -121,10 +121,12 @@ export default function PostHeader(props) {
               <div className="card border">
                 <div className="card-body">
                   <h2 className="card-title text-xl font-medium text-gray-900 border-b border-gray-400">
-                    Prossima data del corso:
+                    Prima data del corso:
                   </h2>
                   <p className="text-xl font-medium text-gray-900 tracking-tight">
-                    {filteredDate}
+                    {filteredDate === fineCorsoDate
+                      ? filteredDate
+                      : `dal ${filteredDate} al ${fineCorsoDate}`}
                   </p>
                 </div>
               </div>
