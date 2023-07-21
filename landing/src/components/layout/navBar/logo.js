@@ -10,6 +10,8 @@ export default function Logo() {
           alt="logo tao scuola nazionale di massaggio"
           src={logoScuola}
           height="40"
+          priority
+          as="image"
         />
       </Link>
     </>
