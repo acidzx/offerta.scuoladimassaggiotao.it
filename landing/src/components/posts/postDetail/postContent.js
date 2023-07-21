@@ -87,7 +87,11 @@ export default function PostContent(props) {
         category={post.category}
       />
       {post.category === "diploma" ? (
-        <CardCorsiDiploma title={post.title} programma={post.programma} />
+        <CardCorsiDiploma
+          title={post.title}
+          programma={post.programma}
+          corsiArray={props.corsi}
+        />
       ) : (
         ""
       )}
