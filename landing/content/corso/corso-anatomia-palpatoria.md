@@ -22,5 +22,5 @@ programma: [
 requisiti: "Il Corso di Anatomia Palpatoria è aperto a tutti ed è propedeutico per il Corso di Taping Elastico e per il Diploma Nazionale in Tecniche Avanzate di Massaggio."
 videosrc: "https://www.youtube-nocookie.com/embed/U40pnlmVxGw"
 programmazione: ['28 10 2023']  
-order: "5"  
+order: "3"  
 ---

@@ -22,5 +22,5 @@ programma:
 requisiti: "Il corso di massaggio Kobido della Tao - Scuola Nazionale di Massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese, quali sfioramento, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti. É consigliabile avere anche una conoscenza del trattamento di Linfodrenaggio Vodder."
 videosrc: "https://www.youtube.com/embed/LQGabCIZ2gc"
 programmazione: ['16 12 2023']   
-order: "17" 
+order: "15" 
 ---

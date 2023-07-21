@@ -31,5 +31,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Sportivo è aperto a chi ha già un'esperienza di base precedente e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramento, frizioni, impastamento, vibrazione e percussioni, in tutte le loro varianti. È consigliabile avere anche conoscenza del Massaggio Decontratturante."
 videosrc: "https://www.youtube-nocookie.com/embed/3xDtC4l0MfA"
 programmazione: ['30 09 2023']    
-order: "3"
+order: "5"
 ---

@@ -26,5 +26,5 @@ programma: [
 requisiti: "Il Corso di Massaggio Ayurvedico non presenta requisiti particolari ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/9JgrrHTKeWY"
 programmazione: ['06 10 2023']    
-order: "10"
+order: "6"
 ---

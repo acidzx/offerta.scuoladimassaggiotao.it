@@ -28,5 +28,5 @@ requisiti: "È un Corso Tecnico rivolto a tutti coloro che hanno frequentato il 
 Consigliamo di contattare il nostro Servizio Clienti per valutare le possibilità di accreditamento in base al proprio titolo."
 videosrc: "https://www.youtube-nocookie.com/embed/s4YBt7Cr318"
 programmazione: ['05 11 2023']    
-order: "18"
+order: "17"
 ---
