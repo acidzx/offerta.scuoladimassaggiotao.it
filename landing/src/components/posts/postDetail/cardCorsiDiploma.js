@@ -1,7 +1,16 @@
 import Image from "next/image";
 
 export default function CardCorsiDiploma(props) {
-  const { programma, title } = props;
+  const { programma, title, corsiArray } = props;
+
+  function getDurata(data, title) {
+    for (let x in data) {
+      if (data[x].title && data[x].title.indexOf(title.toString()) != -1)
+        return data[x].durata;
+    }
+
+    return "Dato Mancante";
+  }
 
   return (
     <div className="container mx-auto my-16 hidden lg:block">
@@ -27,12 +36,33 @@ export default function CardCorsiDiploma(props) {
                 corso
               </span>
               <h2 className="card-title">
-                {progList.replace(";", "").replace("Corso ", "")}
+                {progList
+                  .replace(";", "")
+                  .replace(".", "")
+                  .replace("Corso ", "")}
                 {/* <div className="badge badge-secondary">NEW</div> */}
               </h2>
               <p>&nbsp;</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
+                <div className="badge badge-outline">
+                  {/*          {console.log(
+                    corsiArray.find(
+                      ({ title }) =>
+                        title ==
+                        progList
+                          .replace(";", "")
+                          .replace(".", "")
+                          .replace("Corso ", "")
+                    )
+                  )} */}
+                  {getDurata(
+                    corsiArray,
+                    progList
+                      .replace(";", "")
+                      .replace(".", "")
+                      .replace("Corso ", "")
+                  )}
+                </div>
                 <div className="badge badge-outline">Products</div>
               </div>
             </div>
