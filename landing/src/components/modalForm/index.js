@@ -1,4 +1,5 @@
 import Error from "./formError";
+
 import { useRouter } from "next/router";
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -72,10 +73,13 @@ export default function ModalForm() {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch(`${process.env.BL_FORM_ACTION}`, {
-        method: "POST",
-        body: jsonToFormData(data),
-      });
+      const response = await fetch(
+        "https://app.brainlead.it/3.0.0/web_forms/subscription",
+        {
+          method: "POST",
+          body: jsonToFormData(data),
+        }
+      );
       if (response.ok) {
         router.push("/thank-you");
       }
@@ -110,9 +114,10 @@ export default function ModalForm() {
             <input
               {...register("web_form_id")}
               type="hidden"
-              value={`${process.env.BL_FORM_ID}`}
+              value="db5f9f42a7157abe65bb145000b5871a"
             />
 
+            {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
               <label className="label">
