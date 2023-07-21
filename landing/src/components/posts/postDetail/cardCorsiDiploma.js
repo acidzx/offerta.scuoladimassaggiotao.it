@@ -6,10 +6,8 @@ export default function CardCorsiDiploma(props) {
   function getDurata(data, title) {
     for (let x in data) {
       if (data[x].title && data[x].title.indexOf(title.toString()) != -1)
-        return data[x].durata;
+        return data[x].durata || "n/a";
     }
-
-    return "Dato Mancante";
   }
 
   return (
