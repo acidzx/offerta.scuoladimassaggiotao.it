@@ -1,5 +1,4 @@
 import Error from "./formError";
-
 import { useRouter } from "next/router";
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -80,11 +79,29 @@ export default function ModalForm() {
           body: jsonToFormData(data),
         }
       );
-      if (response.ok) {
+      if (
+        response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
+      ) {
+        router.push("/thank-you");
+      } else {
+        fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }).then((res) => {
+          console.log("Response received");
+          if (res.status === 200) {
+            console.log("Response succeeded!");
+            router.push("/thank-you");
+          }
+        });
         router.push("/thank-you");
       }
-    } catch (errorResponse) {
-      return errorResponse;
+    } catch (e) {
+      console.log(e);
     }
   };
 
@@ -115,6 +132,7 @@ export default function ModalForm() {
               {...register("web_form_id")}
               type="hidden"
               value="db5f9f42a7157abe65bb145000b5871a"
+              name="web_form_id"
             />
 
             {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
@@ -128,6 +146,7 @@ export default function ModalForm() {
                 placeholder="Nome..."
                 className="input input-bordered input-accent w-full max-w-sm mx-auto"
                 {...register("nome")}
+                name="nome"
               />
               <label className="label">
                 <span className="label-text-alt"></span>
@@ -146,6 +165,7 @@ export default function ModalForm() {
                 placeholder="Cognome..."
                 className="input input-bordered input-accent w-full max-w-sm mx-auto"
                 {...register("cognome")}
+                name="cognome"
               />
               <label className="label">
                 <span className="label-text-alt"></span>
@@ -164,6 +184,7 @@ export default function ModalForm() {
                 placeholder="Email..."
                 className="input input-bordered input-accent w-full max-w-sm"
                 {...register("email")}
+                name="email"
               />
 
               <label className="label">
@@ -185,6 +206,7 @@ export default function ModalForm() {
                 placeholder="Telefono..."
                 className="input input-bordered input-accent w-full max-w-sm"
                 {...register("telefono")}
+                name="telefono"
               />
               <label className="label">
                 <span className="label-text-alt"></span>

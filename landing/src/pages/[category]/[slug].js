@@ -5,6 +5,7 @@ import {
   getAllPosts,
 } from "../../../lib/posts-util";
 import Head from "next/head";
+import ModalForm from "@components/modalForm";
 
 export default function SlugDetailPage(props) {
   return (
@@ -19,6 +20,7 @@ export default function SlugDetailPage(props) {
         <meta name="description" content={props.post.description} />
       </Head>
       <PostContent post={props.post} {...props} />
+      <ModalForm />
     </>
   );
 }

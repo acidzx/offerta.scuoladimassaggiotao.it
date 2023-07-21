@@ -76,16 +76,6 @@ export default function CardCorsiDiploma(props) {
               <p>&nbsp;</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline p-3">
-                  {/*          {console.log(
-                    corsiArray.find(
-                      ({ title }) =>
-                        title ==
-                        progList
-                          .replace(";", "")
-                          .replace(".", "")
-                          .replace("Corso ", "")
-                    )
-                  )} */}
                   {getDurata(
                     corsiArray,
                     progList

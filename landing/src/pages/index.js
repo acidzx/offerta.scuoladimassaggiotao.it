@@ -7,6 +7,7 @@ import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 import Head from "next/head";
+import ModalForm from "@components/modalForm";
 
 export async function getStaticProps() {
   const res = await fetch(
@@ -62,6 +63,8 @@ export default function Home(props) {
       <Testimonials FBreviews={props.reviews} />
       <Cta />
       <ServizioClienti />
+
+      <ModalForm />
     </>
   );
 }

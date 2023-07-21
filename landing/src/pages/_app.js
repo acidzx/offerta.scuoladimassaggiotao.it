@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
 import Layout from "@components/layout";
-import ModalForm from "@components/modalForm";
+
 // import PrivacyPolicy from "@components/layout/footer/privacyPolicy";
 // import TermsConditions from "@components/layout/footer/terms_conditions";
 // import CookiePolicy from "@components/layout/footer/cookiePolicy";
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps, router }) {
           <Component {...pageProps} />
         </motion.div>
       </Layout>
-      <ModalForm />
+
       {/* <PrivacyPolicy />
       <CookiePolicy />
       <TermsConditions /> */}
