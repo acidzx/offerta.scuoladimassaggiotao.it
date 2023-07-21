@@ -10,6 +10,39 @@ export default function CardCorsiDiploma(props) {
     }
   }
 
+  function getProgrammazione(data, title) {
+    try {
+      for (let x in data) {
+        if (data[x].title && data[x].title.indexOf(title.toString()) != -1)
+          return new Date(
+            data[x].programmazione
+              .sort(function (a, b) {
+                return (
+                  new Date(a.split(" ").reverse().join(" ")) -
+                  new Date(b.split(" ").reverse().join(" "))
+                );
+              })
+              .filter(checkDatePassate)[0]
+              .split(" ")
+              .reverse()
+              .join(" ")
+          ).toLocaleString("it-IT", dateOptions);
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  function checkDatePassate(date) {
+    return new Date(date.split(" ").reverse().join(" ")) > new Date();
+  }
+
+  const dateOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+
   return (
     <div className="container mx-auto my-16 hidden lg:block">
       <h2 className="text-center mb-4 text-3xl font-extrabold text-gray-600 pb-16">
@@ -42,7 +75,7 @@ export default function CardCorsiDiploma(props) {
               </h2>
               <p>&nbsp;</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">
+                <div className="badge badge-outline p-3">
                   {/*          {console.log(
                     corsiArray.find(
                       ({ title }) =>
@@ -61,7 +94,15 @@ export default function CardCorsiDiploma(props) {
                       .replace("Corso ", "")
                   )}
                 </div>
-                <div className="badge badge-outline">Products</div>
+                <div className="badge badge-outline p-3">
+                  {getProgrammazione(
+                    corsiArray,
+                    progList
+                      .replace(";", "")
+                      .replace(".", "")
+                      .replace("Corso ", "")
+                  ) || "n/a"}
+                </div>
               </div>
             </div>
           </div>
