@@ -72,7 +72,7 @@ export default function ModalForm() {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch(process.env.BL_FORM_ACTION, {
+      const response = await fetch(`${process.env.BL_FORM_ACTION}`, {
         method: "POST",
         body: jsonToFormData(data),
       });
@@ -110,7 +110,7 @@ export default function ModalForm() {
             <input
               {...register("web_form_id")}
               type="hidden"
-              value={process.env.BL_FORM_ID}
+              value={`${process.env.BL_FORM_ID}`}
             />
 
             {/* nome */}
