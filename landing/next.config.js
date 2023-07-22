@@ -2,12 +2,9 @@
 /* const nextConfig = {
   reactStrictMode: true,
 };
-
 module.exports = nextConfig; */
-
 module.exports = {
   reactStrictMode: true,
-
   webpack: (config) => {
     config.resolve.fallback = {
       fs: false,
