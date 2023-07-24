@@ -16,13 +16,18 @@ export default function PostSchedaTecnica(props) {
           </ul>
         </div>
       </div>
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
-        <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
-          Requisiti
+      {category === "corso" ? (
+        <div className="my-2 collapse collapse-arrow bg-green-600/5">
+          <input type="radio" name="my-accordion-2" />
+          <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
+            Requisiti
+          </div>
+          <div className="collapse-content">{requisiti}</div>
         </div>
-        <div className="collapse-content">{requisiti}</div>
-      </div>
+      ) : (
+        []
+      )}
+
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
