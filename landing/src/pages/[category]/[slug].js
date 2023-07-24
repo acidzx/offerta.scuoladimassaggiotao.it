@@ -17,7 +17,7 @@ export default function SlugDetailPage(props) {
           {`${props.post.category}  ${props.post.title} | Tao - Scuola
           Nazionale di Massaggio`}
         </title>
-        <meta name="description" content={props.post.description} />
+        <meta name="description" content={props.post.longcontent} />
       </Head>
       <PostContent post={props.post} {...props} />
       <ModalForm />
