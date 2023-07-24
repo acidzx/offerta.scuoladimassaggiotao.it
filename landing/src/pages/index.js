@@ -14,10 +14,7 @@ export async function getStaticProps() {
     `https://graph.facebook.com/v17.0/scuoladimassaggio/ratings?fields=reviewer%2Ccreated_time%2Creview_text&access_token=${process.env.FB_ACCESS_TOKEN}`,
     { cache: "force-cache" }
   );
-  /* 
-  curl -i -X GET \
- "https://graph.facebook.com/v17.0/scuoladimassaggio/ratings?fields=reviewer%2Ccreated_time%2Creview_text&access_token=EAACeqpKifLcBABhwZAnbBASwS3ZAFDDNrSrnRDSreKUoTo9aS38m893nAoqZBrg8i0zkVumkNLhNeGwa1KVialkD2CofUaZCwNMHk7PH6CX8O2XdIsWb36hALJNKLUl3OUxjt1zI4UPvYpR8EFCDZBFgwWUuldTyahDe7XgcG8rcX5C3ZA9cJKRfNkp68H7zdCHV9OZCM0gDQZDZD"
- */
+
   const reviews = await res.json();
 
   const allCorsi = getAllPosts("corso");
@@ -52,10 +49,8 @@ export default function Home(props) {
       <hr className="divider" />
       <AltaFormazione />
       <Cta />
-
       <MultiCarousel posts={props.diplomi} />
       <Cta />
-
       <MultiCarousel posts={props.corsi} />
       <Cta />
       <ServiziTao />
@@ -63,7 +58,6 @@ export default function Home(props) {
       <Testimonials FBreviews={props.reviews} />
       <Cta />
       <ServizioClienti />
-
       <ModalForm />
     </>
   );

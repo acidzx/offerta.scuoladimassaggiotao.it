@@ -108,6 +108,7 @@ export default function PostContent(props) {
         durata={post.durata}
         attestazione={post.attestazione}
         category={post.category}
+        slug={post.slug}
       />
 
       <Cta />

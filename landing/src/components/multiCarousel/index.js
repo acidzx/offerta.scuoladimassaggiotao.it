@@ -64,7 +64,7 @@ export default function MultiCarousel(props) {
           autoPlay={true}
           autoPlaySpeed={3000}
           keyBoardControl={true}
-          customTransition="all .8" /*"transform 1s ease-in-out" "all .8"*/
+          customTransition="transform all .8s" /*"transform 1s ease-in-out" "all .8"*/
           transitionDuration={200}
           containerclassName="carousel-container"
           // removeArrowOnDeviceType={["tablet", "mobile"]}

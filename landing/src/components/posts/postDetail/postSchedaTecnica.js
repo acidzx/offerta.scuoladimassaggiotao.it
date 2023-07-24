@@ -1,5 +1,7 @@
+import Image from "next/image";
+
 export default function PostSchedaTecnica(props) {
-  const { title, programma, requisiti, durata, category } = props;
+  const { title, programma, requisiti, durata, category, slug } = props;
 
   return (
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
@@ -123,19 +125,32 @@ export default function PostSchedaTecnica(props) {
               : parseInt(durata.substring(0, 1), 10) * 2 * 8
           }${" "}
           ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
-          quanto correttamente appreso).`
+          quanto correttamente appreso). `
             : `Con il ${category} di operatore in ${title}, composto da ${durata.substring(
                 0,
                 1
               )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di ${durata.substring(
                 0,
                 1
-              )} attestati ed alla fine del percorso, verrà rilasciato un diploma di operatore in ${title}.
+              )} attestati ed alla fine del percorso, verrà rilasciato un diploma di operatore in ${title} ${
+                title === "Massaggio Sportivo Avanzato"
+                  ? "e un diploma di operatore in Massaggio Sportivo"
+                  : ""
+              }.
 Gli attestati e il diploma sono entrambi rilasciati in riferimento alla Legge 4/2013. `}
           Sarà pertanto possibile lavorare legalmente, su tutto il territorio
           nazionale, purchè l&apos;attività non rientri nell&apos;ambito
           sanitario o sconfini in quello fisioterapico, estetico o in ambiti
           stabiliti per legge da altre professioni riconosciute.
+          <div className="flex justify-center mt-6">
+            <Image
+              src={`/assets/images/attestati/attestato-${slug}.jpg`}
+              width={450}
+              height={315}
+              alt={`Attestato Corso ${title}`}
+              className="w-full max-w-lg h-auto"
+            />
+          </div>
         </div>
       </div>
     </div>
