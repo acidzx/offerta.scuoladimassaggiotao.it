@@ -87,7 +87,7 @@ export default function Testimonials(props) {
                                 }
                                 width={40}
                                 height={40}
-                                alt=""
+                                alt="Testimonial Img"
                               />
                               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                                 <svg

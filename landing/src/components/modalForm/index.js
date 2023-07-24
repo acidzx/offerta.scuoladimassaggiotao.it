@@ -1,5 +1,6 @@
 import Error from "./formError";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -227,9 +228,12 @@ export default function ModalForm() {
               />
               <label className="ml-2 text-sm font-medium text-gray-900 ">
                 Ho letto, compreso e accettato{" "}
-                <a href="#" className="text-green-600 hover:underline ">
+                <Link
+                  href="https://www.iubenda.com/termini-e-condizioni/98820787"
+                  className="text-green-600 hover:underline "
+                >
                   termini e condizioni
-                </a>{" "}
+                </Link>{" "}
                 (obbligatorio) .
               </label>
             </div>

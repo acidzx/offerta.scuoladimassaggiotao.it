@@ -49,7 +49,7 @@ export default function ServizioClienti() {
               <Image
                 className="absolute inset-0 fit-content"
                 src="/assets/images/servizio-clienti-tao.jpg"
-                alt=""
+                alt="Servizio Clienti Tao"
                 width={494}
                 height={350}
               />

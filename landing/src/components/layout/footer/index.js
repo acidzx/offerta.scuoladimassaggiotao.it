@@ -117,14 +117,14 @@ export default function Footer() {
 
       <footer className="footer footer-center p-10 bg-primary text-primary-content border-t-2">
         <div className="mb-6 md:mb-0">
-          <a href="https://www.taogroup.it" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
               //1010x160px
               width={200}
               src={logoScuolaFooter}
               alt="Logo Tao-Scuola Nazionale di Massaggio"
             />
-          </a>
+          </Link>
           <ul className="mt-5 max-w-md space-y-1 text-gray-500 list-none list-inside ">
             <li>
               <strong>Tao Group S.r.l</strong>
