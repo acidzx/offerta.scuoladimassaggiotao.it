@@ -16,6 +16,7 @@ export default function PostVideoPresentation(props) {
               src={videosrc}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
+              loading="lazy"
             ></iframe>
           </div>
         </div>
