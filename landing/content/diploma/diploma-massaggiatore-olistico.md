@@ -4,7 +4,7 @@ slug: "diploma-massaggiatore-olistico"
 price: "1.870,00"
 title: "Massaggio Olistico"
 durata: "5 w/end"
-ore: "24 ore"
+ore: "88 ore"
 category: "diploma"
 longcontent: "Il Diploma di Operatore in Massaggio Olistico è il percorso di studi ideale per chi desidera specializzarsi in queste tecniche distensive che riescono a mettere in relazione mente e corpo considerandole un'interazione unica e mettendo in risalto la parte emozionale.
 Grazie a questa specializzazione, si potrà trovare impiego in Spa, Centri Massaggio, Centri Benessere, Centri Estetici..., dove le discipline trattate in questo diploma sono molto richieste oppure, lavorare come libero professionista.
@@ -15,7 +15,7 @@ programma: [
 "Corso Massaggio Ayurveda;",
 "Corso Massaggio Hawaiano;",
 "Corso Massaggio Thai Oil."]
-requisiti: "Il Diploma di Massaggiatore Olistico è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
+requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/EpEenoObzsQ"
 order: "3"
 ---

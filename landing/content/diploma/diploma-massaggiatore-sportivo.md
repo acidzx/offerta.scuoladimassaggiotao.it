@@ -4,7 +4,7 @@ slug: "diploma-massaggiatore-sportivo"
 price: "1.800,00"
 title: "Massaggio Sportivo"
 durata: "5 w/end"
-ore: "24 ore"
+ore: "96 ore"
 category: "diploma"
 longcontent: "Il Diploma di Operatore in Massaggio Sportivo è il percorso di studi ideale per chi desidera specializzarsi in queste tecniche adatte ad assistere gli atleti e poter trovare impiego in un settore in costante crescita come quello dello sport.
 Grazie a questa specializzazione, si potrà trovare impiego in palestre, sale pesi, squadre sportive, piscine, assistenza ad atleti professionisti e non, etc...
@@ -17,7 +17,7 @@ programma: [
 "Corso Massaggio Sportivo;",
 "Corso Massaggio Linfodrenante Vodder;",
 "Corso Anatomia Palpatoria."]
-requisiti: "Il Diploma di Massaggiatore Sportivo è un diploma aperto a tutti poichè completo e in grado di portare l' allievo con la passione per il mondo del benessere, anche totalmente a digiuno delle tecniche di massaggio, a diventare professionista."
+requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/fuBT8OFO3SI"
 order: "1"
 ---
