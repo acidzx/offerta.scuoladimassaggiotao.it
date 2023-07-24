@@ -10,7 +10,7 @@ export default function PostPresentation(props) {
           <h2 className="mb-4 text-4xl font-extrabold text-gray-600 ">
             Presentazione
           </h2>
-          <div
+          <article
             className="mb-4 text-justify text-base"
             dangerouslySetInnerHTML={{ __html: longcontent }}
           />
