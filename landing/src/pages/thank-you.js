@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useEffect } from "react";
+import analytics from "@/utility/analytics";
 
 export default function ThankYou() {
   useEffect(() => {
