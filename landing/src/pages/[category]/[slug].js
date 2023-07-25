@@ -1,11 +1,11 @@
 import PostContent from "@components/posts/postDetail/postContent";
+import Head from "next/head";
+import ModalForm from "@components/modalForm";
 import {
   getPostData,
   getPostsFiles,
   getAllPosts,
 } from "../../../lib/posts-util";
-import Head from "next/head";
-import ModalForm from "@components/modalForm";
 
 export default function SlugDetailPage(props) {
   return (

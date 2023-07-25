@@ -145,10 +145,10 @@ Gli attestati e il diploma sono entrambi rilasciati in riferimento alla Legge 4/
           <div className="flex justify-center mt-6">
             <Image
               src={`/assets/images/attestati/attestato-${slug}.jpg`}
-              width={450}
-              height={315}
+              width={550}
+              height={356}
               alt={`Attestato Corso ${title}`}
-              className="w-full max-w-lg h-auto"
+              className="w-full max-w-sm h-auto border rounded-lg px-2 py-4 bg-white"
             />
           </div>
         </div>

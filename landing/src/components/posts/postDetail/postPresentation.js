@@ -14,20 +14,6 @@ export default function PostPresentation(props) {
             className="mb-4 text-justify text-base"
             dangerouslySetInnerHTML={{ __html: longcontent }}
           />
-
-          {benefici !== undefined ? (
-            <>
-              <h3 className="mb-2 text-2xl  font-extrabold text-gray-600 ">
-                I Benefici
-              </h3>
-              <div
-                className="mb-4 text-justify text-base"
-                dangerouslySetInnerHTML={{ __html: benefici }}
-              />
-            </>
-          ) : (
-            ""
-          )}
         </div>
 
         <div className="grid grid-cols-2 gap-4 mt-8">
