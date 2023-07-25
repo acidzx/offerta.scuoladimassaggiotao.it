@@ -4,8 +4,10 @@ import analytics from "@/utility/analytics";
 
 export default function ThankYou() {
   useEffect(() => {
-    analytics.track("formCompilato_ThankYou");
-  }, []);
+    analytics.track("formCompilato", () => {
+      console.log("formCompilato");
+    });
+  });
 
   return (
     <div className="flex items-center justify-center h-screen mx-auto">
