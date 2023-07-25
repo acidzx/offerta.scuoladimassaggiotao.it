@@ -30,8 +30,8 @@ export default function Testimonials(props) {
         />
       </div>
       <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8">
-        L&apos;unica scuola con più di 1.400 recensioni positive verificate su
-        Google e Facebook
+        L&apos;unica scuola con più di 1.400 recensioni positive su Google e
+        Facebook
       </p>
 
       <div className="overflow-hidden bg-white mt-4">
