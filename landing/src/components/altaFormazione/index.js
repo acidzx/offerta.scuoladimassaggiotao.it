@@ -26,6 +26,8 @@ export default function DiplomaAltaFormazione() {
             src={altaFormazioneImg}
             alt="Diploma di Alta Formazione Professionale"
             className="lg:shadow-lg 2xl:shadow-none object-cover w-full rounded-t-sm lg:rounded-r-lg 2xl:rounded-none h-108 lg:h-auto lg:w-1/2 border border-gray-200"
+            width={747}
+            height={446}
           />
 
           <div className="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
