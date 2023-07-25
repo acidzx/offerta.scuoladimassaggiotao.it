@@ -59,12 +59,6 @@ function jsonToFormData(data) {
 }
 
 export default function ModalForm() {
-  const [isError, setError] = useState("false");
-
-  const handleToggle = () => {
-    setError(!isError);
-  };
-
   const router = useRouter();
 
   const {
@@ -150,9 +144,7 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Nome..."
-                className={`input input-bordered input-accent ${
-                  isError ? "danger" : ""
-                } w-full max-w-sm mx-auto`}
+                className={`input input-bordered input-accent w-full max-w-sm mx-auto`}
                 {...register("nome")}
                 name="nome"
               />
