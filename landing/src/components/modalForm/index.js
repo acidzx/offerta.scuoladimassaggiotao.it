@@ -5,6 +5,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import clsx from "clsx";
 
 const schema = yup.object({
   // email is required with email format
@@ -105,6 +106,31 @@ export default function ModalForm() {
     }
   };
 
+  const inputNomeStyleError = clsx({
+    "bg-gray-100/20": true,
+    "bg-red-400/10": errors.nome?.message,
+  });
+
+  const inputCognomeStyleError = clsx({
+    "bg-gray-100/20": true,
+    "bg-red-400/10": errors.cognome?.message,
+  });
+
+  const inputEmailStyleError = clsx({
+    "bg-gray-100/20": true,
+    "bg-red-400/10": errors.email?.message,
+  });
+
+  const inputTelefonoStyleError = clsx({
+    "bg-gray-100/20": true,
+    "bg-red-400/10": errors.telefono?.message,
+  });
+
+  const checkTermsConditionsStyleError = clsx({
+    "": true,
+    "ring ring-red-400/40": errors.terms__conditions?.message,
+  });
+
   return (
     <>
       <input type="checkbox" id="modalForm" className="modal-toggle" />
@@ -144,7 +170,7 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Nome..."
-                className={`input input-bordered input-accent w-full max-w-sm mx-auto`}
+                className={`input input-bordered input-accent w-full max-w-sm mx-auto ${inputNomeStyleError}`}
                 {...register("nome")}
                 name="nome"
               />
@@ -163,7 +189,7 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Cognome..."
-                className="input input-bordered input-accent w-full max-w-sm mx-auto"
+                className={`input input-bordered input-accent w-full max-w-sm mx-auto ${inputCognomeStyleError}`}
                 {...register("cognome")}
                 name="cognome"
               />
@@ -182,7 +208,7 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Email..."
-                className="input input-bordered input-accent w-full max-w-sm"
+                className={`input input-bordered input-accent w-full max-w-sm mx-auto ${inputEmailStyleError}`}
                 {...register("email")}
                 name="email"
               />
@@ -204,7 +230,7 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Telefono..."
-                className="input input-bordered input-accent w-full max-w-sm"
+                className={`input input-bordered input-accent w-full max-w-sm mx-auto ${inputTelefonoStyleError}`}
                 {...register("telefono")}
                 name="telefono"
               />
@@ -222,10 +248,10 @@ export default function ModalForm() {
               <input
                 type="checkbox"
                 value=""
-                className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500  focus:ring-2"
+                className={`w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded  ${checkTermsConditionsStyleError}`}
                 {...register("terms__conditions")}
               />
-              <label className="ml-2 text-sm font-medium text-gray-900 ">
+              <label className={`ml-2 text-sm font-medium text-gray-900`}>
                 Ho letto, compreso e accettato{" "}
                 <Link
                   href="https://www.iubenda.com/termini-e-condizioni/98820787"
@@ -233,7 +259,7 @@ export default function ModalForm() {
                 >
                   termini e condizioni
                 </Link>{" "}
-                (obbligatorio) .
+                (obbligatorio)
               </label>
             </div>
             <div className="mx-auto -mt-2 text-center text-red-700 text-xs">
