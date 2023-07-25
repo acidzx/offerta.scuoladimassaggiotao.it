@@ -16,10 +16,7 @@ programma: ['Coppettazione: origini e storia della tecnica;',
 "Parte pratica della coppettazione;",
 "Prova pratica finale;",
 "Spazio per approfondimenti finali."]
-requisiti: "Il corso ha una durata di 1 giorno, con possibilità di ripasso dello stesso in modo del tutto gratuito.
-I corsi vengono svolti durante il fine settimana per permettere a chiunque, anche a chi ha già un'occupazione, di poter frequentare.
-L'orario di svolgimento dei corsi va dalle 9:00 alle 19:00 (è prevista la pausa pranzo).
-È possibile, per chi ne fa richiesta, svolgere i corsi in modalità full immersion (modalità consigliata solo a chi ha poco tempo a disposizione ed ha già dimestichezza con le tecniche di massaggio)."
+requisiti: "Il Corso di Coppettazione della Scuola Nazionale di Massaggio Tao® è aperto a chi ha già un'esperienza di base precedente, e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/qLTR0jwDfv4"
 programmazione: ['03 12 2023']    
 order: "16"

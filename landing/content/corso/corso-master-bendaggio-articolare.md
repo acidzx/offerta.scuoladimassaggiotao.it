@@ -29,7 +29,7 @@ programma:
     "Ripasso teorico;",
     "Spazio per approfondimenti finali.",
   ]
-requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
+requisiti: "Il corso tecnico di Bendaggio Articolare della Tao Scuola Nazionale di Massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese (quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti), del massaggio decontratturante e delle tecniche di base del massaggio sportivo; è inoltre fondamentale la conoscenza del corso di anatomia palpatoria."
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
 programmazione: ["16 09 2023"]
 order: "25"
