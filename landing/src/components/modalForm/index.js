@@ -5,7 +5,6 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { Fragment } from "react";
 
 const schema = yup.object({
   // email is required with email format
@@ -60,6 +59,12 @@ function jsonToFormData(data) {
 }
 
 export default function ModalForm() {
+  const [isError, setError] = useState("false");
+
+  const handleToggle = () => {
+    setError(!isError);
+  };
+
   const router = useRouter();
 
   const {
@@ -107,7 +112,7 @@ export default function ModalForm() {
   };
 
   return (
-    <Fragment>
+    <>
       <input type="checkbox" id="modalForm" className="modal-toggle" />
       <label htmlFor="modalForm" className="modal cursor-pointer">
         <label className="modal-box relative bg-white" htmlFor="">
@@ -145,7 +150,9 @@ export default function ModalForm() {
               <input
                 type="text"
                 placeholder="Nome..."
-                className="input input-bordered input-accent w-full max-w-sm mx-auto"
+                className={`input input-bordered input-accent ${
+                  isError ? "danger" : ""
+                } w-full max-w-sm mx-auto`}
                 {...register("nome")}
                 name="nome"
               />
@@ -254,6 +261,6 @@ export default function ModalForm() {
           </form>
         </label>
       </label>
-    </Fragment>
+    </>
   );
 }

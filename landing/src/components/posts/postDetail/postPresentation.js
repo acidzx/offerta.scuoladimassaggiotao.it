@@ -1,4 +1,3 @@
-import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 
 export default function PostPresentation(props) {

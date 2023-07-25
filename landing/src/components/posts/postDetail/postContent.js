@@ -6,7 +6,6 @@ import PostSchedaTecnica from "./postSchedaTecnica";
 import PostPrice from "./postPrice";
 import PostServiziInclusi from "./postServiziInclusi";
 import CardCorsiDiploma from "./cardCorsiDiploma";
-import { Fragment } from "react";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
 import ServizioClienti from "@components/servizioClienti";
@@ -69,7 +68,7 @@ export default function PostContent(props) {
       : "data in programmazione";
 
   return (
-    <Fragment>
+    <>
       <PostHeader
         img={`${imgPath}/${post.img}`}
         title={post.title}
@@ -125,6 +124,6 @@ export default function PostContent(props) {
 
       <MultiCarousel posts={props.corsi} />
       <ServizioClienti />
-    </Fragment>
+    </>
   );
 }
