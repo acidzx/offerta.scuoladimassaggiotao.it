@@ -1,6 +1,10 @@
 import Link from "next/link";
 
 export default function ThankYou() {
+  useEffect(() => {
+    analytics.track("formCompilato_ThankYou");
+  }, []);
+
   return (
     <div className="flex items-center justify-center h-screen mx-auto">
       <div>
