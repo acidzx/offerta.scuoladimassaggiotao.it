@@ -146,8 +146,8 @@ export default function ModalForm() {
             Richiedi Informazioni
           </h3>
           <p className="py-4 mx-4">
-            Compila il form per ricevere subito il tuo buono sconto sui nostri
-            corsi e percorsi di formazione!
+            Ricevi subito il buono sconto da utilizzare sui nostri corsi di
+            formazione. Compila il form e te lo inviamo!
           </p>
 
           <hr />

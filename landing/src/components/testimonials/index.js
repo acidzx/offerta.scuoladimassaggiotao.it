@@ -13,7 +13,7 @@ export default function Testimonials(props) {
   return (
     <>
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-        Massimo indice di gradimento
+        Ecco le storie di successo dei nostri alunni
       </h2>
       <div className="container mx-auto flex justify-center gap-6 mb-4">
         <Image

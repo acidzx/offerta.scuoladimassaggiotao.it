@@ -12,9 +12,9 @@ export default function Header() {
           role="alert"
         >
           <span className="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3">
-            Una sorpresa per te
+            Richiedi Informazioni
           </span>
-          <span className="text-sm font-medium">Richiedi Informazioni</span>
+          <span className="text-sm font-medium">Una sorpresa per te</span>
           <svg
             className="ml-2 w-5 h-5"
             fill="currentColor"
@@ -32,13 +32,12 @@ export default function Header() {
           Investi nel tuo futuro
         </h1>
         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          Se desideri imparare l&apos;arte del massaggio per diletto o
-          professione, smetti di cercare, sei nel posto giusto!
+          Se desideri dare una svolta alla tua vita, sei nel posto giusto.
         </p>
       </div>
       <div className="inline-flex items-center justify-center w-full text-center mb-5 mt-1">
         <span className="absolute px-3 font-2xl text-gray-600 font-extrabold -translate-x-1/2 bg-white left-1/2 uppercase">
-          scopri i nostri corsi e percorsi
+          Scopri i nostri corsi e diplomi!
         </span>
       </div>
       <div className="flex justify-center my-7">
@@ -59,6 +58,18 @@ export default function Header() {
         </button>
       </div>
       <CtaActionsButtons />
+      <div>Finalmente libero di scegliere la strada più giusta per te</div>
+      <div>
+        È il momento di raggiungere nuovi traguardi e successi lavorativi. È il
+        momento di scegliere per te la strada che hai sempre desiderato. È il
+        momento di iniziare un nuovo cammino nel mondo del benessere diventando
+        massaggiatore. Insieme scegliamo il percorso più giusto per te che sia:
+      </div>
+      <div>
+        Diploma di alta formazione professionale per massaggiatori (500 ore);{" "}
+        <br />
+        Diplomi di specializzazione; <br /> Corsi di massaggio.
+      </div>
     </div>
   );
 }
