@@ -43,17 +43,17 @@ export default function PostSchedaTecnica(props) {
 
   return (
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
+      <div
+        className="my-2 collapse collapse-arrow bg-green-600/5"
+        id="programma"
+        onClick={() =>
+          setTimeout(() => {
+            scrollIntoTheView("programma");
+          }, "300")
+        }
+      >
         <input type="radio" name="my-accordion-2" defaultChecked />
-        <div
-          id="programma"
-          className="collapse-title text-2xl font-extrabold text-gray-700"
-          onClick={() =>
-            setTimeout(() => {
-              scrollIntoTheView("programma");
-            }, "300")
-          }
-        >
+        <div className="collapse-title text-2xl font-extrabold text-gray-700">
           Programma del {category} di {title}
         </div>
         <div className="collapse-content p-5">
