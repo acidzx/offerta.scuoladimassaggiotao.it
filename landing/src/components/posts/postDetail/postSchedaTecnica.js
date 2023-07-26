@@ -48,7 +48,11 @@ export default function PostSchedaTecnica(props) {
         <div
           id="programma"
           className="collapse-title text-2xl font-extrabold text-gray-700"
-          onClick={() => scrollIntoTheView("programma")}
+          onClick={() =>
+            setTimeout(() => {
+              scrollIntoTheView("programma");
+            }, "300")
+          }
         >
           Programma del {category} di {title}
         </div>
@@ -64,7 +68,11 @@ export default function PostSchedaTecnica(props) {
         <div
           id="requisiti"
           className="my-2 collapse collapse-arrow bg-green-600/5"
-          onClick={() => scrollIntoTheView("requisiti")}
+          onClick={() =>
+            setTimeout(() => {
+              scrollIntoTheView("requisiti");
+            }, "300")
+          }
         >
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
@@ -79,7 +87,11 @@ export default function PostSchedaTecnica(props) {
       <div
         id="durata"
         className="my-2 collapse collapse-arrow bg-green-600/5"
-        onClick={() => scrollIntoTheView("durata")}
+        onClick={() =>
+          setTimeout(() => {
+            scrollIntoTheView("durata");
+          }, "300")
+        }
       >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
@@ -101,7 +113,11 @@ export default function PostSchedaTecnica(props) {
       <div
         id="sedi"
         className="my-2 collapse collapse-arrow bg-green-600/5"
-        onClick={() => scrollIntoTheView("sedi")}
+        onClick={() =>
+          setTimeout(() => {
+            scrollIntoTheView("sedi");
+          }, "300")
+        }
       >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl  font-extrabold text-gray-700 ">
@@ -135,7 +151,11 @@ export default function PostSchedaTecnica(props) {
       <div
         id="servizi"
         className="my-2 collapse collapse-arrow bg-green-600/5"
-        onClick={() => scrollIntoTheView("servizi")}
+        onClick={() =>
+          setTimeout(() => {
+            scrollIntoTheView("servizi");
+          }, "300")
+        }
       >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
@@ -162,7 +182,11 @@ export default function PostSchedaTecnica(props) {
       <div
         id="attestazione"
         className="my-2 collapse collapse-arrow bg-green-600/5"
-        onClick={() => scrollIntoTheView("attestazione")}
+        onClick={() =>
+          setTimeout(() => {
+            scrollIntoTheView("attestazione");
+          }, "300")
+        }
       >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700">
