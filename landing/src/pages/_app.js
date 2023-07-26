@@ -47,8 +47,8 @@ export default function App({ Component, pageProps, router }) {
       </Head>
 
       <Layout>
-        <AnimatePresence
-          wait
+        <motion.div
+          key={router.route}
           initial={false}
           variants={{
             initial: {
@@ -64,7 +64,7 @@ export default function App({ Component, pageProps, router }) {
           />
 
           <Component {...pageProps} />
-        </AnimatePresence>
+        </motion.div>
       </Layout>
     </>
   );
