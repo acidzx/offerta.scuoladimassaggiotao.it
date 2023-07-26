@@ -59,7 +59,7 @@ export default function App({ Component, pageProps, router }) {
           onExitComplete={() => window.scrollTo(0, 0)}
         >
           <motion.div
-            className="h-2 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
+            className="h-1 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
             style={{ scaleX }}
           />
 
