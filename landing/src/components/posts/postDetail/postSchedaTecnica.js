@@ -128,13 +128,17 @@ export default function PostSchedaTecnica(props) {
           quanto correttamente appreso). `
             : `Con il ${category} di operatore in ${title}, composto da ${durata.substring(
                 0,
-                1
+                2
               )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di ${durata.substring(
                 0,
-                1
-              )} attestati ed alla fine del percorso, verrà rilasciato un diploma di operatore in ${title} ${
+                2
+              )} attestati ed alla fine del percorso, verrà rilasciato un diploma di operatore in ${title}${
                 title === "Massaggio Sportivo Avanzato"
-                  ? "e un diploma di operatore in Massaggio Sportivo"
+                  ? " e un diploma di operatore in Massaggio Sportivo"
+                  : ""
+              }${
+                title === "Alta Formazione Professionale"
+                  ? " e 3 diplomi, rispettivamente di operatore in Massaggio Olistico, Terme e Spa e Sportivo"
                   : ""
               }.
 Gli attestati e il diploma sono entrambi rilasciati in riferimento alla Legge 4/2013. `}
