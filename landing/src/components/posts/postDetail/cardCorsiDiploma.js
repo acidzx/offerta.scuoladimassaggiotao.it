@@ -85,13 +85,15 @@ export default function CardCorsiDiploma(props) {
                   )}
                 </div>
                 <div className="badge badge-outline p-3">
-                  {getProgrammazione(
-                    corsiArray,
-                    progList
-                      .replace(";", "")
-                      .replace(".", "")
-                      .replace("Corso ", "")
-                  ) || "n/a"}
+                  {progList !== "Corso Marketing e Comunicazione."
+                    ? getProgrammazione(
+                        corsiArray,
+                        progList
+                          .replace(";", "")
+                          .replace(".", "")
+                          .replace("Corso ", "")
+                      ) || "n/a"
+                    : "Corso Online"}
                 </div>
               </div>
             </div>
