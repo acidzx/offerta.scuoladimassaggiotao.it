@@ -55,6 +55,20 @@ export default function Home(props) {
       <Testimonials FBreviews={props.reviews} />
       <Cta />
       <ServizioClienti />
+      <div className="container mx-auto text-center py-6">
+        Tre motivi per scegliere la nostra Scuola di Massaggio
+      </div>
+      <div className="flex flex-row items-center flex-wrap justify-around">
+        <div>
+          Percorsi formativi completi e personalizzati in base alle tue esigenze
+        </div>
+        <div>Consulenza e assistenza continua pre e post formazione</div>
+        <div>Didattica con i migliori docenti nel campo del benessere</div>
+      </div>
+      <div className="container mx-auto text-center py-6">
+        Cosa aspetti? Dai una svolta alla tua vita scegliendo Tao. Contattaci
+        per avere maggiori informazioni!
+      </div>
       <ModalForm />
     </>
   );

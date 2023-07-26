@@ -58,17 +58,29 @@ export default function Header() {
         </button>
       </div>
       <CtaActionsButtons />
-      <div>Finalmente libero di scegliere la strada più giusta per te</div>
-      <div>
-        È il momento di raggiungere nuovi traguardi e successi lavorativi. È il
-        momento di scegliere per te la strada che hai sempre desiderato. È il
-        momento di iniziare un nuovo cammino nel mondo del benessere diventando
-        massaggiatore. Insieme scegliamo il percorso più giusto per te che sia:
+      <div className="container mx-auto text-center py-6">
+        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
+          Finalmente libero di scegliere la strada più giusta per te
+        </h2>
       </div>
-      <div>
-        Diploma di alta formazione professionale per massaggiatori (500 ore);{" "}
-        <br />
-        Diplomi di specializzazione; <br /> Corsi di massaggio.
+      <div className="">
+        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center">
+          È il momento di raggiungere nuovi traguardi e successi lavorativi. È
+          il momento di scegliere per te la strada che hai sempre desiderato. È
+          il momento di iniziare un nuovo cammino nel mondo del benessere
+          diventando massaggiatore. Insieme scegliamo il percorso più giusto per
+          te che sia:
+        </p>
+      </div>
+      <div className="container mx-auto flex flex-row text-center items-center justify-center">
+        <ul>
+          <li>
+            Diploma di alta formazione professionale per massaggiatori (500
+            ore);
+          </li>
+          <li>Diplomi di specializzazione;</li>
+          <li>Corsi di massaggio.</li>
+        </ul>
       </div>
     </div>
   );
