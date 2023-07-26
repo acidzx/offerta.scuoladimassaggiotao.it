@@ -3,6 +3,42 @@ import Image from "next/image";
 export default function PostSchedaTecnica(props) {
   const { title, programma, requisiti, durata, category, slug } = props;
 
+  const attestazioneText =
+    category == "corso"
+      ? `Al termine del <span class="font-semibold">${category} di ${title}</span> verrà rilasciato un attestato di
+          specializzazione nominativo valido in tutta Italia di ${" "}
+          ${
+            durata.substring(0, 1) == "1"
+              ? "10"
+              : durata.substring(0, 1) == "2"
+              ? "16"
+              : "24"
+          }
+          ore, con possibilità di ripasso gratuito e rilascio attestato di
+          perfezionamento per un totale di${" "}
+          ${
+            durata.substring(0, 1) == "1"
+              ? "20"
+              : parseInt(durata.substring(0, 1), 10) * 2 * 8
+          }${" "}
+          ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
+          quanto correttamente appreso). `
+      : `Con il <span class="font-semibold">${category} di operatore in ${title}</span>, composto da ${durata.substring(
+          0,
+          2
+        )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di <span class="font-semibold">${durata.substring(
+          0,
+          2
+        )} attestati</span> ed alla fine del percorso, verrà rilasciato un <span class="font-semibold">diploma di operatore in ${title}${
+          title === "Massaggio Sportivo Avanzato"
+            ? " e un diploma di operatore in Massaggio Sportivo"
+            : ""
+        }${
+          title === "Alta Formazione Professionale"
+            ? " e 3 diplomi, rispettivamente di operatore in Massaggio Olistico, Terme & Spa e Sportivo"
+            : ""
+        }</span>.`;
+
   return (
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
@@ -107,45 +143,22 @@ export default function PostSchedaTecnica(props) {
           Attestazione rilasciata
         </div>
         <div className="collapse-content">
-          {category == "corso"
-            ? `Al termine del ${category} di ${title} verrà rilasciato un attestato di
-          specializzazione nominativo valido in tutta Italia di ${" "}
-          ${
-            durata.substring(0, 1) == "1"
-              ? "10"
-              : durata.substring(0, 1) == "2"
-              ? "16"
-              : "24"
-          }
-          ore, con possibilità di ripasso gratuito e rilascio attestato di
-          perfezionamento per un totale di${" "}
-          ${
-            durata.substring(0, 1) == "1"
-              ? "20"
-              : parseInt(durata.substring(0, 1), 10) * 2 * 8
-          }${" "}
-          ore, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
-          quanto correttamente appreso). `
-            : `Con il ${category} di operatore in ${title}, composto da ${durata.substring(
-                0,
-                2
-              )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di ${durata.substring(
-                0,
-                2
-              )} attestati ed alla fine del percorso, verrà rilasciato un diploma di operatore in ${title}${
-                title === "Massaggio Sportivo Avanzato"
-                  ? " e un diploma di operatore in Massaggio Sportivo"
-                  : ""
-              }${
-                title === "Alta Formazione Professionale"
-                  ? " e 3 diplomi, rispettivamente di operatore in Massaggio Olistico, Terme e Spa e Sportivo"
-                  : ""
-              }.
-Gli attestati e il diploma sono entrambi rilasciati in riferimento alla Legge 4/2013. `}
-          Sarà pertanto possibile lavorare legalmente, su tutto il territorio
-          nazionale, purchè l&apos;attività non rientri nell&apos;ambito
-          sanitario o sconfini in quello fisioterapico, estetico o in ambiti
-          stabiliti per legge da altre professioni riconosciute.
+          <p
+            className="text-justify"
+            dangerouslySetInnerHTML={{ __html: attestazioneText }}
+          />
+
+          <p className="text-justify pt-2">
+            <span className="font-semibold">
+              Le qualifiche rilasciate da Tao - Scuola Nazionale di Massaggio,
+              alla fine di ogni corso o percorso, sono emesse in base alla Legge
+              4/2013
+            </span>
+            , sarà pertanto possibile lavorare legalmente su tutto il territorio
+            nazionale, purchè l&apos;attività non rientri nell&apos;ambito
+            sanitario o sconfini in quello fisioterapico, estetico o in ambiti
+            stabiliti per legge da altre professioni riconosciute.
+          </p>
           <div className="flex justify-center mt-6">
             <Image
               src={`/assets/images/attestati/attestato-${slug}.jpg`}
