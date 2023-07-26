@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 
 // import { AppProps } from "next/app";
 
@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
 import Layout from "@components/layout";
+import { Router } from "next/router";
 
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {
@@ -44,24 +45,26 @@ export default function App({ Component, pageProps, router }) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <motion.div
-        className="h-2 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
-        style={{ scaleX }}
-      />
+
       <Layout>
-        <motion.div
-          key={router.route}
-          initial="initial"
-          animate="animate"
+        <AnimatePresence
+          wait
+          initial={false}
           variants={{
             initial: {
               opacity: 0,
             },
             animate: { opacity: 1 },
           }}
+          onExitComplete={() => window.scrollTo(0, 0)}
         >
+          <motion.div
+            className="h-2 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
+            style={{ scaleX }}
+          />
+
           <Component {...pageProps} />
-        </motion.div>
+        </AnimatePresence>
       </Layout>
     </>
   );
