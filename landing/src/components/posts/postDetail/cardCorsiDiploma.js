@@ -92,7 +92,7 @@ export default function CardCorsiDiploma(props) {
                           .replace(";", "")
                           .replace(".", "")
                           .replace("Corso ", "")
-                      ) || "n/a"
+                      ) || "in programmazione"
                     : "Corso Online"}
                 </div>
               </div>
