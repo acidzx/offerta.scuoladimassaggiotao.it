@@ -139,7 +139,7 @@ export default function DiplomaAltaFormazione() {
               </ul>
             </div>
             <div className="mt-6 mx-auto cursor-pointer inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">
-              Scopri
+              Scopri di più
             </div>
           </div>
         </Link>
