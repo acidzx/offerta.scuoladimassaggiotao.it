@@ -49,7 +49,7 @@ export default function PostSchedaTecnica(props) {
         onClick={() =>
           setTimeout(() => {
             scrollIntoTheView("programma");
-          }, "300")
+          }, "200")
         }
       >
         <input type="radio" name="my-accordion-2" defaultChecked />
@@ -71,7 +71,7 @@ export default function PostSchedaTecnica(props) {
           onClick={() =>
             setTimeout(() => {
               scrollIntoTheView("requisiti");
-            }, "300")
+            }, "200")
           }
         >
           <input type="radio" name="my-accordion-2" />
@@ -90,7 +90,7 @@ export default function PostSchedaTecnica(props) {
         onClick={() =>
           setTimeout(() => {
             scrollIntoTheView("durata");
-          }, "300")
+          }, "200")
         }
       >
         <input type="radio" name="my-accordion-2" />
@@ -116,7 +116,7 @@ export default function PostSchedaTecnica(props) {
         onClick={() =>
           setTimeout(() => {
             scrollIntoTheView("sedi");
-          }, "300")
+          }, "200")
         }
       >
         <input type="radio" name="my-accordion-2" />
@@ -154,7 +154,7 @@ export default function PostSchedaTecnica(props) {
         onClick={() =>
           setTimeout(() => {
             scrollIntoTheView("servizi");
-          }, "300")
+          }, "200")
         }
       >
         <input type="radio" name="my-accordion-2" />
@@ -185,7 +185,7 @@ export default function PostSchedaTecnica(props) {
         onClick={() =>
           setTimeout(() => {
             scrollIntoTheView("attestazione");
-          }, "300")
+          }, "200")
         }
       >
         <input type="radio" name="my-accordion-2" />
