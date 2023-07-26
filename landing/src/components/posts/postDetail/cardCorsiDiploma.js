@@ -76,13 +76,15 @@ export default function CardCorsiDiploma(props) {
               <p>&nbsp;</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline p-3">
-                  {getDurata(
-                    corsiArray,
-                    progList
-                      .replace(";", "")
-                      .replace(".", "")
-                      .replace("Corso ", "")
-                  )}
+                  {progList !== "Corso Marketing e Comunicazione."
+                    ? getDurata(
+                        corsiArray,
+                        progList
+                          .replace(";", "")
+                          .replace(".", "")
+                          .replace("Corso ", "")
+                      )
+                    : "16 ore"}
                 </div>
                 <div className="badge badge-outline p-3">
                   {progList !== "Corso Marketing e Comunicazione."
