@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { scrollIntoTheView } from "@/pages/_app";
+
 export default function PostSchedaTecnica(props) {
   const { title, programma, requisiti, durata, category, slug } = props;
 
@@ -43,7 +45,11 @@ export default function PostSchedaTecnica(props) {
     <div className="my-16 container mx-auto max-w-6xl px-4 lg:px-32">
       <div className="my-2 collapse collapse-arrow bg-green-600/5">
         <input type="radio" name="my-accordion-2" defaultChecked />
-        <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
+        <div
+          id="programma"
+          className="collapse-title text-2xl font-extrabold text-gray-700"
+          onClick={() => scrollIntoTheView("programma")}
+        >
           Programma del {category} di {title}
         </div>
         <div className="collapse-content p-5">
@@ -55,7 +61,11 @@ export default function PostSchedaTecnica(props) {
         </div>
       </div>
       {category === "corso" ? (
-        <div className="my-2 collapse collapse-arrow bg-green-600/5">
+        <div
+          id="requisiti"
+          className="my-2 collapse collapse-arrow bg-green-600/5"
+          onClick={() => scrollIntoTheView("requisiti")}
+        >
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
             Requisiti
@@ -66,7 +76,11 @@ export default function PostSchedaTecnica(props) {
         []
       )}
 
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
+      <div
+        id="durata"
+        className="my-2 collapse collapse-arrow bg-green-600/5"
+        onClick={() => scrollIntoTheView("durata")}
+      >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Orario e durata
@@ -84,7 +98,11 @@ export default function PostSchedaTecnica(props) {
           massaggio).
         </div>
       </div>
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
+      <div
+        id="sedi"
+        className="my-2 collapse collapse-arrow bg-green-600/5"
+        onClick={() => scrollIntoTheView("sedi")}
+      >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl  font-extrabold text-gray-700 ">
           Sedi del corso
@@ -114,7 +132,11 @@ export default function PostSchedaTecnica(props) {
           </p>
         </div>
       </div>
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
+      <div
+        id="servizi"
+        className="my-2 collapse collapse-arrow bg-green-600/5"
+        onClick={() => scrollIntoTheView("servizi")}
+      >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700 ">
           Servizi inclusi
@@ -137,7 +159,11 @@ export default function PostSchedaTecnica(props) {
           </ul>
         </div>
       </div>
-      <div className="my-2 collapse collapse-arrow bg-green-600/5">
+      <div
+        id="attestazione"
+        className="my-2 collapse collapse-arrow bg-green-600/5"
+        onClick={() => scrollIntoTheView("attestazione")}
+      >
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-2xl font-extrabold text-gray-700">
           Attestazione rilasciata
