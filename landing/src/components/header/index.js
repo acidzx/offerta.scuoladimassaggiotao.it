@@ -41,7 +41,7 @@ export default function Header() {
         </span>
       </div>
       <div className="flex justify-center my-7">
-        <button onClick={() => scrollIntoTheView("altaformazione")}>
+        <button onClick={() => scrollIntoTheView("altaFormazioneSection")}>
           <div className="animate-bounce bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center">
             <svg
               className="w-6 h-6 text-green-500"
@@ -66,9 +66,8 @@ export default function Header() {
         <p className="text-center text-lg font-normal pb-2 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           È il momento di raggiungere nuovi traguardi e successi lavorativi. È
           il momento di scegliere per te la strada che hai sempre desiderato. È
-          il momento di iniziare un nuovo cammino nel mondo del benessere
-          diventando massaggiatore. Insieme scegliamo il percorso più giusto per
-          te che sia:
+          il momento di iniziare un nuovo cammino nel mondo del benessere te che
+          sia:
         </p>
       </div>
 
@@ -77,7 +76,7 @@ export default function Header() {
           <li>
             <button
               className="btn btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm leading-5"
-              onClick={() => scrollIntoTheView("altaformazione")}
+              onClick={() => scrollIntoTheView("altaFormazioneSection")}
             >
               Diploma alta formazione professionale per massaggiatori (500 ore)
             </button>

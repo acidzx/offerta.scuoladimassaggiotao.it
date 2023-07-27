@@ -4,7 +4,7 @@ import altaFormazioneImg from "@public/assets/images/diploma-alta-formazione-pro
 
 export default function DiplomaAltaFormazione() {
   return (
-    <div id="altaformazione" className="my-8">
+    <div id="altaFormazioneSection" className="my-8">
       <div className="container mx-auto p-4">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           Diploma Alta Formazione Professionale per Massaggiatori 500 ore

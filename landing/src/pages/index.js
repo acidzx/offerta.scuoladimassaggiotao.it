@@ -79,11 +79,8 @@ export default function Home(props) {
           </svg>
 
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="">
-              <span className="absolute inset-0" />
-              Percorsi formativi completi e personalizzati in base alle tue
-              esigenze
-            </a>
+            Percorsi formativi completi e personalizzati in base alle tue
+            esigenze
           </h3>
         </article>
         <article className="flex max-w-xl flex-col items-center  justify-start text-center mx-auto">
@@ -103,10 +100,7 @@ export default function Home(props) {
           </svg>
 
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="">
-              <span className="absolute inset-0" />
-              Consulenza e assistenza continua pre e post formazione
-            </a>
+            Consulenza e assistenza continua pre e post formazione
           </h3>
         </article>
         <article className="flex max-w-xl flex-col items-center justify-start text-center mx-auto">
@@ -126,10 +120,7 @@ export default function Home(props) {
           </svg>
 
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="">
-              <span className="absolute inset-0" />
-              Didattica con i migliori docenti nel campo del benessere
-            </a>
+            Didattica con i migliori docenti nel campo del benessere
           </h3>
         </article>
       </div>
