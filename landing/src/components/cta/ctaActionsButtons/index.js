@@ -8,7 +8,7 @@ export default function CtaActionsButtons() {
           htmlFor="modalForm"
           className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
         >
-          Richiedi Informazioni
+          Richiedi Ora
           <svg
             className="ml-2 -mr-1 w-5 h-5"
             fill="currentColor"
@@ -22,13 +22,13 @@ export default function CtaActionsButtons() {
             ></path>
           </svg>
         </label>
-        <a
+        {/*  <a
           href="tel:057862772"
           className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
         >
           Chiamaci
           <PhoneIcon className="ml-2 -mr-1 w-5 h-5" />
-        </a>
+        </a> */}
       </div>
     </div>
   );

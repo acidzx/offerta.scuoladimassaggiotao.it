@@ -1,6 +1,7 @@
 import CtaActionsButtons from "./ctaActionsButtons";
 
-export default function Cta() {
+export default function Cta(props) {
+  const { text } = props;
   return (
     <>
       <hr className="h-px my-5 bg-gray-200 border-0 " />
@@ -10,7 +11,7 @@ export default function Cta() {
             SCARICA IL TUO COUPON SCONTO
           </h1>
           <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
-            Richiedi l&apos;offerta a te dedicata
+            {text}
           </p>
           <CtaActionsButtons />
         </div>

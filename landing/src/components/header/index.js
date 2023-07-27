@@ -5,6 +5,12 @@ export default function Header() {
   return (
     <div className="bg-white my-8">
       <div className="mx-auto max-w-screen-xl text-center py-6 px-4 md:px-20">
+        <div className="text-center pb-8">
+          <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
+            Ricevi subito il buono sconto da utilizzare sui nostri corsi di
+            formazione. Compila il form e te lo inviamo!
+          </h2>
+        </div>
         <label
           htmlFor="modalForm"
           href="#"
@@ -12,7 +18,7 @@ export default function Header() {
           role="alert"
         >
           <span className="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3">
-            Richiedi Informazioni
+            Contattaci ora
           </span>
           <span className="text-sm font-medium">Una sorpresa per te</span>
           <svg
@@ -28,19 +34,20 @@ export default function Header() {
             ></path>
           </svg>
         </label>
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl">
+        {/*   <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl">
           Investi nel tuo futuro
-        </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          Se desideri dare una svolta alla tua vita, sei nel posto giusto.
+        </h1> */}
+        <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+          Investi nel tuo futuro. Se desideri dare una svolta alla tua vita, sei
+          nel posto giusto. Scopri i nostri corsi e diplomi!
         </p>
       </div>
-      <div className="inline-flex items-center justify-center w-full text-center mb-5 mt-1">
+      {/*      <div className="inline-flex items-center justify-center w-full text-center mb-5 mt-1">
         <span className="absolute px-3 font-2xl text-gray-600 font-extrabold -translate-x-1/2 bg-white left-1/2 uppercase">
           Scopri i nostri corsi e diplomi!
         </span>
-      </div>
-      <div className="flex justify-center my-7">
+      </div> */}
+      {/*   <div className="flex justify-center mt-2 mb-7">
         <button onClick={() => scrollIntoTheView("altaFormazioneSection")}>
           <div className="animate-bounce bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center">
             <svg
@@ -56,18 +63,19 @@ export default function Header() {
             </svg>
           </div>
         </button>
-      </div>
-      <CtaActionsButtons />
+      </div> */}
+      {/*      <CtaActionsButtons /> */}
       <hr className="divider" />
       <div className="container mx-auto p-4">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           Finalmente libero di scegliere la strada più giusta per te
         </h2>
-        <p className="text-center text-lg font-normal pb-2 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+        <p className="text-center text-lg font-normal pb-4 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           È il momento di raggiungere nuovi traguardi e successi lavorativi. È
           il momento di scegliere per te la strada che hai sempre desiderato. È
-          il momento di iniziare un nuovo cammino nel mondo del benessere te che
-          sia:
+          il momento di iniziare un nuovo cammino nel mondo del benessere
+          diventando massaggiatore. Insieme scegliamo il percorso più giusto per
+          te che sia:
         </p>
       </div>
 

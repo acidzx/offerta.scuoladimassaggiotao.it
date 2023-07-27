@@ -137,14 +137,14 @@ export default function DiplomaAltaFormazione() {
                 </li>
               </ul>
             </div>
-            <Link
+            {/*   <Link
               href="/diploma/diploma-massaggiatore-alta-formazione-professionale"
               className="mt-6 mx-auto cursor-pointer inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
             >
               <div className="cursor-pointer  text-base font-medium text-center text-white rounded-lg ">
                 Scopri di più
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -98,7 +98,7 @@ const partners = [
 export default function Footer() {
   return (
     <>
-      <div className="mx-auto py-6 lg:py-2 border-t-2 ">
+      {/*       <div className="mx-auto py-6 lg:py-2 border-t-2 ">
         <div className="slider">
           <div className="slide-track">
             {partners.map((partner, index) => (
@@ -113,9 +113,9 @@ export default function Footer() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <footer className="footer footer-center p-10 bg-primary text-primary-content border-t-2">
+      <footer className="footer footer-center p-10 bg-primary text-primary-content">
         <div className="mb-6 md:mb-0">
           <Link href="/" className="flex items-center">
             <Image

@@ -14,13 +14,13 @@ export default function NavBar() {
             <Logo />
           </div>
           <div className="flex-none flex">
-            <a
+            {/*  <a
               href="tel:057862772"
               className="justify-center items-center py-2 px-4 text-base font-medium text-center transition text-green-700 rounded-lg border border-green-900 hover:bg-green-700 hover:text-white focus:ring-4 focus:ring-gray-100 hidden md:inline-flex"
             >
               0578.62772
               <PhoneIcon className="ml-2 -mr-1 w-5 h-5" />
-            </a>
+            </a> */}
           </div>
         </nav>
       </header>
