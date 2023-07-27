@@ -60,7 +60,7 @@ export default function Home(props) {
         </h2>
       </div>
 
-      <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 pt-2 lg:pt-8 lg:max-w-5xl lg:grid-cols-3 mb-6 px-4">
+      <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 pt-2 lg:pt-8 lg:max-w-5xl lg:grid-cols-3 px-4 mb-16">
         <article className="flex max-w-xl flex-col items-center justify-between text-center mx-auto">
           <div className="text-green-700 hidden lg:block">
             <svg
