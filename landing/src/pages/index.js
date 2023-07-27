@@ -63,7 +63,7 @@ export default function Home(props) {
 
       <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 pt-2 lg:pt-8 lg:max-w-5xl lg:grid-cols-3 mb-6 px-4">
         <article className="flex max-w-xl flex-col items-center justify-between text-center mx-auto">
-          <div class="text-green-700 hidden lg:block">
+          <div className="text-green-700 hidden lg:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -86,7 +86,7 @@ export default function Home(props) {
           </h3>
         </article>
         <article className="flex max-w-xl flex-col items-center  justify-start text-center mx-auto">
-          <div class="text-green-700 hidden lg:block">
+          <div className="text-green-700 hidden lg:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -108,7 +108,7 @@ export default function Home(props) {
           </h3>
         </article>
         <article className="flex max-w-xl flex-col items-center justify-start text-center mx-auto">
-          <div class="text-green-700 hidden lg:block">
+          <div className="text-green-700 hidden lg:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
