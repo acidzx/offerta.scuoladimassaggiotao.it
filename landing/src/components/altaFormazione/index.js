@@ -28,13 +28,13 @@ export default function DiplomaAltaFormazione() {
           />
 
           <div className="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
-            <Link href="" className="">
+            <label htmlFor="modalForm" className="cursor-pointer ">
               <div className="indicator">
-                <span className="indicator-item p-4 badge badge-primary bg-white border border-green-700 rounded-lg text-green-700">
+                <span className="indicator-item p-4 badge badge-primary bg-white border border-green-700 rounded-lg text-green-700 hover:bg-green-700 hover:text-white transition">
                   <b>Contattaci ora</b>
                 </span>
               </div>
-            </Link>
+            </label>
           </div>
 
           <div className="flex flex-col justify-between p-5 lg:p-8 leading-normal lg:w-1/2">

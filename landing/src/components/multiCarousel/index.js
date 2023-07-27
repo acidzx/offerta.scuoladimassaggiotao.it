@@ -29,7 +29,7 @@ export default function MultiCarousel(props) {
   return (
     <>
       {posts[0].category == "diploma" ? (
-        <div className="container mx-auto p-4 mt-6">
+        <div className="container mx-auto p-4 mt-6" id="sectionDiplomi">
           <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl">
             Diplomi di Specializzazione
           </h2>
@@ -41,7 +41,7 @@ export default function MultiCarousel(props) {
           </p>
         </div>
       ) : (
-        <div className="container mx-auto p-4 mt-6">
+        <div className="container mx-auto p-4 mt-6" id="sectionCorsi">
           <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
             Corsi di Massaggio
           </h2>

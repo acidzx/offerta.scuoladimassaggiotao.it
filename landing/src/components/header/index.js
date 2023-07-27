@@ -58,13 +58,12 @@ export default function Header() {
         </button>
       </div>
       <CtaActionsButtons />
-      <div className="container mx-auto text-center py-6">
+      <hr className="divider" />
+      <div className="container mx-auto p-4">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
           Finalmente libero di scegliere la strada più giusta per te
         </h2>
-      </div>
-      <div className="">
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center">
+        <p className="text-center text-lg font-normal pb-2 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
           È il momento di raggiungere nuovi traguardi e successi lavorativi. È
           il momento di scegliere per te la strada che hai sempre desiderato. È
           il momento di iniziare un nuovo cammino nel mondo del benessere
@@ -72,14 +71,33 @@ export default function Header() {
           te che sia:
         </p>
       </div>
+
       <div className="container mx-auto flex flex-row text-center items-center justify-center">
         <ul>
           <li>
-            Diploma di alta formazione professionale per massaggiatori (500
-            ore);
+            <button
+              className="btn btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm leading-5"
+              onClick={() => scrollIntoTheView("altaformazione")}
+            >
+              Diploma alta formazione professionale per massaggiatori (500 ore)
+            </button>
           </li>
-          <li>Diplomi di specializzazione;</li>
-          <li>Corsi di massaggio.</li>
+          <li>
+            <button
+              className="btn btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm"
+              onClick={() => scrollIntoTheView("sectionDiplomi")}
+            >
+              Diplomi di specializzazione
+            </button>
+          </li>
+          <li>
+            <button
+              className="btn btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm"
+              onClick={() => scrollIntoTheView("sectionCorsi")}
+            >
+              Corsi di massaggio
+            </button>
+          </li>
         </ul>
       </div>
     </div>
