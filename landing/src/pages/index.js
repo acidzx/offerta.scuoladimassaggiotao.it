@@ -53,7 +53,6 @@ export default function Home(props) {
       <Testimonials FBreviews={props.reviews} />
       <ServiziTao />
 
-      <Cta />
       {/* <ServizioClienti /> */}
       <div className="container mx-auto p-4">
         <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2">
