@@ -139,7 +139,10 @@ export default function Home(props) {
         </article>
       </div>
 
-      <Cta text="Cosa aspetti? Dai una svolta alla tua vita scegliendo Tao. Contattaci per avere maggiori informazioni!" />
+      <Cta
+        overTitle="Insieme scegliamo la strada più giusta per te"
+        text="Cosa aspetti? Dai una svolta alla tua vita scegliendo Tao. Contattaci per avere maggiori informazioni!"
+      />
       <ModalForm />
     </>
   );
