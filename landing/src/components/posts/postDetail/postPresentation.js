@@ -8,7 +8,7 @@ import {
 
 const supportLinks = [
   {
-    name: "plus 1",
+    name: "Apprendi le",
     href: "#",
     icon: BuildingLibraryIcon,
     bgcolor: "bg-green-700",

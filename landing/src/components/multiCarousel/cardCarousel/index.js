@@ -107,7 +107,7 @@ export default function CardCarousel(props) {
                 </li>
               </ul>
             </div>
-            <p
+            {/* <p
               className="mt-2 text-justify"
               dangerouslySetInnerHTML={{
                 __html:
@@ -119,7 +119,7 @@ export default function CardCarousel(props) {
                     )
                   ) + "...",
               }}
-            />
+            /> */}
 
             <div className="flow-root">
               <ul role="list" className="divide-y divide-gray-200 ">
