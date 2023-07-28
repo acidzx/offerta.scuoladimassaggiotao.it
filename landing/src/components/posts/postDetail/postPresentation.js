@@ -56,7 +56,7 @@ export default function PostPresentation(props) {
               <div className="collapse-title text-md font-medium">
                 A cosa serve il corso di massaggio base svedese?
               </div>
-              <div className="collapse-content text-base">
+              <div className="collapse-content text-base text-justify">
                 <p>
                   Il massaggio svedese è un massaggio completo che comprende una
                   vasta sequenza di manovre: dallo sfioramento alle percussioni
