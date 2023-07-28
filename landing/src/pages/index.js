@@ -45,11 +45,20 @@ export default function Home(props) {
       <Header />
       <hr className="divider" />
       <AltaFormazione />
-      <Cta text="Scopri l’offerta che ti abbiamo riservato per iniziare una formazione eccellente" />
+      <Cta
+        text="Scopri l’offerta che ti abbiamo riservato per iniziare una formazione eccellente"
+        title="per il diploma di alta formazione"
+      />
       <MultiCarousel posts={props.diplomi} />
-      <Cta text="Scopri l’offerta che ti abbiamo riservato per accedere ai nostri diplomi di massaggio" />
+      <Cta
+        text="Scopri l’offerta che ti abbiamo riservato per iniziare una formazione eccellente"
+        title="per accedere ai nostri diplomi di massaggio"
+      />
       <MultiCarousel posts={props.corsi} />
-      <Cta text="Scopri l’offerta che ti abbiamo riservato per accedere ai nostri corsi di massaggio" />
+      <Cta
+        text="Scopri l’offerta che ti abbiamo riservato per accedere ai nostri corsi di massaggio"
+        title="per accedere ai nostri corsi di massaggio"
+      />
       <Testimonials FBreviews={props.reviews} />
       <ServiziTao />
 

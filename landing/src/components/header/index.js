@@ -6,9 +6,13 @@ export default function Header() {
     <div className="bg-white my-8">
       <div className="mx-auto max-w-screen-xl text-center py-6 px-4 md:px-20">
         <div className="text-center pb-8">
-          <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
-            Investi nel tuo futuro!
-          </h2>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl">
+            Investi nel tuo futuro
+          </h1>
+          <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+            Se desideri dare una svolta alla tua vita, sei nel posto giusto.
+            Scopri i nostri corsi e diplomi!
+          </p>
         </div>
         <label
           htmlFor="modalForm"
@@ -36,10 +40,6 @@ export default function Header() {
         {/*   <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl">
           Investi nel tuo futuro
         </h1> */}
-        <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          Se desideri dare una svolta alla tua vita, sei nel posto giusto.
-          Scopri i nostri corsi e diplomi!
-        </p>
       </div>
       {/*      <div className="inline-flex items-center justify-center w-full text-center mb-5 mt-1">
         <span className="absolute px-3 font-2xl text-gray-600 font-extrabold -translate-x-1/2 bg-white left-1/2 uppercase">
