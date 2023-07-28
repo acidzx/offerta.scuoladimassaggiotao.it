@@ -1,7 +1,7 @@
 import CtaActionsButtons from "./ctaActionsButtons";
 
 export default function Cta(props) {
-  const { text, title, overTitle } = props;
+  const { text, title, overTitle, btnText } = props;
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function Cta(props) {
           <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 ">
             {text}
           </p>
-          <CtaActionsButtons />
+          <CtaActionsButtons btnText={btnText} />
         </div>
       </div>
       <hr className="h-px my-5 bg-gray-200 border-0 " />

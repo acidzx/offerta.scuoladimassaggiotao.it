@@ -1,6 +1,8 @@
 import { PhoneIcon } from "@heroicons/react/24/outline";
 
-export default function CtaActionsButtons() {
+export default function CtaActionsButtons(props) {
+  const { btnText } = props;
+
   return (
     <div className="py-6">
       <div className="flex flex-col my-3 mx-[4rem] lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
@@ -8,7 +10,7 @@ export default function CtaActionsButtons() {
           htmlFor="modalForm"
           className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
         >
-          Richiedi Ora
+          {btnText || "Richiedi Ora"}
           {/*   <svg
             className="ml-2 -mr-1 w-5 h-5"
             fill="currentColor"

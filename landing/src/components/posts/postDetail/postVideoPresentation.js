@@ -1,11 +1,13 @@
 export default function PostVideoPresentation(props) {
-  const { videosrc } = props;
+  const { videosrc, title } = props;
 
   return (
     <div className="container mx-auto my-12">
-      <h2 className="text-center mb-4 text-4xl font-extrabold text-gray-600 ">
-        Video Presentazione
-      </h2>
+      <div className="max-w-2xl mx-auto">
+        <h2 className="text-center mb-4 text-4xl font-extrabold text-gray-600">
+          {title || "Video Presentazione"}
+        </h2>
+      </div>
       <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
         Ascolta il nostro direttore didattico
       </p>

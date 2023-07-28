@@ -142,6 +142,7 @@ export default function Home(props) {
       <Cta
         overTitle="Insieme scegliamo la strada più giusta per te"
         text="Cosa aspetti? Dai una svolta alla tua vita scegliendo Tao. Contattaci per avere maggiori informazioni!"
+        btnText="Contattaci"
       />
       <ModalForm />
     </>

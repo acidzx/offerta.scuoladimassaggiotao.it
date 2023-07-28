@@ -6,6 +6,9 @@ title: "Massaggio Base Svedese"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
+incipit: "Se desideri diventare massaggiatore, il corso di massaggio base svedese è il primo
+            passo per entrare nel mondo del benessere. Cosa aspetti? Scopri
+            subito l’offerta formativa."
 longcontent: "<p class='mb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
 fisiologia. Acquisisci le nozioni base sull’uso di oli e creme. Tutto questo è racchiuso nel
 <span class='font-semibold'>corso di massaggio base svedese</span>.

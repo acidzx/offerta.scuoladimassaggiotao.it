@@ -110,7 +110,14 @@ export default function CardCarousel(props) {
             <p
               className="mt-2 text-justify"
               dangerouslySetInnerHTML={{
-                __html: stripTags(longcontent).substring(0, 130) + "...",
+                __html:
+                  stripTags(longcontent).substr(
+                    0,
+                    Math.min(
+                      130,
+                      stripTags(longcontent).substring(0, 130).lastIndexOf(" ")
+                    )
+                  ) + "...",
               }}
             />
 
