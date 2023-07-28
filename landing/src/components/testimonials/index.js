@@ -29,7 +29,7 @@ export default function Testimonials(props) {
           alt="Logo Facebook"
         />
       </div>
-      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8">
+      <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8 px-4">
         L&apos;unica scuola con più di 1.400 recensioni positive su Google e
         Facebook
       </p>
