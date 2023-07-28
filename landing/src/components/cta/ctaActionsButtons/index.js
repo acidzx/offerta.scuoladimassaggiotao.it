@@ -9,7 +9,7 @@ export default function CtaActionsButtons() {
           className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
         >
           Richiedi Ora
-          <svg
+          {/*   <svg
             className="ml-2 -mr-1 w-5 h-5"
             fill="currentColor"
             viewBox="0 0 16 16"
@@ -20,7 +20,7 @@ export default function CtaActionsButtons() {
               d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"
               clipRule="evenodd"
             ></path>
-          </svg>
+          </svg> */}
         </label>
         {/*  <a
           href="tel:057862772"

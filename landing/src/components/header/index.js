@@ -7,8 +7,7 @@ export default function Header() {
       <div className="mx-auto max-w-screen-xl text-center py-6 px-4 md:px-20">
         <div className="text-center pb-8">
           <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
-            Ricevi subito il buono sconto da utilizzare sui nostri corsi di
-            formazione. Compila il form e te lo inviamo!
+            Investi nel tuo futuro!
           </h2>
         </div>
         <label
@@ -18,9 +17,9 @@ export default function Header() {
           role="alert"
         >
           <span className="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3">
-            Contattaci ora
+            Una sorpresa per te
           </span>
-          <span className="text-sm font-medium">Una sorpresa per te</span>
+          <span className="text-sm font-medium">Contattaci ora</span>
           <svg
             className="ml-2 w-5 h-5"
             fill="currentColor"
@@ -38,8 +37,8 @@ export default function Header() {
           Investi nel tuo futuro
         </h1> */}
         <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-          Investi nel tuo futuro. Se desideri dare una svolta alla tua vita, sei
-          nel posto giusto. Scopri i nostri corsi e diplomi!
+          Se desideri dare una svolta alla tua vita, sei nel posto giusto.
+          Scopri i nostri corsi e diplomi!
         </p>
       </div>
       {/*      <div className="inline-flex items-center justify-center w-full text-center mb-5 mt-1">
