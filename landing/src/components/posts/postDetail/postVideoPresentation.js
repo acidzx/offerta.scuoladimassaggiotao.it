@@ -4,7 +4,7 @@ export default function PostVideoPresentation(props) {
   return (
     <div className="container mx-auto my-12">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-center mb-4 text-4xl font-extrabold text-gray-600">
+        <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
           {title || "Video Presentazione"}
         </h2>
       </div>

@@ -105,7 +105,7 @@ export default function PostContent(props) {
         fineCorsoDate={fineCorsoDate || "in programmazione"}
       /> */}
       <PostHeaderAlternative incipit={post.incipit} />
-      <div>{post.slug == "corso-massaggio-base-svedese" ? "" : ""}</div>
+
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
@@ -144,6 +144,7 @@ export default function PostContent(props) {
         category={post.category}
         slug={post.slug}
       />
+      <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostVideoPresentation
         videosrc={post.videosrc}
         title="In 2 minuti ti spieghiamo perché scegliere il corso di massaggio
@@ -154,7 +155,7 @@ base svedese"
         text="Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
       />
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-center mb-4 text-4xl font-extrabold text-gray-600 py-6">
+        <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
           Ottieni l’attestato di specializzazione
         </h2>
         <div className="container mx-auto max-w-4xl">
@@ -184,10 +185,11 @@ base svedese"
           </div>
         </div>
       </div>
+      <hr className="h-px my-4 bg-gray-200 border-0 " />
       <Testimonials FBreviews={props.reviews} />
-
+      <hr className="h-px my-4 bg-gray-200 border-0 " />
       <div className="max-w-xl mx-auto text-center my-16">
-        <h2 className="text-center mb-4 text-4xl font-extrabold text-gray-600">
+        <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
           Ecco perché scegliere il corso di {post.title}
         </h2>
       </div>
