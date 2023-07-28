@@ -8,21 +8,21 @@ import {
 
 const supportLinks = [
   {
-    name: "Apprendi le",
+    name: "Scopri l'arte del massaggio con il nostro corso",
     href: "#",
     icon: BuildingLibraryIcon,
     bgcolor: "bg-green-700",
     color: "text-white",
   },
   {
-    name: "plus 2",
+    name: "Apprendi le manualità fondamentali del massaggio",
     href: "#",
     icon: HandRaisedIcon,
     bgcolor: "bg-white",
     color: "text-gray-700",
   },
   {
-    name: "plus 3",
+    name: "Dopo la formazione puoi eseguirlo in completa autonomia",
     href: "#",
     icon: UserGroupIcon,
     bgcolor: "bg-red-700",
@@ -52,8 +52,8 @@ export default function PostPresentation(props) {
               className="mb-4 text-justify text-base"
               dangerouslySetInnerHTML={{ __html: longcontent }}
             />
-            <div tabIndex={0} className="collapse bg-base-200">
-              <div className="collapse-title text-md font-medium">
+            <div tabIndex={0} className="collapse collapse-arrow  bg-base-200">
+              <div className="collapse-title text-xl font-medium">
                 A cosa serve il corso di massaggio base svedese?
               </div>
               <div className="collapse-content text-base text-justify">

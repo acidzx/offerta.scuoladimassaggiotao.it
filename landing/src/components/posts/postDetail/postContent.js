@@ -196,11 +196,16 @@ base svedese"
         <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
           Se desideri entrare nel mondo del benessere e dare una svolta alla tua
           vita professionale, il corso di massaggio base svedese è la scelta più
-          giusta per te. Siamo al tuo fianco in ogni istante scegliendo insieme
-          il miglior percorso formativo per le tue esigenze. Ogni passo del
-          tragitto che faremo insieme il nostro team di consulenti sarà con te
-          per accompagnarti lungo questo fantastico percorso didattico. Cosa
-          aspetti? Chiedi ora maggiori info per partecipare al corso di
+          giusta per te.
+        </p>
+        <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
+          Siamo al tuo fianco in ogni istante scegliendo insieme il miglior
+          percorso formativo per le tue esigenze. Ogni passo del tragitto che
+          faremo insieme il nostro team di consulenti sarà con te per
+          accompagnarti lungo questo fantastico percorso didattico.
+        </p>
+        <p className="mb-4 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
+          Cosa aspetti? Chiedi ora maggiori info per partecipare al corso di
           massaggio base svedese.
         </p>
         <div className="mt-16 flex flex-col my-3 mx-[4rem] lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">

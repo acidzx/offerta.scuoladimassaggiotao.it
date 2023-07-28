@@ -9,14 +9,14 @@ category: "corso"
 incipit: "Se desideri diventare massaggiatore, il corso di massaggio base svedese è il primo
             passo per entrare nel mondo del benessere. Cosa aspetti? Scopri
             subito l’offerta formativa."
-longcontent: "<p class='mb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
+longcontent: "<p class='pb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
 fisiologia. Acquisisci le nozioni base sull’uso di oli e creme. Tutto questo è racchiuso nel
-<span class='font-semibold'>corso di massaggio base svedese</span>.
-Oltre alla parte teorica sui benefici e le relative controindicazioni del massaggio base
+<span class='font-semibold'>corso di massaggio base svedese</span>.</p>
+<p class='pb-2'>Oltre alla parte teorica sui benefici e le relative controindicazioni del massaggio base
 svedese, il focus sarà sulla parte pratica, specialmente sull’apprendimento delle tecniche del
 massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni (in tutte le
-loro varianti).
-Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
+loro varianti).</p>
+<p>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
 un’ora in totale autonomia.</p>"
 programma: [
     "Origini e storia del massaggio;",
