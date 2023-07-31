@@ -64,6 +64,24 @@ export default function PostContent(props) {
             : ""
         }</span>.`;
 
+  {
+    console.log(
+      new Date(
+        post.programmazione
+          .sort(function (a, b) {
+            return (
+              new Date(a.split(" ").reverse().join(" ")) -
+              new Date(b.split(" ").reverse().join(" "))
+            );
+          })
+          .filter(checkDatePassate)[0]
+          .split(" ")
+          .reverse()
+          .join(" ")
+      ).toLocaleString("it-IT", dateOptions)
+    );
+  }
+
   function dateManipulation(date, days, hrs, mins, operator) {
     date = new Date(date);
     if (operator == "-") {
