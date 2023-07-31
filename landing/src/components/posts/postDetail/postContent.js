@@ -64,24 +64,6 @@ export default function PostContent(props) {
             : ""
         }</span>.`;
 
-  {
-    console.log(
-      new Date(
-        post.programmazione
-          .sort(function (a, b) {
-            return (
-              new Date(a.split(" ").reverse().join(" ")) -
-              new Date(b.split(" ").reverse().join(" "))
-            );
-          })
-          .filter(checkDatePassate)[0]
-          .split(" ")
-          .reverse()
-          .join(" ")
-      ).toLocaleString("it-IT", dateOptions)
-    );
-  }
-
   function dateManipulation(date, days, hrs, mins, operator) {
     date = new Date(date);
     if (operator == "-") {
@@ -94,13 +76,12 @@ export default function PostContent(props) {
     return newDate;
   }
 
-  const filteredDate =
-    filterDate && filterDate[0]
-      ? new Date(filterDate[0].split(" ").reverse().join(" ")).toLocaleString(
-          "it-IT",
-          dateOptions
-        )
-      : "data in programmazione";
+  const filteredDate = filterDate[0]
+    ? new Date(filterDate[0].split(" ").reverse().join(" ")).toLocaleString(
+        "it-IT",
+        dateOptions
+      )
+    : "data in programmazione";
 
   const fineCorsoDate =
     filterDate && filterDate[0]
@@ -139,8 +120,8 @@ export default function PostContent(props) {
       />
       {post.category === "corso" ? (
         <ProgrammazioneDataCorso
-          filteredDate={filteredDate || "in programmazione"}
-          fineCorsoDate={fineCorsoDate || "in programmazione"}
+          filteredDate={filteredDate}
+          fineCorsoDate={fineCorsoDate}
         />
       ) : (
         []
