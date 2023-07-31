@@ -28,7 +28,7 @@ export default function PostContent(props) {
           new Date(b.split(" ").reverse().join(" "))
         );
       })
-    : null;
+    : [];
 
   const dateOptions = {
     year: "numeric",
@@ -36,7 +36,7 @@ export default function PostContent(props) {
     day: "numeric",
   };
 
-  const filterDate = sortedDate ? sortedDate.filter(checkDatePassate) : null;
+  const filterDate = sortedDate ? sortedDate.filter(checkDatePassate) : [];
 
   const attestazioneText =
     post.category == "corso"
@@ -93,7 +93,7 @@ export default function PostContent(props) {
           0,
           "+"
         ).toLocaleString("it-IT", dateOptions)
-      : "data in programmazione";
+      : [];
 
   return (
     <>
