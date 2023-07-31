@@ -8,7 +8,7 @@ export default function ProgrammazioneDataCorso(props) {
           Prima data del corso:
         </h3>
         <p className="text-lg font-medium text-gray-600 tracking-tighter justify-center pt-2 pb-4">
-          {filteredDate === fineCorsoDate
+          {filteredDate && filteredDate === fineCorsoDate
             ? filteredDate
             : `dal ${filteredDate} al ${fineCorsoDate}`}
         </p>
