@@ -5,7 +5,7 @@ import logoGoogle from "@public/assets/svg/google-logo.svg";
 import logoFacebook from "@public/assets/svg/facebook-logo.svg";
 
 export default function Testimonials(props) {
-  const { FBreviews } = props;
+  const { FBreviews, reviewTextContent, reviewTextTitle } = props;
 
   FBreviews &&
     FBreviews.data.sort((a, b) => b.review_text.length - a.review_text.length);
@@ -13,7 +13,7 @@ export default function Testimonials(props) {
   return (
     <>
       <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-        Ecco le storie di successo dei nostri alunni
+        {reviewTextTitle || "Ecco le storie di successo dei nostri alunni"}
       </h2>
       <div className="container mx-auto flex justify-center gap-6 mb-4">
         <Image
@@ -30,8 +30,8 @@ export default function Testimonials(props) {
         />
       </div>
       <p className="text-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 mb-8 px-4">
-        L&apos;unica scuola con più di 1.400 recensioni positive su Google e
-        Facebook
+        {reviewTextContent ||
+          "L'unica scuola con più di 1.400 recensioni positive su Google e Facebook"}
       </p>
 
       <div className="overflow-hidden bg-white mt-4">

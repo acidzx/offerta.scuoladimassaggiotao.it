@@ -6,32 +6,43 @@ import {
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
 
-const supportLinks = [
-  {
-    name: "Scopri l'arte del massaggio con il nostro corso",
-    href: "#",
-    icon: BuildingLibraryIcon,
-    bgcolor: "bg-green-700",
-    color: "text-white",
-  },
-  {
-    name: "Apprendi le manualità fondamentali del massaggio",
-    href: "#",
-    icon: HandRaisedIcon,
-    bgcolor: "bg-white",
-    color: "text-gray-700",
-  },
-  {
-    name: "Dopo la formazione puoi eseguirlo in completa autonomia",
-    href: "#",
-    icon: UserGroupIcon,
-    bgcolor: "bg-red-700",
-    color: "text-white",
-  },
-];
-
 export default function PostPresentation(props) {
-  const { longcontent, slug, category } = props;
+  const {
+    longcontent,
+    longcontentTitle,
+    longcontentCollapseTitle,
+    longcontentCollapseContent,
+    slug,
+    category,
+    features1,
+    features2,
+    features3,
+  } = props;
+
+  const supportLinks = [
+    {
+      name: features1,
+      href: "#",
+      icon: BuildingLibraryIcon,
+      bgcolor: "bg-green-700",
+      color: "text-white",
+    },
+    {
+      name: features2,
+      href: "#",
+      icon: HandRaisedIcon,
+      bgcolor: "bg-white",
+      color: "text-gray-700",
+    },
+    {
+      name: features3,
+      href: "#",
+      icon: UserGroupIcon,
+      bgcolor: "bg-red-700",
+      color: "text-white",
+    },
+  ];
+
   return (
     <>
       <div className="bg-white ">
@@ -45,36 +56,27 @@ export default function PostPresentation(props) {
         <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg">
             <h2 className="mb-4 text-4xl font-extrabold text-gray-600 ">
-              Entra nel mondo del benessere con il corso di massaggio base
-              svedese
+              {longcontentTitle || "longcontentTitle missing"}
             </h2>
             <article
               className="mb-4 text-justify text-base"
               dangerouslySetInnerHTML={{ __html: longcontent }}
             />
-            <div tabIndex={0} className="collapse collapse-arrow  bg-base-200">
-              <div className="collapse-title text-xl font-medium">
-                A cosa serve il corso di massaggio base svedese?
+            {longcontentCollapseTitle ? (
+              <div
+                tabIndex={0}
+                className="collapse collapse-arrow  bg-base-200"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  {longcontentCollapseTitle}
+                </div>
+                <div className="collapse-content text-base text-justify">
+                  <p>{longcontentCollapseContent}</p>
+                </div>
               </div>
-              <div className="collapse-content text-base text-justify">
-                <p>
-                  Il massaggio svedese è un massaggio completo che comprende una
-                  vasta sequenza di manovre: dallo sfioramento alle percussioni
-                  finali, passando per le frizioni e gli impastamenti. Questo ci
-                  permette di utilizzare questo trattamento per diversi scopi,
-                  ottenendo così vari metodi di lavoro in base alle diverse
-                  esigenze della persona. Oltre all&#39;obiettivo primario che è
-                  quello di favorire un rilassamento e un benessere generale
-                  alla persona, i benefici del massaggio svedese sono
-                  molteplici. Tra questi benefici troviamo: 1. ridurre le
-                  situazioni di stress e ansia; 2. supportare la tonificazione
-                  della muscolatura e il miglioramento della circolazione
-                  sanguigna linfatica; 3. alleviare dolori muscolari e
-                  articolari e favorire l&#39;eliminazione dei liquidi e tossine
-                  in eccesso.
-                </p>
-              </div>
-            </div>
+            ) : (
+              []
+            )}
           </div>
 
           <div className="grid grid-cols-2 gap-4 mt-8">

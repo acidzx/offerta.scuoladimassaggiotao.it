@@ -56,7 +56,6 @@ export default function App({ Component, pageProps, router }) {
             },
             animate: { opacity: 1 },
           }}
-          onExitComplete={() => window.scrollTo(0, 0)}
         >
           <motion.div
             className="h-1 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"

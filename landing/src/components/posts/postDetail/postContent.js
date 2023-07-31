@@ -93,7 +93,7 @@ export default function PostContent(props) {
           0,
           "+"
         ).toLocaleString("it-IT", dateOptions)
-      : [];
+      : "data in programmazione";
 
   return (
     <>
@@ -104,6 +104,7 @@ export default function PostContent(props) {
         filteredDate={filteredDate || "in programmazione"}
         fineCorsoDate={fineCorsoDate || "in programmazione"}
       /> */}
+
       <PostHeaderAlternative incipit={post.incipit} />
 
       <hr className="h-px my-4 bg-gray-200 border-0 " />
@@ -111,6 +112,12 @@ export default function PostContent(props) {
         longcontent={post.longcontent}
         slug={post.slug}
         category={post.category}
+        longcontentTitle={post.longcontentTitle}
+        longcontentCollapseTitle={post.longcontentCollapseTitle}
+        longcontentCollapseContent={post.longcontentCollapseContent}
+        features1={post.features1}
+        features2={post.features2}
+        features3={post.features3}
       />
       {post.category === "corso" ? (
         <ProgrammazioneDataCorso
@@ -130,10 +137,7 @@ export default function PostContent(props) {
       ) : (
         ""
       )}
-      <Cta
-        overTitle="Ecco la sorpresa che abbiamo pensato per te"
-        text="Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
-      />
+      <Cta overTitle={post.cta1OverTitle} text={post.cta1OverText} />
       {/*  <PostPrice price={post.price} /> */}
       <PostSchedaTecnica
         title={post.title}
@@ -147,13 +151,9 @@ export default function PostContent(props) {
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostVideoPresentation
         videosrc={post.videosrc}
-        title="In 2 minuti ti spieghiamo perché scegliere il corso di massaggio
-base svedese"
+        title={post.videoPresentationTitle}
       />
-      <Cta
-        overTitle="Ecco la sorpresa che abbiamo pensato per te"
-        text="Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
-      />
+      <Cta overTitle={post.cta2OverTitle} text={post.cta2OverText} />
       <div className="container mx-auto text-center px-4">
         <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
           Ottieni l’attestato di specializzazione
@@ -186,39 +186,22 @@ base svedese"
         </div>
       </div>
       <hr className="h-px my-4 bg-gray-200 border-0 " />
-      <Testimonials FBreviews={props.reviews} />
+      <Testimonials
+        FBreviews={props.reviews}
+        reviewTextTitle={post.reviewTextTitle}
+        reviewTextContent={post.reviewTextContent}
+      />
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <div className="max-w-xl mx-auto text-center my-16">
         <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
           Ecco perché scegliere il corso di {post.title}
         </h2>
       </div>
-      <PostServiziInclusi title={post.title} />
-      <div className="container mx-auto my-16 px-4">
-        <p className="mb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
-          Se desideri entrare nel mondo del benessere e dare una svolta alla tua
-          vita professionale, il corso di massaggio base svedese è la scelta più
-          giusta per te.
-        </p>
-        <p className="mb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
-          Siamo al tuo fianco in ogni istante scegliendo insieme il miglior
-          percorso formativo per le tue esigenze. Ogni passo del tragitto che
-          faremo insieme il nostro team di consulenti sarà con te per
-          accompagnarti lungo questo fantastico percorso didattico.
-        </p>
-        <p className="mb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify">
-          Cosa aspetti? Chiedi ora maggiori info per partecipare al corso di
-          massaggio base svedese.
-        </p>
-        <div className="mt-16 flex flex-col my-3 mx-[4rem] lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <label
-            htmlFor="modalForm"
-            className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-          >
-            Contattaci ora
-          </label>
-        </div>
-      </div>
+      <PostServiziInclusi
+        title={post.title}
+        serviziInclusiText={post.serviziInclusiText}
+      />
+
       <hr className="divider" />
       {/*   <Cta />
 

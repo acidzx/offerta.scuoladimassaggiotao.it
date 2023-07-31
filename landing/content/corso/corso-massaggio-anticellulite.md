@@ -6,7 +6,6 @@ title: "Massaggio Anticellulite"
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "<p class='mb-2'>Se vuoi sapere come combattere la <b>cellulite</b> con il massaggio, questo corso fa per te.</p> Imparerai a conoscere la cellulite in tutte le sue sfumature: cos&apos;è, come si forma, quali sono i suoi stadi e le sue cause. Così potrai scegliere il trattamento più adatto al tuo cliente, in base alle sue esigenze e al suo grado di alterazione dei tessuti.</p> <p>Il Corso di Massaggio Anticellulite ti farà scoprire le tecniche più efficaci per contrastare gli inestetismi della cellulite, stimolando la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento, drenando e eliminando le tossine dai tessuti, rispettando sempre la circolazione linfatica.</p>"
 programma: [
 'Introduzione alla cellulite;',
 'La cellulite in ambito medico ed estetico;',
@@ -22,4 +21,34 @@ requisiti: "Il Corso di Massaggio Anticellulite della Scuola Nazionale di Massag
 videosrc: "https://www.youtube-nocookie.com/embed/aZfJ3ZTukt0"
 programmazione: ['16 09 2023']    
 order: "11"
+incipit: "Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa. Cosa aspetti? Scopri l’offerta formativa del nostro corso anticellulite."
+longcontentTitle: "Impara il trattamento più richiesto dalle donne con il massaggio anticellulite"            
+longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi della pelle come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura. 
+Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti. 
+
+Tutto questo è possibile se decidi di partecipare al nostro corso di formazione sul massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:
+
+contrastare gli inestetismi della cellulite; 
+stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;
+drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.
+
+</p>"
+longcontentCollapseTitle: ""
+longcontentCollapseContent: ""
+features1: "Il 90% delle donne richiede questo trattamento"
+features2: "Esegui il massaggio in completa autonomia"
+features3: "Ottieni l'attestato e lavora da subito"  
+cta1OverTitle: "Ottieni l’attestato e lavora da subito"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio anticellulite"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio anticellulite"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio anticellulite"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Il 90% delle donne richiede questo trattamento. È la tecnica di massaggio più richiesta nei centri benessere, nelle spa e nei centri estetici. È il corso di formazione perfetto se vuoi intraprendere la carriera di massaggiatore nel campo del benessere. Ecco per 3 motivi per iscriverti al nostro corso di massaggio anticellulite. </p>
+
+<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Se vuoi partecipare alla migliore formazione in questo campo, non devi fare altro che contattarci e ti daremo tutte le informazioni sulla prima data disponibile. 
+
+        </p>"
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
 ---

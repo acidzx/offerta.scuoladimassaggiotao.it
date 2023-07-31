@@ -9,6 +9,7 @@ category: "corso"
 incipit: "Se desideri diventare massaggiatore, il corso di massaggio base svedese è il primo
             passo per entrare nel mondo del benessere. Cosa aspetti? Scopri
             subito l’offerta formativa."
+longcontentTitle: "Entra nel mondo del benessere con il corso di massaggio base svedese"            
 longcontent: "<p class='pb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
 fisiologia. Acquisisci le nozioni base sull’uso di oli e creme. Tutto questo è racchiuso nel
 <span class='font-semibold'>corso di massaggio base svedese</span>.</p>
@@ -18,6 +19,21 @@ massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazion
 loro varianti).</p>
 <p>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
 un’ora in totale autonomia.</p>"
+longcontentCollapseTitle: "A cosa serve il corso di massaggio base svedese?"
+longcontentCollapseContent: "Il massaggio svedese è un massaggio completo che comprende una
+                  vasta sequenza di manovre: dallo sfioramento alle percussioni
+                  finali, passando per le frizioni e gli impastamenti. Questo ci
+                  permette di utilizzare questo trattamento per diversi scopi,
+                  ottenendo così vari metodi di lavoro in base alle diverse
+                  esigenze della persona. Oltre all&#39;obiettivo primario che è
+                  quello di favorire un rilassamento e un benessere generale
+                  alla persona, i benefici del massaggio svedese sono
+                  molteplici. Tra questi benefici troviamo: 1. ridurre le
+                  situazioni di stress e ansia; 2. supportare la tonificazione
+                  della muscolatura e il miglioramento della circolazione
+                  sanguigna linfatica; 3. alleviare dolori muscolari e
+                  articolari e favorire l&#39;eliminazione dei liquidi e tossine
+                  in eccesso."
 programma: [
     "Origini e storia del massaggio;",
     "Anatomia e fisiologia del corpo umano;",
@@ -42,4 +58,30 @@ requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale d
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
 programmazione: ['01 09 2023', '13 10 2023', '24 11 2023', '01 06 2023']
 order: "1"
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio
+base svedese"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Se desideri entrare nel mondo del benessere e dare una svolta alla tua
+          vita professionale, il corso di massaggio base svedese è la scelta più
+          giusta per te.
+        </p>
+        <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Siamo al tuo fianco in ogni istante scegliendo insieme il miglior
+          percorso formativo per le tue esigenze. Ogni passo del tragitto che
+          faremo insieme il nostro team di consulenti sarà con te per
+          accompagnarti lungo questo fantastico percorso didattico.
+        </p>
+        <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Cosa aspetti? Chiedi ora maggiori info per partecipare al corso di
+          massaggio base svedese.
+        </p>"
+features1: "Scopri l'arte del massaggio con il nostro corso"
+features2: "Apprendi le manualità fondamentali del massaggio"
+features3: "Dopo la formazione puoi eseguirlo in completa autonomia"      
+reviewTextTitle: "Ecco le storie di successo dei nostri alunni"        
+reviewTextContent: "L'unica scuola con più di 1.400 recensioni positive su Google e Facebook" 
 ---
