@@ -18,8 +18,8 @@ export default function CardCorsiDiploma(props) {
             data[x].programmazione
               .sort(function (a, b) {
                 return (
-                  new Date(a.split(" ").reverse().join(" ")) -
-                  new Date(b.split(" ").reverse().join(" "))
+                  new Date(a.split(" ").reverse().join("/")) -
+                  new Date(b.split(" ").reverse().join("/"))
                 );
               })
               .filter(checkDatePassate)[0]
@@ -34,7 +34,7 @@ export default function CardCorsiDiploma(props) {
   }
 
   function checkDatePassate(date) {
-    return new Date(date.split(" ").reverse().join(" ")) > new Date();
+    return new Date(date.split(" ").reverse().join("/")) > new Date();
   }
 
   const dateOptions = {

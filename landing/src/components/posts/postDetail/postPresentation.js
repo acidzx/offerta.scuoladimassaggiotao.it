@@ -26,6 +26,7 @@ export default function PostPresentation(props) {
       icon: BuildingLibraryIcon,
       bgcolor: "bg-green-700",
       color: "text-white",
+      ref: "features1",
     },
     {
       name: features2,
@@ -33,6 +34,7 @@ export default function PostPresentation(props) {
       icon: HandRaisedIcon,
       bgcolor: "bg-white",
       color: "text-gray-700",
+      ref: "features2",
     },
     {
       name: features3,
@@ -40,6 +42,7 @@ export default function PostPresentation(props) {
       icon: UserGroupIcon,
       bgcolor: "bg-red-700",
       color: "text-white",
+      ref: "features3",
     },
   ];
 
@@ -108,7 +111,7 @@ export default function PostPresentation(props) {
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
           {supportLinks.map((link) => (
             <div
-              key={link.name}
+              key={link.ref}
               className="flex flex-col rounded-2xl bg-white shadow-xl"
             >
               <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">

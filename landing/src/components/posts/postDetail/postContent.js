@@ -18,14 +18,14 @@ export default function PostContent(props) {
   const imgPath = `/assets/images/${post.category}/${post.slug}`;
 
   function checkDatePassate(date) {
-    return new Date(date.split(" ").reverse().join(" ")) > new Date();
+    return new Date(date.split(" ").reverse().join("/")) > new Date();
   }
 
   const sortedDate = post.programmazione
     ? post.programmazione.sort(function (a, b) {
         return (
-          new Date(a.split(" ").reverse().join(" ")) -
-          new Date(b.split(" ").reverse().join(" "))
+          new Date(a.split(" ").reverse().join("/")) -
+          new Date(b.split(" ").reverse().join("/"))
         );
       })
     : [];
@@ -77,7 +77,7 @@ export default function PostContent(props) {
   }
 
   const filteredDate = filterDate[0]
-    ? new Date(filterDate[0].split(" ").reverse().join(" ")).toLocaleString(
+    ? new Date(filterDate[0].split(" ").reverse().join("/")).toLocaleString(
         "it-IT",
         dateOptions
       )
@@ -86,7 +86,7 @@ export default function PostContent(props) {
   const fineCorsoDate =
     filterDate && filterDate[0]
       ? dateManipulation(
-          new Date(filterDate[0].split(" ").reverse().join(" ")),
+          new Date(filterDate[0].split(" ").reverse().join("/")),
           post.durata[0] - 1,
           0,
           0,
