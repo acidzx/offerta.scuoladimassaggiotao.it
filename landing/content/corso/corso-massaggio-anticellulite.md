@@ -27,11 +27,9 @@ longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi de
 Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti. 
 
 Tutto questo è possibile se decidi di partecipare al nostro corso di formazione sul massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:
-
 contrastare gli inestetismi della cellulite; 
 stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;
 drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.
-
 </p>"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""

@@ -114,6 +114,8 @@ export default function PostContent(props) {
         longcontentTitle={post.longcontentTitle}
         longcontentCollapseTitle={post.longcontentCollapseTitle}
         longcontentCollapseContent={post.longcontentCollapseContent}
+        longcontentCollapseTitle2={post.longcontentCollapseTitle2}
+        longcontentCollapseContent2={post.longcontentCollapseContent2}
         features1={post.features1}
         features2={post.features2}
         features3={post.features3}

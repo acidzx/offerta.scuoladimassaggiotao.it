@@ -12,6 +12,8 @@ export default function PostPresentation(props) {
     longcontentTitle,
     longcontentCollapseTitle,
     longcontentCollapseContent,
+    longcontentCollapseTitle2,
+    longcontentCollapseContent2,
     slug,
     category,
     features1,
@@ -75,6 +77,21 @@ export default function PostPresentation(props) {
                 </div>
                 <div className="collapse-content text-base text-justify">
                   <p>{longcontentCollapseContent}</p>
+                </div>
+              </div>
+            ) : (
+              []
+            )}
+            {longcontentCollapseTitle2 ? (
+              <div
+                tabIndex={0}
+                className="collapse collapse-arrow  bg-base-200"
+              >
+                <div className="collapse-title text-xl font-medium">
+                  {longcontentCollapseTitle2}
+                </div>
+                <div className="collapse-content text-base text-justify">
+                  <p>{longcontentCollapseContent2}</p>
                 </div>
               </div>
             ) : (
