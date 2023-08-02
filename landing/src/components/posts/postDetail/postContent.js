@@ -192,7 +192,7 @@ export default function PostContent(props) {
       </div>
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <Testimonials
-        FBreviews={props.reviews}
+        Greviews={props.reviews.result.reviews}
         reviewTextTitle={post.reviewTextTitle}
         reviewTextContent={post.reviewTextContent}
       />

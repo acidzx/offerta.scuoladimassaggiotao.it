@@ -10,9 +10,13 @@ import Head from "next/head";
 import ModalForm from "@components/modalForm";
 
 export async function getStaticProps() {
-  const res = await fetch(
+  /*  const res = await fetch(
     `https://graph.facebook.com/v17.0/scuoladimassaggio/ratings?fields=reviewer%2Ccreated_time%2Creview_text&access_token=${process.env.FB_ACCESS_TOKEN}`,
     { cache: "force-cache" }
+  ); */
+
+  const res = await fetch(
+    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=AIzaSyCzzLX-nvk94I5CjPKJODYCxQKFLnviQ8Y"
   );
 
   const reviews = await res.json();
@@ -59,7 +63,7 @@ export default function Home(props) {
         text="Scopri l’offerta che ti abbiamo riservato per accedere ai nostri corsi di massaggio"
         title="per accedere ai nostri corsi di massaggio"
       />
-      <Testimonials FBreviews={props.reviews} />
+      <Testimonials Greviews={props.reviews.result.reviews} />
       <ServiziTao />
 
       {/* <ServizioClienti /> */}
