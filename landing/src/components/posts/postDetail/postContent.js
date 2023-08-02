@@ -58,15 +58,15 @@ export default function PostContent(props) {
                 post.title
               }${
                 post.title === "Massaggio Sportivo Avanzato"
-                  ? " e un diploma di operatore in Massaggio Sportivo"
-                  : "."
-              }`
-            : "</span>."
+                  ? " e un diploma di operatore in Massaggio Sportivo</span>."
+                  : ""
+              }</span>.`
+            : ""
         } ${
           post.title === "Alta Formazione Professionale"
-            ? "<p class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:</p><ol class='list-decimal pl-6'><li>Massaggio Olistico</li><li>Terme & Spa</li><li>Sportivo</li></ol>"
+            ? "<span class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:<br/>1&middot; Massaggio Olistico<br />2&middot; Terme & Spa<br/>3&middot; Sportivo</span>"
             : ""
-        }</span>`;
+        }`;
 
   function dateManipulation(date, days, hrs, mins, operator) {
     date = new Date(date);
