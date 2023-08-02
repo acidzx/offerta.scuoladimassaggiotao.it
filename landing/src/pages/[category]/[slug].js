@@ -34,7 +34,7 @@ export async function getStaticProps(context) {
   const allDiplomi = getAllPosts("diploma");
 
   const res = await fetch(
-    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=AIzaSyCzzLX-nvk94I5CjPKJODYCxQKFLnviQ8Y",
+    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=${process.env.G_ACCESS_TOKEN}",
     { cache: "force-cache" }
   );
   /* 
