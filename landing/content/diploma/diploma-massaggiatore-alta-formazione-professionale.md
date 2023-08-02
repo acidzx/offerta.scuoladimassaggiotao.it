@@ -6,7 +6,6 @@ title: "Alta Formazione Professionale"
 durata: "15 w/end"
 ore: "500 ore"
 category: "diploma"
-longcontent: "Se vuoi diventare un professionista del massaggio, il percorso di Alta Formazione Professionale della Tao - Scuola Nazionale di Massaggio è quello che fa per te. Con questo percorso potrai apprendere le principali tecniche di massaggio richieste dal mercato, sia classiche che orientali, in un tempo flessibile e personalizzabile secondo le tue esigenze. Parteciperai a 15 corsi diversi, tra cui il Massaggio Base Svedese, il Massaggio Sportivo, il Linfodrenaggio Vodder, i Massaggi Thailandesi, la Riflessologia Plantare, il Massaggio Ayurvedico e il Massaggio Californiano. Potrai inoltre lavorare fin da subito grazie alla legge 4/2013 che regolamenta la professione di operatore del benessere. L’Alta Formazione Professionale della Tao - Scuola Nazionale di Massaggio è il frutto di anni di esperienza e di migliaia di allievi formati in tutta Italia. Non perdere questa opportunità e iscriviti ora!"
 programma: [
 "Corso Massaggio Base Svedese;",
 "Corso Massaggio Decontratturante;",
@@ -26,4 +25,29 @@ programma: [
 requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/T52DJnWyeT0"
 order: "9"
+incipit: "Immagina di avere la possibilità di formarti nel mondo del massaggio in modo completo, eccellente e altamente personalizzato. Sarai stesso tu a scegliere i tempi in cui frequentare i 15 corsi previsti nel nostro piano formativo. Cosa aspetti? Scopri di più!"
+longcontentTitle: "Alta formazione professionale: ecco i 15 corsi inclusi nel percorso formativo"            
+longcontent: "<p class='pb-2'>Il Diploma di Alta Formazione Professionale è il nostro best seller. Un percorso che negli anni ci ha permesso finalmente di offrire nel mondo del benessere una formazione ampiamente strutturata in 15 corsi. 
+
+Una formazione che è stata scelta da migliaia di allievi che avevano un unico grande desiderio: specializzarsi nel campo del benessere in un periodo di tempo flessibile. Infatti, la loro necessità era di poter scegliere in modo autonomo le tempistiche in cui frequentare i corsi (non è infatti previsto un termine entro il quale concludere il percorso). 
+
+Grazie a questo percorso formativo, hai una sola grande garanzia: acquisire tutte le competenze fondamentali nelle principali tecniche di massaggio richieste dal mercato a livello nazionale.
+
+Grazie alla legge 4/2013 potrai lavorare fin da subito garantendoti il rientro dell’investimento.
+
+</p>"
+
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al diploma di alta formazione professionale"
+videoPresentationTitle: "In 3 minuti ti spieghiamo perché scegliere il Diploma di Alta Formazione"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al diploma di alta formazione professionale"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Per imparare a conoscere una tecnica di massaggio tra le più richieste nei centri sportivi e nelle palestre. Per seguire l’atleta e lo sportivo in ogni fase della sua competizione e per ogni sua esigenza. Per comprendere di cosa ha bisogno la persona che si rivolge a te richiedendoti un massaggio sportivo. Tutto questo potrai farlo scegliendo la formazione che abbiamo pensato per te.</p> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Chiedi subito maggiori info sul corso di massaggio sportivo. 
+        </p>"
+features1: "Pagabile in 14 soluzioni interne alla scuola o 36 soluzioni con finanziaria convenzionata"
+features2: "Percorso più vantaggioso sia da un punto di vista economico (maggiore sconto) che formativo (15 corsi)"
+features3: "Priorità per adesione a stage e progetti lavoro offerti dalla scuola"      
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli."              
 ---

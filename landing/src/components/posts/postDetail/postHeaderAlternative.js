@@ -8,7 +8,9 @@ export default function PostHeaderAlternative(props) {
       <div className="mx-auto max-w-screen-xl text-center py-6 px-4 md:px-20">
         <div className="text-center pb-8">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-600 md:text-5xl lg:text-6xl">
-            Scegli la strada giusta per te
+            {title === "Alta Formazione Professionale"
+              ? "Scegli il percorso giusto per te"
+              : "Scegli la strada giusta per te"}
           </h1>
           <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
             {incipit}

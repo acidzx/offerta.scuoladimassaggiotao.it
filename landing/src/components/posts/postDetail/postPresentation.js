@@ -60,7 +60,7 @@ export default function PostPresentation(props) {
         </div>
         <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg">
-            <h2 className="mb-4 text-4xl font-extrabold text-gray-600 ">
+            <h2 className="mb-4 text-3xl font-extrabold text-gray-600 ">
               {longcontentTitle || "longcontentTitle missing"}
             </h2>
             <article
@@ -72,7 +72,7 @@ export default function PostPresentation(props) {
                 tabIndex={0}
                 className="collapse collapse-arrow  bg-base-200"
               >
-                <div className="collapse-title text-xl font-medium">
+                <div className="collapse-title text-lg font-medium">
                   {longcontentCollapseTitle}
                 </div>
                 <div className="collapse-content text-base text-justify">
@@ -87,7 +87,7 @@ export default function PostPresentation(props) {
                 tabIndex={0}
                 className="collapse collapse-arrow  bg-base-200"
               >
-                <div className="collapse-title text-xl font-medium">
+                <div className="collapse-title text-lg font-medium">
                   {longcontentCollapseTitle2}
                 </div>
                 <div className="collapse-content text-base text-justify">

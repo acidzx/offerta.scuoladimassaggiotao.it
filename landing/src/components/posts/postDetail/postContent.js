@@ -52,17 +52,21 @@ export default function PostContent(props) {
         )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di <span class="font-semibold">${post.durata.substring(
           0,
           2
-        )} attestati</span> ed alla fine del percorso, verrà rilasciato un <span class="font-semibold">diploma di operatore in ${
-          post.title
-        }${
-          post.title === "Massaggio Sportivo Avanzato"
-            ? " e un diploma di operatore in Massaggio Sportivo"
-            : ""
-        }${
+        )} attestati</span>${
+          post.title !== "Alta Formazione Professionale"
+            ? ` ed alla fine del percorso, verrà rilasciato un <span class="font-semibold">diploma di operatore in ${
+                post.title
+              }${
+                post.title === "Massaggio Sportivo Avanzato"
+                  ? " e un diploma di operatore in Massaggio Sportivo"
+                  : "."
+              }`
+            : "</span>."
+        } ${
           post.title === "Alta Formazione Professionale"
-            ? " e 3 diplomi, rispettivamente di operatore in Massaggio Olistico, Terme & Spa e Sportivo"
+            ? "<p class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:</p><ol class='list-decimal pl-6'><li>Massaggio Olistico</li><li>Terme & Spa</li><li>Sportivo</li></ol>"
             : ""
-        }</span>.`;
+        }</span>`;
 
   function dateManipulation(date, days, hrs, mins, operator) {
     date = new Date(date);
@@ -104,7 +108,7 @@ export default function PostContent(props) {
         fineCorsoDate={fineCorsoDate || "in programmazione"}
       /> */}
 
-      <PostHeaderAlternative incipit={post.incipit} />
+      <PostHeaderAlternative incipit={post.incipit} title={post.title} />
 
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
@@ -164,7 +168,7 @@ export default function PostContent(props) {
             className="text-justify"
             dangerouslySetInnerHTML={{ __html: attestazioneText }}
           />
-          <p className="text-justify pt-2">
+          <p className="text-justify py-2">
             <span className="font-semibold">
               Le qualifiche rilasciate da Tao - Scuola Nazionale di Massaggio,
               alla fine di ogni corso o percorso, sono emesse in base alla Legge
