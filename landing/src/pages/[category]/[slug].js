@@ -34,7 +34,7 @@ export async function getStaticProps(context) {
   const allDiplomi = getAllPosts("diploma");
 
   const res = await fetch(
-    `https://graph.facebook.com/v17.0/scuoladimassaggio/ratings?fields=reviewer%2Ccreated_time%2Creview_text&access_token=${process.env.FB_ACCESS_TOKEN}`,
+    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=AIzaSyCzzLX-nvk94I5CjPKJODYCxQKFLnviQ8Y",
     { cache: "force-cache" }
   );
   /* 
