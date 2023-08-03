@@ -23,14 +23,14 @@ programmazione: ['16 09 2023']
 order: "11"
 incipit: "Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa. Cosa aspetti? Scopri l’offerta formativa del nostro corso anticellulite."
 longcontentTitle: "Impara il trattamento più richiesto dalle donne con il massaggio anticellulite"            
-longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi della pelle come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura. 
-Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti. 
+longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi della pelle come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura.</p> 
+<p class='pb-2'>Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti.</p>
+<p class='pb-2'>Tutto questo è possibile se decidi di partecipare al nostro corso di formazione sul massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:</p>
 
-Tutto questo è possibile se decidi di partecipare al nostro corso di formazione sul massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:
-contrastare gli inestetismi della cellulite; 
-stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;
-drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.
-</p>"
+<ul class='list-outside'><li>&middot; contrastare gli inestetismi della cellulite;</li>
+<li>&middot; stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;</li>
+<li>&middot; drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.</li></ul>
+"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
 features1: "Il 90% delle donne richiede questo trattamento"
