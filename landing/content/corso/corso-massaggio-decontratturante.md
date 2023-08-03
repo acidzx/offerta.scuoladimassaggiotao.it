@@ -37,15 +37,16 @@ programmazione: ['22 07 2023', '09 12 2023']
 order: "2"
 incipit: "Se desideri praticare il massaggio decontratturante in completa autonomia, questo è il corso ideale. Cosa aspetti? Scopri subito l’offerta formativa."
 longcontentTitle: "Allevia il dolore con il corso di massaggio decontratturante"            
-longcontent: "<p class='pb-2'>Grazie al corso di massaggio decontratturante, apprenderai come alleviare il dolore muscolare causato dalle contratture che possono derivare da sforzi, posture errate, stress o traumi. 
-Il massaggio decontratturante agisce proprio su aree specifiche del corpo, come gli arti inferiori, la schiena o la zona lombare ed esercita un’azione preventiva sulle infiammazioni rilassando i muscoli. È una tecnica molto usata in ambito sportivo, ma anche da chi soffre di tensioni muscolari croniche o acute. 
-</p>"
-longcontentCollapseTitle: "Cosa apprenderai nel corso di massaggio decontratturante?"
-longcontentCollapseContent: "Durante il corso di massaggio decontratturante: 
+longcontent: "<p class='pb-2'>Grazie al corso di massaggio decontratturante, apprenderai come alleviare il dolore muscolare causato dalle contratture che possono derivare da sforzi, posture errate, stress o traumi.</p> 
+<p>Il massaggio decontratturante agisce proprio su aree specifiche del corpo, come gli arti inferiori, la schiena o la zona lombare ed esercita un’azione preventiva sulle infiammazioni rilassando i muscoli. È una tecnica molto usata in ambito sportivo, ma anche da chi soffre di tensioni muscolari croniche o acute. 
+</p>
+<p class='font-semibold mt-3'>Cosa apprenderai nel corso di massaggio decontratturante?</p><p class='mt-1'>Durante il corso di massaggio decontratturante:</p>
+<ol class='list-decimal mt-2'><li>1&middot; imparerai la teoria di base e le tecniche pratiche del massaggio decontratturante;</li><li>2&middot; studierai le principali algie muscolari, i benefici e le controindicazioni del massaggio;</li><li>3&middot; approfondirai le tecniche per individuare e sciogliere i Punti Trigger, ovvero i punti dove si localizza il dolore</li></ol>"
 
-imparerai la teoria di base e le tecniche pratiche del massaggio decontratturante;
-studierai le principali algie muscolari, i benefici e le controindicazioni del massaggio;
-approfondirai le tecniche per individuare e sciogliere i Punti Trigger, ovvero i punti dove si localizza il dolore. 
+longcontentCollapseTitle: ""
+longcontentCollapseContent: " 
+
+
 
 Il corso ti renderà in grado di praticare un massaggio decontratturante efficace e sicuro, ottenendo un rilassamento totale della muscolatura trattata.
 "
