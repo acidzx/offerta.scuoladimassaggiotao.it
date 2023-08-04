@@ -108,7 +108,12 @@ export default function PostContent(props) {
         fineCorsoDate={fineCorsoDate || "in programmazione"}
       /> */}
 
-      <PostHeaderAlternative incipit={post.incipit} title={post.title} />
+      <PostHeaderAlternative
+        incipit={post.incipit}
+        title={post.title}
+        category={post.category}
+        subIncipit={post.subIncipit}
+      />
 
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
@@ -139,6 +144,7 @@ export default function PostContent(props) {
           title={post.title}
           programma={post.programma}
           corsiArray={props.corsi}
+          postSchedaDiplomiContent={post.postSchedaDiplomiContent}
         />
       ) : (
         ""

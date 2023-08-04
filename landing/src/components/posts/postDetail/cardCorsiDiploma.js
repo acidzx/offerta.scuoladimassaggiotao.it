@@ -1,7 +1,8 @@
+import { Interweave } from "interweave";
 import Image from "next/image";
 
 export default function CardCorsiDiploma(props) {
-  const { programma, title, corsiArray } = props;
+  const { programma, title, corsiArray, postSchedaDiplomiContent } = props;
 
   function getDurata(data, title) {
     for (let x in data) {
@@ -45,13 +46,17 @@ export default function CardCorsiDiploma(props) {
 
   return (
     <div className="container mx-auto my-16 hidden lg:block">
-      <h2 className="text-center mb-4 text-3xl font-extrabold text-gray-600 pb-16">
-        I Corsi che compongono il Diploma in {title}
-      </h2>
+      <h3 className="text-center mb-4 text-3xl font-extrabold text-gray-600 pb-2">
+        Cosa è incluso nel Diploma in {title}
+      </h3>
+      <p className="text-center text-gray-600 pb-16 text-lg">
+        All’interno di questo percorso formativo, potrai apprendere le seguenti
+        tecniche di massaggio:
+      </p>
       <div className="container mx-auto flex flex-wrap flex-row justify-center gap-12">
         {programma.map((progList, i) => (
           <div className="card w-96 bg-base-100 shadow-xl" key={i}>
-            <figure>
+            {/*   <figure>
               <Image
                 width={384}
                 height={255}
@@ -61,7 +66,7 @@ export default function CardCorsiDiploma(props) {
                   .replace(/ /g, "-")}jpg`}
                 alt={progList.toLowerCase().replace(";", "")}
               />
-            </figure>
+            </figure> */}
             <div className="card-body">
               <span className="block -mb-1 text-sm border-b font-semibold">
                 corso
@@ -102,6 +107,13 @@ export default function CardCorsiDiploma(props) {
           </div>
         ))}
       </div>
+      {postSchedaDiplomiContent ? (
+        <div className="max-w-4xl mx-auto mt-16 text-center text-gray-600 pb-16 text-lg">
+          <Interweave content={postSchedaDiplomiContent} />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
