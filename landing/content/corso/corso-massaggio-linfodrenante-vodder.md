@@ -7,11 +7,8 @@ durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
 longcontent: "<p class='pb-2'>Se desideri imparare una tecnica di massaggio manuale che agisce direttamente sul sistema linfatico, questo è il corso giusto per te.</p> 
-
 <p class='pb-2'>Il metodo Vodder è stato ideato da Emil Vodder, un fisioterapista danese che ha studiato a fondo il sistema linfatico e ha elaborato una tecnica efficace e scientificamente provata. È il più riconosciuto a livello internazionale tra i metodi di linfodrenaggio manuale.</p> 
-
-<p class=''>Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio.</p> 
-"
+<p class=''>Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio.</p>"
 programma: [
 "La nascita del linfodrenaggio manuale: i coniugi Vodder;",
 "La circolazione sanguigna: le vene, le arterie e i capillari;",
@@ -42,7 +39,7 @@ longcontentCollapseTitle2: ""
 longcontentCollapseContent2: ""
 longcontent2: "<h3 class='text-lg font-medium pb-2'>Cosa imparerai nel corso di massaggio linfodrenante Vodder?</h3>
 <p class='pb-2'>Se decidi di partecipare al <b>corso di massaggio linfodrenante Vodder:</b></p> 
-<ol class='list-decimal'><li>1&middot; imparerai la teoria e la pratica del massaggio manuale con il metodo Vodder;</li><li>2&middot; studierai l’anatomia e la fisiologia del sistema linfatico;</li><li>3&middot; approfondirai le tecniche di manipolazione con le mani.</li></ol>
+<ol class='list-decimal ml-6'><li>imparerai la teoria e la pratica del massaggio manuale con il metodo Vodder;</li><li>studierai l’anatomia e la fisiologia del sistema linfatico;</li><li>approfondirai le tecniche di manipolazione con le mani.</li></ol>
 <p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio manuale con il metodo Vodder efficace e sicuro, ottenendo un’azione drenante e depurativa su tutto il sistema linfatico.</p>"
 features1: "Impara a trattare il ristagno dei liquidi in eccesso "
 features2: "Conosci l’anatomia e la fisiologia del sistema linfatico"
