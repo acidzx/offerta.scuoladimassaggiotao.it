@@ -1,4 +1,8 @@
 import Image from "next/image";
+import { Interweave } from "interweave";
+import { polyfill } from "interweave-ssr";
+
+polyfill();
 
 import {
   BuildingLibraryIcon,
@@ -62,56 +66,45 @@ export default function PostPresentation(props) {
         <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg">
             <h2 className="mb-4 text-3xl font-extrabold text-gray-600 ">
-              {longcontentTitle || "longcontentTitle missing"}
-            </h2>
-            <article
-              className="mb-4 text-justify text-base"
-              dangerouslySetInnerHTML={{ __html: longcontent }}
-            />
-            {longcontentCollapseTitle ? (
-              <div
-                tabIndex={0}
-                className="collapse collapse-arrow  bg-base-200"
-              >
-                <div className="collapse-title text-lg font-medium">
-                  {longcontentCollapseTitle}
-                </div>
-                <div
-                  className="collapse-content text-base text-justify"
-                  dangerouslySetInnerHTML={{
-                    __html: longcontentCollapseContent,
-                  }}
-                />
-              </div>
-            ) : (
-              []
-            )}
-            {longcontentCollapseTitle2 ? (
-              <div
-                tabIndex={0}
-                className="collapse collapse-arrow  bg-base-200"
-              >
-                <div className="collapse-title text-lg font-medium">
-                  {longcontentCollapseTitle2}
-                </div>
-                <div
-                  className="collapse-content text-base text-justify"
-                  dangerouslySetInnerHTML={{
-                    __html: longcontentCollapseContent2,
-                  }}
-                />
-              </div>
-            ) : (
-              []
-            )}
-            {longcontent2 ? (
-              <article
-                className="mb-4 text-justify text-base"
-                dangerouslySetInnerHTML={{ __html: longcontent2 }}
+              <Interweave
+                content={longcontentTitle || "longcontentTitle missing"}
               />
-            ) : (
-              ""
-            )}
+            </h2>
+            <article className="mb-4 text-justify text-base">
+              <Interweave content={longcontent} />
+
+              {longcontentCollapseTitle ? (
+                <details className="collapse collapse-arrow bg-base-200">
+                  <summary className="collapse-title text-xl font-medium">
+                    <Interweave content={longcontentCollapseTitle} />
+                  </summary>
+                  <div className="collapse-content">
+                    <Interweave content={longcontentCollapseContent} />
+                  </div>
+                </details>
+              ) : (
+                []
+              )}
+              {longcontentCollapseTitle2 ? (
+                <details className="collapse collapse-arrow bg-base-200">
+                  <summary className="collapse-title text-xl font-medium">
+                    <Interweave content={longcontentCollapseTitle2} />
+                  </summary>
+                  <div className="collapse-content">
+                    <Interweave content={longcontentCollapseContent2} />
+                  </div>
+                </details>
+              ) : (
+                []
+              )}
+              {longcontent2 ? (
+                <div className="mb-4 text-justify text-base">
+                  <Interweave content={longcontent2} />
+                </div>
+              ) : (
+                ""
+              )}
+            </article>
           </div>
 
           <div className="grid grid-cols-2 gap-4 mt-8">

@@ -20,7 +20,7 @@ loro varianti).</p>
 <p>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
 un’ora in totale autonomia.</p>"
 longcontentCollapseTitle: "A cosa serve il corso di massaggio base svedese?"
-longcontentCollapseContent: "Il massaggio svedese è un massaggio completo che comprende una
+longcontentCollapseContent: "<p class='pb-2'>Il massaggio svedese è un massaggio completo che comprende una
                   vasta sequenza di manovre: dallo sfioramento alle percussioni
                   finali, passando per le frizioni e gli impastamenti. Questo ci
                   permette di utilizzare questo trattamento per diversi scopi,
@@ -28,12 +28,12 @@ longcontentCollapseContent: "Il massaggio svedese è un massaggio completo che c
                   esigenze della persona. Oltre all'obiettivo primario che è
                   quello di favorire un rilassamento e un benessere generale
                   alla persona, i benefici del massaggio svedese sono
-                  molteplici. Tra questi benefici troviamo: <ol class='pt-2'><li>1.ridurre le
-                  situazioni di stress e ansia;</li><li>2.supportare la tonificazione
+                  molteplici.</p><p class='pb-2'>Tra questi benefici troviamo:</p><ol class='relative list-outside list-decimal ml-6'><li>ridurre le
+                  situazioni di stress e ansia;</li><li>supportare la tonificazione
                   della muscolatura e il miglioramento della circolazione
-                  sanguigna linfatica;</li><li>3.alleviare dolori muscolari e
+                  sanguigna linfatica;</li><li>alleviare dolori muscolari e
                   articolari e favorire l&#39;eliminazione dei liquidi e tossine
-                  in eccesso.</li></ol>  "
+                  in eccesso.</li></ol>"
 programma: [
     "Origini e storia del massaggio;",
     "Anatomia e fisiologia del corpo umano;",
