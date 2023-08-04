@@ -6,11 +6,11 @@ title: "Massaggio Linfodrenante Vodder"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-longcontent: "Se desideri imparare una tecnica di massaggio manuale che agisce direttamente sul sistema linfatico, questo è il corso giusto per te. 
+longcontent: "<p class='mb-2'>Se desideri imparare una tecnica di massaggio manuale che agisce direttamente sul sistema linfatico, questo è il corso giusto per te.</p> 
 
-Il metodo Vodder è stato ideato da Emil Vodder, un fisioterapista danese che ha studiato a fondo il sistema linfatico e ha elaborato una tecnica efficace e scientificamente provata. È il più riconosciuto a livello internazionale tra i metodi di linfodrenaggio manuale. 
+<p class='mb-2'>Il metodo Vodder è stato ideato da Emil Vodder, un fisioterapista danese che ha studiato a fondo il sistema linfatico e ha elaborato una tecnica efficace e scientificamente provata. È il più riconosciuto a livello internazionale tra i metodi di linfodrenaggio manuale.</p> 
 
-Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio. 
+<p class='mb-2'>Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio.</p> 
 "
 programma: [
 "La nascita del linfodrenaggio manuale: i coniugi Vodder;",
@@ -38,28 +38,23 @@ longcontentCollapseTitle: "Come funziona il metodo Vodder?"
 longcontentCollapseContent: "stimola il flusso della linfa con delle manualità delicate, precise e ritmiche, seguendo il percorso dei capillari, dei vasi, dei collettori, dei tronchi e dei linfonodi linfatici;
 ha effetti benefici su tutto il corpo e la mente in quanto migliora la circolazione sanguigna e linfatica, elimina le tossine, riduce i gonfiori e gli edemi, rafforza il sistema immunitario, rilassa il sistema nervoso, tonifica la pelle e i tessuti.
 "
-longcontentCollapseTitle2: "Cosa imparerai nel corso di massaggio linfodrenante Vodder?"
-longcontentCollapseContent2: "Se decidi di partecipare al corso di massaggio linfodrenante Vodder: 
-
-imparerai la teoria e la pratica del massaggio manuale con il metodo Vodder;
-studierai l’anatomia e la fisiologia del sistema linfatico;
-approfondirai le tecniche di manipolazione con le mani. 
-
-Il corso ti renderà in grado di praticare un massaggio manuale con il metodo Vodder efficace e sicuro, ottenendo un’azione drenante e depurativa su tutto il sistema linfatico.
-
-"
+longcontentCollapseTitle2: ""
+longcontentCollapseContent2: ""
+longcontent2: "<h3 class='text-lg font-medium pb-2'>Cosa imparerai nel corso di massaggio linfodrenante Vodder?</h3>
+<p class='pb-2'>Se decidi di partecipare al <b>corso di massaggio linfodrenante Vodder:</b></p> 
+<ol class='list-decimal'><li>1&middot; imparerai la teoria e la pratica del massaggio manuale con il metodo Vodder;</li><li>2&middot; studierai l’anatomia e la fisiologia del sistema linfatico;</li><li>3&middot; approfondirai le tecniche di manipolazione con le mani.</li></ol>
+<p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio manuale con il metodo Vodder efficace e sicuro, ottenendo un’azione drenante e depurativa su tutto il sistema linfatico.</p>"
 features1: "Impara a trattare il ristagno dei liquidi in eccesso "
 features2: "Conosci l’anatomia e la fisiologia del sistema linfatico"
 features3: "Intervieni sia su cellulite che su edemi muscolari"  
-cta1OverTitle: "Ottieni l’attestato e lavora da subito"
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio linfodrenante vodder"
 videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il corso di massaggio linfodrenante Vodder"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio linfodrenante vodder"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-         Un corso di massaggio che nasce da una delle uniche tecniche scientificamente provate. Un corso di massaggio che tratta a fondo il sistema linfatico e la sua anatomia. Un corso che ti permetterà di eseguire il massaggio linfodrenante in completa autonomia. Cosa aspetti? Chiedi subito maggiori info su come partecipare a quest’eccellente formazione coi migliori docenti nel campo del benessere. 
-
-        </p>"
+Un corso di massaggio che nasce da una delle uniche tecniche scientificamente provate. Un corso di massaggio che tratta a fondo il sistema linfatico e la sua anatomia. Un corso che ti permetterà di eseguire il massaggio linfodrenante in completa autonomia.</p>
+<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Chiedi subito maggiori info su come partecipare a quest’eccellente formazione coi migliori docenti nel campo del benessere.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
 ---

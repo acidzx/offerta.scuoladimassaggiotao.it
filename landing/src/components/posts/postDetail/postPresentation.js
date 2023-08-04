@@ -9,6 +9,7 @@ import {
 export default function PostPresentation(props) {
   const {
     longcontent,
+    longcontent2,
     longcontentTitle,
     longcontentCollapseTitle,
     longcontentCollapseContent,
@@ -96,6 +97,14 @@ export default function PostPresentation(props) {
               </div>
             ) : (
               []
+            )}
+            {longcontent2 ? (
+              <article
+                className="mb-4 text-justify text-base"
+                dangerouslySetInnerHTML={{ __html: longcontent2 }}
+              />
+            ) : (
+              ""
             )}
           </div>
 

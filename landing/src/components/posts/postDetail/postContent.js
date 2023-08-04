@@ -113,6 +113,7 @@ export default function PostContent(props) {
       <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
+        longcontent2={post.longcontent2}
         slug={post.slug}
         category={post.category}
         longcontentTitle={post.longcontentTitle}
