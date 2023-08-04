@@ -6,11 +6,11 @@ title: "Massaggio Linfodrenante Vodder"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-longcontent: "<p class='mb-2'>Se desideri imparare una tecnica di massaggio manuale che agisce direttamente sul sistema linfatico, questo è il corso giusto per te.</p> 
+longcontent: "<p class='pb-2'>Se desideri imparare una tecnica di massaggio manuale che agisce direttamente sul sistema linfatico, questo è il corso giusto per te.</p> 
 
-<p class='mb-2'>Il metodo Vodder è stato ideato da Emil Vodder, un fisioterapista danese che ha studiato a fondo il sistema linfatico e ha elaborato una tecnica efficace e scientificamente provata. È il più riconosciuto a livello internazionale tra i metodi di linfodrenaggio manuale.</p> 
+<p class='pb-2'>Il metodo Vodder è stato ideato da Emil Vodder, un fisioterapista danese che ha studiato a fondo il sistema linfatico e ha elaborato una tecnica efficace e scientificamente provata. È il più riconosciuto a livello internazionale tra i metodi di linfodrenaggio manuale.</p> 
 
-<p class='mb-2'>Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio.</p> 
+<p class=''>Con questa tecnica si interviene su tutti i gonfiori e gli edemi causati da ristagni linfatici e problemi al sistema di drenaggio.</p> 
 "
 programma: [
 "La nascita del linfodrenaggio manuale: i coniugi Vodder;",
