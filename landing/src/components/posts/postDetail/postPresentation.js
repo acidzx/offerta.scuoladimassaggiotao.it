@@ -76,9 +76,12 @@ export default function PostPresentation(props) {
                 <div className="collapse-title text-lg font-medium">
                   {longcontentCollapseTitle}
                 </div>
-                <div className="collapse-content text-base text-justify">
-                  <p>{longcontentCollapseContent}</p>
-                </div>
+                <div
+                  className="collapse-content text-base text-justify"
+                  dangerouslySetInnerHTML={{
+                    __html: longcontentCollapseContent,
+                  }}
+                />
               </div>
             ) : (
               []
@@ -91,9 +94,12 @@ export default function PostPresentation(props) {
                 <div className="collapse-title text-lg font-medium">
                   {longcontentCollapseTitle2}
                 </div>
-                <div className="collapse-content text-base text-justify">
-                  <p>{longcontentCollapseContent2}</p>
-                </div>
+                <div
+                  className="collapse-content text-base text-justify"
+                  dangerouslySetInnerHTML={{
+                    __html: longcontentCollapseContent2,
+                  }}
+                />
               </div>
             ) : (
               []

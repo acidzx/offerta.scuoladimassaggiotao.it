@@ -25,15 +25,15 @@ longcontentCollapseContent: "Il massaggio svedese è un massaggio completo che c
                   finali, passando per le frizioni e gli impastamenti. Questo ci
                   permette di utilizzare questo trattamento per diversi scopi,
                   ottenendo così vari metodi di lavoro in base alle diverse
-                  esigenze della persona. Oltre all&#39;obiettivo primario che è
+                  esigenze della persona. Oltre all'obiettivo primario che è
                   quello di favorire un rilassamento e un benessere generale
                   alla persona, i benefici del massaggio svedese sono
-                  molteplici. Tra questi benefici troviamo: 1. ridurre le
-                  situazioni di stress e ansia; 2. supportare la tonificazione
+                  molteplici. Tra questi benefici troviamo: <ol class='pt-2'><li>1.ridurre le
+                  situazioni di stress e ansia;</li><li>2.supportare la tonificazione
                   della muscolatura e il miglioramento della circolazione
-                  sanguigna linfatica; 3. alleviare dolori muscolari e
+                  sanguigna linfatica;</li><li>3.alleviare dolori muscolari e
                   articolari e favorire l&#39;eliminazione dei liquidi e tossine
-                  in eccesso."
+                  in eccesso.</li></ol>  "
 programma: [
     "Origini e storia del massaggio;",
     "Anatomia e fisiologia del corpo umano;",
