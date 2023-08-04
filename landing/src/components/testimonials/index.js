@@ -72,7 +72,7 @@ export default function Testimonials(props) {
                           </li>
                         </ul>
                         <figure className="mt-10">
-                          <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900  sm:leading-9">
+                          <blockquote className="text-center text-md font-semibold leading-8 text-gray-900  sm:leading-9">
                             <p>“{review.text}”</p>
                           </blockquote>
                           <figcaption className="mt-10">
