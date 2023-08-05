@@ -25,15 +25,15 @@ programma: [
 requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/T52DJnWyeT0"
 order: "9"
-incipit: "Immagina di avere la possibilità di formarti nel mondo del massaggio in modo completo, eccellente e altamente personalizzato. Sarai stesso tu a scegliere i tempi in cui frequentare i 15 corsi previsti nel nostro piano formativo. Cosa aspetti? Scopri di più!"
+incipit: "Immagina di avere la possibilità di formarti nel mondo del massaggio in modo completo, eccellente e altamente personalizzato. Sarai tu stesso a scegliere i tempi in cui frequentare i 15 corsi previsti nel nostro piano formativo. Cosa aspetti? Scopri di più!"
 longcontentTitle: "Alta formazione professionale: ecco i 15 corsi inclusi nel percorso formativo"            
-longcontent: "<p class='pb-2'>Il Diploma di Alta Formazione Professionale è il nostro best seller. Un percorso che negli anni ci ha permesso finalmente di offrire nel mondo del benessere una formazione ampiamente strutturata in 15 corsi. 
+longcontent: "<p class='pb-2'>Il Diploma di Alta Formazione Professionale è il nostro best seller. Un percorso che negli anni ci ha permesso finalmente di offrire nel mondo del benessere una formazione ampiamente strutturata in 15 corsi.</p> 
 
-Una formazione che è stata scelta da migliaia di allievi che avevano un unico grande desiderio: specializzarsi nel campo del benessere in un periodo di tempo flessibile. Infatti, la loro necessità era di poter scegliere in modo autonomo le tempistiche in cui frequentare i corsi (non è infatti previsto un termine entro il quale concludere il percorso). 
+<p class='pb-2'>Una formazione che è stata scelta da migliaia di allievi che avevano un unico grande desiderio: specializzarsi nel campo del benessere in un periodo di tempo flessibile. Infatti, la loro necessità era di poter scegliere in modo autonomo le tempistiche in cui frequentare i corsi (non è infatti previsto un termine entro il quale concludere il percorso). </p>
 
-Grazie a questo percorso formativo, hai una sola grande garanzia: acquisire tutte le competenze fondamentali nelle principali tecniche di massaggio richieste dal mercato a livello nazionale.
+<p class='pb-2'>Grazie a questo percorso formativo, hai una sola grande garanzia: acquisire tutte le competenze fondamentali nelle principali tecniche di massaggio richieste dal mercato a livello nazionale.</p>
 
-Grazie alla legge 4/2013 potrai lavorare fin da subito garantendoti il rientro dell’investimento.
+<p>Grazie alla legge 4/2013 potrai lavorare fin da subito garantendoti il rientro dell’investimento.
 
 </p>"
 
