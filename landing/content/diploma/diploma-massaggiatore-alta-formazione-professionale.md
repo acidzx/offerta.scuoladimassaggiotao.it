@@ -43,7 +43,7 @@ videoPresentationTitle: "In 3 minuti ti spieghiamo perché scegliere il Diploma 
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al diploma di alta formazione professionale"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Per imparare a conoscere una tecnica di massaggio tra le più richieste nei centri sportivi e nelle palestre. Per seguire l’atleta e lo sportivo in ogni fase della sua competizione e per ogni sua esigenza. Per comprendere di cosa ha bisogno la persona che si rivolge a te richiedendoti un massaggio sportivo. Tutto questo potrai farlo scegliendo la formazione che abbiamo pensato per te.</p> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Chiedi subito maggiori info sul corso di massaggio sportivo. 
+          È finalmente il momento di scegliere un percorso formativo eccellente coi migliori docenti nel mondo del massaggio, la possibilità di personalizzare il piano formativo e la priorità di essere inseriti in stage e progetti lavoro offerti dalla nostra scuola. </p> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Contattaci per iniziare insieme questo percorso.
         </p>"
 features1: "Pagabile in 14 soluzioni interne alla scuola o 36 soluzioni con finanziaria convenzionata"
 features2: "Percorso più vantaggioso sia da un punto di vista economico (maggiore sconto) che formativo (15 corsi)"

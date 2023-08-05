@@ -12,6 +12,10 @@ import ServizioClienti from "@components/servizioClienti";
 import MultiCarousel from "@components/multiCarousel";
 import ProgrammazioneDataCorso from "./programmazioneDataCorso";
 import Image from "next/image";
+import { Interweave } from "interweave";
+import { polyfill } from "interweave-ssr";
+
+polyfill();
 
 export default function PostContent(props) {
   const { post } = props;
@@ -64,7 +68,7 @@ export default function PostContent(props) {
             : ""
         } ${
           post.title === "Alta Formazione Professionale"
-            ? "<span class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:<br/>1&middot; Massaggio Olistico<br />2&middot; Terme & Spa<br/>3&middot; Sportivo</span>"
+            ? "<span class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:</span><ol class='list-decimal ml-6'><li>Massaggio Olistico</li><li>Terme & Spa</li><li>Sportivo</li></ol>"
             : ""
         }`;
 
@@ -168,13 +172,13 @@ export default function PostContent(props) {
       <Cta overTitle={post.cta2OverTitle} text={post.cta2OverText} />
       <div className="container mx-auto text-center px-4">
         <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-          Ottieni l’attestato di specializzazione
+          Ottieni{" "}
+          {post.category === "corso" ? "l&apos;attestato " : "il diploma "} di
+          specializzazione
         </h2>
-        <div className="container mx-auto max-w-4xl">
-          <p
-            className="text-justify"
-            dangerouslySetInnerHTML={{ __html: attestazioneText }}
-          />
+        <div className="container mx-auto max-w-4xl text-justify">
+          <Interweave content={attestazioneText} />
+
           <p className="text-justify py-2">
             <span className="font-semibold">
               Le qualifiche rilasciate da Tao - Scuola Nazionale di Massaggio,
@@ -204,17 +208,112 @@ export default function PostContent(props) {
         reviewTextContent={post.reviewTextContent}
       />
       <hr className="h-px my-4 bg-gray-200 border-0 " />
-      <div className="max-w-xl mx-auto text-center my-16">
-        <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-          Ecco perché scegliere il corso di {post.title}
-        </h2>
-      </div>
-      <PostServiziInclusi
-        title={post.title}
-        serviziInclusiText={post.serviziInclusiText}
-      />
+      {post.slug !== "diploma-massaggiatore-alta-formazione-professionale" ? (
+        <>
+          <div className="max-w-xl mx-auto text-center my-16">
+            <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
+              Ecco perché scegliere il corso di {post.title}
+            </h2>
+          </div>
 
+          <PostServiziInclusi
+            title={post.title}
+            serviziInclusiText={post.serviziInclusiText}
+          />
+        </>
+      ) : (
+        ""
+      )}
+      {post.slug === "diploma-massaggiatore-alta-formazione-professionale" ? (
+        <>
+          {" "}
+          <div className="container mx-auto p-4">
+            <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2">
+              Tre motivi per scegliere il Diploma di Alta Formazione
+            </h2>
+          </div>
+          <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 pt-2 lg:pt-8 lg:max-w-5xl lg:grid-cols-3 px-4 mb-16">
+            <article className="flex max-w-xl flex-col items-center justify-between text-center mx-auto">
+              <div className="text-green-700 hidden lg:block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+                Ottieni 15 Attestati di Specializzazione e il diploma di Alta
+                Formazione
+              </h3>
+            </article>
+            <article className="flex max-w-xl flex-col items-center  justify-start text-center mx-auto">
+              <div className="text-green-700 hidden lg:block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+                Ottieni 3 Diplomi di Operatore in Massaggio Olistico, in
+                Massaggio Sportivo e Terme e Spa
+              </h3>
+            </article>
+            <article className="flex max-w-xl flex-col items-center justify-start text-center mx-auto">
+              <div className="text-green-700 hidden lg:block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+                Ottiene un coupon sconto fino a 250&euro; da spendere sul sito
+                e-commerce professionemassaggio.it
+              </h3>
+            </article>
+            <h3>Inizia ora a formarti per dare una svolta alla tua carriera</h3>
+          </div>
+          <div
+            className="container mx-auto my-16 px-4"
+            dangerouslySetInnerHTML={{ __html: post.serviziInclusiText }}
+          />
+        </>
+      ) : (
+        ""
+      )}
       <hr className="divider" />
+
       {/*   <Cta />
 
       <Cta /> */}
