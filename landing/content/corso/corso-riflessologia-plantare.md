@@ -6,7 +6,6 @@ title: "Riflessologia Plantare"
 durata: "2 giorni"
 ore: "16 ore"
 category: "corso"
-longcontent: "Il Corso di Riflessologia Plantare ti insegnerà una tecnica di massaggio che si basa sulla stimolazione di specifiche zone del piede, che sono connesse a vari organi e apparati del corpo, tramite terminazioni nervose. La riflessologia plantare è una tecnica antica che proviene da diverse culture e continenti, che ha lo scopo di riequilibrare il corpo e la mente, favorendo l’autoguarigione naturale. La riflessologia plantare consiste nell’applicare delle pressioni e delle frizioni sulle zone riflesse del piede, con le dita o con degli strumenti appositi, per rilassare il sistema nervoso, stimolare la circolazione sanguigna e linfatica, ridurre il dolore e l’infiammazione, prevenire e curare le problematiche degli organi e degli apparati. La riflessologia plantare ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la qualità del sonno, allevia le cefalee, i dolori mestruali, il mal di schiena, il torcicollo e altri disturbi comuni, favorisce la produzione di endorfine con effetto antidolorifico, migliora il funzionamento degli organi e degli apparati. Nel corso imparerai la teoria e la pratica della riflessologia plantare, studierai l’anatomia e la fisiologia del piede e dei punti riflessi, approfondirai le tecniche di massaggio per le diverse zone del piede e le diverse problematiche."
 programma: [
 "Origini storiche della riflessologia plantare;",
 "Cosa è la riflessologia plantare;",
@@ -30,4 +29,42 @@ requisiti: "Il Corso di Riflessologia Plantare non presenta requisiti ed è un c
 videosrc: "https://www.youtube-nocookie.com/embed/Id6ygauNRL0"
 programmazione: ['29 07 2023', '23 09 2023', '02 12 2023']  
 order: "8"
+incipit: "<span class='font-bold'>Dall’antica medicina tradizionale cinese arriva una delle tecniche di massaggio più richieste</span> sul mercato. <span class='font-bold'>Stiamo parlando della Riflessologia Plantare</span>. Sei pronto a scoprire la nostra offerta formativa?"
+longcontentTitle: "Cos’è la Riflessologia Plantare e come applicarla al mondo del massaggio"            
+longcontent: "<p class='pb-2'><span class='font-bold'>La riflessologia plantare è una tecnica antica</span> che proviene da diverse culture e continenti, <span class='font-bold'>che ha lo scopo di riequilibrare il corpo e la mente</span>, favorendo l’autoguarigione naturale.
+
+<p class='pb-2'><span class='font-bold'>Consiste nell’applicare delle pressioni e delle frizioni sulle zone riflesse del piede</span>, con le dita o con degli strumenti appositi, <span class='font-bold'>per:</span></p>
+
+<ol class='list-decimal mt-2 ml-6'>
+<li><span class='font-bold'>rilassare il sistema nervoso;</span></li>
+<li><span class='font-bold'>stimolare la circolazione sanguigna e linfatica;</span></li>
+<li>ridurre il dolore e l’infiammazione;</li>
+<li><span class='font-bold'>prevenire e curare le problematiche degli organi e degli apparati.</span></li>
+</ol>
+<p class='mt-2'>La riflessologia plantare ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la qualità del sonno, allevia le cefalee, i dolori mestruali, il mal di schiena, il torcicollo e altri disturbi comuni, favorisce la produzione di endorfine con effetto antidolorifico, migliora il funzionamento degli organi e degli apparati.</p>
+<p class='font-semibold mt-3 text-lg text-gray-600 font-bold'>Cosa imparerai nel corso di Riflessologia Plantare?</p>
+<p class='mt-1 font-bold'>Grazie alla formazione eccellente coi migliori docenti potrai:</p>
+<ol class='list-decimal mt-2 ml-6'>
+<li><span class='font-bold'>apprendere la teoria e la pratica della riflessologia plantare;</span></li>
+<li>studiare l’anatomia e la fisiologia del piede e dei punti riflessi;</li>
+<li><span class='font-bold'>approfondire  le tecniche di massaggio per le diverse zone del piede</span> e le diverse problematiche.</li></ol><p class='mt-2'><span class='font-bold'>Una tecnica curativa</span> che deriva dall’antica medicina tradizionale cinese <span class='font-bold'>in grado di</span> favorire il riequilibrio psico-fisico e la relativa riduzione di tensioni e ansie ma soprattutto di <span class='font-bold'>riequilibrare la funzionalità dei principali apparati (respiratorio, digerente, urinario, circolatorio, etc.)</span>.</p>"
+
+longcontentCollapseTitle: ""
+longcontentCollapseContent: ""
+features1: "Apprendi le più antiche manualità del trattamento al piede"
+features2: "Impara a effettuare un massaggio distensivo plantare"
+features3: "Ottimo trattamento per riequilibrare gli organi"  
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di riflessologia plantare"
+videoPresentationTitle: "In 3 minuti ti spieghiamo perché scegliere il corso di Riflessologia Plantare"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di riflessologia plantare"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          <span class='font-bold'>Dall’antica medicina tradizionale cinese ad oggi la Riflessologia Plantare ci insegna una tecnica in grado di garantire molteplici benefici alle persone che si affidano a noi</span>. Cosa aspetti? Apprendi questa tecnica, amplia la tua formazione e dona benessere ai tuoi clienti.</p>"
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+---
+
+---
+
 ---

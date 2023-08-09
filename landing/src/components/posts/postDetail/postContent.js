@@ -54,7 +54,7 @@ export default function PostContent(props) {
         }</span>, composto da ${post.durata.substring(
           0,
           2
-        )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso, per un totale di <span class="font-semibold">${post.durata.substring(
+        )} corsi, verrà rilasciato un attestato di specializzazione nominativo valido in tutta Italia, per ogni singolo corso. Dunque avrai un totale di <span class="font-semibold">${post.durata.substring(
           0,
           2
         )} attestati</span>${
@@ -63,15 +63,15 @@ export default function PostContent(props) {
                 post.title
               }${
                 post.title === "Massaggio Sportivo Avanzato"
-                  ? " e un diploma di operatore in Massaggio Sportivo</span>."
+                  ? " e un diploma di operatore in Massaggio Sportivo</span>"
                   : ""
-              }</span>.`
-            : ""
+              }</span>`
+            : "."
         } ${
           post.title === "Alta Formazione Professionale"
             ? "<span class='py-2 block'>Alla fine del percorso, verrà rilasciato un diploma di operatore in Alta Formazione Professionale e 3 diplomi rispettivamente di operatore in:</span><ol class='list-decimal ml-6'><li>Massaggio Olistico</li><li>Terme & Spa</li><li>Sportivo</li></ol>"
             : ""
-        }`;
+        }.`;
 
   function dateManipulation(date, days, hrs, mins, operator) {
     date = new Date(date);

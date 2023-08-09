@@ -6,7 +6,6 @@ title: "Massaggio Ayurveda"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-longcontent: "Vuoi scoprire il segreto dell&apos;antica saggezza indiana per il benessere del corpo e della mente? Allora non perdere il Corso di Massaggio Ayurveda della Tao - Scuola Nazionale di Massaggio Tao, dove potrai imparare a conoscere e a bilanciare le tre energie vitali che governano ogni forma di vita: i “Dosha” (Vata, Pitta e Kapha). Al Corso di Massaggio Ayurvedico ti insegneremo tutte le tecniche del massaggio indiano, insegnandoti a usare le tue mani con sincronia e fluidità, per creare un&apos;armonia perfetta tra te e il ricevente. Il massaggio avviene con manovre di sfioramento e tecniche specifiche per ogni tipo di Dosha, per soddisfare le esigenze individuali di equilibrio e benessere. Il massaggio Ayurvedico è un vero toccasana per il corpo: depura, purifica, rinforza il sistema immunitario, allevia il dolore, scioglie le tensioni, previene le malattie, combatte la stanchezza, la perdita di capelli e lo stress."
 programma: [
 "Introduzione al Corso di Massaggio Ayurvedico;",
 "Cos'è l'Ayurveda e quali sono le sue peculiarità;",
@@ -27,4 +26,33 @@ requisiti: "Il Corso di Massaggio Ayurvedico non presenta requisiti particolari 
 videosrc: "https://www.youtube-nocookie.com/embed/9JgrrHTKeWY"
 programmazione: ['06 10 2023']    
 order: "6"
+incipit: "<span class='font-bold'>Se desideri conoscere come applicare la filosofia Ayurvedica al mondo del massaggio, questo è il corso ideale per te.</span> Cosa aspetti? <span class='font-bold'>Scopri come donare benessere ai tuoi clienti</span> e ristabilire l’equilibrio energetico <span class='font-bold'>attraverso l’uso sapiente</span> e sincronico <span class='font-bold'>delle mani</span>"
+longcontentTitle: "Corso di massaggio Ayurvedico: impara l’arte del massaggio più antico del mondo"            
+longcontent: "<p class='pb-2'><span class='font-bold'>Vuoi scoprire il segreto dell'antica saggezza indiana</span> per il benessere del corpo e della mente? <span class='font-bold'>Allora devi assolutamente seguire il corso di Massaggio Ayurveda dove:</span></p> 
+
+<ol class='list-decimal mt-2 ml-6'><li><span class='font-bold'>impararei a conoscere e a bilanciare le tre energie vitali</span> che governano ogni forma di vita ossia i “Dosha” (Vata, Pitta e Kapha);</li><li><span class='font-bold'>apprenderai tutte le tecniche del massaggio indiano</span> e di disintossicazione del Panchakarma;</li><li><span class='font-bold'>saprai come usare le tue mani con sincronia e fluidità</span> per creare un'armonia perfetta.
+</li></ol><p class='mt-2'>In questo modo <span class='font-bold'>puoi ristabilire l’equilibrio energetico delle persone che decidono di affidarsi a te per questo trattamento</span>, gestendo bene l’intensità da adoperare durante la seduta di massaggio.</p>"
+
+longcontentCollapseTitle: ""
+longcontentCollapseContent: " 
+
+
+
+
+"
+features1: "Impara il massaggio più antico al mondo"
+features2: "Apprendi come ristabilire l’equilibrio energetico"
+features3: "Studia tutte le tecniche di massaggio indiano"  
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio ayurveda"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio ayurveda"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio ayurveda"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Se vuoi apprendere una delle tecniche di massaggio più antiche e richieste nei centri benessere, devi assolutamente seguire questo corso. Una formazione che ti permetterà di ristabilire l’equilibrio energetico delle persone che decidono di affidarsi a te. Cosa aspetti? Contattaci ora per ricevere tutte le info sul nostro corso.
+        </p>"
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+---
+
 ---
