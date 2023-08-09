@@ -14,6 +14,7 @@ import ProgrammazioneDataCorso from "./programmazioneDataCorso";
 import Image from "next/image";
 import { Interweave } from "interweave";
 import { polyfill } from "interweave-ssr";
+import PostFeature from "./postFeature";
 
 polyfill();
 
@@ -144,15 +145,26 @@ export default function PostContent(props) {
       )}
 
       {post.category === "diploma" ? (
-        <CardCorsiDiploma
-          title={post.title}
-          programma={post.programma}
-          corsiArray={props.corsi}
-          postSchedaDiplomiContent={post.postSchedaDiplomiContent}
-        />
+        <>
+          <CardCorsiDiploma
+            title={post.title}
+            programma={post.programma}
+            corsiArray={props.corsi}
+            postSchedaDiplomiContent={post.postSchedaDiplomiContent}
+          />
+          <div className="py-8" />
+          <PostFeature
+            className=""
+            features1={post.features1}
+            features2={post.features2}
+            features3={post.features3}
+          />
+          <div className="py-8" />
+        </>
       ) : (
         ""
       )}
+
       <Cta overTitle={post.cta1OverTitle} text={post.cta1OverText} />
       {/*  <PostPrice price={post.price} /> */}
       <PostSchedaTecnica
@@ -172,9 +184,8 @@ export default function PostContent(props) {
       <Cta overTitle={post.cta2OverTitle} text={post.cta2OverText} />
       <div className="container mx-auto text-center px-4">
         <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-          Ottieni{" "}
-          {post.category === "corso" ? "l&apos;attestato " : "il diploma "} di
-          specializzazione
+          Ottieni {post.category === "corso" ? "l'attestato " : "il diploma "}{" "}
+          di specializzazione
         </h2>
         <div className="container mx-auto max-w-4xl text-justify">
           <Interweave content={attestazioneText} />
@@ -212,7 +223,7 @@ export default function PostContent(props) {
         <>
           <div className="max-w-xl mx-auto text-center my-16">
             <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-              Ecco perché scegliere il corso di {post.title}
+              Ecco perché scegliere il {post.category} di {post.title}
             </h2>
           </div>
 
@@ -302,12 +313,24 @@ export default function PostContent(props) {
                 e-commerce professionemassaggio.it
               </h3>
             </article>
-            <h3>Inizia ora a formarti per dare una svolta alla tua carriera</h3>
+          </div>
+          <div>
+            <h3 className="text-center pt-8 pb-2 text-3xl font-bold text-gray-500 sm:text-4xl">
+              Inizia ora a formarti per dare una svolta alla tua carriera
+            </h3>
           </div>
           <div
-            className="container mx-auto my-16 px-4"
+            className="container mx-auto my-8 px-4"
             dangerouslySetInnerHTML={{ __html: post.serviziInclusiText }}
           />
+          <div className="mt-8 flex flex-col my-3 mx-[4rem] lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <label
+              htmlFor="modalForm"
+              className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+            >
+              Contattaci ora
+            </label>
+          </div>
         </>
       ) : (
         ""
