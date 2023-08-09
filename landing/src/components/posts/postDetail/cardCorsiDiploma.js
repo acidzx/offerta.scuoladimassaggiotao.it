@@ -67,7 +67,7 @@ export default function CardCorsiDiploma(props) {
                 alt={progList.toLowerCase().replace(";", "")}
               />
             </figure> */}
-            <div className="card-body">
+            <div className="card-body py-3">
               <span className="block -mb-1 text-sm border-b font-semibold">
                 corso
               </span>
@@ -78,7 +78,7 @@ export default function CardCorsiDiploma(props) {
                   .replace("Corso ", "")}
                 {/* <div className="badge badge-secondary">NEW</div> */}
               </h2>
-              <p>&nbsp;</p>
+
               <div className="card-actions justify-end">
                 <div className="badge badge-outline p-3">
                   {progList !== "Corso Marketing e Comunicazione."
