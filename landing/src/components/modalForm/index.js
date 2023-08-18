@@ -185,7 +185,6 @@ export default function ModalForm() {
               {...register("user_ip")}
               type="hidden"
               value={JSON.stringify(userIp) ?? ""}
-              onChange={(e) => setUserIp(userIp)}
               name="user_ip"
             />
 
