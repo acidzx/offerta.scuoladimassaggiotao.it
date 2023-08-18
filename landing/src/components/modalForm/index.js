@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import clsx from "clsx";
+import { useState, useEffect, useCallback } from "react";
 
 const schema = yup.object({
   // email is required with email format
@@ -61,6 +62,24 @@ function jsonToFormData(data) {
 
 export default function ModalForm() {
   const router = useRouter();
+
+  const [userIp, setUserIp] = useState();
+
+  const fetchUserIp = useCallback(async () => {
+    const userIp = await fetch("/api/getIpAddress")
+      .then((response) => response.json())
+      .then((data) => {
+        return data;
+      });
+
+    return setUserIp(userIp);
+  }, []);
+
+  useEffect(() => {
+    fetchUserIp()
+      // make sure to catch any error
+      .catch(console.error);
+  }, [fetchUserIp]);
 
   const {
     register,
@@ -154,6 +173,7 @@ export default function ModalForm() {
 
           {/* form */}
           <form onSubmit={handleSubmit(onSubmit)} className="mt-4">
+            {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
             <input
               {...register("web_form_id")}
               type="hidden"
@@ -161,7 +181,13 @@ export default function ModalForm() {
               name="web_form_id"
             />
 
-            {/* <input type="hidden" name="web_form_id" value="db5f9f42a7157abe65bb145000b5871a"> */}
+            <input
+              {...register("user_ip")}
+              type="hidden"
+              value={userIp}
+              name="user_ip"
+            />
+
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
               <label className="label">
