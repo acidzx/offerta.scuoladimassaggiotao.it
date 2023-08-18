@@ -184,9 +184,12 @@ export default function ModalForm() {
             <input
               {...register("user_ip")}
               type="hidden"
-              value={userIp}
+              value={JSON.stringify(userIp) ?? ""}
+              onChange={(e) => setUserIp(userIp)}
               name="user_ip"
             />
+
+            {console.log(JSON.stringify(userIp))}
 
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
