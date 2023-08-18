@@ -188,8 +188,6 @@ export default function ModalForm() {
               name="user_ip"
             />
 
-            {console.log(JSON.stringify(userIp))}
-
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
               <label className="label">
