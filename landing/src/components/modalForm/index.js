@@ -63,6 +63,18 @@ function jsonToFormData(data) {
 export default function ModalForm() {
   const router = useRouter();
 
+  const {
+    register,
+    handleSubmit,
+    setValue,
+    watch,
+    replace,
+    getValues,
+    formState: { errors },
+  } = useForm({
+    resolver: yupResolver(schema),
+  });
+
   const [userIp, setUserIp] = useState();
 
   const fetchUserIp = useCallback(async () => {
@@ -71,26 +83,25 @@ export default function ModalForm() {
       .then((data) => {
         return data;
       });
-
-    return setUserIp(userIp);
+    setUserIp(userIp);
+    return userIp;
   }, []);
 
   useEffect(() => {
+    setValue(
+      "user_ip",
+      { userIp },
+      { shouldTouch: true, shouldValidate: true, shouldDirty: true }
+    );
     fetchUserIp()
       // make sure to catch any error
       .catch(console.error);
-  }, [fetchUserIp]);
-
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm({
-    resolver: yupResolver(schema),
-  });
+  }, [fetchUserIp, register, userIp, setValue]);
 
   const onSubmit = async (data) => {
+    const json_user_ip = getValues("user_ip");
+    data.user_ip = json_user_ip.userIp;
+    console.log(data);
     try {
       const response = await fetch(
         "https://app.brainlead.it/3.0.0/web_forms/subscription",
@@ -150,6 +161,8 @@ export default function ModalForm() {
     "ring ring-red-400/40": errors.terms__conditions?.message,
   });
 
+  console.log("userIp:" + userIp + typeof userIp);
+
   return (
     <>
       <input type="checkbox" id="modalForm" className="modal-toggle" />
@@ -181,12 +194,7 @@ export default function ModalForm() {
               name="web_form_id"
             />
 
-            <input
-              {...register("user_ip")}
-              type="hidden"
-              value={JSON.stringify(userIp) ?? ""}
-              name="user_ip"
-            />
+            <input type="hidden" name="user_ip" {...register("user_ip")} />
 
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
