@@ -35,12 +35,7 @@ longcontent: "<p class='pb-2'><b>Vuoi imparare a fare un massaggio che libera le
 <ol class='list-decimal mt-2 ml-6'><li><b>tutte le manovre</b> necessarie <b>per fare un trattamento completo</b> e soddisfacente;</li><li><b>a creare un rapporto di fiducia e di ascolto con il tuo cliente</b>, che è essenziale per questo tipo di massaggio;</li><li><b>arricchire le tue competenze professionali!</b></li></ol>"
 
 longcontentCollapseTitle: ""
-longcontentCollapseContent: " 
-
-
-
-
-"
+longcontentCollapseContent: ""
 features1: "Impara la Tecnica Psicosomatica per eccellenza"
 features2: "Apprendi un trattamento per corpo e mente"
 features3: "Massaggio tra i più richiesti nelle spa e centri benessere"  
@@ -54,6 +49,4 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
----
-
 ---
