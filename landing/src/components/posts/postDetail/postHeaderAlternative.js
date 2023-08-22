@@ -24,7 +24,11 @@ export default function PostHeaderAlternative(props) {
               ? "Scegli il percorso giusto per te"
               : "Scegli la strada giusta per te"}
           </h1>
-          <p className="my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">
+          <p
+            className={`my-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ${
+              category === "diploma" ? "pb-8 border-b" : ""
+            }`}
+          >
             <Interweave content={incipit} />
           </p>
           {subIncipit ? <Interweave content={subIncipit} /> : ""}

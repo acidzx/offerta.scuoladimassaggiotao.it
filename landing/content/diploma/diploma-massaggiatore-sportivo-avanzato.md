@@ -19,8 +19,8 @@ programma:
 requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/MFixapc4WjY"
 order: "2"
-incipit: "<span class='font-bold'>Entra nel mondo dello sport con il nostro Diploma di Operatore in Massaggio Sportivo Avanzato.</span>"
-subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-justify'><span class='font-bold'>Sette corsi ideati</span> e studiati <span class='font-bold'>per te che hai la passione per lo sport e il massaggio</span>. Sette corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno per poter seguire gli sportivi in ogni loro sfida. Cosa aspetti? <span class='font-bold'>Scopri subito cos’è incluso nella nostra offerta formativa.</span></p>"
+incipit: "<span class='font-bold text-3xl'>Entra nel mondo dello sport con il nostro Diploma di Operatore in Massaggio Sportivo Avanzato.</span>"
+subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'><span class='font-bold'>Sette corsi ideati</span> e studiati <span class='font-bold'>per te che hai la passione per lo sport e il massaggio</span>. Sette corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno per poter seguire gli sportivi in ogni loro sfida. Cosa aspetti? <span class='font-bold'>Scopri subito cos’è incluso nella nostra offerta formativa.</span></p>"
 longcontentTitle: "Entra nel mondo dello sport con il Diploma Sportivo Avanzato"            
 longcontent: "<p class='pb-2'><span class='font-bold'>Frequenta i sette corsi fondamentali per entrare nel mondo dello sport</span>. Impara tutto ciò di cui hai bisogno per trattare correttamente e in ogni occasione ogni esigenza dello sportivo. <span class='font-bold'>Specializzati in ciò che hai sempre amato per assistere gli atleti</span> e trovare impiego in un settore in costante crescita come quello dello sport. 
 </p> 

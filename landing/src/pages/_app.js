@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import analytics from "@/utility/analytics";
 import Head from "next/head";
 import Layout from "@components/layout";
-import { Router } from "next/router";
+// import { Router } from "next/router";
 
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {

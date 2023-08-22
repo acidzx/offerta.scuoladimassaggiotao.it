@@ -16,18 +16,18 @@ requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/EpEenoObzsQ"
 order: "3"
 
-incipit: "<span class='font-bold'>Entra nel mondo del benessere con il nostro Diploma di Massaggio Olistico</span>"
-subIncipit: "<p class='my-1 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-justify'><span class='font-bold'>Cinque corsi ideati e studiati per te che hai la passione per il mondo olistico e il massaggio.</span></p>
-<p class='my-1 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-justify'>Cinque corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno. Cosa aspetti?</p>
-<p class='my-1 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-justify'><span class='font-bold'>Scopri subito cos’è incluso nella nostra offerta formativa.</span></p>"
+incipit: "<span class='font-bold text-3xl'>Entra nel mondo del benessere con il nostro Diploma di Massaggio Olistico</span>"
+subIncipit: "<p class='mt-16 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'><span class='font-bold'>Cinque corsi ideati e studiati per te che hai la passione per il mondo olistico e il massaggio.</span></p>
+<p class='my-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'>Cinque corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno.</p>
+<p class='my-y text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center pt-8'>Cosa aspetti?</p>
+<p class='my-1 text-lg font-bold text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center pb-4'>Scopri subito cos’è incluso nella nostra offerta formativa.</p>"
 longcontentTitle: "Entra nel mondo olistico con il nostro corso di massaggio"            
 longcontent: "<p class='pb-2'><b>Il Diploma di Operatore in Massaggio Olistico è il percorso di studi ideale per chi desidera specializzarsi in queste tecniche</b> distensive <b>che riescono a mettere in relazione mente e corpo</b>.
 </p> 
-<p>Grazie a questa specializzazione, <b>puoi trovare facilmente impiego presso Spa, Centri Benessere e Centri Estetici</b> oppure avere tutta la formazione per poter esercitare questa tecnica come libero professionista. 
-</p>"
+<p>Grazie a questa specializzazione, <b>puoi trovare facilmente impiego presso Spa, Centri Benessere e Centri Estetici</b> oppure avere tutta la formazione per poter esercitare questa tecnica come libero professionista.</p>"
 
-postSchedaDiplomiContent: "<p className='pb-2'>Ogni corso che compone il diploma olistico, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'apprendimento delle tecniche del massaggio e degli schemi di lavoro in modo tale da metterti in condizione, una volta terminato il percorso, di praticare in totale autonomia.</p>
-<p class='pb-2'><b>Grazie all’accreditamento ottenuto per merito dallo CSEN</b>, conseguendo il Diploma Nazionale di Specializzazione di Operatore in Massaggio Olistico, <b>è possibile ottenere</b>, per i soci tesserati Csen, <b>anche il Diploma Nazionale di Operatore in Massaggio Olistico CSEN, l'Ente di promozione sportiva riconosciuto dal CONI</b>.</p>"
+postSchedaDiplomiContent: "<p class='pb-4'>Ogni corso che compone il diploma olistico, acquisita la parte teorica, verterà principalmente sulla parte di pratica concentrandosi all'apprendimento delle tecniche del massaggio e degli schemi di lavoro in modo tale da metterti in condizione, una volta terminato il percorso, di praticare in totale autonomia.</p>
+<p><b>Grazie all’accreditamento ottenuto per merito dallo CSEN</b>, conseguendo il Diploma Nazionale di Specializzazione di Operatore in Massaggio Olistico, <b>è possibile ottenere</b>, per i soci tesserati Csen, <b>anche il Diploma Nazionale di Operatore in Massaggio Olistico CSEN, l'Ente di promozione sportiva riconosciuto dal CONI</b>.</p>"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
 features1: "Ottieni 5 attestati e 1 Diploma Nazionale come Operatore in massaggio olistico"

@@ -5,10 +5,10 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./content/corso/**/*.{md}",
-    "./content/diploma/**/*.{md}",
+    "./content/corso/**/*.md",
+    "./content/diploma/**/*.md",
   ],
-  safelist: ["list-decimal", "ml-6"],
+  safelist: ["list-decimal", "ml-6", "border-spacing-y-48"],
   theme: {
     extend: {
       colors: {
