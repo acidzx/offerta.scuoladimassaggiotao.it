@@ -131,6 +131,7 @@ export default function ModalForm() {
             router.push("/thank-you");
           }
         });
+        await analytics.track("form_compilato");
         router.push("/thank-you");
       }
     } catch (e) {
