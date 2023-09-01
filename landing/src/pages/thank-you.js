@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { useEffect } from "react";
-import analytics from "@/utility/analytics";
+/* import { useEffect } from "react";
+import analytics from "@/utility/analytics"; */
 
 export default function ThankYou() {
-  useEffect(() => {
+  /*   useEffect(() => {
     analytics.track("formCompilato", () => {
       console.log("formCompilato");
     });
-  });
+  }); */
 
   return (
     <div className="flex items-center justify-center h-screen mx-auto">
