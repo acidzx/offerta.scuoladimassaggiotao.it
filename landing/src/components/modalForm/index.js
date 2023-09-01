@@ -7,6 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import clsx from "clsx";
 import { useState, useEffect, useCallback } from "react";
+import analytics from "@/utility/analytics";
 
 const schema = yup.object({
   // email is required with email format
@@ -113,6 +114,7 @@ export default function ModalForm() {
       if (
         response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
       ) {
+        await analytics.track("form-landing-offerta-tao-compilato");
         router.push("/thank-you");
       } else {
         fetch("/api/contact", {
