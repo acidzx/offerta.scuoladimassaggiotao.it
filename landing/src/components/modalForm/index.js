@@ -114,7 +114,7 @@ export default function ModalForm() {
       if (
         response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
       ) {
-        await analytics.track("form_landing_offerta_tao_compilato");
+        await analytics.track("form_compilato");
         router.push("/thank-you");
       } else {
         fetch("/api/contact", {
