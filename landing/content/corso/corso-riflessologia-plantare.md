@@ -42,7 +42,7 @@ longcontent: "<p class='pb-2'><span class='font-bold'>La riflessologia plantare 
 <li><span class='font-bold'>prevenire e curare le problematiche degli organi e degli apparati.</span></li>
 </ol>
 <p class='mt-2'>La riflessologia plantare ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la qualità del sonno, allevia le cefalee, i dolori mestruali, il mal di schiena, il torcicollo e altri disturbi comuni, favorisce la produzione di endorfine con effetto antidolorifico, migliora il funzionamento degli organi e degli apparati.</p>
-<p class='font-semibold mt-3 text-lg text-gray-600 font-bold'>Cosa imparerai nel corso di Riflessologia Plantare?</p>
+<p class='mt-3 text-lg text-gray-600 font-bold'>Cosa imparerai nel corso di Riflessologia Plantare?</p>
 <p class='mt-1 font-bold'>Grazie alla formazione eccellente coi migliori docenti potrai:</p>
 <ol class='list-decimal mt-2 ml-6'>
 <li><span class='font-bold'>apprendere la teoria e la pratica della riflessologia plantare;</span></li>
