@@ -6,7 +6,6 @@ title: "Massaggio Crio Dinamico"
 durata: "1 giorno"
 ore: "10 ore"
 category: "corso"
-longcontent: "Il Corso di Massaggio Criodinamico ti insegnerà come usare il freddo come agente terapeutico per ridurre il dolore e migliorare la circolazione. Il freddo è una radiazione a raggi infrarossi che estrae il calore da un oggetto caldo. Applicando il ghiaccio su una zona del corpo, si ottiene una vasocostrizione, ovvero una riduzione del diametro dei vasi sanguigni, seguita da una vasodilatazione, ovvero un aumento del diametro dei vasi sanguigni. Questo provoca una iperemia, ovvero un aumento del flusso di sangue nella zona, che favorisce il rilassamento dei muscoli e la guarigione dei tessuti. Il freddo agisce in profondità, fino a quattro centimetri nel caso del muscolo, che è un buon conduttore di freddo perché contiene acqua. Il tempo di applicazione del ghiaccio varia a seconda dell’effetto desiderato: 15 minuti per ottenere la vasocostrizione, più di 15 minuti per ottenere la vasodilatazione. Il massaggio criodinamico è una tecnica efficace per trattare le infiammazioni, le contratture, i crampi e le tensioni muscolari."
 programma: [
 "Cenni storici dell’utilizzo del ghiaccio;",
 "Caratteristiche e proprietà dell’acqua;",
@@ -21,4 +20,30 @@ requisiti: "Il corso di Massaggio Crio-Dinamico della Tao - Scuola Nazionale di 
 videosrc: "https://www.youtube-nocookie.com/embed/yb0j-3LJc0w"
 programmazione: ['21 10 2023', '18 11 2023']    
 order: "22"
+incipit: "<span class='font-bold'>Amplia la tua formazione.</span> Impara una nuova tecnica di massaggio. <span class='font-bold'>Scegli la migliore didattica per nuove opportunità di carriera.</span>
+<span class='block py-3'>Cosa aspetti?</span
+<span class='font-bold'>Chiedi ora info sul nostro corso di massaggio crio-dinamico.</span>
+<span class='block py-3'><span class='font-bold'>Per te un coupon sconto per iniziare al meglio questo percorso</span> insieme a noi.</span>"
+longcontentTitle: "Massaggio Crio-Dinamico: in cosa consiste il corso?"            
+longcontent: "<p class='pb-2'><span class='font-bold'>Il Corso di Massaggio Crio-dinamico ti insegnerà come usare il freddo</span> come agente terapeutico <span class='font-bold'>per ridurre il dolore e migliorare la circolazione.</span></p> 
+<p class='font-semibold mt-3'>Una tecnica davvero efficace per trattare:</p>
+<ol class='list-decimal mt-2 ml-6'><li>infiammazioni;</li><li>contratture;</li><li>crampi;</li><li>tensioni muscolari;</li><li>infortuni;</li><li>inestetismi;</li></ol><p class='mt-2'><span class='font-bold'>Il ghiaccio se usato sapientemente</span> come ti insegneremo nel nostro corso <span class='font-bold'>diventa uno strumento davvero importante per agire sul dolore</span> e facilitare il recupero funzionale della muscolatura. <span class='font-bold'>Una tecnica di massaggio molto richiesta in ambito sportivo perché</span> se da un lato ha un effetto anestetico soprattutto nella fase acuta degli infortuni (specialmente se di natura traumatica) dall’altro <span class='font-bold'>agevola il recupero post gara.</span></p>
+<p class='mt-3 text-lg text-gray-600 font-bold'>Cosa imparerai nel nostro corso di Massaggio Crio Dinamico?</p>
+<ol class='list-decimal mt-2 ml-6'><li><span class='bold'>La tecnica del ghiaccio in modo dinamico</span> che verrà usato sul corpo come se fosse un vero e proprio massaggio; </li>
+<li><span class='bold'>I concetti guida dell’applicazione del ghiaccio</span>. Come usarlo? Quando usarlo? Quanto usarne? Questi tre elementi determinano il giusto recupero muscolare.</li></ol>"
+longcontentCollapseTitle: ""
+longcontentCollapseContent: ""
+features1: "Ottieni 151€ di sconto se ti iscrivi ora"
+features2: "Impara una tecnica molto richiesta dagli sportivi"
+features3: "Amplia la tua formazione da massaggiatore"  
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto di 151€ per iscriverti al corso di massaggio crio-dinamico"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio crio-dinamico"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto di 151€ per iscriverti al corso di massaggio crio-dinamico"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Se desideri imparare una tecnica di massaggio molto richiesta nei centri benessere e sportivi, questo è il corso giusto per te. Cosa aspetti? Iscriviti ora. 
+        </p>"
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
 ---
