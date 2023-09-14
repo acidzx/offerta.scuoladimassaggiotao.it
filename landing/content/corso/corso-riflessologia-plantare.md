@@ -62,7 +62,7 @@ cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di riflesso
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
           <span class='font-bold'>Dall’antica medicina tradizionale cinese ad oggi la Riflessologia Plantare ci insegna una tecnica in grado di garantire molteplici benefici alle persone che si affidano a noi</span>. Cosa aspetti? Apprendi questa tecnica, amplia la tua formazione e dona benessere ai tuoi clienti.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---
 
 ---

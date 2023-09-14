@@ -80,18 +80,21 @@ export default function PostServiziInclusi(props) {
           ))}
         </div>
       </div>
-
-      <div
-        className="container mx-auto my-16 px-4"
-        dangerouslySetInnerHTML={{ __html: serviziInclusiText }}
-      />
-      <div className="mt-16 flex flex-col my-3 mx-[4rem] lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-        <label
-          htmlFor="modalForm"
-          className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-        >
-          Contattaci ora
-        </label>
+      <div className="">
+        <div className="flex max-w-7xl justify-center mx-auto py-8">
+          <div
+            className=""
+            dangerouslySetInnerHTML={{ __html: serviziInclusiText }}
+          />
+        </div>
+        <div className="containerCenter">
+          <label
+            htmlFor="modalForm"
+            className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+          >
+            Contattaci ora
+          </label>
+        </div>
       </div>
     </>
   );

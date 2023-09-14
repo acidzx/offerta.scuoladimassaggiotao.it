@@ -1,20 +1,15 @@
-import Header from "@components/header";
 import AltaFormazione from "@components/altaFormazione";
 import MultiCarousel from "@components/multiCarousel";
 import Cta from "@components/cta";
 import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
-import ServizioClienti from "@components/servizioClienti";
 import { getAllPosts } from "../../lib/posts-util";
 import Head from "next/head";
 import ModalForm from "@components/modalForm";
+import HeaderTitle from "@/components/commons/headerTitle";
+import SubHeaderTitle from "@/components/pageIndex/subHeaderTitle";
 
 export async function getStaticProps() {
-  /*  const res = await fetch(
-    `https://graph.facebook.com/v17.0/scuoladimassaggio/ratings?fields=reviewer%2Ccreated_time%2Creview_text&access_token=${process.env.FB_ACCESS_TOKEN}`,
-    { cache: "force-cache" }
-  ); */
-
   const res = await fetch(
     `https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=${process.env.G_ACCESS_TOKEN}`,
     { cache: "force-cache" }
@@ -47,8 +42,8 @@ export default function Home(props) {
           content="Scopri l'offerta formativa dei corsi e percorsi per diventare Massaggiatore di Tao Scuola Nazionale di Massaggio. Attestazioni riconosciute per lavorare liberamente in tutta Italia."
         />
       </Head>
-      <Header />
-      <hr className="divider" />
+      <HeaderTitle />
+      <SubHeaderTitle />
       <AltaFormazione />
       <Cta
         text="Scopri l’offerta che ti abbiamo riservato per iniziare una formazione eccellente"
@@ -67,81 +62,81 @@ export default function Home(props) {
       <Testimonials Greviews={props.reviews.result.reviews} />
       <ServiziTao />
 
-      {/* <ServizioClienti /> */}
-      <div className="container mx-auto p-4">
-        <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2">
-          Tre motivi per scegliere la nostra Scuola di Massaggio
-        </h2>
-      </div>
+      <div className="containerFull">
+        <div className="containerCenter">
+          <h2 className="titleMain">
+            Tre motivi per scegliere la nostra Scuola di Massaggio
+          </h2>
+        </div>
+        <div className="containerCenter flex-col lg:flex-row my-6 gap-x-10">
+          <article className="flex max-w-xl flex-col items-center justify-between text-center mx-auto">
+            <div className="text-green-700 hidden lg:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
 
-      <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 pt-2 lg:pt-8 lg:max-w-5xl lg:grid-cols-3 px-4 mb-16">
-        <article className="flex max-w-xl flex-col items-center justify-between text-center mx-auto">
-          <div className="text-green-700 hidden lg:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-          </div>
+            <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+              Percorsi formativi completi e personalizzati in base alle tue
+              esigenze
+            </h3>
+          </article>
+          <article className="flex max-w-xl flex-col items-center  justify-start text-center mx-auto">
+            <div className="text-green-700 hidden lg:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
 
-          <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
-            Percorsi formativi completi e personalizzati in base alle tue
-            esigenze
-          </h3>
-        </article>
-        <article className="flex max-w-xl flex-col items-center  justify-start text-center mx-auto">
-          <div className="text-green-700 hidden lg:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-          </div>
+            <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+              Consulenza e assistenza continua pre e post formazione
+            </h3>
+          </article>
+          <article className="flex max-w-xl flex-col items-center justify-start text-center mx-auto">
+            <div className="text-green-700 hidden lg:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
 
-          <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
-            Consulenza e assistenza continua pre e post formazione
-          </h3>
-        </article>
-        <article className="flex max-w-xl flex-col items-center justify-start text-center mx-auto">
-          <div className="text-green-700 hidden lg:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-          </div>
-
-          <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
-            Didattica con i migliori docenti nel campo del benessere
-          </h3>
-        </article>
+            <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
+              Didattica con i migliori docenti nel campo del benessere
+            </h3>
+          </article>
+        </div>
       </div>
 
       <Cta

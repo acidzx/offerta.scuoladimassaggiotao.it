@@ -17,7 +17,7 @@ videosrc: "https://www.youtube-nocookie.com/embed/yvaRc8PWFu0"
 order: "4"
 incipit: "<span class='font-bold text-3xl'>Entra nel mondo del benessere con il nostro Diploma di Operatore in Massaggio per Terme e Spa.</span>"
 subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'><span class='font-bold'>Cinque corsi</span> ideati e studiati <span class='font-bold'>per chi desidera lavorare come massaggiatore in villaggi turistici, navi da crociera, strutture alberghiere, spa, terme e centri benessere</span>.
-Cosa aspetti? Scopri subito cos’è incluso nella nostra offerta formativa. 
+<span class='block py-2'>Cosa aspetti? Scopri subito cos’è incluso nella nostra offerta formativa.</span> 
 </p>"
 longcontentTitle: "Diploma di Massaggio per Terme e Spa: entra subito nel mondo del lavoro"            
 longcontent: "<p class='pb-2'><span class='font-bold'>Se desideri apprendere tutte le tecniche di massaggio maggiormente richieste all’interno dei centri benessere questo è il percorso formativo più giusto per te. Ben cinque corsi di massaggio che non necessitano di alcuna esperienza pregressa e ti permetteranno di apprendere degli schemi di lavoro efficaci e funzionali.  
@@ -41,6 +41,6 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           <span class='font-bold'>Il mondo del benessere ti aspetta. Inizia da subito a lavorare nelle più grandi strutture alberghiere, nei centri benessere e ovunque tu desideri con la migliore formazione che abbiamo pensato per te. Inizia questo percorso insieme a noi.</span>.
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 
 ---

@@ -49,5 +49,5 @@ features1: "Pagabile in 14 soluzioni interne alla scuola o 36 soluzioni con fina
 features2: "Percorso più vantaggioso sia da un punto di vista economico (maggiore sconto) che formativo (15 corsi)"
 features3: "Priorità per adesione a stage e progetti lavoro offerti dalla scuola"      
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli."              
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>"              
 ---

@@ -51,5 +51,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           <span class='font-bold'>Amplia la tua formazione.</span> Impara una tecnica di massaggio molto richiesta nei centri benessere e nelle spa. <span class='font-bold'>Apriti a nuove opportunità di carriera</span>. Cosa aspetti? <span class='font-bold'>Iscriviti ora al nostro corso di massaggio hot stone.</span>  
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

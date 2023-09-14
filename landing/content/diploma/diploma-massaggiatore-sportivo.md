@@ -43,6 +43,6 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           Entra subito nel mondo del lavoro con il Diploma di Operatore in Massaggio Sportivo. Cinque corsi di formazione che ti daranno tutte le tecniche e competenze per poter eseguire i massaggi e i trattamenti più richiesti dagli atleti e dagli sportivi. Cosa aspetti? Contattaci subito per iscriverti al nostro percorso formativo.
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 
 ---

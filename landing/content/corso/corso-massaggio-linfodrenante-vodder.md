@@ -37,7 +37,7 @@ ha effetti benefici su tutto il corpo e la mente in quanto migliora la circolazi
 "
 longcontentCollapseTitle2: ""
 longcontentCollapseContent2: ""
-longcontent2: "<h3 class='text-lg font-medium pb-2'>Cosa imparerai nel corso di massaggio linfodrenante Vodder?</h3>
+longcontent2: "<h3 class='text-md font-medium pb-2'>Cosa imparerai nel corso di massaggio linfodrenante Vodder?</h3>
 <p class='pb-2'>Se decidi di partecipare al <b>corso di massaggio linfodrenante Vodder:</b></p> 
 <ol class='list-decimal ml-6'><li>imparerai la teoria e la pratica del massaggio manuale con il metodo Vodder;</li><li>studierai l’anatomia e la fisiologia del sistema linfatico;</li><li>approfondirai le tecniche di manipolazione con le mani.</li></ol>
 <p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio manuale con il metodo Vodder efficace e sicuro, ottenendo un’azione drenante e depurativa su tutto il sistema linfatico.</p>"
@@ -53,5 +53,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
 Un corso di massaggio che nasce da una delle uniche tecniche scientificamente provate. Un corso di massaggio che tratta a fondo il sistema linfatico e la sua anatomia. Un corso che ti permetterà di eseguire il massaggio linfodrenante in completa autonomia.</p>
 <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Chiedi subito maggiori info su come partecipare a quest’eccellente formazione coi migliori docenti nel campo del benessere.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

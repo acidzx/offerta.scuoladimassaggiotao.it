@@ -57,5 +57,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           <span class='font-bold'>Dall’antica tradizione orientale arriva la tecnica di massaggio thailandese</span> che dona benessere ed energia al corpo e alla mente. Cosa aspetti? <span class='font-bold'>Apprendi subito questa tecnica, amplia la tua formazione e lavora nel mondo del benessere.</span>
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

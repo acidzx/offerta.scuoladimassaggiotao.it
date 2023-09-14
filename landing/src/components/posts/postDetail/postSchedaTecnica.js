@@ -165,47 +165,6 @@ export default function PostSchedaTecnica(props) {
           </ul>
         </div>
       </div>
-      {/*    <div
-        id="attestazione"
-        className="my-2 collapse collapse-arrow bg-green-600/5"
-        onClick={() =>
-          setTimeout(() => {
-            scrollIntoTheView("attestazione");
-          }, "200")
-        }
-      >
-        <input type="radio" name="my-accordion-2" />
-        <div className="collapse-title text-2xl font-extrabold text-gray-700">
-          Attestazione rilasciata
-        </div>
-        <div className="collapse-content">
-          <p
-            className="text-justify"
-            dangerouslySetInnerHTML={{ __html: attestazioneText }}
-          />
-
-          <p className="text-justify pt-2">
-            <span className="font-semibold">
-              Le qualifiche rilasciate da Tao - Scuola Nazionale di Massaggio,
-              alla fine di ogni corso o percorso, sono emesse in base alla Legge
-              4/2013, sarà pertanto possibile lavorare legalmente su tutto il
-              territorio nazionale, purché l&apos;attività non rientri
-              nell&apos;ambito sanitario o sconfini in quello fisioterapico,
-              estetico o in ambiti stabiliti per legge da altre professioni
-              riconosciute.
-            </span>
-          </p>
-          <div className="flex justify-center mt-6">
-            <Image
-              src={`/assets/images/attestati/attestato-${slug}.jpg`}
-              width={550}
-              height={356}
-              alt={`Attestato Corso ${title}`}
-              className="w-full max-w-sm h-auto border rounded-lg px-2 py-4 bg-white"
-            />
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

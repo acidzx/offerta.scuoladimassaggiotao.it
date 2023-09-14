@@ -46,5 +46,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           <span class='font-bold'>Un’antica arte sempre più richiesta nel mondo del benessere, sportivo e olistico.</span> Un’arte che prevede due tecniche di coppettazione in grado di donare benefici immediati sia localizzati che generali sull’intero organismo. <span class='font-bold'>Un’arte che ti permetterà di ampliare le tue competenze</span>ed esercitare con professionalità le tecniche di coppettazione. Cosa aspetti? <span class='font-bold'>Iscriviti ora al nostro corso di coppettazione.</span>  
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

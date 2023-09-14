@@ -40,6 +40,6 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           <span class='font-bold'>Studia come trattare correttamente e sinergicamente corpo e mente</span>. Impara a lavorare il corpo con strumenti alternativi alle mani. <span class='font-bold'>Migliora la tua sensibilità di massaggiatore.</span> Cosa aspetti? <span class='font-bold'>Scegli ora il nostro diploma di Estetica Olistica.</span>
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 
 ---

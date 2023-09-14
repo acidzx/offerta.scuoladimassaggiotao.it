@@ -23,30 +23,23 @@ export default function PostPresentation(props) {
 
   return (
     <>
-      <div className="bg-white ">
-        <div className="flex items-center justify-center mx-auto">
-          {/*      <h2 className="my-4 text-2xl font-extrabold tracking-tight  text-gray-600 md:text-3xl lg:text-4xl text-center leading-6 gap-y-3">
-          Entra nel mondo del benessere con il
-          <br />
-          corso di massaggio base svedese
-        </h2> */}
-        </div>
-        <div className="gap-16 items-center py-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div className="containerFull">
+        <div className="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2">
           <div className="font-light text-gray-500 sm:text-lg">
             <h2 className="mb-4 text-3xl font-extrabold text-gray-600 ">
               <Interweave
                 content={longcontentTitle || "longcontentTitle missing"}
               />
             </h2>
-            <article className="mb-4 text-justify text-base">
+            <article className="pLeft">
               <Interweave content={longcontent} />
 
               {longcontentCollapseTitle ? (
                 <details className="collapse collapse-arrow bg-base-200">
-                  <summary className="collapse-title text-xl font-medium">
+                  <summary className="collapse-title text-md font-medium">
                     <Interweave content={longcontentCollapseTitle} />
                   </summary>
-                  <div className="collapse-content">
+                  <div className="collapse-content pLeft">
                     <Interweave content={longcontentCollapseContent} />
                   </div>
                 </details>
@@ -55,10 +48,10 @@ export default function PostPresentation(props) {
               )}
               {longcontentCollapseTitle2 ? (
                 <details className="collapse collapse-arrow bg-base-200">
-                  <summary className="collapse-title text-xl font-medium">
+                  <summary className="collapse-title text-md font-medium">
                     <Interweave content={longcontentCollapseTitle2} />
                   </summary>
-                  <div className="collapse-content">
+                  <div className="collapse-content pLeft">
                     <Interweave content={longcontentCollapseContent2} />
                   </div>
                 </details>
@@ -66,7 +59,7 @@ export default function PostPresentation(props) {
                 []
               )}
               {longcontent2 ? (
-                <div className="mb-4 text-justify text-base">
+                <div className="pLeft">
                   <Interweave content={longcontent2} />
                 </div>
               ) : (

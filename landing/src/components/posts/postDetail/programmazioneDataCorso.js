@@ -2,17 +2,20 @@ export default function ProgrammazioneDataCorso(props) {
   const { fineCorsoDate, filteredDate } = props;
 
   return (
-    <div className="container flex flex-col text-center mx-auto mt-0 py-6 justify-center items-center">
-      <div className="p-5 rounded-2xl bg-white shadow-2xl">
-        <h3 className="card-title text-xl font-medium text-gray-900  border-b border-gray-400 justify-center">
+    <div className="containerFull">
+      <div className="containerCenter">
+        <h3 className="text-2xl font-medium text-gray-900  border-b border-gray-400 justify-center">
           Prima data del corso:
         </h3>
-        <p className="text-lg font-medium text-gray-600 tracking-tighter justify-center pt-2 pb-4">
+      </div>
+      <div className="containerCenter">
+        <p className="pCenter font-bold">
           {filteredDate && filteredDate === fineCorsoDate
             ? filteredDate
             : `dal ${filteredDate} al ${fineCorsoDate}`}
         </p>
-
+      </div>
+      <div className="containerCenter">
         <label
           htmlFor="modalForm"
           href="#"

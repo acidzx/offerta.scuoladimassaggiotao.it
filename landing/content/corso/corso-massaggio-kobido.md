@@ -54,5 +54,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           Un massaggio che riequilibra l’energia vitale, dona benessere e salute al viso, assicura un effetto lifting naturale. Per questo, è fondamentale che tu apprenda questa tecnica di massaggio Kobido per aggiungerla alla tua formazione ed eseguirla sui tuoi clienti. Cosa aspetti? Contattaci subito per avere tutte le informazioni su come iscriverti al corso
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

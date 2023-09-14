@@ -43,5 +43,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
 <ol class='list-decimal ml-6 pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48'><li>Il 90% delle donne richiede questo trattamento;</li><li>È la tecnica di massaggio più richiesta nei centri benessere, nelle spa e nei centri estetici;</li><li>È il corso di formazione perfetto se vuoi intraprendere la carriera di massaggiatore nel campo del benessere.</li></ol>
 <p class='pt-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Se vuoi partecipare alla migliore formazione in questo campo, non devi fare altro che contattarci e ti daremo tutte le informazioni sulla prima data disponibile.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

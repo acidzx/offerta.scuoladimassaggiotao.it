@@ -1,22 +1,26 @@
 import Image from "next/image";
-import Link from "next/link";
 import altaFormazioneImg from "@public/assets/images/diploma-alta-formazione-professionale-massaggiatore.jpg";
 
 export default function DiplomaAltaFormazione() {
   return (
-    <div id="altaFormazioneSection" className="my-8">
-      <div className="container mx-auto p-4">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-600 md:text-3xl lg:text-4xl ">
+    <div id="altaFormazioneSection" className="containerFull">
+      <div className="containerCenter">
+        <h2 className="titleMain">
           Diploma Alta Formazione Professionale per Massaggiatori 500 ore
         </h2>
-        <p className="text-center text-lg font-normal pb-6 text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+      </div>
+      <div className="containerCenter">
+        <p className="pCenter">
           L&apos;eccellenza della formazione, un percorso didattico completo, un
-          inserimento sicuro nel mondo del lavoro. Ecco 3 motivi per scegliere
-          il nostro diploma di alta formazione professionale.
+          inserimento sicuro nel mondo del lavoro.
+          <span className="block py-2">
+            Ecco 3 motivi per scegliere il nostro diploma di alta formazione
+            professionale.
+          </span>
         </p>
       </div>
 
-      <div className="container p-5 mx-auto relative">
+      <div className="container p-4 mx-auto relative">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100/30 ">
           <Image
             priority
@@ -137,14 +141,6 @@ export default function DiplomaAltaFormazione() {
                 </li>
               </ul>
             </div>
-            {/*   <Link
-              href="/diploma/diploma-massaggiatore-alta-formazione-professionale"
-              className="mt-6 mx-auto cursor-pointer inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-            >
-              <div className="cursor-pointer  text-base font-medium text-center text-white rounded-lg ">
-                Scopri di più
-              </div>
-            </Link> */}
           </div>
         </div>
       </div>

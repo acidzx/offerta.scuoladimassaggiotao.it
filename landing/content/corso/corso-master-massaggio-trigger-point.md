@@ -6,7 +6,6 @@ title: "Master Massaggio Trigger Point"
 durata: "1 giorno"
 ore: "10 ore"
 category: "corso"
-longcontent: "Il Corso di Massaggio ai Trigger Points ti insegnerà una tecnica di massaggio che si basa sull’individuazione e lo scioglimento dei punti trigger, ovvero delle piccole contrazioni muscolari che provocano dolore, tensione e limitazione del movimento. I punti trigger possono essere presenti in ogni muscolo del corpo e possono essere attivi o passivi, a seconda se provocano dolore spontaneo o solo alla pressione. I punti trigger possono anche causare dolore riferito, ovvero dolore che si irradia in una zona diversa da quella dove si trova il punto trigger. Il massaggio ai trigger points consiste nell’applicare delle pressioni e delle frizioni sui punti trigger, con le dita o con degli strumenti appositi, per rilassare la fascia tesa, ripristinare il flusso sanguigno, eliminare i prodotti di scarto e ridurre il dolore. Il massaggio ai trigger points ha molti benefici: regala una sensazione di benessere, aiuta a migliorare la postura, elimina i punti di tensione e rende più attivi i muscoli, aiuta la debolezza muscolare, l’ipersensibilità e la rigidità, migliora la circolazione sanguigna nell’area del trigger point, distende la bandelletta tesa, rilassa la fascia circostante, migliora l’elasticità muscolare. Nel corso imparerai la teoria e la pratica del massaggio ai trigger points, studierai l’anatomia e la fisiologia dei muscoli e dei punti trigger, approfondirai le tecniche di individuazione e di trattamento dei punti trigger, sia attivi che passivi, sia locali che riferiti."
 programma:
   [
     "Origini e storia del massaggio;",
@@ -33,4 +32,40 @@ requisiti: "Il corso tecnico dei Trigger Point della Tao scuola nazionale di mas
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
 programmazione: ["09 09 2023"]
 order: "23"
+incipit: "<span class='font-bold'>Amplia la tua formazione nel campo dei trattamenti decontratturanti e miofasciali sul corpo.</span><span class='block py-2'><span class='font-bold'>Tutto questo è possibile con il corso di massaggio Trigger Point</span>, ideato su misura per te.</span>
+Cosa aspetti? <span class='font-bold'>Scopri subito la sorpresa che ti abbiamo riservato.</span>"
+longcontentTitle: "Amplia la tua formazione con la tecnica Trigger Point"            
+longcontent: "<p class='pb-2'>Questo corso è ideato per tutti coloro che hanno già esperienza nei trattamenti decontratturanti e miofasciali.</p>
+<p class='pb-2'><span class='font-bold'>Tutto parte dall'individuazione e dallo scioglimento dei punti trigger</span>, ovvero delle piccole contrazioni muscolari <span class='font-bold'>che provocano dolore, tensione e limitazione del movimento.</span></p>
+<p class='pb-2 font-bold'>Il massaggio ai trigger points ha molti benefici:</p>
+<ol class='list-decimal ml-6'>
+<li>regala una sensazione di benessere;</li>
+<li><b>aiuta a migliorare la postura</b>;</li>
+<li><b>elimina i punti di tensione</b> e rende più attivi i muscoli;</li>
+<li><b>aiuta la debolezza muscolare</b>, l’ipersensibilità e la rigidità;</li>
+<li><b>migliora la circolazione sanguigna</b> nell’area del trigger point;</li>
+<li>distende la bandelletta tesa;</li>
+<li><b>rilassa la fascia circostante</b>;</li>
+<li><b>migliora l’elasticità muscolare.</b></li>
+</ol>
+<p class='py-2 font-bold'>Durante il corso di massaggio trigger point:</p>
+<ol class='list-decimal ml-6'><li><b>approfondirai le tecniche di individuazione e di trattamento dei punti trigger</b>, sia attivi che passivi, sia locali che riferiti;</li>
+<li>apprenderai una tecnica da eseguire a livello zonale sul corpo con trattamenti specifici;</li>
+<li><b>saprai applicare manualità sui punti trigger del corpo</b> che portano dolori diffusi anche zone lontane da dove nasce il problema;</li>
+<li><b>potrai alleviare un dolore marcato in tutte quelle persone che vivono un disagio psicofisico</b>, come la presenza di mal di testa, mal di collo, dolore alle spalle e tutti i punti sensibili coinvolti da questo dolore irradiato. <b>Tutto questo è possibile grazie al fatto che il massaggio rilascia la fascia tesa</b>, ripristina il flusso sanguigno, elimina i prodotti di scarto.</li>
+</ol>"
+longcontentCollapseTitle: ""
+longcontentCollapseContent: ""
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso master in trigger point"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso master in trigger point"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso master in trigger point"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'><b>Un corso di massaggio che completa la tua formazione nel campo dei trattamenti decontratturanti</b> e miofasciali. <b>Un corso che prevede la presenza dei migliori docenti nel mondo del massaggio</b> per una didattica eccellente. <b>Un corso che ti permetterà di differenziarti e offrire nuove tecniche di massaggio.</b> Cosa aspetti? Contattaci ora per saperne di più. 
+        </p>"
+features1: "Si impara un trattamento che completa un percorso formativo"
+features2: "Apprendi come trattare correttamente i trigger point"
+features3: "Impari ad ascoltare il corpo dei tuoi riceventi"      
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>"                   
 ---

@@ -52,7 +52,7 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           Se vuoi apprendere una delle tecniche di massaggio più antiche e richieste nei centri benessere, devi assolutamente seguire questo corso. Una formazione che ti permetterà di ristabilire l’equilibrio energetico delle persone che decidono di affidarsi a te. Cosa aspetti? Contattaci ora per ricevere tutte le info sul nostro corso.
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---
 
 ---

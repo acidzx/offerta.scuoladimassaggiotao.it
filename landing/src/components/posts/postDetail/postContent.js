@@ -3,13 +3,10 @@ import Cta from "@components/cta";
 import PostPresentation from "./postPresentation";
 import PostVideoPresentation from "./postVideoPresentation";
 import PostSchedaTecnica from "./postSchedaTecnica";
-import PostPrice from "./postPrice";
+/* import PostPrice from "./postPrice"; */
 import PostServiziInclusi from "./postServiziInclusi";
 import CardCorsiDiploma from "./cardCorsiDiploma";
-import ServiziTao from "@components/serviziTao";
 import Testimonials from "@/components/testimonials";
-import ServizioClienti from "@components/servizioClienti";
-import MultiCarousel from "@components/multiCarousel";
 import ProgrammazioneDataCorso from "./programmazioneDataCorso";
 import Image from "next/image";
 import { Interweave } from "interweave";
@@ -20,7 +17,7 @@ polyfill();
 
 export default function PostContent(props) {
   const { post } = props;
-  const imgPath = `/assets/images/${post.category}/${post.slug}`;
+  /*   const imgPath = `/assets/images/${post.category}/${post.slug}`; */
 
   function checkDatePassate(date) {
     return new Date(date.split(" ").reverse().join("/")) > new Date();
@@ -105,14 +102,6 @@ export default function PostContent(props) {
 
   return (
     <>
-      {/*    <PostHeader
-        img={`${imgPath}/${post.img}`}
-        title={post.title}
-        category={post.category}
-        filteredDate={filteredDate || "in programmazione"}
-        fineCorsoDate={fineCorsoDate || "in programmazione"}
-      /> */}
-
       <PostHeaderAlternative
         incipit={post.incipit}
         title={post.title}
@@ -120,7 +109,6 @@ export default function PostContent(props) {
         subIncipit={post.subIncipit}
       />
 
-      <hr className="h-px my-4 bg-gray-200 border-0 " />
       <PostPresentation
         longcontent={post.longcontent}
         longcontent2={post.longcontent2}
@@ -152,14 +140,13 @@ export default function PostContent(props) {
             corsiArray={props.corsi}
             postSchedaDiplomiContent={post.postSchedaDiplomiContent}
           />
-          <div className="py-8" />
+
           <PostFeature
             className=""
             features1={post.features1}
             features2={post.features2}
             features3={post.features3}
           />
-          <div className="py-8" />
         </>
       ) : (
         ""
@@ -176,22 +163,24 @@ export default function PostContent(props) {
         category={post.category}
         slug={post.slug}
       />
-      <hr className="h-px my-4 bg-gray-200 border-0 " />
+
       <PostVideoPresentation
         videosrc={post.videosrc}
         title={post.videoPresentationTitle}
       />
       <Cta overTitle={post.cta2OverTitle} text={post.cta2OverText} />
-      <div className="container mx-auto text-center px-4">
-        <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-          Ottieni {post.category === "corso" ? "l'attestato " : "il diploma "}{" "}
-          di specializzazione
-        </h2>
+      <div className="containerFull">
+        <div className="containerCenter">
+          <h2 className="titleMain">
+            Ottieni {post.category === "corso" ? "l'attestato " : "il diploma "}{" "}
+            di specializzazione
+          </h2>
+        </div>
         <div className="container mx-auto max-w-4xl text-justify">
           <Interweave content={attestazioneText} />
 
-          <p className="text-justify py-2">
-            <span className="font-semibold">
+          <p className="pLeft">
+            <span className="block font-semibold pt-2">
               Le qualifiche rilasciate da Tao - Scuola Nazionale di Massaggio,
               alla fine di ogni corso o percorso, sono emesse in base alla Legge
               4/2013, sarà pertanto possibile lavorare legalmente su tutto il
@@ -201,7 +190,7 @@ export default function PostContent(props) {
               riconosciute.
             </span>
           </p>
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center my-10">
             <Image
               src={`/assets/images/attestati/attestato-${post.slug}.jpg`}
               width={550}
@@ -212,32 +201,33 @@ export default function PostContent(props) {
           </div>
         </div>
       </div>
-      <hr className="h-px my-4 bg-gray-200 border-0 " />
+
       <Testimonials
         Greviews={props.reviews.result.reviews}
         reviewTextTitle={post.reviewTextTitle}
         reviewTextContent={post.reviewTextContent}
       />
-      <hr className="h-px my-4 bg-gray-200 border-0 " />
+
       {post.slug !== "diploma-massaggiatore-alta-formazione-professionale" ? (
         <>
-          <div className="max-w-xl mx-auto text-center my-16">
-            <h2 className="text-center pt-16 pb-6 text-3xl font-bold text-gray-500 sm:text-4xl">
-              Ecco perché scegliere il {post.category} di {post.title}
-            </h2>
-          </div>
+          <div className="containerFull">
+            <div className="containerCenter">
+              <h2 className="titleMain">
+                Ecco perché scegliere il {post.category} di {post.title}
+              </h2>
+            </div>
 
-          <PostServiziInclusi
-            title={post.title}
-            serviziInclusiText={post.serviziInclusiText}
-          />
+            <PostServiziInclusi
+              title={post.title}
+              serviziInclusiText={post.serviziInclusiText}
+            />
+          </div>
         </>
       ) : (
         ""
       )}
       {post.slug === "diploma-massaggiatore-alta-formazione-professionale" ? (
         <>
-          {" "}
           <div className="container mx-auto p-4">
             <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2">
               Tre motivi per scegliere il Diploma di Alta Formazione
@@ -335,21 +325,6 @@ export default function PostContent(props) {
       ) : (
         ""
       )}
-      <hr className="divider" />
-
-      {/*   <Cta />
-
-      <Cta /> */}
-      {/*       <ServiziTao />
-      <Cta /> */}
-      {/* <hr className="divider" /> */}
-
-      {/* <hr className="divider" /> */}
-      {/*       <Cta /> */}
-      {/*  <MultiCarousel posts={props.diplomi} />
-      <Cta />
-      <MultiCarousel posts={props.corsi} /> */}
-      {/*  <ServizioClienti /> */}
     </>
   );
 }

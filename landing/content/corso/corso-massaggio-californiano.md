@@ -24,7 +24,7 @@ videosrc: "https://www.youtube-nocookie.com/embed/trtQ4__yM30"
 programmazione: ['21 10 2023']   
 order: "7" 
 
-incipit: "<b>Se desideri apprendere tutte</b> le manualità e <b>le tecniche del massaggio californiano devi assolutamente iscriverti al nostro corso</b>. Cosa aspetti? <b>Contattaci subito per avere tutte le info che desideri</b>."
+incipit: "<b>Se desideri apprendere tutte</b> le manualità e <b>le tecniche del massaggio californiano devi assolutamente iscriverti al nostro corso</b>.<span class='block py-2'>Cosa aspetti?</span><b>Contattaci subito per avere tutte le info che desideri</b>."
 longcontentTitle: "Impara l’arte del massaggio californiano per donare benessere al corpo e alla mente"            
 longcontent: "<p class='pb-2'><b>Vuoi imparare a fare un massaggio che libera le emozioni</b> e rilassa il corpo? <b>Allora il Corso di Massaggio Californiano è quello giusto per te!</b></p> 
 <p class='pb-2'>Questo corso ti insegnerà una tecnica nata negli anni '70 in California, dove alcuni psicoanalisti studiarono come aiutare le persone a esprimere la loro vera essenza attraverso il tocco.</p>
@@ -48,5 +48,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
           Un trattamento che mette l’individuo e il suo benessere al centro. <b>Una delle tecniche di massaggio più richieste nei centri benessere e nelle spa</b>. Una formazione che arricchirà le tue competenze professionali <b>per assicurare sempre il meglio a chi decide di affidarsi ai tuoi trattamenti</b>. Cosa aspetti? <b>Contattaci subito per iscriverti al corso di massaggio californiano</b>. 
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli." 
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---

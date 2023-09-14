@@ -27,34 +27,43 @@ export default function MultiCarousel(props) {
   posts.sort((a, b) => a.order - b.order);
 
   return (
-    <>
+    <div className="containerFull">
       {posts[0].category == "diploma" ? (
-        <div className="container mx-auto p-4 mt-6" id="sectionDiplomi">
-          <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl">
-            Diplomi di Specializzazione
-          </h2>
-          <p className="text-center mb-6 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl  xl:px-48 ">
-            Se vuoi imparare l&apos;arte del massaggio e diventare un
-            professionista qualificato, i percorsi di diploma di massaggio sono
-            quelli più giusti per te. Iscriviti ora e inizia il tuo percorso nel
-            mondo del benessere.
-          </p>
-        </div>
+        <>
+          <div className="containerCenter" id="sectionDiplomi">
+            <h2 className="titleMain">Diplomi di Specializzazione</h2>
+          </div>
+          <div className="containerCenter">
+            <p className="pCenter">
+              Se vuoi imparare l&apos;arte del massaggio e diventare un
+              professionista qualificato, i percorsi di diploma di massaggio
+              sono quelli più giusti per te.
+              <span className="block pt-2">
+                Iscriviti ora e inizia il tuo percorso nel mondo del benessere.
+              </span>
+            </p>
+          </div>
+        </>
       ) : (
-        <div className="container mx-auto p-4 mt-6" id="sectionCorsi">
-          <h2 className="text-center mb-4 text-2xl font-extrabold leading-none text-gray-600 md:text-3xl lg:text-4xl ">
-            Corsi di Massaggio
-          </h2>
-          <p className="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-            Se vuoi approfondire le tue conoscenze e le tue competenze nel campo
-            del massaggio, Tao - Scuola Nazionale di Massaggio ha una vasta
-            un&apos;offerta formativa che spazia dalle tecniche olistiche a
-            quelle sportive. Per te una consulenza gratuita per scoprire quale
-            sia il corso più giusto: contattaci ora.
-          </p>
-        </div>
+        <>
+          <div className="containerCenter" id="sectionCorsi">
+            <h2 className="titleMain">Corsi di Massaggio</h2>
+          </div>
+          <div className="containerCenter">
+            <p className="pCenter">
+              Se vuoi approfondire le tue conoscenze e le tue competenze nel
+              campo del massaggio, Tao - Scuola Nazionale di Massaggio ha una
+              vasta un&apos;offerta formativa che spazia dalle tecniche
+              olistiche a quelle sportive.
+              <span className="block pt-2">
+                Per te una consulenza gratuita per scoprire quale sia il corso
+                più giusto: contattaci ora.
+              </span>
+            </p>
+          </div>
+        </>
       )}
-      <div className="container mx-auto mb-8">
+      <div className="container mx-auto pt-8">
         <Carousel
           swipeable={true}
           draggable={false}
@@ -84,6 +93,6 @@ export default function MultiCarousel(props) {
           )}
         </Carousel>
       </div>
-    </>
+    </div>
   );
 }

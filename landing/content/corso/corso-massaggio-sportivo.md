@@ -31,7 +31,7 @@ requisiti: "Il Corso di Massaggio Sportivo è aperto a chi ha già un'esperienza
 videosrc: "https://www.youtube-nocookie.com/embed/3xDtC4l0MfA"
 programmazione: ['30 09 2023']    
 order: "5"
-incipit: "Se desideri diventare massaggiatore professionista non puoi non conoscere questa tecnica di massaggio. Scopri subito come accedere al corso di massaggio sportivo."
+incipit: "Se desideri diventare massaggiatore professionista non puoi non conoscere questa tecnica di massaggio.<span class='block py-2'>Scopri subito come accedere al corso di massaggio sportivo.</span>"
 longcontentTitle: "Amplia la tua formazione con il corso di massaggio sportivo"            
 longcontent: "<p class='pb-2'>Se desideri acquisire le conoscenze e le competenze fondamentali per accompagnare gli atleti in ogni fase della loro prestazione agonistica e non il corso di massaggio sportivo è quello più giusto per te.</p>
 <p class='pb-2'>Una formazione che farai coi migliori docenti del settore che ti illustreranno una tecnica in grado di: </p>
@@ -60,5 +60,5 @@ features1: "Apprendi le oltre 100 figure per trattare l’atleta"
 features2: "Accompagnalo in ogni fase della competizione"
 features3: "Lavora con le squadre, nei centri sportivi e palestre"      
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu. Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli."                   
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>"                   
 ---
