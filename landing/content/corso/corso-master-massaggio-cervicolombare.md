@@ -6,31 +6,68 @@ title: "Master Massaggio Cervicolombare"
 durata: "1 giorno"
 ore: "10 ore"
 category: "corso"
-longcontent: "Il Master Tecnico Cervicolombare ti insegnerà una tecnica di massaggio che si concentra sulla zona cervicale e lombare, che sono spesso soggette a tensioni, contratture, dolori e infiammazioni. Il massaggio tecnico cervicolombare è una tecnica che combina diverse manovre, come frizioni, pressioni, mobilizzazioni, stiramenti, rotazioni, che vengono applicate con le mani e le dita del massaggiatore. Il massaggio tecnico cervicolombare ha lo scopo di rilassare, decontrarre, allungare e tonificare i muscoli e i tendini che circondano il rachide cervicale e lombare, migliorare il movimento vertebrale, stimolare la circolazione sanguigna e linfatica, ridurre il dolore e l’infiammazione, prevenire e curare le problematiche cervicali e lombari. Nel master imparerai la teoria e la pratica del massaggio tecnico cervicolombare, studierai l’anatomia e la fisiologia della zona cervicale e lombare, approfondirai le tecniche di massaggio per le diverse problematiche cervicali e lombari. Il master ti renderà in grado di praticare un massaggio tecnico cervicolombare efficace e sicuro."
 programma:
   [
-    "Origini e storia del massaggio;",
-    "Anatomia e fisiologia del corpo umano;",
-    "Deontologia professionale;",
-    "Ambiente di lavoro;",
-    "Attrezzature e strumenti di lavoro;",
-    "Riferimenti legislativi per la professione di massaggiatore;",
-    "Massaggio e psiche;",
-    "Il colloquio da avere con la persona;",
-    "Benefici, controindicazioni e zone interdette al massaggio;",
-    "La preparazione al massaggio;",
-    "La postura del massaggiatore;",
-    "Le posizioni del ricevente e gli eventuali accorgimenti posturali;",
-    "Meccanica delle manovre di massaggio;",
-    "Direzione del massaggio e punti di scarico;",
-    "Le tecniche del massaggio base: sfioramento, frizioni, impastamenti, vibrazioni e percussioni in tutte le loro varianti e manovre;",
-    "Parte pratica del massaggio base;",
-    "Prova pratica finale con esecuzione del massaggio di circa 60 minuti;",
-    "Ripasso teorico;",
-    "Spazio per approfondimenti finali.",
+    "Anatomia e fisiologia del rachide cervicale;",
+"Le articolazioni del rachide cervicale;",
+"L’artrosi cervicale e le principali patologie osteoarticolari;",
+"I trigger point;",
+"La fascia ed il rilascio miofasciale;", 
+"L’importanza della respirazione;",
+"Analisi palpatoria dei distretti anatomici interessati al trattamento;",
+"Il trattamento valutativo e la verifica del dolore;",
+"Indicazioni e controindicazioni del trattamento;",
+"Analisi delle manovre del massaggio;",
+"Le trazioni cervicali manuali;",
+"Le tecniche di massaggio;",
+"I principali allungamenti e mobilizzazioni;",
+"Prova pratica del trattamento.",
+"Struttura vertebrale;",
+"L’articolazione lombo-sacrale;",
+"Descrizione anatomica della zona lombo-sacrale;",
+"Analisi articolare della zona lombo-sacrale;",
+"La fascia ed il rilascio miofasciale;",
+"Capacità di movimento;",
+"Principali interventi muscolari nella zona lombo-sacrale;",
+"Analisi anatomica;",
+"Valutazione funzionale del rachide lombare;",
+"Le principali patologie che affliggono la zona lombo-sacrale;",
+"Analisi palpatoria dei distretti anatomici interessati al trattamento;",
+"Il trattamento valutativo e la verifica del dolore;",
+"Indicazioni e controindicazioni del trattamento;",
+"L’analisi delle manovre del massaggio;",
+"Il massaggio mirato ed il trattamento miofasciale;",
+"Mobilizzazioni articolari;",
+"Prova pratica del trattamento.",
   ]
 requisiti: "Il Master Tecnico di Massaggio Cervicolombare della Scuola Nazionale di Massaggio Tao® è fondamentale per tutti coloro che sono nel settore del benessere e vogliono ampliare le proprie conoscenze per migliorare la qualità e l'efficacia del proprio lavoro. È un corso avanzato, rivolto a chi ha già frequentato il Diploma di Massaggio Sportivo, o a tutti coloro che hanno già esperienza nel Massaggio Base Classico Svedese, nel Massaggio Decontratturante ed hanno una buona conoscenza di Anatomia (documentata con relativo attestato o titolo di studi)."
-videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
+videosrc: "https://www.youtube-nocookie.com/embed/RqFQbQng878?si=IU_VRaHsfo8HWE1t"
 programmazione: ["01 07 2023"]
 order: "19"
+
+incipit: "<b>Se desideri apprendere tutte</b> le manualità e <b>le tecniche del massaggio californiano devi assolutamente iscriverti al nostro corso</b>.<span class='block py-2'>Cosa aspetti?</span><b>Contattaci subito per avere tutte le info che desideri</b>."
+longcontentTitle: "Impara l’arte del massaggio californiano per donare benessere al corpo e alla mente"            
+longcontent: "<p class='pb-2'><b>Vuoi imparare a fare un massaggio che libera le emozioni</b> e rilassa il corpo? <b>Allora il Corso di Massaggio Californiano è quello giusto per te!</b></p> 
+<p class='pb-2'>Questo corso ti insegnerà una tecnica nata negli anni '70 in California, dove alcuni psicoanalisti studiarono come aiutare le persone a esprimere la loro vera essenza attraverso il tocco.</p>
+<p class='pb-2'><b>Il massaggio californiano usa movimenti fluidi e delicati che favoriscono il rilassamento</b>, la circolazione, il tono muscolare <b>e il benessere psicofisico</b>. <b>È una tecnica molto richiesta nei centri benessere</b> e ti darà una solida base per approfondire altre tecniche di massaggio in futuro. 
+</p>
+
+<p class='font-semibold mt-3'>Il corso è composto da una parte teorica e una parte pratica, dove imparerai:</p>
+<ol class='list-decimal mt-2 ml-6'><li><b>tutte le manovre</b> necessarie <b>per fare un trattamento completo</b> e soddisfacente;</li><li><b>a creare un rapporto di fiducia e di ascolto con il tuo cliente</b>, che è essenziale per questo tipo di massaggio;</li><li><b>arricchire le tue competenze professionali!</b></li></ol>"
+
+longcontentCollapseTitle: ""
+longcontentCollapseContent: ""
+features1: "Impara la Tecnica Psicosomatica per eccellenza"
+features2: "Apprendi un trattamento per corpo e mente"
+features3: "Massaggio tra i più richiesti nelle spa e centri benessere"  
+cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio californiano"
+videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il corso di massaggio californiano"
+cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio californiano"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
+          Un trattamento che mette l’individuo e il suo benessere al centro. <b>Una delle tecniche di massaggio più richieste nei centri benessere e nelle spa</b>. Una formazione che arricchirà le tue competenze professionali <b>per assicurare sempre il meglio a chi decide di affidarsi ai tuoi trattamenti</b>. Cosa aspetti? <b>Contattaci subito per iscriverti al corso di massaggio californiano</b>. 
+        </p>"
+reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---
