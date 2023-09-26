@@ -41,13 +41,9 @@ cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di anatomia
 videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di anatomia palpatoria"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di anatomia palpatoria"
-serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>  
 <span class='font-bold'>Muovi i primi passi ed esegui le prime manovre nel mondo del massaggio. Impara a padroneggiare i muscoli</span> per liberarli da ogni fatica. <span class='font-bold'>Acquisisci la giusta consapevolezza per lavorare sul corpo delle persone e fare la differenza nel tuo lavoro.</span>
-
-<span class='block py-2 font-bold'>Contattaci per avere maggiori info sul nostro corso. Ad aspettarti, una fantastica sorpresa.</span> 
-
-        </p>"
+<span class='block py-2 font-bold'>Contattaci per avere maggiori info sul nostro corso. Ad aspettarti, una fantastica sorpresa.</span></p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---
