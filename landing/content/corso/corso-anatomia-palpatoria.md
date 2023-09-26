@@ -22,25 +22,31 @@ requisiti: "Il Corso di Anatomia Palpatoria è aperto a tutti ed è propedeutico
 videosrc: "https://www.youtube-nocookie.com/embed/U40pnlmVxGw"
 programmazione: ['28 10 2023']  
 order: "3"  
-incipit: "Se desideri praticare il massaggio decontratturante in completa autonomia, questo è il corso ideale. <span class='block py-2'>Cosa aspetti? Scopri subito l’offerta formativa.</span>"
-longcontentTitle: "Allevia il dolore con il corso di massaggio decontratturante"            
-longcontent: "<p class='pb-2'>Grazie al corso di massaggio decontratturante, apprenderai come alleviare il dolore muscolare causato dalle contratture che possono derivare da sforzi, posture errate, stress o traumi.</p> 
-<p>Il massaggio decontratturante agisce proprio su aree specifiche del corpo, come gli arti inferiori, la schiena o la zona lombare ed esercita un’azione preventiva sulle infiammazioni rilassando i muscoli. È una tecnica molto usata in ambito sportivo, ma anche da chi soffre di tensioni muscolari croniche o acute. 
-</p>
-<p class='font-semibold mt-3'>Cosa apprenderai nel corso di massaggio decontratturante?</p><p class='mt-1'>Durante il corso di massaggio decontratturante:</p>
-<ol class='list-decimal mt-2 ml-6'><li>imparerai la teoria di base e le tecniche pratiche del massaggio decontratturante;</li><li>studierai le principali algie muscolari, i benefici e le controindicazioni del massaggio;</li><li>approfondirai le tecniche per individuare e sciogliere i Punti Trigger, ovvero i punti dove si localizza il dolore</li></ol><p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio decontratturante efficace e sicuro, ottenendo un rilassamento totale della muscolatura trattata.</p>"
+incipit: "Solo <span class='font-bold'>lo studio dell’anatomia dei muscoli</span>, della loro struttura e delle loro azioni primarie <span class='font-bold'>ci può consentire di lavorare con la giusta consapevolezza sul corpo delle persone.</span>
+<span class='block py-2'><span class='font-bold'>Familiarizzare con i muscoli è il primo step per fare la differenza nel lavoro di massaggiatore</span> e operatore del benessere.</span>
+<span class='font-bold'>Grazie al corso di anatomia palpatoria</span> e al suo approccio “learn by doing” <span class='font-bold'>imparerai a riconoscere i muscoli al tatto per poterli maneggiare in caso di affaticamento</span>, con l’obiettivo di riportarli nella dimensione più giusta e metterli in condizione di tornare a fare movimenti corretti.
+<span class='block py-2'><span class='font-bold'>Scopri</span> subito <span class='font-bold'>la sorpresa che ti abbiamo riservato</span> per accedere al corso di anatomia palpatoria</span>"
+longcontentTitle: "Impara a riconoscere l'anatomia dei muscoli"  
+longcontent: "<p class='pb-2'><span class='font-bold'>Conoscere il corpo umano</span>, la sua struttura, le sue reazioni, i suoi bisogni, <span class='font-bold'>è fondamentale per ogni massaggiatore</span>. Ogni gesto, ogni massaggio, ogni manovra deve essere guidata dalla consapevolezza di ciò che si sta facendo e di ciò che si vuole ottenere.</p>
+<p><span class='font-bold'>La conoscenza dell'anatomia e della fisiologia umana</span> è anche una <span class='font-bold'>garanzia di serietà e professionalità</span> dell'operatore nei confronti della persona che si prende cura.</p>
+<p class='font-semibold mt-3'>Per sapere come agire o non agire in diverse situazioni è necessario avere una conoscenza approfondita della fisiologia del corpo umano. <span class='font-bold'>Questa conoscenza la puoi acquisire con il nostro Corso di Anatomia Palpatoria.</span></p>
+<p class='mt-2'><span class='font-bold'>Un corso unico nel suo genere</span>, che prevede anche momenti di grande divertimento, <span class='font-bold'>in cui</span> oltre ad apprendere nozioni teoriche di circa 100 muscoli in modo semplice, <span class='font-bold'>prenderai parte a numerose lezioni interattive e dinamiche</span> che hanno l’obiettivo di farti memorizzare bene i muscoli del corpo umano.</p>"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
-features1: "Massaggio più richiesto al mondo"
-features2: "Impara sciogliere le contratture muscolari"
-features3: "Ottieni l'attestato e lavora da subito"  
+features1: "Una tecnica dinamica sempre più richiesta"
+features2: "Completa la formazione nel campo del massaggio"
+features3: "Scegli l’eccellenza nel campo della formazione"  
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio decontratturante"
-videoPresentationTitle: "In 3 minuti ti spieghiamo perché scegliere il corso di massaggio decontratturante"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di anatomia palpatoria"
+videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di anatomia palpatoria"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio decontratturante"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di anatomia palpatoria"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Se desideri apprendere le tecniche di uno dei massaggi più richiesti al mondo, devi assolutamente iscriverti al nostro corso di massaggio decontratturante.  In soli due giorni di formazione avrai tutti gli strumenti per poter eseguire questa tecnica di massaggio in completa autonomia. Cosa aspetti? Contattaci subito per avere tutte le informazioni su come iscriverti al corso
+          
+<span class='font-bold'>Muovi i primi passi ed esegui le prime manovre nel mondo del massaggio. Impara a padroneggiare i muscoli</span> per liberarli da ogni fatica. <span class='font-bold'>Acquisisci la giusta consapevolezza per lavorare sul corpo delle persone e fare la differenza nel tuo lavoro.</span>
+
+<span class='block py-2 font-bold'>Contattaci per avere maggiori info sul nostro corso. Ad aspettarti, una fantastica sorpresa.</span> 
+
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
