@@ -28,7 +28,7 @@ programma: [
 "Svolgimento della sequenza pratica di Massaggio."]
 requisiti: "Il Corso di Massaggio Connettivale non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/23f-RdBRMfg"
-programmazione: ['01 07 2024']  
+programmazione: ['01 07 2024', "06 01 2024", "29 06 2024"]  
 order: "10"
 incipit: "Lavorare sulle parti superficiali del corpo umano significa entrare in contatto con muscoli e organi per ripristinarne il naturale equilibrio. 
 <span class='block py-2 font-bold'>Imparando a lavorare su questa parte del corpo puoi specializzarti in tutte quelle discipline olistiche che prevedono l’utilizzo di tecniche riflessogene.</span>

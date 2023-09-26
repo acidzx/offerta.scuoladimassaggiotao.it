@@ -17,7 +17,7 @@ programma: ['Coppettazione: origini e storia della tecnica;',
 "Spazio per approfondimenti finali."]
 requisiti: "Il Corso di Coppettazione della Scuola Nazionale di Massaggio Tao® è aperto a chi ha già un'esperienza di base precedente, e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/qLTR0jwDfv4"
-programmazione: ['03 12 2023']    
+programmazione: ['03 12 2023', '12 05 2024', '07 12 2024']    
 order: "16"
 incipit: "<span class='font-bold'>Se desideri apprendere le due tecniche di coppettazione</span> più richieste nel mondo del massaggio
 <span class='font-bold'>devi assolutamente iscriverti al nostro corso.</span><span class='block my-3'>Cosa aspetti?</span> <span class='font-bold'>Contattaci subito per avere tutte le info che desideri.

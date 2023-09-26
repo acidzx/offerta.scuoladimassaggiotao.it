@@ -18,7 +18,7 @@ programma: [
 "Schema di lavoro con parte pratica sul lettino"]
 requisiti: "Il corso di Massaggio Crio-Dinamico della Tao - Scuola Nazionale di Massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti, delle tecniche del massaggio decontratturante e sportivo, inoltre è fondamentale la conoscenza dell'anatomia del corpo umano."
 videosrc: "https://www.youtube-nocookie.com/embed/yb0j-3LJc0w"
-programmazione: ['21 10 2023', '18 11 2023']    
+programmazione: ['21 10 2023', '18 11 2023', '09 03 2024', '02 06 2024', '26 10 2024', '23 11 2024']    
 order: "22"
 incipit: "<span class='font-bold'>Amplia la tua formazione.</span> Impara una nuova tecnica di massaggio. <span class='font-bold'>Scegli la migliore didattica per nuove opportunità di carriera.</span>
 <span class='block py-3'>Cosa aspetti?</span

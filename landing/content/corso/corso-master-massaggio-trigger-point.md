@@ -30,7 +30,7 @@ programma:
   ]
 requisiti: "Il corso tecnico dei Trigger Point della Tao scuola nazionale di massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese, quali sfioramento, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti, delle tecniche del massaggio decontratturante e del corso di anatomia palpatoria."
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
-programmazione: ["09 09 2023"]
+programmazione: ["09 09 2023", "23 03 2024", "14 09 2024"]
 order: "23"
 incipit: "<span class='font-bold'>Amplia la tua formazione nel campo dei trattamenti decontratturanti e miofasciali sul corpo.</span><span class='block py-2'><span class='font-bold'>Tutto questo è possibile con il corso di massaggio Trigger Point</span>, ideato su misura per te.</span>
 Cosa aspetti? <span class='font-bold'>Scopri subito la sorpresa che ti abbiamo riservato.</span>"
