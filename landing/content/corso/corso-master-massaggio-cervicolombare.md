@@ -45,29 +45,47 @@ videosrc: "https://www.youtube-nocookie.com/embed/RqFQbQng878?si=IU_VRaHsfo8HWE1
 programmazione: ["01 07 2023", "20 01 2024", "29 06 2024"]
 order: "19"
 
-incipit: "<b>Se desideri apprendere tutte</b> le manualità e <b>le tecniche del massaggio californiano devi assolutamente iscriverti al nostro corso</b>.<span class='block py-2'>Cosa aspetti?</span><b>Contattaci subito per avere tutte le info che desideri</b>."
-longcontentTitle: "Impara l’arte del massaggio californiano per donare benessere al corpo e alla mente"            
-longcontent: "<p class='pb-2'><b>Vuoi imparare a fare un massaggio che libera le emozioni</b> e rilassa il corpo? <b>Allora il Corso di Massaggio Californiano è quello giusto per te!</b></p> 
-<p class='pb-2'>Questo corso ti insegnerà una tecnica nata negli anni '70 in California, dove alcuni psicoanalisti studiarono come aiutare le persone a esprimere la loro vera essenza attraverso il tocco.</p>
-<p class='pb-2'><b>Il massaggio californiano usa movimenti fluidi e delicati che favoriscono il rilassamento</b>, la circolazione, il tono muscolare <b>e il benessere psicofisico</b>. <b>È una tecnica molto richiesta nei centri benessere</b> e ti darà una solida base per approfondire altre tecniche di massaggio in futuro. 
-</p>
-
-<p class='font-semibold mt-3'>Il corso è composto da una parte teorica e una parte pratica, dove imparerai:</p>
-<ol class='list-decimal mt-2 ml-6'><li><b>tutte le manovre</b> necessarie <b>per fare un trattamento completo</b> e soddisfacente;</li><li><b>a creare un rapporto di fiducia e di ascolto con il tuo cliente</b>, che è essenziale per questo tipo di massaggio;</li><li><b>arricchire le tue competenze professionali!</b></li></ol>"
+incipit: "<span clas='font-bold'>La tecnica di massaggio cervicolombare è</span> tra le più richieste, <span clas='font-bold'>un requisito fondamentale</span> che
+devi possedere <span clas='font-bold'>se vuoi proseguire la tua strada verso il mondo del massaggio</span>.
+<span class='block py-2'><span clas='font-bold'>Apprendi come trattare muscolarmente il tratto cervicale e il tratto lombare per dare una svolta
+alla tua carriera</span>, riuscendo finalmente ad acquisire la fiducia dei tuoi clienti.</span>
+<span clas='font-bold'>Scopri</span> subito <span clas='font-bold'>la sorpresa che ti abbiamo riservato</span> per accedere al corso tecnico cervicolombare."
+longcontentTitle: "Impara la tecnica di massaggio cervicolombare"            
+longcontent: "<p class='pb-2'><span class='font-bold'>Grazie al corso Tecnico Cervicolombare approfondirai e apprenderai una tecnica di
+massaggio che si focalizza sul tratto cervicale e sul tratto lombare</span>, che sono due delle zone
+più problematiche e congestionate del corpo essendo spesso soggette a tensioni,
+contratture, dolori e infiammazioni.</p> 
+<p class='pb-2'>Il massaggio tecnico cervicolombare <span class='font-bold'>è una tecnica che combina diverse manovre</span>, come
+frizioni, pressioni, mobilizzazioni, stiramenti, rotazioni, che vengono applicate con le mani e
+le dita del massaggiatore.</p>
+<p class='font-semibold mt-3'>Il suo scopo è quello di:</p>
+<ol class='list-decimal mt-2 ml-6'><li><b>rilassare, decontrarre, allungare e tonificare i muscoli e i tendini</b> che circondano il
+rachide cervicale e lombare;</li><li><b>migliorare il movimento vertebrale</b>;</li><li><b>stimolare la circolazione sanguigna e linfatica</b>;</li><li><b>ridurre il dolore e l’infiammazione</b>;</li><li><b>prevenire e curare le problematiche cervicali e lombari</b>.</li></ol>
+<p class='pb-2'>Il corso servirà ad ampliare la tua conoscenza teorica e <span class='font-bold'>avrai l’opportunità di praticare e
+ricevere il massaggio tecnico cervicolombare per sentirne l’immediato beneficio</span>. Inoltre
+studierai l’anatomia e la fisiologia della zona cervicale e lombare e approfondirai le tecniche
+di massaggio per le diverse problematiche cervicali e lombari. <span class='font-bold'>Al termine del corso sarai in
+grado di praticare un massaggio tecnico cervicolombare efficace e sicuro</span>. Le tecniche che
+apprenderai potranno essere usate anche insieme alle tecniche miofasciali e articolari.</p>"
 
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
-features1: "Impara la Tecnica Psicosomatica per eccellenza"
-features2: "Apprendi un trattamento per corpo e mente"
-features3: "Massaggio tra i più richiesti nelle spa e centri benessere"  
+features1: "Una tecnica dinamica sempre più richiesta"
+features2: "Completa la formazione nel campo del massaggio"
+features3: "Risparmia 241 € se ti iscrivi ora al corso"  
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio californiano"
-videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il corso di massaggio californiano"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio cervicolombare"
+videoPresentationTitle: "In meno di 2 minuti ti spieghiamo perché scegliere il corso di massaggio cervicolombare"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio californiano"
+cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio cervicolombare"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Un trattamento che mette l’individuo e il suo benessere al centro. <b>Una delle tecniche di massaggio più richieste nei centri benessere e nelle spa</b>. Una formazione che arricchirà le tue competenze professionali <b>per assicurare sempre il meglio a chi decide di affidarsi ai tuoi trattamenti</b>. Cosa aspetti? <b>Contattaci subito per iscriverti al corso di massaggio californiano</b>. 
-        </p>"
+   <b>Poni le basi per il tuo successo nel mondo del massaggio. Impara a eseguire le
+tecniche che faranno parte del tuo quotidiano</b>. Acquisisci la fiducia dei tuoi clienti con
+massaggi gradevoli, efficaci e sicuri.
+
+<span class='block py-2'><b>Contattaci per avere maggiori info sul nostro corso. Ad aspettarti, una fantastica
+sorpresa.</b>
+        </span></p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 ---
