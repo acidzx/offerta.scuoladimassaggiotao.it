@@ -127,6 +127,7 @@ export default function PostContent(props) {
         <ProgrammazioneDataCorso
           filteredDate={filteredDate}
           fineCorsoDate={fineCorsoDate}
+          primaDataTitle={post.primaDataTitle}
         />
       ) : (
         []
@@ -139,6 +140,8 @@ export default function PostContent(props) {
             programma={post.programma}
             corsiArray={props.corsi}
             postSchedaDiplomiContent={post.postSchedaDiplomiContent}
+            corsiInclusiTitle={post.corsiInclusiTitle}
+            corsiInclusiText={post.corsiInclusiText}
           />
 
           <PostFeature
@@ -162,18 +165,23 @@ export default function PostContent(props) {
         attestazione={post.attestazione}
         category={post.category}
         slug={post.slug}
+        programmaTitle={post.programmaTitle}
       />
 
       <PostVideoPresentation
         videosrc={post.videosrc}
         title={post.videoPresentationTitle}
+        videoPresentationText={post.videoPresentationText}
       />
       <Cta overTitle={post.cta2OverTitle} text={post.cta2OverText} />
       <div className="containerFull">
         <div className="containerCenter">
           <h2 className="titleMain">
-            Ottieni {post.category === "corso" ? "l'attestato " : "il diploma "}{" "}
-            di specializzazione
+            {post.attestatoTitle
+              ? post.attestatoTitle
+              : post.category === "corso"
+              ? "Ottieni l'attestato di specializzazione"
+              : "Ottieni il diploma di specializzazione"}
           </h2>
         </div>
         <div className="container mx-auto max-w-4xl text-justify">
@@ -213,7 +221,9 @@ export default function PostContent(props) {
           <div className="containerFull">
             <div className="containerCenter">
               <h2 className="titleMain">
-                Ecco perché scegliere il {post.category} di {post.title}
+                {post.serviziInclusiTitle
+                  ? post.serviziInclusiTitle
+                  : `Ecco perché scegliere il ${post.category} di ${post.title}`}
               </h2>
             </div>
 

@@ -26,8 +26,9 @@ programmazione: ['29 10 2023', "25 02 2024", "19 05 2024", "07 12 2024"]
 order: "16"
 incipit: "Da un’antica pratica del mondo orientale <span class='font-bold'>il massaggio hot stone è tra i più richiesti</span> per gli incredibili effetti rilassanti e drenanti.</span>
 <span class='block py-3'>Impara a usare le calde pietre basaltiche per donare benessere ai tuoi clienti.</span>
+<span class='block py-3'>Scegli il corso massaggio hot stone per apprendere una delle tecniche di manipolazione più affascinanti.</span>
 <span class='block py-3 font-bold'>Per te subito un coupon sconto per accedere alla migliore formazione.</span>"
-longcontentTitle: "Massaggio Hot Stone: dona benessere, energia e armonia ai tuoi clienti"            
+longcontentTitle: "Massaggio Hot Stone: corso completo per donare benessere, energia e armonia ai tuoi clienti"            
 longcontent: "<p class='pb-2'><span class='font-bold'>Per un equilibrio fisico e psicologico.</span> Per donare effetti antidolorifici, rilassanti e drenanti. <span class='font-bold'>Per sfruttare la forza del calore per la cura e il recupero della salute.</span></p> 
 <p class='mt-3'><span class='font-bold'>Tutto questo è racchiuso nel massaggio Hot Stone</span>, una tecnica che deriva dalla tradizione sciamanica degli indiani dell’Arizona, che usavano le pietre riscaldate per curare e armonizzare il corpo e la mente.</p>
 <p class='mt-3'>Il massaggio hot stone <span class='font-bold'>consiste nell’applicare sul corpo pietre basaltiche di origine vulcanica, che rilasciano il loro calore in profondità</span> e nell’utilizzare le pietre stesse per eseguire delle manovre di massaggio, spesso con l’ausilio di oli aromatici.<span class='font-bold'>Le pietre si muovono su tutto il corpo</span>, seguendo le vie energetiche, <span class='font-bold'>come ci insegna l’approccio Chakra Balancing.</span></p>
@@ -43,7 +44,7 @@ features1: "Ottieni 151€ di sconto se ti iscrivi ora"
 features2: "Impara la tecnica delle pietre basaltiche"
 features3: "Amplia la tua formazione da massaggiatore"  
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta1OverText: "Richiedi ora il coupon sconto di 151€ per iscriverti al corso di massaggio hot stone"
+cta1OverText: "Richiedi ora il coupon sconto di 151€ per iscriverti al corso massaggio hot stone"
 videoPresentationTitle: "In 3 minuti ti spieghiamo perché scegliere il corso di massaggio hot stone"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto di 151€ per iscriverti al corso di massaggio hot stone"
@@ -52,4 +53,9 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+primaDataTitle: "Prima data del corso massaggio hot stone"
+programmaTitle: "Corso Massaggio Hot Stone: il Nostro Programma" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di scegliere il corso massaggio hot stone."
+attestatoTitle: "Massaggio Hot stone: corso per ottenere l’attestato di specializzazione"
+serviziInclusiTitle: "Corso Massaggio Hot stone: ecco perché sceglierlo"
 ---

@@ -3,7 +3,15 @@ import Image from "next/image";
 import { scrollIntoTheView } from "@/pages/_app";
 
 export default function PostSchedaTecnica(props) {
-  const { title, programma, requisiti, durata, category, slug } = props;
+  const {
+    title,
+    programma,
+    requisiti,
+    durata,
+    category,
+    slug,
+    programmaTitle,
+  } = props;
 
   const attestazioneText =
     category == "corso"
@@ -40,7 +48,9 @@ export default function PostSchedaTecnica(props) {
       >
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-2xl font-extrabold text-gray-700">
-          Programma del {category} di {title}
+          {programmaTitle
+            ? programmaTitle
+            : `Programma del ${category} di ${title}`}
         </div>
         <div className="collapse-content p-5">
           <ul className="ml-5 pb-3 list-disc">

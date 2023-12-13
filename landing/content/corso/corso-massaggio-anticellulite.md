@@ -21,11 +21,11 @@ requisiti: "Il Corso di Massaggio Anticellulite della Scuola Nazionale di Massag
 videosrc: "https://www.youtube-nocookie.com/embed/aZfJ3ZTukt0"
 programmazione: ['16 09 2023', '03 02 2024', '21 09 2024']    
 order: "11"
-incipit: "Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa. Cosa aspetti? Scopri l’offerta formativa del nostro corso anticellulite."
-longcontentTitle: "Impara il trattamento più richiesto dalle donne con il massaggio anticellulite"            
+incipit: "Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa. Cosa aspetti? Scopri l’offerta formativa del nostro corso massaggio anticellulite."
+longcontentTitle: "Corso Massaggio Anticellulite: impara a eseguire il trattamento più richiesto dalle donne"            
 longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi della pelle come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura.</p> 
 <p class='pb-2'>Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti.</p>
-<p class='pb-2'>Tutto questo è possibile se decidi di partecipare al nostro corso di formazione sul massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:</p>
+<p class='pb-2'>Tutto questo è possibile se decidi di partecipare al nostro corso massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:</p>
 <ol class='list-outside list-decimal ml-6'><li>contrastare gli inestetismi della cellulite;</li>
 <li>stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;</li>
 <li>drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.</li></ol>"
@@ -35,7 +35,7 @@ features1: "Il 90% delle donne richiede questo trattamento"
 features2: "Esegui il massaggio in completa autonomia"
 features3: "Ottieni l'attestato e lavora da subito"  
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio anticellulite"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso massaggio anticellulite"
 videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio anticellulite"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio anticellulite"
@@ -44,4 +44,8 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
 <p class='pt-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Se vuoi partecipare alla migliore formazione in questo campo, non devi fare altro che contattarci e ti daremo tutte le informazioni sulla prima data disponibile.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+primaDataTitle: "Prima data del corso massaggio anticellulite"
+programmaTitle: "Corso Massaggio Anticellulite: il Nostro Programma" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di partecipare al corso massaggio anticellulite."
+serviziInclusiTitle: "Corso Massaggio Anticellulite: ecco perché sceglierlo"
 ---

@@ -23,8 +23,8 @@ requisiti: "Il corso di massaggio Kobido della Tao - Scuola Nazionale di Massagg
 videosrc: "https://www.youtube.com/embed/LQGabCIZ2gc"
 programmazione: ['16 12 2023', '13 04 2024', '27 07 2024', '21 12 2024']   
 order: "15" 
-incipit: "Se desideri imparare l’arte del massaggio dell’eterna giovinezza, questo è il corso ideale per te. Scopri subito la tecnica di massaggio Kobido."
-longcontentTitle: "Cosa apprendi nel corso di massaggio Kobido?"            
+incipit: "Se desideri imparare l’arte del massaggio dell’eterna giovinezza, questo è il corso ideale per te. Grazie al corso massaggio Kobido apprenderai una tecnica manipolatoria specifica per il viso, molto richiesta soprattutto dalle donne. Scopri subito la tecnica di massaggio Kobido."
+longcontentTitle: "Corso Massaggio Kirei e Kobido: ecco cosa apprenderai"            
 longcontent: "<p class='pb-2'>Se desideri apprendere una tecnica di massaggio che agisce in profondità sui muscoli del viso, del collo, del décolleté e della testa, con effetti liftanti e rilassanti, questo è il corso giusto per te. 
 </p> 
 <p>La peculiarità di questo trattamento è che assicura un’azione immediata: basterà alzarsi dal lettino (o meglio ancora se eseguito sul futon) per notare subito l’effetto lifting naturale. 
@@ -34,7 +34,7 @@ longcontent: "<p class='pb-2'>Se desideri apprendere una tecnica di massaggio ch
 </p>"
 
 longcontentCollapseTitle: "In cosa consiste il massaggio kobido?"
-longcontentCollapseContent: "<p class='mb-2'>Il massaggio Kobido:</p>
+longcontentCollapseContent: "<p class='mb-2'>Sei interessato ai corsi di massaggio kobido? Prima di tutto devi sapere di cosa si tratta:</p>
 <ol class='list-decimal mt-2 ml-6'><li>è una tecnica antica che proviene dal Giappone, riservata alla famiglia imperiale;</li>
 <li>consiste in una sequenza di movimenti armonici e variati, che combinano frizioni, pressioni, vibrazioni e tocchi superficiali e profondi. Stimola i punti dei meridiani, i decorsi linfatici, i muscoli facciali e cervicali, eliminando le tensioni provocate da contratture, cattive posture, stress mandibolare e digrignamento dei denti;
 </li>
@@ -46,8 +46,8 @@ features1: "Previene rughe di espressione"
 features2: "Distensivo per tensioni facciali"
 features3: "Decontratturante per muscoli masticatori"  
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
-cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio kobido"
-videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il corso di massaggio Kobido"
+cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso massaggio kobido"
+videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il corso massaggio Kirei e Kobido"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio kobido"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
@@ -55,4 +55,9 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+primaDataTitle: "Prima data del corso massaggio Kirei e Kobido"
+programmaTitle: "Corso Massaggio Kobido: il Nostro Programma" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di scegliere il corso massaggio Kobido."
+attestatoTitle: "Corso Massaggio Viso Kobido: ottieni l’attestato di specializzazione"
+serviziInclusiTitle: "Corso Massaggio Kirei e Kobido: ecco perché sceglierlo"
 ---

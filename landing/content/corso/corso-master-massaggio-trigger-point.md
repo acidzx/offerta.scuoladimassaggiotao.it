@@ -34,7 +34,7 @@ programmazione: ["09 09 2023", "23 03 2024", "14 09 2024"]
 order: "23"
 incipit: "<span class='font-bold'>Amplia la tua formazione nel campo dei trattamenti decontratturanti e miofasciali sul corpo.</span><span class='block py-2'><span class='font-bold'>Tutto questo è possibile con il corso di massaggio Trigger Point</span>, ideato su misura per te.</span>
 Cosa aspetti? <span class='font-bold'>Scopri subito la sorpresa che ti abbiamo riservato.</span>"
-longcontentTitle: "Amplia la tua formazione con la tecnica Trigger Point"            
+longcontentTitle: "Trigger Point: corso completo per ampliare la tua formazione con nuove tecniche"            
 longcontent: "<p class='pb-2'>Questo corso è ideato per tutti coloro che hanno già esperienza nei trattamenti decontratturanti e miofasciali.</p>
 <p class='pb-2'><span class='font-bold'>Tutto parte dall'individuazione e dallo scioglimento dei punti trigger</span>, ovvero delle piccole contrazioni muscolari <span class='font-bold'>che provocano dolore, tensione e limitazione del movimento.</span></p>
 <p class='pb-2 font-bold'>Il massaggio ai trigger points ha molti benefici:</p>
@@ -48,7 +48,7 @@ longcontent: "<p class='pb-2'>Questo corso è ideato per tutti coloro che hanno 
 <li><b>rilassa la fascia circostante</b>;</li>
 <li><b>migliora l’elasticità muscolare.</b></li>
 </ol>
-<p class='py-2 font-bold'>Durante il corso di massaggio trigger point:</p>
+<p class='py-2 font-bold'>Durante il corso trigger point:</p>
 <ol class='list-decimal ml-6'><li><b>approfondirai le tecniche di individuazione e di trattamento dei punti trigger</b>, sia attivi che passivi, sia locali che riferiti;</li>
 <li>apprenderai una tecnica da eseguire a livello zonale sul corpo con trattamenti specifici;</li>
 <li><b>saprai applicare manualità sui punti trigger del corpo</b> che portano dolori diffusi anche zone lontane da dove nasce il problema;</li>
@@ -67,5 +67,9 @@ features1: "Si impara un trattamento che completa un percorso formativo"
 features2: "Apprendi come trattare correttamente i trigger point"
 features3: "Impari ad ascoltare il corpo dei tuoi riceventi"      
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
-reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>"                   
+reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>"     
+primaDataTitle: "Prima data del corso trigger point"   
+programmaTitle: "Corso Trigger Point: il Nostro Programma"  
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi del corso trigger point."  
+attestatoTitle: "Trigger Point: corso riconosciuto per ottenere l’attestato di specializzazione"        
 ---

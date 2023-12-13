@@ -26,9 +26,10 @@ requisiti: "Il Corso di Massaggio Ayurvedico non presenta requisiti particolari 
 videosrc: "https://www.youtube-nocookie.com/embed/9JgrrHTKeWY"
 programmazione: ['06 10 2023', '23 02 2024', '24 05 2024', '13 09 2024']    
 order: "6"
-incipit: "<span class='font-bold'>Se desideri conoscere come applicare la filosofia Ayurvedica al mondo del massaggio, questo è il corso ideale per te.</span> Cosa aspetti? <span class='font-bold'>Scopri come donare benessere ai tuoi clienti</span> e ristabilire l’equilibrio energetico <span class='font-bold'>attraverso l’uso sapiente</span> e sincronico <span class='font-bold'>delle mani</span>"
-longcontentTitle: "Corso di massaggio Ayurvedico: impara l’arte del massaggio più antico del mondo"            
-longcontent: "<p class='pb-2'><span class='font-bold'>Vuoi scoprire il segreto dell'antica saggezza indiana</span> per il benessere del corpo e della mente? <span class='font-bold'>Allora devi assolutamente seguire il corso di Massaggio Ayurveda dove:</span></p> 
+incipit: "<span class='font-bold'>Se desideri conoscere come applicare la filosofia Ayurvedica al mondo del massaggio, questo è il corso ideale per te.</span> Cosa aspetti? <span class='font-bold'>Scopri come donare benessere ai tuoi clienti</span> e ristabilire l’equilibrio energetico <span class='font-bold'>attraverso l’uso sapiente</span> e sincronico <span class='font-bold'>delle mani, apprendendo numerose tecniche grazie al nostro corso massaggio ayurvedico. 
+</span>"
+longcontentTitle: "Corso Massaggio Ayurvedico: impara l’arte del massaggio più antico del mondo"            
+longcontent: "<p class='pb-2'><span class='font-bold'>Vuoi scoprire il segreto dell'antica saggezza indiana</span> per il benessere del corpo e della mente? <span class='font-bold'>Allora devi assolutamente seguire il corso Massaggio Ayurvedico dove:</span></p> 
 
 <ol class='list-decimal mt-2 ml-6'><li><span class='font-bold'>impararei a conoscere e a bilanciare le tre energie vitali</span> che governano ogni forma di vita ossia i “Dosha” (Vata, Pitta e Kapha);</li><li><span class='font-bold'>apprenderai tutte le tecniche del massaggio indiano</span> e di disintossicazione del Panchakarma;</li><li><span class='font-bold'>saprai come usare le tue mani con sincronia e fluidità</span> per creare un'armonia perfetta.
 </li></ol><p class='mt-2'>In questo modo <span class='font-bold'>puoi ristabilire l’equilibrio energetico delle persone che decidono di affidarsi a te per questo trattamento</span>, gestendo bene l’intensità da adoperare durante la seduta di massaggio.</p>"
@@ -53,6 +54,10 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+primaDataTitle: "Prima data del corso massaggio ayurvedico"
+programmaTitle: "Corso Massaggio Ayurvedico: il Nostro Programma" 
+serviziInclusiTitle: "Corso Massaggio Ayurvedico: ecco perché sceglierlo"
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di frequentare il corso massaggio ayurvedico."
 ---
 
 ---

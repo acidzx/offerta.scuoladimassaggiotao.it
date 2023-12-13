@@ -4,6 +4,10 @@ import { scrollIntoTheView } from "@/pages/_app";
 import logoGoogle from "@public/assets/svg/google-logo.svg";
 import logoFacebook from "@public/assets/svg/facebook-logo.svg";
 import { Interweave } from "interweave";
+import { polyfill } from "interweave-ssr";
+import Carousel from "nuka-carousel";
+
+polyfill();
 
 export default function Testimonials(props) {
   const { Greviews, reviewTextContent, reviewTextTitle } = props;
@@ -32,19 +36,58 @@ export default function Testimonials(props) {
             alt="Logo Facebook"
           />
         </div>
-        <p className="pCenter">
+        <span className="pCenter">
           <Interweave
             content={
               reviewTextContent ||
               "L'unica scuola con più di 1.400 recensioni positive su Google e Facebook"
             }
           />
-        </p>
+        </span>
 
         <div className="overflow-hidden bg-white mt-4">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid justify-center items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-4 sm:gap-y-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-              <div className="carousel w-full items-center">
+              <Carousel
+                autoplayInterval={3000}
+                wrapAround={true}
+                renderCenterLeftControls={({ previousSlide }) => (
+                  <button onClick={previousSlide}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-8 h-8"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </button>
+                )}
+                renderCenterRightControls={({ nextSlide }) => (
+                  <button onClick={nextSlide}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-8 h-8"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </button>
+                )}
+              >
                 {Greviews &&
                   Greviews.filter((reviewTextLength) => {
                     return reviewTextLength.text.length > 60;
@@ -121,47 +164,9 @@ export default function Testimonials(props) {
                           </figure>
                         </div>
                       </div>
-
-                      <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-                        <button
-                          className="btn btn-sm btn-circle"
-                          onClick={() =>
-                            scrollIntoTheView(
-                              `slide${
-                                index == 0
-                                  ? Greviews.filter((reviewTextLength) => {
-                                      return reviewTextLength.text.length > 60;
-                                    }).length
-                                  : index
-                              }`
-                            )
-                          }
-                        >
-                          ❮
-                        </button>
-
-                        <button
-                          className="btn btn-sm btn-circle text-black"
-                          onClick={() =>
-                            scrollIntoTheView(
-                              `slide${
-                                index ==
-                                Greviews.filter((reviewTextLength) => {
-                                  return reviewTextLength.text.length > 60;
-                                }).length -
-                                  1
-                                  ? "1"
-                                  : index + 2
-                              }`
-                            )
-                          }
-                        >
-                          ❯
-                        </button>
-                      </div>
                     </div>
                   ))}
-              </div>
+              </Carousel>
               <YoutubeTestimonial />
             </div>
           </div>

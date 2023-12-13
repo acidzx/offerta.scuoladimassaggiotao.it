@@ -32,7 +32,7 @@ incipit: "<span class='font-bold'>Per un benessere emotivo e spirituale.</span> 
 <span class='block py-3 font-bold'>Tutto questo è possibile grazie a una delle tecniche di massaggio più antiche al mondo.</span>
 <span class='block py-3 font-bold'>Stiamo parlando del massaggio Thailandese Tradizionale.</span>
 <span class='block'>Cosa aspetti? <span class='font-bold'>Richiedi ora info sul nostro corso!</span></span>"
-longcontentTitle: "Massaggio Thailandese Tradizionale: ecco la tecnica di massaggio più antica"            
+longcontentTitle: "Massaggio Thailandese: Corso Completo Per Apprendere La Tecnica di Massaggio Più Antica"            
 longcontent: "<p class='pb-2'>Dalla fusione tra la medicina indiana ayurvedica, la medicina tradizionale cinese e la pratica dello yoga nasce il massaggio thailandese.<span class='font-bold'> Chiamato anche Nuad Bo Rarn, è una tecnica antica che si basa sulla stimolazione dei meridiani energetici e delle linee sen</span>  per favorire il flusso dell’energia vitale nel corpo. 
 </p> 
 <p class='mt-3'><span class='font-bold'>Assicura molteplici benefici: </span></p>
@@ -41,7 +41,7 @@ longcontent: "<p class='pb-2'>Dalla fusione tra la medicina indiana ayurvedica, 
 <span class='block my-2'>Durante il corso di massaggio:</span>
 <ol class='list-decimal mt-2 ml-6'><li><span class='bold'>imparerai la teoria e la pratica del massaggio thailandese tradizionale;</span></li>
 <li>studierai l’anatomia e la fisiologia del sistema energetico;</li><li><span class='font-bold'>approfondirai le tecniche di manipolazione con le mani e le altre parti del corpo. </span></li></ol>
-<p class='mt-3'>Il corso ti renderà in grado di praticare un massaggio thailandese tradizionale efficace e sicuro, ottenendo un’azione preventiva e curativa su tutto il sistema connettivo.</p>
+<p class='mt-3'>Il corso di massaggio thailandese ti renderà in grado di praticare un massaggio thailandese tradizionale efficace e sicuro, ottenendo un’azione preventiva e curativa su tutto il sistema connettivo.</p>
 <p class='mt-3'>La cosa più importante è che <span class='font-bold'>ti aprirà tantissime opportunità lavorative essendo una delle tecniche di massaggio più richieste nei centri benessere, nei centri termali e dai clienti</span> alla ricerca di benessere e armonia.</p>"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
@@ -58,4 +58,5 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+attestatoTitle: "Massaggio Thailandese: Corso Riconosciuto Per Ottenere l’Attestato di Specializzazione"
 ---

@@ -16,8 +16,9 @@ requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/fuBT8OFO3SI"
 order: "1"
 incipit: "<span class='font-bold text-3xl'>Entra nel mondo dello sport con il nostro Diploma di Operatore in massaggio sportivo."
-subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'>Cinque corsi ideati e studiati per te che hai la passione per lo sport e il massaggio.<span class='block my-2'>Cinque corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno per poter seguire gli sportivi in ogni loro sfida.</span> <span class='block my-2'>Cosa aspetti? Scopri subito cos’è incluso nella nostra offerta formativa.</span></p>"
-longcontentTitle: "Entra nel mondo dello sport con il Diploma Sportivo"            
+subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'>Cinque corsi ideati e studiati per te che hai la passione per lo sport e il massaggio.<span class='block my-2'>Cinque corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno per poter seguire gli sportivi in ogni loro sfida.</span> <span class='block my-2'>Cosa aspetti? Scopri subito cos’è incluso nella nostra offerta formativa del diploma massaggio sportivo. 
+</span></p>"
+longcontentTitle: "Diploma Massaggio Sportivo: Entra nel Mondo dello Sport Grazie Ai Nostri Corsi"            
 longcontent: "<p class='pb-2'>Frequenta i cinque corsi fondamentali per entrare nel mondo dello sport. Impara tutto ciò di cui hai bisogno per trattare correttamente e in ogni occasione ogni esigenza dello sportivo. Specializzati in ciò che hai sempre amato per assistere gli atleti e trovare impiego in un settore in costante crescita come quello dello sport. 
 </p> 
 <p>Grazie a questa specializzazione, puoi trovare lavoro presso: 
@@ -34,7 +35,7 @@ longcontentCollapseContent: ""
 features1: "Ottieni 5 attestati e 1 Diploma Nazionale come Operatore in massaggio sportivo"
 features2: "Pagabile fino a 3 soluzioni interne alla scuola o fino a 36 rate con finanziaria convenzionata "
 features3: "Risparmio di 380€ rispetto all’acquisto dei singoli corsi "  
-cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
+cta1OverTitle: "Diploma massaggio sportivo: ecco la sorpresa che abbiamo pensato per te"
 cta1OverText: "Richiedi ora il coupon sconto per iscriverti al diploma di operatore in massaggio sportivo"
 videoPresentationTitle: "In meno di 2 minuti ti spieghiamo perché scegliere il Diploma Nazionale di Operatore in Massaggio Sportivo"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
@@ -44,5 +45,9 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
-
+corsiInclusiTitle: "Diploma Massaggio Sportivo: Ecco Cosa è Incluso nella Nostra Offerta Formativa"   
+programmaTitle: "Diploma massaggio sportivo: ecco il programma completo" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di scegliere i nostri corsi per conseguire il diploma massaggio sportivo." 
+attestatoTitle: "Diploma massaggio sportivo: ottieni ora gli attestati di specializzazione" 
+serviziInclusiTitle: "Diploma Massaggio Sportivo: Ecco Perché Sceglierlo"   
 ---

@@ -6,10 +6,8 @@ title: "Massaggio Base Svedese"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-incipit: "Se desideri diventare massaggiatore, il corso di massaggio base svedese è il primo
-            passo per entrare nel mondo del benessere. <span class='block py-2'>Cosa aspetti? Scopri
-            subito l’offerta formativa.</span>"
-longcontentTitle: "Entra nel mondo del benessere con il corso di massaggio base svedese"            
+incipit: "Se desideri diventare massaggiatore, il corso di massaggio base classico svedese è il primo passo per entrare nel mondo del benessere. <span class='block py-2'>Cosa aspetti? Scopri subito la nostra offerta formativa con i nostri corsi per diventare massaggiatore</span>"
+longcontentTitle: "Entra nel mondo del benessere con il corso di massaggio base classico"            
 longcontent: "<p class='pb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
 fisiologia. Acquisisci le nozioni base sull’uso di oli e creme. Tutto questo è racchiuso nel
 <span class='font-semibold'>corso di massaggio base svedese</span>.</p>
@@ -19,7 +17,7 @@ massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazion
 loro varianti).</p>
 <p>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
 un’ora in totale autonomia.</p>"
-longcontentCollapseTitle: "A cosa serve il corso di massaggio base svedese?"
+longcontentCollapseTitle: "Corso Massaggio di Base: a cosa serve?"
 longcontentCollapseContent: "<p class='pb-2'>Il massaggio svedese è un massaggio completo che comprende una
                   vasta sequenza di manovre: dallo sfioramento alle percussioni
                   finali, passando per le frizioni e gli impastamenti. Questo ci
@@ -84,4 +82,9 @@ features2: "Apprendi le manualità fondamentali del massaggio"
 features3: "Dopo la formazione puoi eseguirlo in completa autonomia"      
 reviewTextTitle: "Ecco le storie di successo dei nostri alunni"        
 reviewTextContent: "L'unica scuola con più di 1.400 recensioni positive su Google e Facebook" 
+primaDataTitle: "Prima data del corso di massaggio base classico"
+programmaTitle: "Scopri il programma del corso di Massaggio Base Classico Svedese" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi del corso massaggio di base."
+attestatoTitle: "Ottieni l’attestato di specializzazione grazie ai nostri corsi per diventare massaggiatore"
+serviziInclusiTitle: "Ecco perché scegliere il corso di massaggio base classico svedese"
 ---

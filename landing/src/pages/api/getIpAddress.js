@@ -1,12 +1,9 @@
-const handler = async (req, res) => {
-  let ipAddress = req.headers["x-real-ip"];
+import requestIp from "request-ip";
 
-  const forwardedFor = req.headers["x-forwarded-for"];
-  if (!ipAddress && forwardedFor) {
-    ipAddress = forwardedFor?.split(",").at(0) ?? "Unknown";
-  }
+export default function handler(req, res) {
+  const detectedIp = requestIp.getClientIp(req);
+  // console.log(req.headers["user-agent"]);
+  const uaString = req.headers["user-agent"];
 
-  res.status(200).json(ipAddress);
-};
-
-export default handler;
+  res.status(200).json(detectedIp);
+}

@@ -1,11 +1,11 @@
 export default function ProgrammazioneDataCorso(props) {
-  const { fineCorsoDate, filteredDate } = props;
+  const { fineCorsoDate, filteredDate, primaDataTitle } = props;
 
   return (
     <div className="containerFull">
       <div className="containerCenter">
         <h3 className="text-2xl font-medium text-gray-900  border-b border-gray-400 justify-center">
-          Prima data del corso:
+          {primaDataTitle ? primaDataTitle : "Prima data del corso:"}
         </h3>
       </div>
       <div className="containerCenter">

@@ -35,12 +35,12 @@ requisiti: "Il Corso di Massaggio Decontratturante è aperto a chi ha già un'es
 videosrc: "https://www.youtube-nocookie.com/embed/wS-z6hHDcYE"
 programmazione: ['22 07 2023', '09 12 2023', '20 04 2024', '20 07 2024', '14 12 2024']  
 order: "2"
-incipit: "Se desideri praticare il massaggio decontratturante in completa autonomia, questo è il corso ideale. <span class='block py-2'>Cosa aspetti? Scopri subito l’offerta formativa.</span>"
-longcontentTitle: "Allevia il dolore con il corso di massaggio decontratturante"            
-longcontent: "<p class='pb-2'>Grazie al corso di massaggio decontratturante, apprenderai come alleviare il dolore muscolare causato dalle contratture che possono derivare da sforzi, posture errate, stress o traumi.</p> 
+incipit: "Se desideri praticare il massaggio decontratturante in completa autonomia, questo è il corso ideale. <span class='block py-2'>Cosa aspetti? Scopri subito la nostra offerta formativa e iscriviti al corso massaggio decontratturante.</span>"
+longcontentTitle: "Corso massaggio decontratturante: impara ad alleviare il dolore muscolare"            
+longcontent: "<p class='pb-2'>Grazie al corso massaggio decontratturante, apprenderai come alleviare il dolore muscolare causato dalle contratture che possono derivare da sforzi, posture errate, stress o traumi.</p> 
 <p>Il massaggio decontratturante agisce proprio su aree specifiche del corpo, come gli arti inferiori, la schiena o la zona lombare ed esercita un’azione preventiva sulle infiammazioni rilassando i muscoli. È una tecnica molto usata in ambito sportivo, ma anche da chi soffre di tensioni muscolari croniche o acute. 
 </p>
-<p class='font-semibold mt-3'>Cosa apprenderai nel corso di massaggio decontratturante?</p><p class='mt-1'>Durante il corso di massaggio decontratturante:</p>
+<h3 class='font-semibold mt-3'>Corso Massaggio Decontratturante: ecco cosa apprenderai</h3><p class='mt-1'>Durante il corso di massaggio decontratturante:</p>
 <ol class='list-decimal mt-2 ml-6'><li>imparerai la teoria di base e le tecniche pratiche del massaggio decontratturante;</li><li>studierai le principali algie muscolari, i benefici e le controindicazioni del massaggio;</li><li>approfondirai le tecniche per individuare e sciogliere i Punti Trigger, ovvero i punti dove si localizza il dolore</li></ol><p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio decontratturante efficace e sicuro, ottenendo un rilassamento totale della muscolatura trattata.</p>"
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
@@ -57,4 +57,8 @@ serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
+primaDataTitle: "Prima data del corso massaggio decontratturante"
+programmaTitle: "Corso Massaggio Decontratturante: il Nostro Programma" 
+videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi di scegliere il corso massaggio decontratturante."
+serviziInclusiTitle: "Corso Massaggio Decontratturante: ecco perché sceglierlo"
 ---
