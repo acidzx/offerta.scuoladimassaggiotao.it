@@ -102,7 +102,7 @@ export default function ModalForm() {
   const onSubmit = async (data) => {
     const json_user_ip = getValues("user_ip");
     data.user_ip = json_user_ip.userIp;
-    console.log(data);
+    // console.log(data);
     try {
       const response = await fetch(
         "https://app.brainlead.it/3.0.0/web_forms/subscription",
@@ -125,9 +125,9 @@ export default function ModalForm() {
           },
           body: JSON.stringify(data),
         }).then((res) => {
-          console.log("Response received");
+          // console.log("Response received");
           if (res.status === 200) {
-            console.log("Response succeeded!");
+            // console.log("Response succeeded!");
             router.push("/thank-you");
           }
         });
@@ -164,7 +164,7 @@ export default function ModalForm() {
     "ring ring-red-400/40": errors.terms__conditions?.message,
   });
 
-  console.log("userIp:" + userIp + typeof userIp);
+  // console.log("userIp:" + userIp + typeof userIp);
 
   return (
     <>

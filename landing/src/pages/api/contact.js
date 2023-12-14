@@ -26,7 +26,7 @@ export default function handler(req, res) {
         console.log(err);
         return res.send("error" + JSON.stringify(err));
       } else {
-        console.log("mail send");
+        // console.log("mail send");
         return res.status(200).end();
       }
     });

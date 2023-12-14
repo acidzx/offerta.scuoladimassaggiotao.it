@@ -42,7 +42,9 @@ export default function PostContent(props) {
 
   const attestazioneText =
     post.category == "corso"
-      ? `Al termine del <span class="font-semibold">${post.category} di ${post.title}</span> verrà rilasciato un attestato di
+      ? `Al termine del <span class="font-semibold">${post.category} ${
+          post.title !== "Massaggio Kobido" ? "di" : ""
+        } ${post.title}</span> verrà rilasciato un attestato di
           specializzazione nominativo valido in tutta Italia  con possibilità di ripasso gratuito e rilascio attestato di
           perfezionamento, entrambi in riferimento alla Legge 4/2013 (previa valutazione di
           quanto correttamente appreso). `

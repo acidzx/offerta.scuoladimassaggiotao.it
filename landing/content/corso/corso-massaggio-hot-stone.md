@@ -26,7 +26,7 @@ programmazione: ['29 10 2023', "25 02 2024", "19 05 2024", "07 12 2024"]
 order: "16"
 incipit: "Da un’antica pratica del mondo orientale <span class='font-bold'>il massaggio hot stone è tra i più richiesti</span> per gli incredibili effetti rilassanti e drenanti.</span>
 <span class='block py-3'>Impara a usare le calde pietre basaltiche per donare benessere ai tuoi clienti.</span>
-<span class='block py-3'>Scegli il corso massaggio hot stone per apprendere una delle tecniche di manipolazione più affascinanti.</span>
+<span class='block py-3 font-bold'>Scegli il corso massaggio hot stone per apprendere una delle tecniche di manipolazione più affascinanti.</span>
 <span class='block py-3 font-bold'>Per te subito un coupon sconto per accedere alla migliore formazione.</span>"
 longcontentTitle: "Massaggio Hot Stone: corso completo per donare benessere, energia e armonia ai tuoi clienti"            
 longcontent: "<p class='pb-2'><span class='font-bold'>Per un equilibrio fisico e psicologico.</span> Per donare effetti antidolorifici, rilassanti e drenanti. <span class='font-bold'>Per sfruttare la forza del calore per la cura e il recupero della salute.</span></p> 
