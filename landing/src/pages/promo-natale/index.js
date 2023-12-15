@@ -6,29 +6,23 @@ const posts = [
   {
     id: 1,
     title: "Promo Alta Formazione",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+    href: "/assets/images/promo-alta-formazione.png",
+
+    imageUrl: "/assets/images/promo-alta-formazione.png",
   },
   {
     id: 2,
     title: "Promo Diploma",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+    href: "/assets/images/promo-diploma.jpg",
+
+    imageUrl: "/assets/images/promo-diplomi.png",
   },
   {
     id: 3,
     title: "Promo Video Corsi",
-    href: "#",
-    description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+    href: "/assets/images/promo-video-corsi.jpg",
+
+    imageUrl: "/assets/images/promo-video-corsi.png",
   },
   // More posts...
 ];
@@ -95,14 +89,16 @@ export default function PromoNatale() {
               className="flex flex-col items-center lg:items-start justify-between max-w-sm mx-auto text-center"
             >
               <div className="relative w-full">
-                <img
+                <Image
                   src={post.imageUrl}
                   alt=""
-                  className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  className="w-full rounded-2xl bg-gray-100 "
+                  width={384}
+                  height={256}
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>
-              <div className="max-w-xl">
+              <div className="max-w-xl mx-auto">
                 <div className="group relative">
                   <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                     <a href={post.href}>
@@ -110,12 +106,9 @@ export default function PromoNatale() {
                       {post.title}
                     </a>
                   </h3>
-                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                    {post.description}
-                  </p>
                 </div>
                 <button className="px-6 py-2 mt-6 border border-gray-200 rounded-2xl bg-red-600 text-white font-semibold">
-                  Richiedi il tuo sconto
+                  Richiedi il tuo regalo
                 </button>
               </div>
             </article>
