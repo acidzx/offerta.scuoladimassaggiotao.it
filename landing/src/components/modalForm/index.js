@@ -61,7 +61,8 @@ function jsonToFormData(data) {
   return formData;
 }
 
-export default function ModalForm() {
+export default function ModalForm({ idForm }) {
+  console.log("idForm", idForm);
   const router = useRouter();
 
   const {
@@ -102,6 +103,7 @@ export default function ModalForm() {
   const onSubmit = async (data) => {
     const json_user_ip = getValues("user_ip");
     data.user_ip = json_user_ip.userIp;
+    console.log(idForm);
     // console.log(data);
     try {
       const response = await fetch(
@@ -193,7 +195,7 @@ export default function ModalForm() {
             <input
               {...register("web_form_id")}
               type="hidden"
-              value="db5f9f42a7157abe65bb145000b5871a"
+              value={idForm ? idForm : "db5f9f42a7157abe65bb145000b5871a"}
               name="web_form_id"
             />
 

@@ -1,33 +1,37 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Snowfall from "react-snowfall";
+import ModalForm from "@components/modalForm";
+import { useState } from "react";
 
 const posts = [
   {
     id: 1,
     title: "Promo Alta Formazione",
     href: "/assets/images/promo-alta-formazione.png",
-
+    formId: "4fd5aadb85a00525415e3733cb96ed68",
     imageUrl: "/assets/images/promo-alta-formazione.png",
   },
   {
     id: 2,
     title: "Promo Diploma",
     href: "/assets/images/promo-diploma.jpg",
-
+    formId: "35a12c43227f217207d4e06ffefe39d3",
     imageUrl: "/assets/images/promo-diplomi.png",
   },
   {
     id: 3,
     title: "Promo Video Corsi",
     href: "/assets/images/promo-video-corsi.jpg",
-
+    formId: "1f33d7cf6693dc6dcc7029b97cc29487",
     imageUrl: "/assets/images/promo-video-corsi.png",
   },
   // More posts...
 ];
 
 export default function PromoNatale() {
+  const [idForm, setIdForm] = useState(posts[0].formId);
+
   return (
     <div className="mb-12 pb-12">
       <Snowfall snowflakeCount={300} />
@@ -83,7 +87,7 @@ export default function PromoNatale() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {posts.map((post) => (
+          {posts.map((post, index) => (
             <article
               key={post.id}
               className="flex flex-col items-center lg:items-start justify-between max-w-sm mx-auto text-center"
@@ -107,14 +111,20 @@ export default function PromoNatale() {
                     </a>
                   </h3>
                 </div>
-                <button className="px-6 py-2 mt-6 border border-gray-200 rounded-2xl bg-red-600 text-white font-semibold">
+
+                <label
+                  htmlFor="modalForm"
+                  className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300"
+                  onClick={() => setIdForm(post.formId)}
+                >
                   Richiedi il tuo regalo
-                </button>
+                </label>
               </div>
             </article>
           ))}
         </div>
       </div>
+      <ModalForm idForm={idForm} />
     </div>
   );
 }
