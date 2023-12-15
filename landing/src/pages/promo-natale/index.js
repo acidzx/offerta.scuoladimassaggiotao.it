@@ -30,7 +30,7 @@ const posts = [
 ];
 
 export default function PromoNatale() {
-  const [idForm, setIdForm] = useState(posts[0].formId);
+  const [idForm, setIdForm] = useState(null);
 
   return (
     <div className="mb-12 pb-12">
