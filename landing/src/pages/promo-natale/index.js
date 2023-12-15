@@ -35,8 +35,8 @@ export default function PromoNatale() {
   return (
     <div className="mb-12 pb-12">
       <Snowfall snowflakeCount={300} />
-      <div className="relative isolate pt-14">
-        <div className="mx-auto max-w-7xl px-6 py-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
+      <div className="relative isolate pt-4">
+        <div className="mx-auto max-w-7xl px-6 py-6 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-20">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -44,7 +44,7 @@ export default function PromoNatale() {
                   Fantastici Regali
                 </span>
                 <span className="h-4 w-px bg-gray-900/10" aria-hidden="true" />
-                <a href="#" className="flex items-center gap-x-1">
+                <a className="flex items-center gap-x-1">
                   <span className="absolute inset-0" aria-hidden="true" />
                   ti aspettano
                   <ChevronRightIcon
@@ -55,21 +55,20 @@ export default function PromoNatale() {
               </div>
             </div>
             <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight leading-10 text-gray-900 sm:text-5xl">
-              Tao Scuola Nazionale di Massaggio ti augura buone feste
+              Tao Scuola Nazionale di Massaggio ti Augura Buone Feste
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Esse id magna consectetur fugiat non dolor in ad laboris magna
-              laborum ea consequat. Nisi irure aliquip nisi adipisicing veniam
-              voluptate id. In veniam incididunt ex veniam adipisicing sit.
+              Ecco i nostri regali per te!
             </p>
-            <div className="mt-10 flex items-center gap-x-6">
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Richiedi <span aria-hidden="true">→</span>
-              </a>
-            </div>
+            <p className="mt-2 text-lg leading-8 text-gray-600">
+              Ora che l&apos;anno volge al termine, noi di Tao - Scuola
+              Nazionale di Massaggio ci teniamo a ringraziare con tutto il cuore
+              tutte le persone che hanno interagito con noi nel corso del 2023.
+            </p>
+            <p className="mt-2 text-lg leading-8 text-gray-600">
+              Sotto potrai trovare 3 diversi regali che abbiamo riservato per
+              te:
+            </p>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             <title>App screenshot</title>
