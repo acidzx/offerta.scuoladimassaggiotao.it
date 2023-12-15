@@ -114,7 +114,7 @@ export default function PromoNatale() {
 
                 <label
                   htmlFor="modalForm"
-                  className="cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300"
+                  className="mt-4 cursor-pointer inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300"
                   onClick={() => setIdForm(post.formId)}
                 >
                   Richiedi il tuo regalo
