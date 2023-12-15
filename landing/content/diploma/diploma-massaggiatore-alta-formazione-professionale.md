@@ -18,8 +18,8 @@ programma: [
 "Corso Massaggio Hawaiano;",
 "Corso Massaggio Thai Oil;",
 "Corso Riflessologia Plantare;",
-"Corso Massaggio Thailandese;",
-"Corso Massaggio Connettivale;",
+"Corso Coppettazione;",
+"Corso Stretching Sportivo;",
 "Corso Massaggio Kobido;",
 "Corso Marketing e Comunicazione."]
 requisiti: ""
