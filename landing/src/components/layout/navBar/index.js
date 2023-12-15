@@ -7,7 +7,7 @@ export default function NavBar() {
     <>
       <header className="bg-white border-b">
         <nav
-          className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
+          className="mx-auto flex max-w-7xl items-center justify-center p-4 lg:px-8"
           aria-label="Global"
         >
           <div className="flex">
