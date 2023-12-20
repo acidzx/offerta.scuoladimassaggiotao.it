@@ -31,20 +31,20 @@ requisiti: "Il Corso di Massaggio Sportivo è aperto a chi ha già un'esperienza
 videosrc: "https://www.youtube-nocookie.com/embed/3xDtC4l0MfA"
 programmazione: ['30 09 2023', '10 02 2024', '15 06 2024', '05 10 2024']    
 order: "5"
-incipit: "Se desideri diventare massaggiatore professionista non puoi non conoscere questa tecnica di massaggio.<span class='block py-2'>Scopri subito come accedere al corso massaggio sportivo.</span>"
+incipit: "<span class='font-bold'>Se desideri diventare massaggiatore professionista non puoi non conoscere questa tecnica di massaggio</span>. <span class='block py-2'>Scopri subito come accedere al corso massaggio sportivo.</span>"
 longcontentTitle: "Corso Massaggio Sportivo: amplia la tua formazione con noi"            
-longcontent: "<p class='pb-2'>Se desideri acquisire le conoscenze e le competenze fondamentali per accompagnare gli atleti in ogni fase della loro prestazione agonistica e non il corso di massaggio sportivo è quello più giusto per te.</p>
+longcontent: "<p class='pb-2 font-bold'>Se desideri acquisire le conoscenze e le competenze fondamentali per accompagnare gli atleti in ogni fase della loro prestazione agonistica e non il corso di massaggio sportivo è quello più giusto per te.</p>
 <p class='pb-2'>Una formazione che farai coi migliori docenti del settore che ti illustreranno una tecnica in grado di: </p>
 <ol class='list-decimal ml-6'>
 <li>adattarsi alle esigenze di ogni atleta e migliorare le loro prestazioni;</li>
 <li>prevenire e recuperare dagli infortuni;</li>
 <li>rilassare e tonificare la muscolatura.</li>
 </ol>
-<p class='py-2'>Puoi accompagnare l’atleta in ogni fase della competizione, che sia pre, infra e post gara. E non solo: puoi assistere tutti gli sportivi che non competono a livello agonistico ma che amano lo sport in ogni sua sfumatura. 
+<p class='py-2'><span class='font-bold'>Puoi accompagnare l’atleta in ogni fase della competizione, che sia pre, infra e post gara</span>. E non solo: puoi assistere tutti gli sportivi che non competono a livello agonistico ma che amano lo sport in ogni sua sfumatura. 
 </p>
 <p class='font-semibold mt-3'>Corso Massaggio Sportivo: ecco cosa apprenderai</p>
-<p class='my-2'></p>Grazie alla nostra formazione sarai in grado di praticare un massaggio sportivo efficace e sicuro, ottenendo un’azione preventiva e curativa su tutto il sistema muscolo-scheletrico.</p>
-<p>Si tratta di un corso massaggio sportivo riconosciuto che ti offrirà molte opportunità di impiego, come lavorare con le squadre sportive, nei centri benessere, o aprire uno studio di massaggio dove potrai soddisfare i bisogni di tanti atleti e persone sportive.</p>"
+<p class='my-2'><span class='font-bold'>Grazie alla nostra formazione sarai in grado di praticare un massaggio sportivo efficace e sicuro</span>, ottenendo un’azione preventiva e curativa su tutto il sistema muscolo-scheletrico.</p>
+<p><span class='font-bold'>Si tratta di un corso massaggio sportivo riconosciuto che ti offrirà molte opportunità di impiego, come lavorare con le squadre sportive, nei centri benessere</span>, o aprire uno studio di massaggio dove potrai soddisfare i bisogni di tanti atleti e persone sportive.</p>"
 
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
@@ -54,7 +54,7 @@ videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio sportivo"
 serviziInclusiText: "<ol class='list-decimal ml-6 pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48'>
-          <li>Per imparare a conoscere una tecnica di massaggio tra le più richieste nei centri sportivi e nelle palestre.</li><li>Per seguire l’atleta e lo sportivo in ogni fase della sua competizione e per ogni sua esigenza.</li><li>Per comprendere di cosa ha bisogno la persona che si rivolge a te richiedendoti un massaggio sportivo.</li></ol> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Tutto questo potrai farlo scegliendo la formazione che abbiamo pensato per te.</p> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? Chiedi subito maggiori informazioni sul corso di massaggio sportivo. 
+          <li class='font-bold'>Per imparare a conoscere una tecnica di massaggio tra le più richieste nei centri sportivi e nelle palestre.</li><li>Per seguire l’atleta e lo sportivo in ogni fase della sua competizione e per ogni sua esigenza.</li><li><span class='font-bold'>Per comprendere di cosa ha bisogno la persona che si rivolge a te</span> richiedendoti un massaggio sportivo.</li></ol> <p class='pb-2 text-lg text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify font-bold'>Tutto questo potrai farlo scegliendo la formazione che abbiamo pensato per te.</p> <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Cosa aspetti? <span class='font-bold'>Chiedi subito maggiori informazioni</span> sul corso di massaggio sportivo. 
         </p>"
 features1: "Apprendi le oltre 100 figure per trattare l’atleta"
 features2: "Accompagnalo in ogni fase della competizione"
