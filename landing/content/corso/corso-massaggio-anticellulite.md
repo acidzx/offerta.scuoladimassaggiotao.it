@@ -21,11 +21,11 @@ requisiti: "Il Corso di Massaggio Anticellulite della Scuola Nazionale di Massag
 videosrc: "https://www.youtube-nocookie.com/embed/aZfJ3ZTukt0"
 programmazione: ['16 09 2023', '03 02 2024', '21 09 2024']    
 order: "11"
-incipit: "Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa. Cosa aspetti? Scopri l’offerta formativa del nostro corso massaggio anticellulite."
+incipit: "<span class='font-bold'>Impara uno dei trattamenti più richiesti nei centri benessere ed estetici e nelle spa.</span> Cosa aspetti? <span class='font-bold'>Scopri l’offerta formativa del nostro corso massaggio anticellulite.</span>"
 longcontentTitle: "Corso Massaggio Anticellulite: impara a eseguire il trattamento più richiesto dalle donne"            
-longcontent: "<p class='pb-2'>Impara a trattare correttamente gli inestetismi della pelle come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura.</p> 
-<p class='pb-2'>Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti in base alla loro situazione e al grado di alterazione dei tessuti.</p>
-<p class='pb-2'>Tutto questo è possibile se decidi di partecipare al nostro corso massaggio anticellulite grazie al quale scoprirai le tecniche più efficaci per:</p>
+longcontent: "<p class='pb-2'><span class='font-bold'>Impara a trattare correttamente gli inestetismi della pelle</span> come cellulite, smagliature e fragilità capillari. Impara quali sono le cause di questi inestetismi in ogni loro sfumatura.</p> 
+<p class='pb-2'><span class='font-bold'>Impara a scegliere quale sia il miglior trattamento personalizzato da proporre ai tuoi clienti</span> in base alla loro situazione e al grado di alterazione dei tessuti.</p>
+<p class='pb-2'><span class='font-bold'>Tutto questo è possibile se decidi di partecipare al nostro corso massaggio anticellulite</span> grazie al quale scoprirai le tecniche più efficaci per:</p>
 <ol class='list-outside list-decimal ml-6'><li>contrastare gli inestetismi della cellulite;</li>
 <li>stimolare la circolazione sanguigna, generando calore con movimenti di sfregamento e impastamento;</li>
 <li>drenare ed eliminare le tossine dai tessuti, rispettando sempre la circolazione linfatica.</li></ol>"
@@ -39,9 +39,9 @@ cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso massaggio a
 videoPresentationTitle: "In 2 minuti ti spieghiamo perché scegliere il corso di massaggio anticellulite"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio anticellulite"
-serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48 text-justify'>Ecco per te, 3 motivi per iscriverti al nostro corso di massaggio anticellulite:<br/>
-<ol class='list-decimal ml-6 pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48'><li>Il 90% delle donne richiede questo trattamento;</li><li>È la tecnica di massaggio più richiesta nei centri benessere, nelle spa e nei centri estetici;</li><li>È il corso di formazione perfetto se vuoi intraprendere la carriera di massaggiatore nel campo del benessere.</li></ol>
-<p class='pt-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>Se vuoi partecipare alla migliore formazione in questo campo, non devi fare altro che contattarci e ti daremo tutte le informazioni sulla prima data disponibile.</p>"
+serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48 text-justify'><span class='font-bold'>Ecco per te, 3 motivi per iscriverti al nostro corso di massaggio anticellulite:</span><br/>
+<ol class='list-decimal ml-6 pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-12 lg:px-48'><li class='font-bold'>Il 90% delle donne richiede questo trattamento;</li><li><span class='font-bold'>È la tecnica di massaggio più richiesta nei centri benessere</span>, nelle spa e nei centri estetici;</li><li>È il corso di formazione perfetto se vuoi intraprendere la carriera di massaggiatore nel campo del benessere.</li></ol>
+<p class='pt-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'><span class='font-bold'>Se vuoi partecipare alla migliore formazione in questo campo, non devi fare altro che contattarci</span> e ti daremo tutte le informazioni sulla prima data disponibile.</p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 
 primaDataTitle: "Prima data del corso massaggio anticellulite"
