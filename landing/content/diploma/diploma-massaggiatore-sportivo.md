@@ -16,10 +16,10 @@ requisiti: ""
 videosrc: "https://www.youtube-nocookie.com/embed/fuBT8OFO3SI"
 order: "1"
 incipit: "<span class='font-bold text-3xl'>Entra nel mondo dello sport con il nostro Diploma di Operatore in massaggio sportivo."
-subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'>Cinque corsi ideati e studiati per te che hai la passione per lo sport e il massaggio.<span class='block my-2'>Cinque corsi che ti daranno tutta la formazione e le competenze di cui hai bisogno per poter seguire gli sportivi in ogni loro sfida.</span> <span class='block my-2'>Cosa aspetti? Scopri subito cos’è incluso nella nostra offerta formativa del diploma massaggio sportivo. 
+subIncipit: "<p class='my-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 text-center'><span class='font-bold'>Cinque corsi ideati e studiati per te che hai la passione per lo sport e il massaggio</span>.<span class='block my-2'><span class='font-bold'>Cinque corsi che ti daranno tutta la formazione</span> e le competenze di cui hai bisogno <span class='font-bold'>per poter seguire gli sportivi in ogni loro sfida</span>.</span> <span class='block my-2'>Cosa aspetti? <span class='font-bold'>Scopri subito cos’è incluso nella nostra offerta formativa del diploma massaggio sportivo</span>. 
 </span></p>"
 longcontentTitle: "Diploma Massaggio Sportivo: Entra nel Mondo dello Sport Grazie Ai Nostri Corsi"            
-longcontent: "<p class='pb-2'>Frequenta i cinque corsi fondamentali per entrare nel mondo dello sport. Impara tutto ciò di cui hai bisogno per trattare correttamente e in ogni occasione ogni esigenza dello sportivo. Specializzati in ciò che hai sempre amato per assistere gli atleti e trovare impiego in un settore in costante crescita come quello dello sport. 
+longcontent: "<p class='pb-2'><span class='font-bold'>Frequenta i cinque corsi fondamentali per entrare nel mondo dello sport</span>. Impara tutto ciò di cui hai bisogno per trattare correttamente e in ogni occasione ogni esigenza dello sportivo. <span class='font-bold'>Specializzati in ciò che hai sempre amato per assistere gli atleti e trovare impiego in un settore in costante crescita come quello dello sport.</span> 
 </p> 
 <p>Grazie a questa specializzazione, puoi trovare lavoro presso: 
 </p>
@@ -41,7 +41,7 @@ videoPresentationTitle: "In meno di 2 minuti ti spieghiamo perché scegliere il 
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al diploma di operatore in massaggio sportivo"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Entra subito nel mondo del lavoro con il Diploma di Operatore in Massaggio Sportivo. Cinque corsi di formazione che ti daranno tutte le tecniche e competenze per poter eseguire i massaggi e i trattamenti più richiesti dagli atleti e dagli sportivi. Cosa aspetti? Contattaci subito per iscriverti al nostro percorso formativo.
+          <span class='font-bold'>Entra subito nel mondo del lavoro con il Diploma di Operatore in Massaggio Sportivo. Cinque corsi di formazione</span> che ti daranno tutte le tecniche e competenze <span class='font-bold'>per poter eseguire i massaggi e i trattamenti più richiesti dagli atleti e dagli sportivi</span>. Cosa aspetti? <span class='font-bold'>Contattaci subito per iscriverti al nostro percorso formativo</span>.
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 

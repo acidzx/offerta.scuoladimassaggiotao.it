@@ -23,14 +23,14 @@ requisiti: "Il corso di massaggio Kobido della Tao - Scuola Nazionale di Massagg
 videosrc: "https://www.youtube.com/embed/LQGabCIZ2gc"
 programmazione: ['16 12 2023', '13 04 2024', '27 07 2024', '21 12 2024']   
 order: "15" 
-incipit: "Se desideri imparare l’arte del massaggio dell’eterna giovinezza, questo è il corso ideale per te. Grazie al corso massaggio Kobido apprenderai una tecnica manipolatoria specifica per il viso, molto richiesta soprattutto dalle donne. Scopri subito la tecnica di massaggio Kobido."
+incipit: "<span class='font-bold'>Se desideri imparare l’arte del massaggio dell’eterna giovinezza, questo è il corso ideale per te</span>. Grazie al corso massaggio Kobido apprenderai una tecnica manipolatoria specifica per il viso, molto richiesta soprattutto dalle donne. Scopri subito la tecnica di massaggio Kobido."
 longcontentTitle: "Corso Massaggio Kirei e Kobido: ecco cosa apprenderai"            
-longcontent: "<p class='pb-2'>Se desideri apprendere una tecnica di massaggio che agisce in profondità sui muscoli del viso, del collo, del décolleté e della testa, con effetti liftanti e rilassanti, questo è il corso giusto per te. 
+longcontent: "<p class='pb-2'><span class='font-bold'>Se desideri apprendere una tecnica di massaggio che agisce in profondità sui muscoli del viso, del collo, del décolleté e della testa</span>, con effetti liftanti e rilassanti, <span class='font-bold'>questo è il corso giusto per te</span>. 
 </p> 
-<p>La peculiarità di questo trattamento è che assicura un’azione immediata: basterà alzarsi dal lettino (o meglio ancora se eseguito sul futon) per notare subito l’effetto lifting naturale. 
+<p><span class='font-bold'>La peculiarità di questo trattamento è che assicura un’azione immediata</span>: basterà alzarsi dal lettino (o meglio ancora se eseguito sul futon) per notare subito l’effetto lifting naturale. 
 </p>
-<p class='mt-1'>Durante il corso di massaggio:</p>
-<ol class='list-decimal mt-2 ml-6'><li>imparerai la teoria e la pratica del massaggio Kobido;</li><li>studierai le origini e i principi della tecnica;</li><li>approfondirai le tecniche di movimento e di digitopressione con le mani.</li></ol><p class='mt-2'>Il corso ti renderà in grado di praticare un massaggio kobido efficace e sicuro, ottenendo un’azione ringiovanente, modellante e armonizzante sul viso, proprio come se fosse un lifting naturale. 
+<p class='mt-1 gont-bold'>Durante il corso di massaggio:</p>
+<ol class='list-decimal mt-2 ml-6'><li class='font-bold'>imparerai la teoria e la pratica del massaggio Kobido;</li><li>studierai le origini e i principi della tecnica;</li><li class='font-bold'>approfondirai le tecniche di movimento e di digitopressione con le mani.</li></ol><p class='mt-2'><span class='font-bold'>Il corso ti renderà in grado di praticare un massaggio kobido efficace</span> e sicuro, ottenendo un’azione ringiovanente, modellante e armonizzante sul viso, <span class='font-bold'>proprio come se fosse un lifting naturale</span>. 
 </p>"
 
 longcontentCollapseTitle: "In cosa consiste il massaggio kobido?"
@@ -51,7 +51,7 @@ videoPresentationTitle: "In meno di 3 minuti ti spieghiamo perché scegliere il 
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio kobido"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Un massaggio che riequilibra l’energia vitale, dona benessere e salute al viso, assicura un effetto lifting naturale. Per questo, è fondamentale che tu apprenda questa tecnica di massaggio Kobido per aggiungerla alla tua formazione ed eseguirla sui tuoi clienti. Cosa aspetti? Contattaci subito per avere tutte le informazioni su come iscriverti al corso
+          <span class='font-bold'>Un massaggio che riequilibra l’energia vitale, dona benessere e</span> salute al viso, <span class='font-bold'>assicura un effetto lifting naturale</span>. Per questo, è fondamentale che tu apprenda questa tecnica di massaggio Kobido per aggiungerla alla tua formazione ed eseguirla sui tuoi clienti. Cosa aspetti? <span class='font-bold'>Contattaci subito per avere tutte le informazioni su come iscriverti al corso</span>
         </p>"
 reviewTextTitle: "Le storie di successo degli alunni che hanno scelto la nostra scuola di massaggio"        
 reviewTextContent: "La loro storia può essere la tua. Il loro successo puoi ottenerlo anche tu.<span class='block py-2'>Cosa aspetti? Scegli anche tu di essere finalmente felice del lavoro che scegli.</span>" 

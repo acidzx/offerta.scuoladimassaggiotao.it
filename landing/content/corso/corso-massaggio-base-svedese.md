@@ -6,16 +6,16 @@ title: "Massaggio Base Svedese"
 durata: "3 giorni"
 ore: "24 ore"
 category: "corso"
-incipit: "Se desideri diventare massaggiatore, il corso di massaggio base classico svedese è il primo passo per entrare nel mondo del benessere. <span class='block py-2'>Cosa aspetti? Scopri subito la nostra offerta formativa con i nostri corsi per diventare massaggiatore</span>"
+incipit: "<span class='font-bold'>Se desideri diventare massaggiatore, il corso di massaggio base classico svedese è il primo passo per entrare nel mondo del benessere.</span> <span class='block py-2'>Cosa aspetti? <span class='font-bold'>Scopri subito la nostra offerta formativa</span> con i nostri corsi per diventare massaggiatore</span>"
 longcontentTitle: "Entra nel mondo del benessere con il corso di massaggio base classico"            
-longcontent: "<p class='pb-2'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
+longcontent: "<p class='pb-2 font-bold'>Apprendi le tecniche fondamentali del massaggio. Studia i fondamenti dell’anatomia e della
 fisiologia. Acquisisci le nozioni base sull’uso di oli e creme. Tutto questo è racchiuso nel
-<span class='font-semibold'>corso di massaggio base svedese</span>.</p>
-<p class='pb-2'>Oltre alla parte teorica sui benefici e le relative controindicazioni del massaggio base
-svedese, il focus sarà sulla parte pratica, specialmente sull’apprendimento delle tecniche del
+corso di massaggio base svedese.</p>
+<p class='pb-2'><span class='font-bold'>Oltre alla parte teorica</span> sui benefici e le relative controindicazioni del massaggio base
+svedese, <span class='font-bold'>il focus sarà sulla parte pratica</span>, specialmente sull’apprendimento delle tecniche del
 massaggio base quali sfioramenti, frizioni, impastamenti, percussioni, vibrazioni (in tutte le
 loro varianti).</p>
-<p>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
+<p class='font-bold'>Alla fine del corso, avrai uno schema di lavoro che ti permetterà di eseguire il massaggio di
 un’ora in totale autonomia.</p>"
 longcontentCollapseTitle: "Corso Massaggio di Base: a cosa serve?"
 longcontentCollapseContent: "<p class='pb-2'>Il massaggio svedese è un massaggio completo che comprende una
@@ -63,18 +63,18 @@ base svedese"
 cta2OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta2OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
 serviziInclusiText: "<p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Se desideri entrare nel mondo del benessere e dare una svolta alla tua
-          vita professionale, il corso di massaggio base svedese è la scelta più
-          giusta per te.
+          <span class='font-bold'>Se desideri entrare nel mondo del benessere</span> e dare una svolta alla tua
+          vita professionale, <span class='font-bold'>il corso di massaggio base svedese è la scelta più
+          giusta per te</span>.
         </p>
         <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Siamo al tuo fianco in ogni istante scegliendo insieme il miglior
-          percorso formativo per le tue esigenze. Ogni passo del tragitto che
+          <span class='font-bold'>Siamo al tuo fianco in ogni istante scegliendo insieme il miglior
+          percorso formativo</span> per le tue esigenze. Ogni passo del tragitto che
           faremo insieme il nostro team di consulenti sarà con te per
           accompagnarti lungo questo fantastico percorso didattico.
         </p>
         <p class='pb-2 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 text-justify'>
-          Cosa aspetti? Chiedi ora maggiori info per partecipare al corso di
+          Cosa aspetti? <span class='font-bold'>Chiedi ora maggiori info per partecipare</span> al corso di
           massaggio base svedese.
         </p>"
 features1: "Scopri l'arte del massaggio con il nostro corso"
