@@ -59,7 +59,7 @@ export default function Home(props) {
         text="Scopri l’offerta che ti abbiamo riservato per accedere ai nostri corsi di massaggio"
         title="per accedere ai nostri corsi di massaggio"
       />
-      <Testimonials Greviews={props.reviews.result.reviews} />
+      {/* <Testimonials Greviews={props.reviews.result.reviews} /> */}
       <ServiziTao />
 
       <div className="containerFull">
