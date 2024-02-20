@@ -109,7 +109,7 @@ export default function ModalForm({ idForm }) {
     const json_user_ip = getValues("user_ip");
     data.user_ip = json_user_ip.userIp;
     console.log(idForm);
-    // console.log(data);
+    console.log(data);
     try {
       const response = await fetch(
         "https://app.brainlead.it/3.0.0/web_forms/subscription",
@@ -121,7 +121,12 @@ export default function ModalForm({ idForm }) {
       if (
         response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
       ) {
-        await analytics.track("form_compilato");
+        await analytics.track("form_compilato", {
+          nome: data.nome,
+          cognome: data.cognome,
+          email: data.email,
+          telefono: data.telefono,
+        });
         router.push("/thank-you");
       } else {
         fetch("/api/contact", {
@@ -138,7 +143,12 @@ export default function ModalForm({ idForm }) {
             router.push("/thank-you");
           }
         });
-        await analytics.track("form_compilato");
+        await analytics.track("form_compilato", {
+          nome: data.nome,
+          cognome: data.cognome,
+          email: data.email,
+          telefono: data.telefono,
+        });
         router.push("/thank-you");
       }
     } catch (e) {
