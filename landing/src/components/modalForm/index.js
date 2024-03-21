@@ -112,7 +112,7 @@ export default function ModalForm({ idForm }) {
     console.log(data);
     try {
       const response = await fetch(
-        "https://app.brainlead.it/3.0.0/web_forms/subscription",
+        "https://crm.taogroup.it/web_forms/subscription",
         {
           method: "POST",
           body: jsonToFormData(data),
