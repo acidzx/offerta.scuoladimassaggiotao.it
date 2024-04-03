@@ -7,7 +7,7 @@ const analytics = Analytics({
   plugins: [
     googleTagManager({
       containerId: GTM_CONTAINER_ID,
-      enabled: true,
+      enabled: false,
     }),
   ],
 });

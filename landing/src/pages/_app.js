@@ -12,6 +12,8 @@ import Head from "next/head";
 import Layout from "@components/layout";
 // import { Router } from "next/router";
 
+import CookieConsent from "@/components/cookieConsent";
+
 export const scrollIntoTheView = (id) => {
   if (typeof window !== "undefined") {
     let element = document.getElementById(id);
@@ -45,26 +47,27 @@ export default function App({ Component, pageProps, router }) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
-      <Layout>
-        <motion.div
-          key={router.route}
-          initial={false}
-          variants={{
-            initial: {
-              opacity: 0,
-            },
-            animate: { opacity: 1 },
-          }}
-        >
+      <CookieConsent>
+        <Layout>
           <motion.div
-            className="h-1 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
-            style={{ scaleX }}
-          />
+            key={router.route}
+            initial={false}
+            variants={{
+              initial: {
+                opacity: 0,
+              },
+              animate: { opacity: 1 },
+            }}
+          >
+            <motion.div
+              className="h-1 origin-[0] z-50 fixed top-0 left-0 right-0 bg-green-700"
+              style={{ scaleX }}
+            />
 
-          <Component {...pageProps} />
-        </motion.div>
-      </Layout>
+            <Component {...pageProps} />
+          </motion.div>
+        </Layout>
+      </CookieConsent>
     </>
   );
 }
