@@ -166,6 +166,15 @@ export default function Footer() {
             >
               Termini & Condizioni
             </Link>
+            <a
+              className="cursor-pointer"
+              onClick={() =>
+                document.dispatchEvent(new Event("cookie_consent_show"))
+              }
+            >
+              {" "}
+              Rivedi Consenso Cookie
+            </a>
           </div>
         </div>
       </footer>

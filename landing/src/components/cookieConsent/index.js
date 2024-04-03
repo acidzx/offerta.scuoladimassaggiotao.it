@@ -20,10 +20,10 @@ const SetUidLocalStorage = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const storedUid = localStorage.getItem("uid_kosmos_website");
+      const storedUid = localStorage.getItem("uid_offerta_tao_website");
       if (!storedUid) {
         const newUid = uuidv4();
-        localStorage.setItem("uid_kosmos_website", newUid);
+        localStorage.setItem("uid_offerta_tao_website", newUid);
         setUid(newUid);
       } else {
         // altrimenti usa quello esistente
@@ -143,14 +143,14 @@ function gtag() {
 const CookieConsent = ({ children }) => {
   const uid = SetUidLocalStorage();
 
-  const categoryExpressed = hasCookie("kosmos_website_cookie_consent");
+  const categoryExpressed = hasCookie("offerta_tao_website_cookie_consent");
 
   /*  console.log(categoryExpressed); */
 
   let categoryChoosen = "";
 
   if (categoryExpressed) {
-    categoryChoosen = getCookie("kosmos_website_cookie_consent");
+    categoryChoosen = getCookie("offerta_tao_website_cookie_consent");
   }
 
   return (
@@ -173,7 +173,7 @@ const CookieConsent = ({ children }) => {
         btnLabelOnlyEssentialAndContinue="Solo Cookie Tecnici"
         btnLabelPersistSelectionAndContinue="Salva e continua"
         contentSettingsDescription="Puoi decidere quali cookie permettere, selezionando le rispettive opzioni sottostanti. Nota che la tua selezione potrebbe influire sulle funzionalità del servizio."
-        cookieName="kosmos_website_cookie_consent"
+        cookieName="offerta_tao_website_cookie_consent"
         availableCategories={[
           {
             description:
