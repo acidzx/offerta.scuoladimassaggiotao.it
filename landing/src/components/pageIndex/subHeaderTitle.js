@@ -29,7 +29,7 @@ export default function SubHeaderTitle() {
           <ul>
             <li>
               <button
-                className="btn btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm leading-5"
+                className="border border-green-800 uppercase rounded-xl p-2  btn-outline text-green-700 hover:text-green-900 hover:bg-gray-100 my-2 max-w-sm leading-5"
                 onClick={() => scrollIntoTheView("altaFormazioneSection")}
               >
                 Diploma alta formazione professionale per massaggiatori (500

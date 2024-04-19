@@ -20,7 +20,7 @@ export default function DiplomaAltaFormazione() {
         </p>
       </div>
 
-      <div className="container p-4 mx-auto relative">
+      <div className="container p-2 mx-auto relative">
         <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100/30 ">
           <Image
             priority
