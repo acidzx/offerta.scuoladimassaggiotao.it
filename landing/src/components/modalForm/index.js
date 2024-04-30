@@ -105,6 +105,8 @@ export default function ModalForm({ idForm }) {
       .catch(console.error);
   }, [fetchUserIp, register, userIp, setValue]);
 
+  const currentUrl = router.asPath;
+
   const onSubmit = async (data) => {
     const json_user_ip = getValues("user_ip");
     data.user_ip = json_user_ip.userIp;
@@ -215,6 +217,12 @@ export default function ModalForm({ idForm }) {
             />
 
             <input type="hidden" name="user_ip" {...register("user_ip")} />
+            <input
+              type="hidden"
+              name="locationUrl"
+              {...register("locationUrl")}
+              value={currentUrl}
+            />
 
             {/* nome */}
             <div className="form-control w-full max-w-sm mx-auto">
