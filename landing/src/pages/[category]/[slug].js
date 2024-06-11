@@ -8,6 +8,7 @@ import {
 } from "../../../lib/posts-util";
 
 export default function SlugDetailPage(props) {
+  console.log(props.corsi);
   return (
     <>
       <Head>

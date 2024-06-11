@@ -1,4 +1,6 @@
-export default function Label() {
+export default function Label({ bottoneDiverso }) {
+  console.log(bottoneDiverso);
+
   return (
     <label
       htmlFor="modalForm"
@@ -6,9 +8,12 @@ export default function Label() {
       role="alert"
     >
       <span className="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3">
-        Una sorpresa per te
+        {(bottoneDiverso?.verde && bottoneDiverso?.verde) ||
+          "Una sorpresa per te"}
       </span>
-      <span className="text-sm font-medium">Contattaci ora</span>
+      <span className="text-sm font-medium">
+        {(bottoneDiverso?.grigio && bottoneDiverso?.grigio) || "Contattaci ora"}
+      </span>
       <svg
         className="ml-2 w-5 h-5"
         fill="currentColor"

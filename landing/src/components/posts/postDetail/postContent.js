@@ -109,6 +109,8 @@ export default function PostContent(props) {
         title={post.title}
         category={post.category}
         subIncipit={post.subIncipit}
+        incipitTitle={post.incipitTitle}
+        bottoneDiverso={post.bottoneDiverso}
       />
 
       <PostPresentation

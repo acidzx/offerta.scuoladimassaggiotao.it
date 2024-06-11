@@ -15,7 +15,10 @@ export default function Cta(props) {
           <span className="subTitle">{title}</span>
         </div>
         <div className="containerCenter">
-          <span className="pCenter">{text}</span>
+          <span
+            className="pCenter"
+            dangerouslySetInnerHTML={{ __html: text }}
+          ></span>
         </div>
         <div className="containerCenter">
           <CtaActionsButtons btnText={btnText} />
