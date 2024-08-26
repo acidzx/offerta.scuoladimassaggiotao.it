@@ -29,7 +29,7 @@ programma: [
 "Tecnica del massaggio post-gara defaticante/decontratturante"]
 requisiti: "Il Corso di Massaggio Sportivo è aperto a chi ha già un'esperienza di base precedente e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramento, frizioni, impastamento, vibrazione e percussioni, in tutte le loro varianti. È consigliabile avere anche conoscenza del Massaggio Decontratturante."
 videosrc: "https://www.youtube-nocookie.com/embed/3xDtC4l0MfA"
-programmazione: ['30 09 2023', '10 02 2024', '15 06 2024', '05 10 2024']    
+programmazione: ['05 10 2024', '08 02 2025', '28 06 2025', '04 10 2025']    
 order: "5"
 incipit: "<span class='font-bold'>Se desideri diventare massaggiatore professionista non puoi non conoscere questa tecnica di massaggio</span>. <span class='block py-2'>Scopri subito come accedere al corso massaggio sportivo.</span>"
 longcontentTitle: "Corso Massaggio Sportivo: amplia la tua formazione con noi"            

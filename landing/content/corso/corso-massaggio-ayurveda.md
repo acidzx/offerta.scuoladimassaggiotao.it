@@ -24,7 +24,7 @@ programma: [
 "Protocollo di lavoro: le posizioni supina, prona, Shiroabhyanga e Mukhabhyanga."]
 requisiti: "Il Corso di Massaggio Ayurvedico non presenta requisiti particolari ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/9JgrrHTKeWY"
-programmazione: ['06 10 2023', '23 02 2024', '24 05 2024', '13 09 2024']    
+programmazione: ['13 09 2024', '21 02 2025', '23 05 2025', '05 09 2025']    
 order: "6"
 incipit: "<span class='font-bold'>Se desideri conoscere come applicare la filosofia Ayurvedica al mondo del massaggio, questo è il corso ideale per te.</span> Cosa aspetti? <span class='font-bold'>Scopri come donare benessere ai tuoi clienti</span> e ristabilire l’equilibrio energetico <span class='font-bold'>attraverso l’uso sapiente</span> e sincronico <span class='font-bold'>delle mani, apprendendo numerose tecniche grazie al nostro corso massaggio ayurvedico. 
 </span>"

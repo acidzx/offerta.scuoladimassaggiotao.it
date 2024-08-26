@@ -44,7 +44,7 @@ programma: [
 "Spazio per approfondimenti finali."]
 requisiti: "Il Corso di Taping Muscolare è un Corso Tecnico rivolto a tutti coloro che hanno frequentato il nostro Corso di Anatomia Palpatoria o che sono in possesso di una laurea in Scienze Motorie o Fisioterapia o di un titolo similare. Consigliamo di contattare il nostro Servizio Clienti per valutare le possibilità di accreditamento in base al proprio titolo."
 videosrc: "https://www.youtube-nocookie.com/embed/Hje9a2y3qOQ"
-programmazione: ['07 10 2023', '05 11 2023', '06 04 2024', '21 04 2024', '12 10 2024', '10 11 2024']    
+programmazione: ['12 10 2024', '10 11 2024', '29 03 2025', '11 10 2025']    
 order: "18"
 incipit: "<span class='font-bold'>Impara una tecnica molto richiesta nei centri sportivi e dagli atleti.</span> 
 <span class='block py-2'>Scegli il corso taping kinesiologico per ampliare la tua formazione e differenziarti nel mondo del massaggio.</span>
