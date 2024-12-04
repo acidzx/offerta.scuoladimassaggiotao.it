@@ -27,14 +27,12 @@ programma: [
 "Ripasso finale pratico."]
 requisiti: "Il Corso di Riflessologia Plantare non presenta requisiti ed è un corso aperto a tutti. Il programma completo di Riflessologia Plantare si sviluppa in un corso di 1° livello della durata di 2 giornate ed un corso avanzato di 2° livello. Il 2° livello ha come requisito lo svolgimento del 1° livello."
 videosrc: "https://www.youtube-nocookie.com/embed/Id6ygauNRL0"
-programmazione: ['28 09 2024', '14 12 2024', '15 02 2025', '10 05 2025', '14 05 2025', '27 09 2025', '13 12 2025']  
+programmazione: ['28 09 2024', '14 12 2024', '15 02 2025', '10 05 2025', '14 05 2025', '01 11 2025', '13 12 2025']  
 order: "8"
 incipit: "<span class='font-bold'>Dall’antica medicina tradizionale cinese arriva una delle tecniche di massaggio più richieste</span> sul mercato. <span class='font-bold'>Stiamo parlando della Riflessologia Plantare</span>. Sei pronto a scoprire la nostra offerta formativa?"
 longcontentTitle: "Corso Massaggio Riflessologia Plantare: Apprendi le Migliori Tecniche Per Riequilibrare Mente e Corpo"            
 longcontent: "<p class='pb-2'><span class='font-bold'>La riflessologia plantare è una tecnica antica</span> che proviene da diverse culture e continenti, <span class='font-bold'>che ha lo scopo di riequilibrare il corpo e la mente</span>, favorendo l’autoguarigione naturale.
-
 <p class='pb-2'><span class='font-bold'>Consiste nell’applicare delle pressioni e delle frizioni sulle zone riflesse del piede</span>, con le dita o con degli strumenti appositi, <span class='font-bold'>per:</span></p>
-
 <ol class='list-decimal mt-2 ml-6'>
 <li><span class='font-bold'>rilassare il sistema nervoso;</span></li>
 <li><span class='font-bold'>stimolare la circolazione sanguigna e linfatica;</span></li>
@@ -48,7 +46,6 @@ longcontent: "<p class='pb-2'><span class='font-bold'>La riflessologia plantare 
 <li><span class='font-bold'>apprendere la teoria e la pratica della riflessologia plantare;</span></li>
 <li>studiare l’anatomia e la fisiologia del piede e dei punti riflessi;</li>
 <li><span class='font-bold'>approfondire  le tecniche di massaggio per le diverse zone del piede</span> e le diverse problematiche.</li></ol><p class='mt-2'><span class='font-bold'>Una tecnica curativa</span> che deriva dall’antica medicina tradizionale cinese <span class='font-bold'>in grado di</span> favorire il riequilibrio psico-fisico e la relativa riduzione di tensioni e ansie ma soprattutto di <span class='font-bold'>riequilibrare la funzionalità dei principali apparati (respiratorio, digerente, urinario, circolatorio, etc.)</span>.</p>"
-
 longcontentCollapseTitle: ""
 longcontentCollapseContent: ""
 features1: "Apprendi le più antiche manualità del trattamento al piede"
@@ -67,8 +64,4 @@ primaDataTitle: "Prima data del corso massaggio plantare"
 programmaTitle: "Corso Massaggio Plantare: il Nostro Programma"  
 videoPresentationText: "Ascolta il nostro direttore didattico che ti illustra i vantaggi del corso massaggio riflessologia plantare."
 serviziInclusiTitle: "Corso Massaggio Riflessologia Plantare: ecco perché sceglierlo"
----
-
----
-
 ---

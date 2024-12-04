@@ -24,7 +24,7 @@ programma:
   ]
 requisiti: "Il Master Tecnico di Massaggio Miofasciale della Scuola Nazionale di Massaggio Tao® è aperto a chi ha già un'esperienza di base precedente, e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramento, frizioni, impastamento, vibrazione e percussioni, in tutte le loro varianti, del Massaggio Decontratturante e dell’Anatomia Palpatoria."
 videosrc: "https://www.youtube-nocookie.com/embed/D0oweyP7smI?si=NvGvlVCNNgsONnLL"
-programmazione: ["28 09 2024", "15 02 2025", "27 09 2025"]
+programmazione: ["28 09 2024", "15 02 2025", "04 10 2025"]
 order: "24"
 incipit: "<span class='font-bold'>La conoscenza di questa tecnica ti offre la possibilità di lavorare in tantissimi settori del mondo del massaggio come ad esempio quello degli osteopati.</span> 
 <span class='block py-2 font-bold'>Una formazione completa con la tecnica decontratturante per eccellenza.</span> 

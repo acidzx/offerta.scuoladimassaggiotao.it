@@ -21,7 +21,7 @@ programma:
   ]
 requisiti: "Il corso di massaggio Kobido della Tao - Scuola Nazionale di Massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese, quali sfioramento, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti. É consigliabile avere anche una conoscenza del trattamento di Linfodrenaggio Vodder."
 videosrc: "https://www.youtube.com/embed/LQGabCIZ2gc"
-programmazione: ['21 12 2024', '26 04 2025', '12 07 2025', '06 12 2025']   
+programmazione: ['21 12 2024', '05 04 2025', '12 07 2025', '06 12 2025']   
 order: "15" 
 incipit: "<span class='font-bold'>Se desideri imparare l’arte del massaggio dell’eterna giovinezza, questo è il corso ideale per te</span>. Grazie al corso massaggio Kobido apprenderai una tecnica manipolatoria specifica per il viso, molto richiesta soprattutto dalle donne. Scopri subito la tecnica di massaggio Kobido."
 longcontentTitle: "Corso Massaggio Kirei e Kobido: ecco cosa apprenderai"            
