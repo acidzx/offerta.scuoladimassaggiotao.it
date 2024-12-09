@@ -112,6 +112,7 @@ export default function ModalForm({ idForm }) {
     data.user_ip = json_user_ip.userIp;
     console.log(idForm);
     console.log(data);
+    data.consenso_mkt = data.consenso_mkt === true ? 1 : 0;
     try {
       const response = await fetch(
         "https://crm.taogroup.it/web_forms/subscription",
@@ -306,28 +307,56 @@ export default function ModalForm({ idForm }) {
               </label>
             </div>
 
-            <div className="flex items-center my-3 mx-auto justify-center">
-              <input
-                type="checkbox"
-                value=""
-                className={`w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded  ${checkTermsConditionsStyleError}`}
-                {...register("terms__conditions")}
-              />
-              <label className={`ml-2 text-sm font-medium text-gray-900`}>
-                Ho letto, compreso e accettato{" "}
-                <Link
-                  href="https://www.iubenda.com/termini-e-condizioni/98820787"
-                  className="text-green-600 hover:underline "
-                >
-                  termini e condizioni
-                </Link>{" "}
-                (obbligatorio)
+            <div className="sm:col-span-2 pb-2 border-b pl-2">
+              <label className="flex cursor-pointer select-none items-center text-sm font-semibold leading-6 text-gray-600">
+                <div className="relative pr-2">
+                  <input
+                    type="checkbox"
+                    value=""
+                    className={`w-4 h-4 text-green-600 bg-gray-100 focus:ring-1 ring-green-600 border-gray-300 rounded  ${checkTermsConditionsStyleError}`}
+                    {...register("terms__conditions")}
+                  />
+                </div>
+                <div>
+                  Ho letto, compreso e accetto i{" "}
+                  <Link
+                    href="https://www.iubenda.com/termini-e-condizioni/98820787"
+                    className="hover:text-green-600"
+                  >
+                    termini e condizioni
+                  </Link>{" "}
+                  e{" "}
+                  <Link
+                    href="https://www.iubenda.com/privacy-policy/98820787/full-legal"
+                    className="hover:text-green-600"
+                  >
+                    privacy policy
+                  </Link>{" "}
+                  (obbligatorio){" "}
+                  <span className="text-red-500 text-xs">
+                    {errors.terms__conditions?.message
+                      ? " !! obbligatorio"
+                      : ""}
+                  </span>
+                </div>
               </label>
             </div>
-            <div className="mx-auto -mt-2 text-center text-red-700 text-xs">
-              {errors.terms__conditions && (
-                <Error message={errors.terms__conditions.message} />
-              )}
+            <div className="sm:col-span-2 pt-2  pl-2">
+              <label className="flex cursor-pointer select-none items-center text-sm font-semibold leading-6 text-gray-600">
+                <div className="relative pr-2">
+                  <input
+                    type="checkbox"
+                    value=""
+                    className={`w-4 h-4 text-green-600 bg-gray-100 focus:ring-1 ring-green-600 border-gray-300 rounded `}
+                    {...register("consenso_mkt")}
+                  />
+                </div>
+                <div>
+                  Sì, desidero ricevere offerte speciali ed essere informato su
+                  promozioni e novità{" "}
+                  <span className="text-red-500 text-xs"></span>
+                </div>
+              </label>
             </div>
 
             <div className="mx-auto text-center mt-6">
