@@ -63,7 +63,7 @@ export default function PromoNatale() {
             <p className="mt-2 text-lg leading-8 text-gray-600">
               Ora che l&apos;anno volge al termine, noi di Tao - Scuola
               Nazionale di Massaggio ci teniamo a ringraziare con tutto il cuore
-              tutte le persone che hanno interagito con noi nel corso del 2023.
+              tutte le persone che hanno interagito con noi nel corso del 2024.
             </p>
             <p className="mt-2 text-lg leading-8 text-gray-600">
               Sotto potrai trovare 3 diversi regali che abbiamo riservato per
