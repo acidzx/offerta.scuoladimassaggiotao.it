@@ -121,9 +121,10 @@ export default function ModalForm({ idForm }) {
           body: jsonToFormData(data),
         }
       );
-      if (
-        response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
-      ) {
+      console.log(response);
+      console.log(response.url);
+      console.log(response.status);
+      if (response.status === 200) {
         await analytics.track("form_compilato", {
           nome: data.nome,
           cognome: data.cognome,
