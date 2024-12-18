@@ -41,7 +41,7 @@ export default function ThankYou() {
           </p>
 
           <Link
-            href="/"
+            href="https://www.scuoladimassaggiotao.it"
             className="inline-flex items-center px-4 py-2 text-white bg-green-700 border border-green-600 rounded-full hover:bg-green-800 focus:outline-none focus:ring"
           >
             <svg
