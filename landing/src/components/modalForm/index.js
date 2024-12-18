@@ -113,6 +113,7 @@ export default function ModalForm({ idForm }) {
     console.log(idForm);
     console.log(data);
     data.consenso_mkt = data.consenso_mkt === true ? 1 : 0;
+
     try {
       const response = await fetch(
         "https://crm.taogroup.it/web_forms/subscription",
@@ -121,10 +122,13 @@ export default function ModalForm({ idForm }) {
           body: jsonToFormData(data),
         }
       );
+
       console.log(response);
       console.log(response.url);
       console.log(response.status);
-      if (response.status === 200) {
+      if (
+        response.url === "https://offerta.scuoladimassaggiotao.it/thank-you"
+      ) {
         await analytics.track("form_compilato", {
           nome: data.nome,
           cognome: data.cognome,

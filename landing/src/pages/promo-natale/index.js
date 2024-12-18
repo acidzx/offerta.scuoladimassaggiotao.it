@@ -9,14 +9,14 @@ const posts = [
     id: 1,
     title: "Promo Alta Formazione",
     href: "/assets/images/promo-alta-formazione.png",
-    formId: "4fd5aadb85a00525415e3733cb96ed68",
+    formId: "8606f35ec6c77858dfb80a385d0d1151",
     imageUrl: "/assets/images/promo-alta-formazione.png",
   },
   {
     id: 2,
     title: "Promo Diploma",
     href: "/assets/images/promo-diploma.jpg",
-    formId: "35a12c43227f217207d4e06ffefe39d3",
+    formId: "a7b23e6eefbe6cf04b8e62a6f0915550",
     imageUrl: "/assets/images/promo-diplomi.png",
   },
   {
