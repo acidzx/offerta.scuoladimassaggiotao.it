@@ -33,7 +33,7 @@ programma: [
 "Spazio per Approfondimenti Finali."]
 requisiti: "Il Corso di Massaggio Decontratturante è aperto a chi ha già un'esperienza di base precedente e soprattutto una conoscenza delle tecniche occidentali del Massaggio Classico Svedese, quali sfioramenti, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/wS-z6hHDcYE"
-programmazione: ['14 12 2024', '12 04 2025', '19 07 2025', '13 12 2025']  
+programmazione: ['12 04 2025', '19 07 2025', '13 12 2025'] 
 order: "2"
 incipit: "<span class='font-bold'>Se desideri praticare il massaggio decontratturante</span> in completa autonomia, <span class='font-bold'>questo è il corso ideale</span>. <span class='block py-2'>Cosa aspetti? <span class='font-bold'>Scopri subito la nostra offerta formativa</span> e iscriviti al corso massaggio decontratturante.</span>"
 longcontentTitle: "Corso massaggio decontratturante: impara ad alleviare il dolore muscolare"            

@@ -54,7 +54,16 @@ programma: [
     "Spazio per approfondimenti finali."]
 requisiti: "Il Corso di Massaggio Base Classico Svedese della Scuola Nazionale di Massaggio Tao® è il corso per eccellenza più completo tra tutti. Esso è aperto e rivolto a chiunque, quindi non è necessario avere un'esperienza di base precedente. Il Massaggio Base Classico Svedese è particolarmente consigliato a chi non ha esperienza nelle tecniche di massaggio occidentali quali Sfioramenti, Frizioni, Impastamenti, Vibrazioni e Percussioni in tutte le loro varianti."
 videosrc: "https://www.youtube-nocookie.com/embed/IqWZWg1zzjw"
-programmazione: ['06 09 2024', '18 10 2024', '29 11 2024', '17 01 2025', '21 03 2025', '02 05 2025', '20 06 2025', '25 07 2025', '12 09 2025', '17 10 2025', '28 11 2025']
+programmazione: [
+      '17 01 2025',
+      '21 03 2025',
+      '02 05 2025',
+      '20 06 2025',
+      '25 07 2025',
+      '12 09 2025',
+      '17 10 2025',
+      '28 11 2025'
+    ]
 order: "1"
 cta1OverTitle: "Ecco la sorpresa che abbiamo pensato per te"
 cta1OverText: "Richiedi ora il coupon sconto per iscriverti al corso di massaggio base svedese"
