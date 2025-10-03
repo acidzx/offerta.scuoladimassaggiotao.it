@@ -42,7 +42,7 @@ programma:
   ]
 requisiti: "Il Master Tecnico di Massaggio Cervicolombare della Scuola Nazionale di Massaggio Tao® è fondamentale per tutti coloro che sono nel settore del benessere e vogliono ampliare le proprie conoscenze per migliorare la qualità e l'efficacia del proprio lavoro. È un corso avanzato, rivolto a chi ha già frequentato il Diploma di Massaggio Sportivo, o a tutti coloro che hanno già esperienza nel Massaggio Base Classico Svedese, nel Massaggio Decontratturante ed hanno una buona conoscenza di Anatomia (documentata con relativo attestato o titolo di studi)."
 videosrc: "https://www.youtube-nocookie.com/embed/RqFQbQng878?si=IU_VRaHsfo8HWE1t"
-programmazione: ['25 01 2025', '21 06 2025']
+programmazione: ['18 01 2026', '07 06 2026', '01 01 2027']
 order: "19"
 
 incipit: "<span clas='font-bold'>La tecnica di massaggio cervicolombare è</span> tra le più richieste, <span clas='font-bold'>un requisito fondamentale</span> che

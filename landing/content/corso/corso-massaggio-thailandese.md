@@ -26,7 +26,7 @@ programma: [
 "Ripasso finale pratico del massaggio completo."]
 requisiti: "Il Corso di Massaggio Thailandese non presenta requisiti particolari ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/1UzFXgb8No0"
-programmazione: ['09 05 2025', '05 12 2025']    
+programmazione: ['01 05 2026', '18 12 2026', '05 12 2025', '01 01 2027'] 
 order: "13"
 incipit: "<span class='font-bold'>Per un benessere emotivo e spirituale.</span> Per un recupero fisico migliore post attività sportiva. <span class='font-bold'>Per favorire il flusso dell’energia vitale nel corpo.</span>
 <span class='block py-3 font-bold'>Tutto questo è possibile grazie a una delle tecniche di massaggio più antiche al mondo.</span>

@@ -20,7 +20,7 @@ programma: [
 'Localizzazione dei punti di repere del corpo umano come riferimento per il massaggiatore professionista.']
 requisiti: "Il Corso di Anatomia Palpatoria è aperto a tutti ed è propedeutico per il Corso di Taping Elastico e per il Diploma Nazionale in Tecniche Avanzate di Massaggio."
 videosrc: "https://www.youtube-nocookie.com/embed/U40pnlmVxGw"
-programmazione: ['11 01 2025', '17 05 2025', '27 09 2025']
+programmazione: ['10 01 2026', '09 05 2026', '19 09 2026', '27 09 2025', '01 01 2027']
 order: "3"  
 incipit: "Solo <span class='font-bold'>lo studio dell’anatomia dei muscoli</span>, della loro struttura e delle loro azioni primarie <span class='font-bold'>ci può consentire di lavorare con la giusta consapevolezza sul corpo delle persone.</span>
 <span class='block py-2'><span class='font-bold'>Familiarizzare con i muscoli è il primo step per fare la differenza nel lavoro di massaggiatore</span> e operatore del benessere.</span>

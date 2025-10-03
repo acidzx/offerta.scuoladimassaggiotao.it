@@ -19,7 +19,7 @@ programma: [
 "Ripasso finale pratico del massaggio completo."]
 requisiti: "Il Corso di Massaggio Thai Oil non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube.com/embed/uU-xyFUDNBs"
-programmazione: ['22 02 2025', '07 06 2025', '11 10 2025']    
+programmazione: ['21 03 2026', '06 06 2026', '10 10 2026', '11 10 2025', '01 01 2027']   
 order: "12"
 
 incipit: "<b>Per ristabilire equilibrio tra corpo, anima e mente devi assolutamente conoscere questa tecnica</b>. Stiamo parlando del corso di massaggio Thai Oil <b>che arricchirà la tua formazione nel mondo del benessere</b>. Cosa aspetti? Richiedi ora info!"

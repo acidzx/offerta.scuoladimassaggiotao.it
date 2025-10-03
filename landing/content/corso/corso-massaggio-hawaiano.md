@@ -24,7 +24,7 @@ programma: [
 "Svolgimento parte pratica: posizione prona e supina."]
 requisiti: "Il Corso di Massaggio Hawaiano Lomi Lomi Nui non presenta requisiti ed è un corso aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/eRIGF4YSKu8"
-programmazione: ['15 03 2025', '14 06 2025', '22 11 2025'] 
+programmazione: ['07 03 2026', '11 07 2026', '21 11 2026', '22 11 2025', '01 01 2027'] 
 order: "9"
 incipit: "<span class='font-bold'>Se desideri apprendere una tecnica di massaggio poco conosciuta</span> ma tanto efficace <span class='font-bold'>che ti permetterà di differenziarti nel mondo del massaggio, devi assolutamente iscriverti al corso Hawaiano Lomi Lomi Nui.</span> <span class='block py-2'>Richiedi maggiori informazioni e scopri la sorpresa che ti abbiamo riservato.</span>"
 longcontentTitle: "Corso Massaggio Lomi Lomi: amplia la tua formazione olistica con il corso di massaggio hawaiano"            

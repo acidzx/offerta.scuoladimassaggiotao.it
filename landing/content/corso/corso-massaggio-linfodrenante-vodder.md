@@ -27,7 +27,7 @@ programma: [
 "Ripasso finale completo pratico del massaggio."]
 requisiti: "Il Corso di Massaggio Linfodrenante non presenta requisiti ed è aperto a tutti."
 videosrc: "https://www.youtube-nocookie.com/embed/ofrYSz31zyI"
-programmazione: ['28 02 2025', '04 07 2025', '14 11 2025'] 
+programmazione: ['27 02 2026', '03 07 2026', '13 11 2026', '14 11 2025', '01 01 2027'] 
 order: "4"
 incipit: "<span class='font-bold'>Uno dei trattamenti più richiesti in ambito estetico, curativo e sportivo</span>. Di cosa stiamo parlando? Del corso di massaggio linfodrenante. <span class='font-bold'>Scopri ora la nostra offerta formativa</span>."
 longcontentTitle: "Corso Linfodrenaggio Vodder: Impara il Massaggio Drenante con la nostra formazione"            

@@ -47,7 +47,7 @@ programma:
   ]
 requisiti: "Il Master Tecnico Articolare della Scuola di Massaggio Tao è fondamentale per tutti coloro che sono nel settore del benessere e vogliono ampliare le proprie conoscenze per migliorare la qualità e l'efficacia del proprio lavoro. È un corso avanzato, rivolto a chi ha già frequentato il Diploma di Massaggio Sportivo, o a tutti coloro che hanno già esperienza nel Massaggio Base Classico Svedese, nel Massaggio Decontratturante ed hanno una buona conoscenza di Anatomia (documentata con relativo attestato o titolo di studi)."
 videosrc: "https://www.youtube-nocookie.com/embed/L5RpwyP1VIs?si=VS9JdpPMvC_SAXRK"
-programmazione: ['01 02 2025', '04 10 2025']
+programmazione: ['01 02 2026', '26 07 2026', '04 10 2025', '01 01 2027']
 order: "20"
 
 

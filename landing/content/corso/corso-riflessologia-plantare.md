@@ -27,7 +27,7 @@ programma: [
 "Ripasso finale pratico."]
 requisiti: "Il Corso di Riflessologia Plantare non presenta requisiti ed è un corso aperto a tutti. Il programma completo di Riflessologia Plantare si sviluppa in un corso di 1° livello della durata di 2 giornate ed un corso avanzato di 2° livello. Il 2° livello ha come requisito lo svolgimento del 1° livello."
 videosrc: "https://www.youtube-nocookie.com/embed/Id6ygauNRL0"
-programmazione: ['15 02 2025', '10 05 2025', '01 11 2025', '14 06 2025', '13 12 2025']  
+programmazione: ['07 02 2026', '02 05 2026', '26 09 2026', '01 11 2025', '01 01 2027']
 order: "8"
 incipit: "<span class='font-bold'>Dall’antica medicina tradizionale cinese arriva una delle tecniche di massaggio più richieste</span> sul mercato. <span class='font-bold'>Stiamo parlando della Riflessologia Plantare</span>. Sei pronto a scoprire la nostra offerta formativa?"
 longcontentTitle: "Corso Massaggio Riflessologia Plantare: Apprendi le Migliori Tecniche Per Riequilibrare Mente e Corpo"            

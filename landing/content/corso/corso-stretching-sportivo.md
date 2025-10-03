@@ -29,7 +29,7 @@ programma:
   ]
 requisiti: "Il corso di Stretching Sportivo della Tao - Scuola Nazionale di Massaggio è aperto a chi ha già un’esperienza di base precedente, soprattutto una conoscenza delle tecniche del massaggio base classico svedese, quali sfioramento, frizioni, impastamenti, vibrazioni e percussioni, in tutte le loro varianti e una buona conoscenza dell'anatomia del corpo umano. È inoltre consigliabile avere conoscenza delle tecniche del massaggio decontratturante e del massaggio sportivo di base."
 videosrc: "https://www.youtube-nocookie.com/embed/uT4uxWUzv9M"
-programmazione: ['29 03 2025', '12 07 2025', '08 11 2025'] 
+programmazione: ['28 03 2026', '20 06 2026', '05 12 2026', '08 11 2025', '01 01 2027']
 order: "21"
 incipit: "<span class='font-bold'>Dal mondo sportivo a quello del benessere, la tecnica di stretching è sempre più richiesta.</span> 
 <span class='block py-2'>Apprendi quali sono i metodi per allungare i muscoli con i migliori docenti del mondo del massaggio.</span>

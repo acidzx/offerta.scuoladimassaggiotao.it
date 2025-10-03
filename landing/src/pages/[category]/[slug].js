@@ -9,6 +9,7 @@ import {
 
 export default function SlugDetailPage(props) {
   console.log(props.corsi);
+
   return (
     <>
       <Head>
@@ -34,12 +35,7 @@ export async function getStaticProps(context) {
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");
 
-  const res = await fetch(
-    `https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=${process.env.G_ACCESS_TOKEN}`,
-    { cache: "force-cache" }
-  );
-
-  const reviews = await res.json();
+  const reviews = [{}];
 
   return {
     props: {

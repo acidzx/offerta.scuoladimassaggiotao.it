@@ -22,7 +22,7 @@ programma: [
 "Spazio per approfondimenti finali."] 
 requisiti: "Il Corso di Massaggio Hot Stone della Scuola Nazionale di Massaggio Tao® è aperto e rivolto a chiunque e non necessita di un'esperienza di base precedente."
 videosrc: "https://www.youtube-nocookie.com/embed/YwQejIuY0Vg"
-programmazione: ['23 02 2025', '28 09 2025']  
+programmazione: ['08 02 2026', '10 05 2026', '20 12 2026', '01 01 2027']
 order: "16"
 incipit: "Da un’antica pratica del mondo orientale <span class='font-bold'>il massaggio hot stone è tra i più richiesti</span> per gli incredibili effetti rilassanti e drenanti.</span>
 <span class='block py-3'>Impara a usare le calde pietre basaltiche per donare benessere ai tuoi clienti.</span>

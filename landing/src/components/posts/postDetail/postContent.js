@@ -215,7 +215,7 @@ export default function PostContent(props) {
       </div>
 
       <Testimonials
-        Greviews={props.reviews.result.reviews}
+        Greviews={props?.reviews?.result?.reviews}
         reviewTextTitle={post.reviewTextTitle}
         reviewTextContent={post.reviewTextContent}
       />
