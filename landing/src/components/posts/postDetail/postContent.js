@@ -244,7 +244,7 @@ export default function PostContent(props) {
       {post.slug === "diploma-massaggiatore-alta-formazione-professionale" ? (
         <>
           <div className="container mx-auto p-4">
-            <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2">
+            <h2 className="text-3xl font-bold text-gray-500 sm:text-4xl text-center pb-2 pt-8">
               Tre motivi per scegliere il Diploma di Alta Formazione
             </h2>
           </div>

@@ -109,7 +109,6 @@ export default function Home(props) {
                 />
               </svg>
             </div>
-
             <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-600 group-hover:text-gray-600">
               Consulenza e assistenza continua pre e post formazione
             </h3>
