@@ -256,8 +256,9 @@ export default function Testimonials(props) {
 
               <blockquote className="text-gray-700 leading-relaxed text-base">
                 <p className="italic">
-                  "{selectedReview?.comment?.split("(Translated by Google)")[0]}
-                  "
+                  &quot;
+                  {selectedReview?.comment?.split("(Translated by Google)")[0]}
+                  &quot;
                 </p>
               </blockquote>
             </div>
