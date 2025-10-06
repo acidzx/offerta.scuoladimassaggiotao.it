@@ -31,7 +31,7 @@ export default function DiplomaAltaFormazione() {
             height={446}
           />
 
-          <div className="text-xs md:text-base absolute top-1 right-16 w-32 text-center">
+          <div className="text-xs md:text-base absolute top-0 right-16 w-32 text-center">
             <label htmlFor="modalForm" className="cursor-pointer ">
               <div className="indicator">
                 <span className="indicator-item p-4 badge badge-primary bg-white border border-green-700 rounded-lg text-green-700 hover:bg-green-700 hover:text-white transition">

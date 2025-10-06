@@ -25,7 +25,6 @@ export default function SlugDetailPage(props) {
       </Head>
       <PostContent post={props.post} {...props} />
       <ModalForm />
-      {/* <pre>{JSON.stringify(props.reviewsData, null, 2)}</pre> */}
     </>
   );
 }

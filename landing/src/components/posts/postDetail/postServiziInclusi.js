@@ -32,7 +32,23 @@ export default function PostServiziInclusi(props) {
     <>
       <div className="bg-white flex justify-center my-12">
         <div className="stats stats-vertical lg:stats-horizontal shadow">
-          {title === "Massaggio Base Svedese" ? (
+          {title === "Massaggio Base Svedese" ||
+          title === "Massaggio Decontratturante" ||
+          title === "Massaggio Sportivo" ||
+          title === "Massaggio Linfodrenante Vodder" ||
+          title === "Anatomia Palpatoria" ||
+          title === "Coppettazione" ||
+          title === "Massaggio Anticellulite" ||
+          title === "Massaggio Californiano" ||
+          title === "Massaggio Hawaiano" ||
+          title === "Massaggio Thai Oil" ||
+          title === "Massaggio Ayurveda" ||
+          title === "Massaggio Hot Stone" ||
+          title === "Riflessologia Plantare" ||
+          title === "Massaggio Thailandese" ||
+          title === "Massaggio Connettivale" ||
+          title === "Massaggio Kobido" ||
+          title === "Stretching Sportivo" ? (
             <div className="stat lg:px-3 xl:px-4">
               <div className="stat-figure text-red-600">
                 <svg
