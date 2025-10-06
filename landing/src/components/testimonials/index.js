@@ -123,7 +123,7 @@ export default function Testimonials(props) {
                         <figure className="mt-10">
                           <blockquote className="text-center text-md font-semibold leading-8 text-gray-900  sm:leading-9">
                             <p>
-                              "{" "}
+                              &quot;{" "}
                               {review?.comment?.split(
                                 "(Translated by Google)"
                               )[0].length > 280
@@ -133,7 +133,7 @@ export default function Testimonials(props) {
                                 : review?.comment?.split(
                                     "(Translated by Google)"
                                   )[0]}{" "}
-                              "
+                              &quot;
                             </p>
                           </blockquote>
                           <figcaption className="mt-10">
