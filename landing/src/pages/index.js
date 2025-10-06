@@ -10,11 +10,6 @@ import HeaderTitle from "@/components/commons/headerTitle";
 import SubHeaderTitle from "@/components/pageIndex/subHeaderTitle";
 
 export async function getStaticProps() {
-  const res = await fetch(
-    `https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJgZIpTWlbKRMRQH75EJwkVKI&language=it&fields=review&key=${process.env.G_ACCESS_TOKEN}`,
-    { cache: "force-cache" }
-  );
-
   const reviews = {};
 
   const allCorsi = getAllPosts("corso");
