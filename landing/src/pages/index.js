@@ -15,7 +15,7 @@ export async function getStaticProps() {
     { cache: "force-cache" }
   );
 
-  const reviews = await res.json();
+  const reviews = {};
 
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");

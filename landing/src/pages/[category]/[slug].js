@@ -7,6 +7,8 @@ import {
   getAllPosts,
 } from "../../../lib/posts-util";
 
+const REVALIDATE_TIME_SECONDS = 3600; // Cache per 1 ora (ridotto da 3 ore)
+
 export default function SlugDetailPage(props) {
   console.log(props.corsi);
 
@@ -23,6 +25,7 @@ export default function SlugDetailPage(props) {
       </Head>
       <PostContent post={props.post} {...props} />
       <ModalForm />
+      {/* <pre>{JSON.stringify(props.reviewsData, null, 2)}</pre> */}
     </>
   );
 }
@@ -35,6 +38,25 @@ export async function getStaticProps(context) {
   const allCorsi = getAllPosts("corso");
   const allDiplomi = getAllPosts("diploma");
 
+  let reviewsData = null;
+
+  const getRewiewResponse = await fetch(
+    "https://www.scuoladimassaggiotao.it/api/getGoogleReviews",
+    {
+      method: "GET", // Esplicito per chiarezza
+      next: {
+        revalidate: REVALIDATE_TIME_SECONDS,
+        tags: ["google-reviews"],
+      },
+      // Considera un timeout anche qui se necessario
+      // signal: AbortSignal.timeout(9000) // Esempio: 9 secondi
+    }
+  );
+
+  if (getRewiewResponse.ok) {
+    reviewsData = await getRewiewResponse.json();
+  }
+
   const reviews = [{}];
 
   return {
@@ -43,6 +65,7 @@ export async function getStaticProps(context) {
       corsi: allCorsi,
       diplomi: allDiplomi,
       reviews,
+      reviewsData,
     },
     revalidate: 600,
   };

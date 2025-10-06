@@ -17,6 +17,7 @@ polyfill();
 
 export default function PostContent(props) {
   const { post } = props;
+  const timeZone = "Europe/Rome";
   /*   const imgPath = `/assets/images/${post.category}/${post.slug}`; */
 
   function checkDatePassate(date) {
@@ -87,14 +88,14 @@ export default function PostContent(props) {
   const filteredDate = filterDate[0]
     ? new Date(filterDate[0].split(" ").reverse().join("/")).toLocaleString(
         "it-IT",
-        dateOptions
+        { ...dateOptions, timeZone }
       )
     : "data in programmazione";
 
   const fineCorsoDate =
     filterDate && filterDate[0]
       ? dateManipulation(
-          new Date(filterDate[0].split(" ").reverse().join("/")),
+          new Date(new Date(filterDate[0].split(" ").reverse().join("/"))),
           post.durata[0] - 1,
           0,
           0,
@@ -215,7 +216,7 @@ export default function PostContent(props) {
       </div>
 
       <Testimonials
-        Greviews={props?.reviews?.result?.reviews}
+        Greviews={props?.reviewsData?.reviews || []}
         reviewTextTitle={post.reviewTextTitle}
         reviewTextContent={post.reviewTextContent}
       />
