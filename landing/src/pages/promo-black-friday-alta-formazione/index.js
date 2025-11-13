@@ -45,9 +45,21 @@ const includedCourses = [
 export default function PromoBlackFridayAltaFormazione() {
   const [idForm, setIdForm] = useState(null);
 
+  const openModalWithId = (formId) => {
+    setIdForm(formId);
+    // Trova la checkbox della modale e la "spunta" per aprirla
+    const modalCheckbox = document.getElementById("modalForm");
+    if (modalCheckbox) modalCheckbox.checked = true;
+  };
+
   return (
     <div>
-      <div className="w-full bg-gradient-to-br from-green-950 via-white to-red-900  pb-12">
+      <ModalForm
+        idForm={idForm}
+        setIdForm={setIdForm}
+        title="Richiedi Maggiori Informazioni"
+      />
+      <div className="w-full bg-black/95 pb-12">
         <div className="flex flex-col items-center justify-center max-w-screen-2xl mx-auto">
           <div className="w-full max-w-screen-md mx-auto mt-12 px-4">
             <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-red-500 via-red-500 to-red-700 p-1">
@@ -144,7 +156,12 @@ export default function PromoBlackFridayAltaFormazione() {
                 </div>
 
                 {/* CTA Button */}
-                <button className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-extrabold text-xl lg:text-2xl py-5 px-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200 hover:shadow-yellow-500/50">
+                <button
+                  onClick={() =>
+                    openModalWithId("d60743aab4b625940d39b3b51c3c6a78")
+                  }
+                  className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-extrabold text-xl lg:text-2xl py-5 px-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200 hover:shadow-yellow-500/50"
+                >
                   <span className="flex items-center justify-center gap-2 text-red-950">
                     SCOPRI L&apos;OFFERTA E ISCRIVITI
                     <svg
@@ -185,7 +202,7 @@ export default function PromoBlackFridayAltaFormazione() {
           </div>
         </div>
       </div>
-      <div className="w-full py-24 sm:py-32">
+      <div className="w-full  py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-5xl font-extrabold text-balance">
             Perché scegliere il percorso
@@ -277,7 +294,7 @@ export default function PromoBlackFridayAltaFormazione() {
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <ArrowPathIcon className="w-10 h-10 text-yellow-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-white h-16">
+                <h3 className="text-2xl font-bold text-white h-20">
                   Ripasso gratuito di tutti i corsi
                 </h3>
               </div>
@@ -289,7 +306,7 @@ export default function PromoBlackFridayAltaFormazione() {
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <VideoCameraIcon className="w-10 h-10 text-yellow-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-white h-16">
+                <h3 className="text-2xl font-bold text-white h-20">
                   Videocorsi professionali per ogni tecnica
                 </h3>
               </div>
@@ -301,7 +318,7 @@ export default function PromoBlackFridayAltaFormazione() {
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <DocumentTextIcon className="w-10 h-10 text-yellow-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-white h-16">
+                <h3 className="text-2xl font-bold text-white h-20">
                   Materiale didattico incluso
                 </h3>
               </div>
@@ -309,8 +326,7 @@ export default function PromoBlackFridayAltaFormazione() {
           </div>
         </div>
       </div>
-      <div>
-        {" "}
+      <div className="w-full">
         <div className="w-full bg-gradient-to-t from-black to-black/95 py-24 sm:py-32">
           <div className="mx-auto max-w-3xl text-center px-6 lg:px-8">
             <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-red-200">
@@ -322,7 +338,9 @@ export default function PromoBlackFridayAltaFormazione() {
             </p>
             <div className="mt-10">
               <button
-                onClick={() => setIdForm(posts[0].formId)}
+                onClick={() =>
+                  openModalWithId("d60743aab4b625940d39b3b51c3c6a78")
+                }
                 className="w-full max-w-md bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-extrabold text-xl lg:text-2xl py-5 px-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200 hover:shadow-yellow-500/50"
               >
                 <span className="flex items-center justify-center gap-2 text-red-950">
