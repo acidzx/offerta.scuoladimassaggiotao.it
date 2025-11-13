@@ -47,7 +47,7 @@ export default function PromoBlackFridayAltaFormazione() {
 
   return (
     <div>
-      <div className="w-full bg-black/95 pb-12">
+      <div className="w-full bg-gradient-to-br from-green-950 via-white to-red-900  pb-12">
         <div className="flex flex-col items-center justify-center max-w-screen-2xl mx-auto">
           <div className="w-full max-w-screen-md mx-auto mt-12 px-4">
             <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-red-500 via-red-500 to-red-700 p-1">
