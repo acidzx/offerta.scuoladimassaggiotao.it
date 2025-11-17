@@ -1,5 +1,4 @@
 import { ChevronRightIcon, CheckIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 import ModalForm from "@components/modalForm";
 import { useState } from "react";
 import {
@@ -12,17 +11,6 @@ import {
   VideoCameraIcon,
   DocumentTextIcon,
 } from "@heroicons/react/24/outline";
-
-const posts = [
-  {
-    id: 1,
-    title: "Promo Alta Formazione",
-    href: "/assets/images/promo-alta-formazione.png",
-    formId: "8606f35ec6c77858dfb80a385d0d1151",
-    imageUrl: "/assets/images/promo-alta-formazione.png",
-  },
-  // Aggiungi qui altre promozioni se necessario
-];
 
 const includedCourses = [
   "Corso di Massaggio Base Svedese",
@@ -163,7 +151,7 @@ export default function PromoBlackFridayAltaFormazione() {
                   className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-extrabold text-xl lg:text-2xl py-5 px-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200 hover:shadow-yellow-500/50"
                 >
                   <span className="flex items-center justify-center gap-2 text-red-950">
-                    SCOPRI L&apos;OFFERTA E ISCRIVITI
+                    ISCRIVITI ORA - OFFERTA LIMITATA
                     <svg
                       className="w-8 h-8 pt-1"
                       fill="none"
@@ -211,7 +199,7 @@ export default function PromoBlackFridayAltaFormazione() {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
             {/* Card 1: Tecniche di Massaggio */}
             <div className="bg-black/90 rounded-2xl">
-              <div className="h-full bg-gradient-to-br from-red-700/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
+              <div className="h-full bg-gradient-to-br from-red-500/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <BookOpenIcon className="w-10 h-10 text-yellow-400" />
                 </div>
@@ -227,7 +215,7 @@ export default function PromoBlackFridayAltaFormazione() {
 
             {/* Card 2: Certificazione Riconosciuta */}
             <div className="bg-black/90 rounded-2xl">
-              <div className="h-full bg-gradient-to-br from-red-700/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
+              <div className="h-full bg-gradient-to-br from-red-500/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <CheckBadgeIcon className="w-10 h-10 text-yellow-400" />
                 </div>
@@ -243,7 +231,7 @@ export default function PromoBlackFridayAltaFormazione() {
 
             {/* Card 3: Supporto Completo */}
             <div className="bg-black/90 rounded-2xl">
-              <div className="h-full bg-gradient-to-br from-red-700/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
+              <div className="h-full bg-gradient-to-br from-red-500/40 to-black/50 border border-red-500/20 rounded-2xl p-8 text-center flex flex-col items-center shadow-lg">
                 <div className="bg-red-500/10 p-4 rounded-full mb-6">
                   <UserGroupIcon className="w-10 h-10 text-yellow-400" />
                 </div>
