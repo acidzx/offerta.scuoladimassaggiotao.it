@@ -10,6 +10,7 @@ import {
   ArrowPathIcon,
   VideoCameraIcon,
   DocumentTextIcon,
+  VideoCameraSlashIcon,
 } from "@heroicons/react/24/outline";
 
 const includedCourses = [
@@ -28,6 +29,10 @@ const includedCourses = [
   "Corso di Coppettazione",
   "Corso di Stretching Sportivo",
   "Corso di Marketing & Comunicazione",
+  "Diploma di Operatore in Massaggio Sportivo",
+  "Diploma di Operatore in Massaggio Olistico",
+  "Diploma di Operatore in Massaggio Terme & Spa",
+  "Diploma di Alta Formazione Professionale",
 ];
 
 export default function PromoBlackFridayAltaFormazione() {
@@ -100,11 +105,6 @@ export default function PromoBlackFridayAltaFormazione() {
                     </div>
 
                     <div className="bg-red-900/50 rounded-xl p-4 mt-6 space-y-2">
-                      <p className="text-white text-lg">
-                        Solo{" "}
-                        <span className="font-bold text-yellow-400">259€</span>{" "}
-                        a corso
-                      </p>
                       <p className="text-gray-100 text-lg">
                         Rateizzabile fino a 36 rate da{" "}
                         <span className="font-semibold text-yellow-400">
@@ -128,11 +128,25 @@ export default function PromoBlackFridayAltaFormazione() {
                     Alta Formazione Professionale
                   </p>
                 </div>
-                <div className="flex items-center justify-center gap-2 text-white/90 mb-4 mt-8">
+                <div className="flex items-center justify-center gap-2 text-white/90 mb-4 mt-6">
                   <AcademicCapIcon className="w-6 h-6 text-yellow-400 hidden lg:block" />{" "}
                   <p className="text-2xl font-medium text-center">
                     15 Corsi Completi
-                  </p>{" "}
+                  </p>
+                  {/* <AcademicCapIcon className="w-7 h-7 text-yellow-400 hidden lg:block" /> */}
+                </div>
+                <div className="flex items-center justify-center gap-2 text-white/90 mb-4 mt-2">
+                  <AcademicCapIcon className="w-6 h-6 text-yellow-400 hidden lg:block" />{" "}
+                  <p className="text-2xl font-medium text-center">
+                    4 Diplomi Inclusi
+                  </p>
+                  {/* <AcademicCapIcon className="w-7 h-7 text-yellow-400 hidden lg:block" /> */}
+                </div>
+                <div className="flex items-center justify-center gap-2 text-white/90 mb-4 mt-2">
+                  <VideoCameraIcon className="w-6 h-6 text-yellow-400 hidden lg:block" />{" "}
+                  <p className="text-2xl font-medium text-center">
+                    15 Video Corsi Inclusi
+                  </p>
                   {/* <AcademicCapIcon className="w-7 h-7 text-yellow-400 hidden lg:block" /> */}
                 </div>
                 <div className="flex items-center justify-center gap-2 text-white/90 mb-8">
@@ -251,7 +265,7 @@ export default function PromoBlackFridayAltaFormazione() {
       <div className="w-full bg-black/95 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-5xl font-extrabold text-white text-balance">
-            I Corsi inclusi
+            I Corsi e i Diplomi inclusi
           </h2>
           <div className="h-1 w-24 bg-gradient-to-r from-yellow-400 to-red-500 rounded-full mt-4 mx-auto"></div>
 
